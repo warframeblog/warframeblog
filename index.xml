@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warframe Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Warframe Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jan 2018 20:26:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Westworld review (Spoiler-Free review)</title>
+      <link>http://example.org/westworld-review/</link>
+      <pubDate>Wed, 17 Jan 2018 20:26:54 +0000</pubDate>
+      
+      <guid>http://example.org/westworld-review/</guid>
+      <description>&lt;p&gt;Hello everyone! Let&amp;#8217;s talk about season one of Westworld. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trollhunters review (Spoiler-Free review)</title>
+      <link>http://example.org/trollhunters-review/</link>
+      <pubDate>Tue, 16 Jan 2018 15:41:49 +0000</pubDate>
+      
+      <guid>http://example.org/trollhunters-review/</guid>
+      <description>Hello everyone! Let&amp;#8217;s talk about the Netflix Original Trollhunters.
+What is Trollhunters about? Trollhunters was created by Guillermo del Toro and tells the story of Jim Lake &amp;#8211; a 15-year-old boy who finds a magical amulet and becomes the Trollhunter. As the Trollhunter Jim has to protect both the troll world and the human world from all kinds of magical threats. Jim is joined by a group of his friends both human and troll and a few other species and the show follows them as they tackle both challenges like fighting monsters and just the typical nightmare of being in high school.</description>
+    </item>
+    
+    <item>
+      <title>GLOW Review (Spoiler-Free review)</title>
+      <link>http://example.org/glow-review/</link>
+      <pubDate>Sun, 14 Jan 2018 00:45:51 +0000</pubDate>
+      
+      <guid>http://example.org/glow-review/</guid>
+      <description>&lt;p&gt;Hello everyone. Let&amp;#8217;s talk about season one of the Netflix Original &amp;#8211; GLOW.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sneaky Pete Review (Spoiler-Free review)</title>
+      <link>http://example.org/sneaky-pete-review/</link>
+      <pubDate>Sat, 13 Jan 2018 01:40:32 +0000</pubDate>
+      
+      <guid>http://example.org/sneaky-pete-review/</guid>
+      <description>&lt;p&gt;Hello everyone! Let&amp;#8217;s talk about season one of the Amazon Original Sneaky Pete.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The End of the Fucking World Review (Spoiler-Free review)</title>
+      <link>http://example.org/the-end-of-the-fucking-world-review/</link>
+      <pubDate>Fri, 12 Jan 2018 14:56:04 +0000</pubDate>
+      
+      <guid>http://example.org/the-end-of-the-fucking-world-review/</guid>
+      <description>&lt;p&gt;Hello everyone! Let&amp;#8217;s talk about The End of the Fucking World. No, it&amp;#8217;s not a political article it&amp;#8217;s just the name of the latest Netflix show. &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

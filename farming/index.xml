@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warframe Farming on Warframe Blog</title>
+    <link>http://example.org/farming/</link>
+    <description>Recent content in Warframe Farming on Warframe Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/farming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The End of the Fucking World Review (Spoiler-Free review)</title>
+      <link>http://example.org/the-end-of-the-fucking-world-review/</link>
+      <pubDate>Fri, 12 Jan 2018 14:56:04 +0000</pubDate>
+      
+      <guid>http://example.org/the-end-of-the-fucking-world-review/</guid>
+      <description>&lt;p&gt;Hello everyone! Let&amp;#8217;s talk about The End of the Fucking World. No, it&amp;#8217;s not a political article it&amp;#8217;s just the name of the latest Netflix show. &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
