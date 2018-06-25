@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Warframe Builds on Warframe Blog</title>
-    <link>http://example.org/warframe-builds/</link>
+    <link>http://warframeblog.github.io/warframeblog/warframe-builds/</link>
     <description>Recent content in Warframe Builds on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/warframe-builds/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://warframeblog.github.io/warframeblog/warframe-builds/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

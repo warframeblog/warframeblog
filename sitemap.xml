@@ -3,91 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/builds/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/builds/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/warframe-builds/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/warframe-builds/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/farming/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/farming/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/guides/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/guides/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/warframe-news/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/warframe-news/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/westworld-review/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/westworld-review/</loc>
     <lastmod>2018-01-17T20:26:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/trollhunters-review/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/trollhunters-review/</loc>
     <lastmod>2018-01-16T15:41:49+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/glow-review/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/glow-review/</loc>
     <lastmod>2018-01-14T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/sneaky-pete-review/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/sneaky-pete-review/</loc>
     <lastmod>2018-01-13T01:40:32+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/the-end-of-the-fucking-world-review/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/the-end-of-the-fucking-world-review/</loc>
     <lastmod>2018-01-12T14:56:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/categories/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/spoiler-free-reviews/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/spoiler-free-reviews/</loc>
     <lastmod>2018-01-17T20:26:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://warframeblog.github.io/warframeblog/</loc>
     <lastmod>2018-01-17T20:26:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Warframe Builds on Warframe Blog</title>
-    <link>http://example.org/builds/</link>
+    <link>http://warframeblog.github.io/warframeblog/builds/</link>
     <description>Recent content in Warframe Builds on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/builds/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://warframeblog.github.io/warframeblog/builds/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Trollhunters review (Spoiler-Free review)</title>
-      <link>http://example.org/trollhunters-review/</link>
+      <link>http://warframeblog.github.io/warframeblog/trollhunters-review/</link>
       <pubDate>Tue, 16 Jan 2018 15:41:49 +0000</pubDate>
       
-      <guid>http://example.org/trollhunters-review/</guid>
+      <guid>http://warframeblog.github.io/warframeblog/trollhunters-review/</guid>
       <description>Hello everyone! Let&amp;#8217;s talk about the Netflix Original Trollhunters.
 What is Trollhunters about? Trollhunters was created by Guillermo del Toro and tells the story of Jim Lake &amp;#8211; a 15-year-old boy who finds a magical amulet and becomes the Trollhunter. As the Trollhunter Jim has to protect both the troll world and the human world from all kinds of magical threats. Jim is joined by a group of his friends both human and troll and a few other species and the show follows them as they tackle both challenges like fighting monsters and just the typical nightmare of being in high school.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spoiler Free Reviews on Warframe Blog</title>
-    <link>http://example.org/spoiler-free-reviews/</link>
+    <link>http://warframeblog.github.io/warframeblog/spoiler-free-reviews/</link>
     <description>Recent content in Spoiler Free Reviews on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jan 2018 20:26:54 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/spoiler-free-reviews/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://warframeblog.github.io/warframeblog/spoiler-free-reviews/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Westworld review (Spoiler-Free review)</title>
-      <link>http://example.org/westworld-review/</link>
+      <link>http://warframeblog.github.io/warframeblog/westworld-review/</link>
       <pubDate>Wed, 17 Jan 2018 20:26:54 +0000</pubDate>
       
-      <guid>http://example.org/westworld-review/</guid>
+      <guid>http://warframeblog.github.io/warframeblog/westworld-review/</guid>
       <description>&lt;p&gt;Hello everyone! Let&amp;#8217;s talk about season one of Westworld. &lt;/p&gt;</description>
     </item>
     

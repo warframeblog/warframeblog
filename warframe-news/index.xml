@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Warframe News on Warframe Blog</title>
-    <link>http://example.org/warframe-news/</link>
+    <link>http://warframeblog.github.io/warframeblog/warframe-news/</link>
     <description>Recent content in Warframe News on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/warframe-news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://warframeblog.github.io/warframeblog/warframe-news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GLOW Review (Spoiler-Free review)</title>
-      <link>http://example.org/glow-review/</link>
+      <link>http://warframeblog.github.io/warframeblog/glow-review/</link>
       <pubDate>Sun, 14 Jan 2018 00:45:51 +0000</pubDate>
       
-      <guid>http://example.org/glow-review/</guid>
+      <guid>http://warframeblog.github.io/warframeblog/glow-review/</guid>
       <description>&lt;p&gt;Hello everyone. Let&amp;#8217;s talk about season one of the Netflix Original &amp;#8211; GLOW.&lt;/p&gt;</description>
     </item>
     
