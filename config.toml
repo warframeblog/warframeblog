@@ -1,0 +1,28 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Warframe Blog"
+theme = "hestia"
+paginate = 2
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+googleAnalytics = ""
+[params]
+	favicon = "favicon.ico"
+	description = "Useful Warframe guides, warframe and weapon builds, Warframe resource farming guides and latest news about Warframe updates."
+	seoTitle = "Warframe blog - Latest news, best builds, and fresh guides"
+	googleAdsense= ""
+[taxonomies]
+	category = "categories"
+[permalinks]
+	categories = "/:slug/"
+[sitemap]
+	changefreq = "daily"
+	filename = "sitemap.xml"
+	priority = 0.5
+[related]
+	[[related.indices]]
+		name  = "categories"
+		weight = 80
+	[[related.indices]]
+		name  = "tags"
+		weight = 100

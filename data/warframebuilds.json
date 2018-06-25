@@ -1,0 +1,377 @@
+[
+  {
+    "name": "ash",
+    "title": "Ash",
+    "description": "Ash is a fast, maneuverable Warframe that possesses a high degree of survivability in the field. Fleet movement complements deadly tools of assassination, making Ash a perfect balance between killing potency and stealth.",
+    "glyph": "AshDarkGlyph.png",
+    "image": "ash-warframe.jpg",
+    "roles": [
+      "damage",
+      "survaiability"
+    ]
+  },
+  {
+    "name": "atlas",
+    "title": "Atlas",
+    "description": "With stone cold fists and a titan's physique, Atlas bends rock to encrust and bulldoze through all challengers in his brawl. Champion of elemental earth, he manifests formidable ramparts, crushing boulders, and golem brethren to rampage his stomping grounds.",
+    "glyph": "AtlasShikoroDarkGlyph.png",
+    "image": "atlas-warframe.jpg",
+    "roles": [
+      "survaiability"
+    ]
+  },
+  {
+    "name": "banshee",
+    "title": "Banshee",
+    "description": "Banshee is a sound-themed Warframe. Sophisticated acoustic powers enable Banshee to pinpoint enemy positions and weak spots, suppress gunfire sounds in her surrounding environment, and even emit trembling vibrations to topple her foes.",
+    "builds": "I have three builds for the Banshee. So, first one is <a href='/banshee-resonance-build/'>Banshee Resonance Build</a> which a fantastic build that you can use in all kinds of different missions. Next, we have <a href='/banshee-savage-silence-build/'>Banshee Savage Silence Build</a> which is my favorite focus farming build because it's simply faster and more active than lots of other focus farming builds. And finally, build number three is <a href='/banshee-resonating-quake-build/'>Banshee Resonating Quake</a> which just insane.",
+    "glyph": "BansheeDarkGlyph.png",
+    "image": "banshee-warframe.jpg",
+    "roles": [
+      "damage",
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "chroma",
+    "title": "Chroma",
+    "description": "The bestial avatar of the primal forces of nature, Chroma, confounds his foes and strengthens his allies with elemental caprice.",
+    "glyph": "ChromaDarkGlyph.png",
+    "image": "chroma-warframe.png",
+    "roles": [
+      "damage"
+    ]
+  },
+  {
+    "name": "ember",
+    "title": "Ember",
+    "description": "Ember is a fire-based Warframe that relies on almost purely offensive skills. Ember's fire abilities make her very effective against the Infested.",
+    "builds": "I prepared for you two Ember Builds. First one is Ember Flash Accelerant Build which focuses on Flash Accelerant augment and the utility that comes with it. And then I have two varieties of <a href='/ember-world-fire-build/'>Ember World On Fire Build</a>. One of them is awesome for a high-level mission and other one geared towards the Star Chart.",
+    "glyph": "EmberDarkGlyph.png",
+    "image": "ember-warframe.jpg",
+    "roles": [
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "equinox",
+    "title": "Equinox",
+    "description": "A duality of contrasting forces in a single entity, Equinox unleashes wrath like the onset of daybreak, or draws life to a close like dusk's approach. Shifting between two forms allows her to bolster Tenno strength in light or provide recuperative respite in darkness. ",
+    "glyph": "EquinoxSolsticeDarkGlyph.png",
+    "image": "equinox-warframe.jpg",
+    "roles": [
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "excalibur",
+    "title": "Excalibur",
+    "description": "Excalibur is a sword-themed Warframe. With the power to channel energy into his summoned blade, he is a mobile swordsman with potent methods of execution.",
+    "builds": "So, I use on my Excalibur three builds and I switch between them based on what I'm doing. The first build focuses on <a href='/excalibur-radial-blind-build/'>Radial Blind</a> which is a really cool setup that provides a lot of crowd control and can also be used as sort of a ghetto <a href='/how-to-farm-focus-points/'>focus farming</a> build. The second one is <a href='/excalibur-radial-javelin-build/'>Radial Javelin Build</a> and it does a very nice damage over a pretty sizable area. And finally, we have the <a href='/excalibur-exalted-blade-build/'>Exalted Blade Build</a> because what kind of an Excalibur builds would this be without an Exalted Blade Build.",
+    "glyph": "ExcaliburDarkGlyph.png",
+    "image": "excalibur-warframe.png",
+    "roles": [
+      "damage",
+      "survaiability",
+      "crowd-control"
+    ]
+  },
+  {
+    "name": "frost",
+    "title": "Frost",
+    "description": "Frost is a slow and heavily-armored Warframe that is able to utilize offensive and defensive skills to both his own and his team's advantage. He commands furious blizzards that pummel and freeze his enemies while providing respite and solace for his allies.",
+    "builds": "Frost is an extremely versatile frame. You can build him in a thousand different ways and here’re three of my builds: <a href='/frost-ice-wave-build/'>Frost Ice Wave Build</a>, <a href='/frost-snow-globe-build/'>Frost Snow Globe Build</a> and last but not least Frost Avalanche Build.",
+    "glyph": "FrostAuroraDarkGlyph.png",
+    "image": "frost-warframe.jpg",
+    "roles": [
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "gara",
+    "title": "Gara",
+    "description": "",
+    "builds": "",
+    "glyph": "GaraAvatarBright.png",
+    "image": "gara-warframe.jpg",
+    "roles": []
+  },
+  {
+    "name": "harrow",
+    "title": "Harrow",
+    "description": "Dauntless and devout, the dark priest Harrow bestows upon his coven three virtues: salvation through sacrifice, redemption through vengeance, and ascension through defiance.",
+    "glyph": "HarrowSuffraganDarkGlyph.png",
+    "image": "harrow-warframe.png",
+    "roles": [
+      "damage",
+      "survaiability",
+      "utility"
+    ]
+  },
+  {
+    "name": "hydroid",
+    "title": "Hydroid",
+    "description": "With the wrathful seas at his command, Hydroid lurks beneath raging tides to plunge his foes into the abyss. Unleashing salvos of cannon barrage and tentacled ocean horrors to rend foes asunder, Hydroid is reminiscent of the age of corsairs.",
+    "glyph": "HydroidTritonDarkGlyph.png",
+    "image": "hydroid-warframe.jpg",
+    "roles": [
+      "damage",
+      "survaiability"
+    ]
+  },
+  {
+    "name": "inaros",
+    "title": "Inaros",
+    "description": "Once entombed, Inaros ravages, consumes and conquers all life swept up in his cursed sandstorms, leaving only the barren and drained desert of death in his wake.",
+    "glyph": "InarosAnubisDarkGlyph.png",
+    "image": "inaros-warframe.jpg",
+    "roles": [
+      "survaiability"
+    ]
+  },
+  {
+    "name": "ivara",
+    "title": "Ivara",
+    "description": "Equipped with a diverse selection of arrows, deft hands, shroud of stealth and an exalted bow, the crafty Ivara infiltrates hostile territory with deception and diversion, and eliminates threats with a shot from beyond.",
+    "glyph": "IvaraDarkGlyph.png",
+    "image": "ivara-warframe.jpg",
+    "roles": [
+      "damage",
+      "survaiability",
+      "utility"
+    ]
+  },
+  {
+    "name": "limbo",
+    "title": "Limbo",
+    "description": "Tapping into the Rift, Limbo demonstrates his art of dimensional travel that disrupts the space-time continuum, blurring the borders between realms and reality.",
+    "glyph": "LimboAristeasDarkGlyph.png",
+    "image": "limbo-warframe.jpg",
+    "roles": [
+      "crowd-control"
+    ]
+  },
+  {
+    "name": "loki",
+    "title": "Loki",
+    "description": "Loki is a fragile but fast manipulator Warframe. He has little in the way of direct damage abilities, instead focusing on the arts of distraction, deception, sabotage, relocation and stealth.",
+    "builds": "When it comes to Loki I only use one build that I like to call the <a href='/loki-invisibility-disarm-build/'>Loki Irradiating/Invisibility Build</a> which is unsurprisingly a combination of invisibility and irradiating disarm. But the build is very flexible so it can very easily be skewed either towards invisibility if we just want to go in sneaky style or towards disarm if you want to cause more mayhem.",
+    "glyph": "LokiDarkGlyph.png",
+    "image": "loki-warframe.jpg",
+    "roles": [
+      "survaiability",
+      "crowd-control"
+    ]
+  },
+  {
+    "name": "mag",
+    "title": "Mag",
+    "description": "Mag is a Warframe based on magnetic force. She boasts high shield strength in exchange for reduced health, and her abilities make her a potent medium for crowd control and manipulation.",
+    "glyph": "MagDarkGlyph.png",
+    "image": "mag-warframe.jpg",
+    "roles": [
+      "utility"
+    ]
+  },
+  {
+    "name": "mesa",
+    "title": "Mesa",
+    "description": "The gunslinger Mesa wields both style and power to overcome her foes in a rapid shower of ballistic ordnance.",
+    "builds": "On Mesa, I use all the time this <a href='/mesa-peacemaker-build/'>Mesa Peacemaker Build</a> and it utilizes Shooting Gallery, Shatter Shield and most importantly Peacemaker.",
+    "glyph": "MesaDarkGlyph.png",
+    "image": "mesa-warframe.jpg",
+    "roles": [
+      "damage",
+      "survaiability"
+    ]
+  },
+  {
+    "name": "mirage",
+    "title": "Mirage",
+    "description": "Mysterious and mischievous, Mirage manipulates the spectrum of light to dazzle her foes. With deceitful mirror images, colorful photokinetic displays and explosive pranks up her sleeves, every battlefield becomes the stage for her next performance.",
+    "glyph": "MirageDarkGlyph.png",
+    "image": "mirage-warframe.jpg",
+    "roles": [
+      "damage"
+    ]
+  },
+  {
+    "name": "nekros",
+    "title": "Nekros",
+    "description": "",
+    "glyph": "NekrosDarkGlyph.png",
+    "image": "nekros-warframe.jpg",
+    "roles": [
+      "survaiability",
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "nezha",
+    "title": "Nezha",
+    "description": "",
+    "glyph": "NezhaCircaDarkGlyph.png",
+    "image": "nezha-warframe.jpg",
+    "roles": [
+      "survaiability",
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "nidus",
+    "title": "Nidus",
+    "description": "",
+    "glyph": "NidusPrionDarkGlyph.png",
+    "image": "nidus-warframe.png",
+    "roles": [
+      "damage",
+      "survaiability",
+      "utility"
+    ]
+  },
+  {
+    "name": "nova",
+    "title": "Nova",
+    "description": "Nova is an antimatter themed Warframe who is somewhat fragile with low shield capacity, fair health and lacks in defensive abilities. In return, she features extremely powerful offensive abilities capable of demolishing entire waves of enemies.",
+    "glyph": "NovaQuantumDarkGlyph.png",
+    "image": "nova-warframe.jpg",
+    "roles": [
+      "damage",
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "nyx",
+    "title": "Nyx",
+    "description": "Nyx is a psychic-themed Warframe. Her abilities allow her to disrupt movement and coordination within enemy ranks, making her a formidable ally in battle.",
+    "glyph": "NyxDarkGlyph.png",
+    "image": "nyx-warframe.jpg",
+    "roles": [
+      "crowd-control",
+      "survaiability"
+    ]
+  },
+  {
+    "name": "oberon",
+    "title": "Oberon",
+    "description": "Oberon is a paladin among Warframes. Endowed with zealous offensive powers and sacred protective skills, he is a balanced fighter with assault and supportive capabilities. ",
+    "glyph": "OberonOryxDarkGlyph.png",
+    "image": "oberon-warframe.jpg",
+    "roles": [
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "octavia",
+    "title": "Octavia",
+    "description": "Rhythmic and imaginative, Octavia conducts her myriad of siren songs and ambient anthems through the mystical Mandachord. Entice enemies with musical instruments that inflict melodic maladies, as the Tenno chorus synchronize their rhythm to sound the drums of war.",
+    "builds": "",
+    "glyph": "OctaviaDarkGlyph.png",
+    "image": "octavia-warframe.jpg",
+    "roles": [
+      "utility"
+    ]
+  },
+  {
+    "name": "rhino",
+    "title": "Rhino",
+    "description": "Rhino is a heavily armored Warframe with the strength and fortitude of his reckless, stampeding namesake. Rhino trades speed for power and is designed to fill the tank roles in a cell, with the capability to charge into the fray, draw enemy fire, and bend the battlefield to his will through sheer brute force.",
+    "builds": "Rhino is my most used frame in this game. And I have three builds on him that I want to share with you: <a href='/rhino-iron-skin-build/'>Rhino Iron Skin Build</a>, <a href='/rhino-roar-build/'>Rhino Roar Build</a>, and <a href='/rhino-stomp-build/'>Rhino Stomp Build</a>.",
+    "glyph": "RhinoDarkGlyph.png",
+    "image": "rhino-warframe.jpg",
+    "roles": [
+      "damage",
+      "survaiability",
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "saryn",
+    "title": "Saryn",
+    "description": "Unleashing disease and plague with contagious spores, Saryn spreads deadly viruses, lethal toxins, and caustic vapors that rapidly decompose enemies while invigorating their progenitor. Recombinant properties of her biological weapons result in volatile mutations, drastically increasing the potency of her abilities.",
+    "builds": "Saryn Builds that I prepared for you: <a href='/saryn-spore-build/'>Saryn Spore Build</a> that is very effective and straightforward, Saryn Toxic Lash Build which adds a ton of damage on your melee weapon, and finally, Saryn Miasma Build which I love to use for simply faffing around the Star Chart.",
+    "glyph": "SarynDarkGlyph.png",
+    "image": "saryn-warframe.png",
+    "roles": [
+      "damage"
+    ]
+  },
+  {
+    "name": "titania",
+    "title": "Titania",
+    "description": "The diminutive temptress Titania and her entourage of bladed butterflies scatter their dust to disorient, enchant and beckon foes to their doom.",
+    "builds": "",
+    "glyph": "TitaniaDarkGlyph.png",
+    "image": "titania-warframe.png",
+    "roles": []
+  },
+  {
+    "name": "trinity",
+    "title": "Trinity",
+    "description": "Trinity is a support-based Warframe. Her abilities favour restoration and preservation over destruction. Draining powers turn her enemies into conduits of life and energy, while defensive powers redirect and dissipate attacks upon herself and her team.",
+    "builds": "I use on Trinity two different builds and I switch between them based on what I’m doing. The first one is <a href='/trinity-energy-vampire-build/'>Trinity EV Build</a> and it focuses on Energy Vampire and the vampire leech augment so it provides a lot of energy and over shields to your entire team and can also do some really nice burst healing with the Blessing. The second one is <a href='/trinity-blessing-build/'>Trinity Blessing Build</a> and it focuses on Blessing and it’s geared more towards providing massive damage reduction as well as healing to your entire team.",
+    "glyph": "TrinityDarkGlyph.png",
+    "image": "trinity-warframe.jpg",
+    "roles": [
+      "utility"
+    ]
+  },
+  {
+    "name": "valkyr",
+    "title": "Valkyr",
+    "description": "Valkyr is a berserker-themed Warframe. Driven by feral rage, her attacks rend her prey with fury and ferociousness, while her tortured cries break the imposing silence of the Tenno presence. ",
+    "builds": "",
+    "glyph": "ValkyrKaraDarkGlyph.png",
+    "image": "valkyr-warframe.jpg",
+    "roles": []
+  },
+  {
+    "name": "vauban",
+    "title": "Vauban",
+    "description": "Vauban is an engineer-themed Warframe. Utilizing potent trapping modules to manipulate the battlefield to the Tenno's favor, Vauban is a versatile Warframe suitable for methodical tacticians.",
+    "builds": "",
+    "glyph": "VaubanArmisticeDarkGlyph.png",
+    "image": "vauban-warframe.jpg",
+    "roles": []
+  },
+  {
+    "name": "volt",
+    "title": "Volt",
+    "description": "Volt has the power to wield and bend electricity. He is highly versatile, armed with powerful abilities that can damage enemies, provide cover and complement the ranged and melee combat of his cell. The electrical nature of his abilities make him highly effective against the Corpus, with their robots in particular.",
+    "builds": "So, the three builds I have for Volt are: number one the <a href='/volt-speed-build/'>Volt Speed Build</a> which unsurprisingly focuses on speed, then number two the Volt Eidolon Hunter Build which is focused more around his shield and finally at number three we have the <a href='/volt-discharge-build/'>Volt Capacitance Build</a> which focuses more on Discharge.",
+    "glyph": "VoltDarkGlyph.png",
+    "image": "volt-warframe.jpg",
+    "roles": [
+      "survaiability",
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
+    "name": "wukong",
+    "title": "Wukong",
+    "description": "The unruly Wukong wreaks havoc in the System with his immortal trickery and savage beatings, tipping the balance in his favor and his opponents off their feet.",
+    "builds": "",
+    "glyph": "WukongDarkGlyph.png",
+    "image": "wukong-warframe.jpg",
+    "roles": []
+  },
+  {
+    "name": "zephyr",
+    "title": "Zephyr",
+    "description": "Light-footed and graceful, the beautiful and deadly Zephyr is in her element while airborne. With the power to bend air currents, she is an agile skyterror who delivers swift judgement from above",
+    "builds": "",
+    "glyph": "ZephyrDarkGlyph.png",
+    "image": "zephyr-warframe.jpg",
+    "roles": []
+  }
+]

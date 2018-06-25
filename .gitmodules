@@ -1,0 +1,3 @@
+[submodule "themes/hestia"]
+	path = themes/hestia
+	url = https://github.com/warframeblog/hestia.git
