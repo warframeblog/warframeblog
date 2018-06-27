@@ -1,11 +1,12 @@
-baseURL = "http://example.org/"
+baseURL = "https://seasonedreviews.com/"
 languageCode = "en-us"
 title = "Warframe Blog"
 theme = "hestia"
-paginate = 2
+paginate = 1
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 googleAnalytics = ""
+canonifyURLs = true
 [params]
 	favicon = "favicon.ico"
 	description = "Useful Warframe guides, warframe and weapon builds, Warframe resource farming guides and latest news about Warframe updates."
