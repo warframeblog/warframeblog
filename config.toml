@@ -2,16 +2,22 @@ baseURL = "https://seasonedreviews.com/"
 languageCode = "en-us"
 title = "Warframe Blog"
 theme = "hestia"
-paginate = 1
+paginate = 10
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 googleAnalytics = ""
 canonifyURLs = true
+[social]
+	twitter = "warframeblog"
+	facebook = "warframeblog"
 [params]
 	favicon = "favicon.ico"
+	title = "Warframe blog"
 	description = "Useful Warframe guides, warframe and weapon builds, Warframe resource farming guides and latest news about Warframe updates."
 	seoTitle = "Warframe blog - Latest news, best builds, and fresh guides"
-	googleAdsense= ""
+	googleAdsense = ""
+	image = "/wp-content/uploads/2017/10/cropped-Warframe-Header.jpg"
+	locale = "en_US"
 [taxonomies]
 	category = "categories"
 [permalinks]
