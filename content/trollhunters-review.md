@@ -1,5 +1,5 @@
 ---
-title: Trollhunters review (Spoiler-Free review)
+title: Trollhunters' review (Spoiler-Free review)
 date: 2018-01-16T15:41:49+00:00
 author: review
 layout: post

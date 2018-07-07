@@ -7,7 +7,7 @@ layout: post
 permalink: /westworld-review/
 image: /wp-content/uploads/2018/01/westworld-review.jpg
 categories:
-  - Spoiler-Free Reviews
+  - Builds
 tags:
   - drama
   - hbo

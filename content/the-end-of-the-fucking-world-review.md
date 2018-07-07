@@ -6,7 +6,7 @@ layout: post
 permalink: /the-end-of-the-fucking-world-review/
 image: /wp-content/uploads/2018/01/the-end-of-the-fucking-world-review.jpg
 categories:
-  - Farming
+  - Builds
 tags:
   - comedy
   - drama
