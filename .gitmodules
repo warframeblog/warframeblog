@@ -1,3 +1,6 @@
 [submodule "themes/hestia"]
 	path = themes/hestia
 	url = https://github.com/warframeblog/hestia.git
+[submodule "static/wp-content/uploads/2017"]
+	path = static/wp-content/uploads/2017
+	url = https://github.com/warframeblog/images2017
