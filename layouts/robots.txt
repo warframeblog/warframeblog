@@ -1,0 +1,14 @@
+User-agent: *
+
+Host: {{ .Site.BaseURL }}
+ 
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+ 
+User-agent: Googlebot-Image
+Allow: /wp-content/uploads/
+ 
+User-agent: YandexImages
+Allow: /wp-content/uploads/
+ 
+User-agent: ia_archiver
+Disallow: /
