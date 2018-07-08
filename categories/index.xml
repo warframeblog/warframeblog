@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Warframe Blog</title>
-    <link>https://warframeblog.com/categories/</link>
+    <link>https://seasonedreviews.com/categories/</link>
     <description>Recent content in Categories on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
     
-	<atom:link href="https://warframeblog.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seasonedreviews.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Builds</title>
-      <link>https://warframeblog.com/builds/</link>
+      <link>https://seasonedreviews.com/builds/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>https://warframeblog.com/builds/</guid>
+      <guid>https://seasonedreviews.com/builds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Warframe Farming</title>
-      <link>https://warframeblog.com/farming/</link>
+      <link>https://seasonedreviews.com/farming/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>https://warframeblog.com/farming/</guid>
+      <guid>https://seasonedreviews.com/farming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Warframe Guides</title>
-      <link>https://warframeblog.com/guides/</link>
+      <link>https://seasonedreviews.com/guides/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>https://warframeblog.com/guides/</guid>
+      <guid>https://seasonedreviews.com/guides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Warframe News</title>
-      <link>https://warframeblog.com/warframe-news/</link>
+      <link>https://seasonedreviews.com/warframe-news/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>https://warframeblog.com/warframe-news/</guid>
+      <guid>https://seasonedreviews.com/warframe-news/</guid>
       <description></description>
     </item>
     

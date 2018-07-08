@@ -1,8 +1,8 @@
 User-agent: *
 
-Host: https://warframeblog.com/
+Host: https://seasonedreviews.com/
  
-Sitemap: https://warframeblog.com/sitemap.xml
+Sitemap: https://seasonedreviews.com/sitemap.xml
  
 User-agent: Googlebot-Image
 Allow: /wp-content/uploads/
