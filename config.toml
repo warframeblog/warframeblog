@@ -1,4 +1,4 @@
-baseURL = "https://seasonedreviews.com/"
+baseURL = "https://warframeblog.com/"
 languageCode = "en-us"
 title = "Warframe Blog"
 theme = "hestia"
