@@ -4,3 +4,6 @@
 [submodule "static/wp-content/uploads/2017"]
 	path = static/wp-content/uploads/2017
 	url = https://github.com/warframeblog/images2017
+[submodule "static/wp-content/uploads/2018"]
+	path = static/wp-content/uploads/2018
+	url = https://github.com/warframeblog/images2018
