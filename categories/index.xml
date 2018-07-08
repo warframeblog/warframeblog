@@ -2,57 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Warframe Blog</title>
-    <link>http://warframeblog.github.io/warframeblog/categories/</link>
+    <link>https://warframeblog.com/categories/</link>
     <description>Recent content in Categories on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
     
-	<atom:link href="http://warframeblog.github.io/warframeblog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://warframeblog.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Warframe Builds</title>
-      <link>http://warframeblog.github.io/warframeblog/builds/</link>
+      <title>Builds</title>
+      <link>https://warframeblog.com/builds/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>http://warframeblog.github.io/warframeblog/builds/</guid>
+      <guid>https://warframeblog.com/builds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Warframe Farming</title>
-      <link>http://warframeblog.github.io/warframeblog/farming/</link>
+      <link>https://warframeblog.com/farming/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>http://warframeblog.github.io/warframeblog/farming/</guid>
+      <guid>https://warframeblog.com/farming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Warframe Guides</title>
-      <link>http://warframeblog.github.io/warframeblog/guides/</link>
+      <link>https://warframeblog.com/guides/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>http://warframeblog.github.io/warframeblog/guides/</guid>
+      <guid>https://warframeblog.com/guides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Warframe News</title>
-      <link>http://warframeblog.github.io/warframeblog/warframe-news/</link>
+      <link>https://warframeblog.com/warframe-news/</link>
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
-      <guid>http://warframeblog.github.io/warframeblog/warframe-news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spoiler Free Reviews</title>
-      <link>http://warframeblog.github.io/warframeblog/spoiler-free-reviews/</link>
-      <pubDate>Wed, 17 Jan 2018 20:26:54 +0000</pubDate>
-      
-      <guid>http://warframeblog.github.io/warframeblog/spoiler-free-reviews/</guid>
+      <guid>https://warframeblog.com/warframe-news/</guid>
       <description></description>
     </item>
     
