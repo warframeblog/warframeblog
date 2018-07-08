@@ -5,7 +5,7 @@ theme = "hestia"
 paginate = 10
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
-googleAnalytics = ""
+googleAnalytics = "UA-108446512-1"
 canonifyURLs = true
 [social]
 	twitter = "warframeblog"
@@ -15,8 +15,8 @@ canonifyURLs = true
 	title = "Warframe blog"
 	description = "Useful Warframe guides, warframe and weapon builds, Warframe resource farming guides and latest news about Warframe updates."
 	seoTitle = "Warframe blog - Latest news, best builds, and fresh guides"
-	googleAdsense = ""
-	image = "/wp-content/uploads/2017/10/cropped-Warframe-Header.jpg"
+	googleAdsense = "ca-pub-2537852360607581"
+	image = "/images/warframe-blog-header.jpg"
 	locale = "en_US"
 [taxonomies]
 	category = "categories"
