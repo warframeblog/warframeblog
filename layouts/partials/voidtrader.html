@@ -1,0 +1,20 @@
+<div class="table-responsive">          
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Item Name</th>
+				<th>Ducats</th>
+				<th>Credits</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{ range .inventory }}
+				<tr>
+					<td>{{ .item }}</td>
+					<td>{{ .ducats }}</td>
+					<td>{{ .credits }}</td>
+				</tr>
+			{{ end }}
+		</tbody>
+	</table>
+</div>

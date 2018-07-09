@@ -25,11 +25,7 @@ First off, I'm briefly going to go over who Baro Ki'Teer is and where you can us
 
 Now we'll go over what he usually has for sale as well as what he is currently stocking and if those items are any good. So, Baro tends to hold himself and his wares to the highest regard only selling some of the best mods, weapons, and armor. You can usually find that he sells a set of mods following a general theme maybe a couple weapons, a few assorted armor pieces, a syandana or two, and something for your pet.
 
-## Baro Ki'Teer Inventory
-
-(These offerings available until <span>Sun, Jun 17, 2018 4:00 PM</span><span>)</span>
-  
-[table id=1 /]
+{{< inventory >}}
 
 ## What Are Ducats? How To Get Ducats?
 

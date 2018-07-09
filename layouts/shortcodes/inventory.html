@@ -1,0 +1,24 @@
+<h2>Baro Ki'Teer Inventory</h2>
+
+{{ $date := .Site.Data.pcvoidtrader.expiry}}
+(These offerings available until <span>{{ dateFormat "Monday, January 2, 2006 15:04 MST" $date }}</span><span>)</span>
+
+{{- partial "voidtrader.html" (dict "inventory" $.Site.Data.pcvoidtrader.inventory) -}}
+
+
+<!-- <ul class="nav nav-tabs">
+	<li class="active"><a data-toggle="tab" href="#pc">PC</a></li>
+	<li><a data-toggle="tab" href="#ps4">PS4</a></li>
+	<li><a data-toggle="tab" href="#xbox">XBox One</a></li>
+</ul>
+
+<div class="tab-content">
+	<div id="pc" class="tab-pane fade in active">
+	</div>
+	<div id="ps4" class="tab-pane fade">
+		<h3>Menu 1</h3>
+	</div>
+	<div id="xbox" class="tab-pane fade">
+		<h3>Menu 2</h3>
+	</div>
+</div> -->
