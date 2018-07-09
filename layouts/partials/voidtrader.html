@@ -8,13 +8,13 @@
 			</tr>
 		</thead>
 		<tbody>
-			{{ range .inventory }}
+			{{- range .inventory -}}
 				<tr>
 					<td>{{ .item }}</td>
 					<td>{{ .ducats }}</td>
 					<td>{{ .credits }}</td>
 				</tr>
-			{{ end }}
+			{{- end -}}
 		</tbody>
 	</table>
 </div>
