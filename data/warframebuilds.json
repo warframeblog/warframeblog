@@ -202,7 +202,8 @@
   {
     "name": "nekros",
     "title": "Nekros",
-    "description": "",
+    "description": "Nekros is a Warframe with powers likened to that of necromancers and dark arts practitioners, his abilities exploiting the vulnerabilities of the living and the corpses of the dead.",
+    "builds": "On Nekros, I use all the time this <a href='/nekros-desecrate-build/'>Nekros Desecrate Build</a> which focuses on Desecrate ability and Despoil augment mod.",
     "glyph": "NekrosDarkGlyph.png",
     "image": "nekros-warframe.jpg",
     "roles": [
