@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
+    <lastmod>2018-07-13T13:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/pyrana-prime-build/</loc>
     <lastmod>2018-07-06T21:24:44+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -61,13 +68,6 @@
   <url>
     <loc>https://warframeblog.com/update-23-the-sacrifice/</loc>
     <lastmod>2018-06-15T18:05:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2018-06-15T17:00:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -795,7 +795,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-07-06T21:24:44+00:00</lastmod>
+    <lastmod>2018-07-13T13:00:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
