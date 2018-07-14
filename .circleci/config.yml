@@ -14,8 +14,8 @@ jobs:
             - run:
                 name: Update git
                 command: |
-                    apt-get -qq update
-                    apt-get -y install git
+                    sudo apt-get -qq update
+                    sudo apt-get -y install git
                     git --version
             - add_ssh_keys:
                 fingerprint:
