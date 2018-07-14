@@ -23,16 +23,14 @@ echo "Generating site"
 hugo
 
 timestamp=$(date +%s%3N)
+
+cd wp-content
+find . -name ".git" -type f -delete
+
 cd public
 git status
 
-git diff
-
-rm -f wp-content/uploads/2017/.git
-ls -al
-
-rm -f wp-content/uploads/2018/.git
-ls -al
+git --no-pager diff
 # echo "Publishing version $timestamp"
 # cd public && \
 #   git add --all && \
