@@ -24,8 +24,7 @@ hugo
 
 timestamp=$(date +%s%3N)
 
-cd wp-content
-find . -name ".git" -type f -delete
+find ./public -name ".git" -type f -delete
 
 cd public
 git status
