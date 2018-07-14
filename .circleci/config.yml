@@ -25,7 +25,7 @@ jobs:
                 command: wget https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
             - run:
                 name: Mark script as executable
-                command: chmod +x ./.circleci/publish_to_ghpages
+                command: chmod +x ./.circleci/publish_to_ghpages.sh
             - run:
                 name: Build and publish site
                 command: ./.circleci/publish_to_ghpages.sh
