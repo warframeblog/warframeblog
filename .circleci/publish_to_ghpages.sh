@@ -24,7 +24,8 @@ hugo
 
 timestamp=$(date +%s%3N)
 
-find ./public -name ".git" -type f -delete
+find ./public/images -name ".git" -type f -delete
+find ./public/wp-content -name ".git" -type f -delete
 
 cd public
 git status
