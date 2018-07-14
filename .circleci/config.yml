@@ -8,7 +8,7 @@ general:
 jobs:
     build:
         docker:
-            - image: circleci/node:8.2.0
+            - image: circleci/node:8.11.3-browsers
         working_directory: ~/warframeblog
         steps:
             - add_ssh_keys:
