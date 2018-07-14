@@ -24,10 +24,10 @@ hugo
 
 timestamp=$(date +%s%3N)
 cd public
-ls
+git status
 
-ls wp-content/uploads/2017
-ls wp-content/uploads/2018
+cd wp-content/uploads/2017
+ls
 # echo "Publishing version $timestamp"
 # cd public && \
 #   git add --all && \
