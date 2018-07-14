@@ -27,7 +27,7 @@ cd public
 git status
 
 cd wp-content/uploads/2017
-ls
+ls -al
 # echo "Publishing version $timestamp"
 # cd public && \
 #   git add --all && \
