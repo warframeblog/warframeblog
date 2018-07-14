@@ -10,9 +10,9 @@
 		<tbody>
 			{{- range .inventory -}}
 				<tr>
-					<td>{{ .item }}</td>
-					<td>{{ .ducats }}</td>
-					<td>{{ .credits }}</td>
+					<td>{{ string .item }}</td>
+					<td>{{ string .ducats }}</td>
+					<td>{{ string .credits }}</td>
 				</tr>
 			{{- end -}}
 		</tbody>
