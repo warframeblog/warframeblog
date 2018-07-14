@@ -2,13 +2,6 @@
 
 set -e
 
-# if [[ $(git status -s) ]]
-# then
-#     echo "The working directory is dirty. Please commit any pending changes."
-# 	git status
-#     exit 1;
-# fi
-
 echo "Deleting old publication"
 rm -rf public
 git worktree prune
@@ -30,9 +23,16 @@ timestamp=$(date +%s%3N)
 find ./public/images -name ".git" -type f -delete
 find ./public/wp-content -name ".git" -type f -delete
 
+cd public
+
+if [[ $(git status -s) ]]
+then
+    echo "There are no changes to commit"
+    exit 0;
+fi
+
 echo "Publishing version $timestamp"
-cd public && \
-  git status && \
+git status && \
   git add --all && \
   git commit -m "publish_to_ghpages" && \
   git tag "$timestamp" && \
