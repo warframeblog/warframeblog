@@ -15,9 +15,6 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-echo "Copying circleCI config"
-cp -R .circleci public/
-
 timestamp=$(date +%s%3N)
 
 find ./public/images -name ".git" -type f -delete

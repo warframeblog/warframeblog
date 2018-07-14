@@ -1,12 +1,10 @@
 version: 2
 
-general:
-  branches:
-    only:
-      - develop
-
 jobs:
     build:
+        branches:
+          only:
+            - develop
         docker:
             - image: cibuilds/hugo:latest
         working_directory: ~/warframeblog
