@@ -26,7 +26,12 @@ timestamp=$(date +%s%3N)
 cd public
 git status
 
-cd wp-content/uploads/2017
+git diff
+
+rm -f wp-content/uploads/2017/.git
+ls -al
+
+rm -f wp-content/uploads/2018/.git
 ls -al
 # echo "Publishing version $timestamp"
 # cd public && \
