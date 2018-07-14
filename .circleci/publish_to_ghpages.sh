@@ -29,7 +29,7 @@ find ./public/wp-content -name ".git" -type f -delete
 
 echo "Publishing version $timestamp"
 cd public && \
-  git status \
+  git status && \
   git add --all && \
   git commit -m "publish_to_ghpages" && \
   git tag "$timestamp" && \
