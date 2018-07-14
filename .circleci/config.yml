@@ -14,10 +14,8 @@ jobs:
             - run:
                 name: Update git
                 command: |
-                    sudo apt-get update
-                    sudo add-apt-repository ppa:git-core/ppa -y
-                    sudo apt-get update
-                    sudo apt-get install git -y
+                    apt-get -qq update
+                    apt-get -y install git
                     git --version
             - add_ssh_keys:
                 fingerprint:
