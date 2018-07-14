@@ -8,7 +8,7 @@ general:
 jobs:
     build:
         docker:
-            - image: circleci/node:8.11.3-browsers
+            - image: cibuilds/hugo:latest
         working_directory: ~/warframeblog
         steps:
             - run:
