@@ -27,14 +27,11 @@ timestamp=$(date +%s%3N)
 find ./public/images -name ".git" -type f -delete
 find ./public/wp-content -name ".git" -type f -delete
 
-cd public
-git status
-
-git --no-pager diff
-# echo "Publishing version $timestamp"
-# cd public && \
-#   git add --all && \
-#   git commit -m "publish_to_ghpages" && \
-#   git tag "$timestamp" && \
-#   git push origin gh-pages && \
-#   git push origin "$timestamp"
+echo "Publishing version $timestamp"
+cd public && \
+  git status \
+  git add --all && \
+  git commit -m "publish_to_ghpages" && \
+  git tag "$timestamp" && \
+  git push origin gh-pages && \
+  git push origin "$timestamp"
