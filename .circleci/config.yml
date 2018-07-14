@@ -1,11 +1,21 @@
 version: 2.0
 
+general:
+  branches:
+    only:
+      - develop
+
 jobs:
     build:
         docker:
-            - image: circleci/node:6.10
+            - image: circleci/node:8.2.0
         working_directory: ~/warframeblog
         steps:
+            - add_ssh_keys:
+                fingerprint:
+                    - "4d:bc:43:fc:36:51:1a:8c:4b:a9:2d:15:a6:8d:d8:34"
+            - run: git config --global user.email bot@warframeblog.com
+            - run: git config --global user.name CircleCI
             - checkout
             - run:
                 name: Checkout submodules
@@ -14,5 +24,8 @@ jobs:
                 name: Install Hugo
                 command: wget https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
             - run:
+                name: Mark script as executable
+                command: chmod +x ./.circleci/publish_to_ghpages
+            - run:
                 name: Build and publish site
-                command: sh ./.circleci/publish_to_ghpages.sh
+                command: ./.circleci/publish_to_ghpages.sh
