@@ -22,9 +22,8 @@ find ./public/wp-content -name ".git" -type f -delete
 
 cd public
 
-if [[ $(git status -s) ]]
-then
-    echo "There are no changes to commit"
+if [[ $(git status -s) ]]; then
+    echo "There are no changes to commit.";
     exit 0;
 fi
 
