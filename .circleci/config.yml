@@ -11,6 +11,14 @@ jobs:
             - image: circleci/node:8.11.3-browsers
         working_directory: ~/warframeblog
         steps:
+            - run:
+                name: Update git
+                command: |
+                    sudo apt-get update
+                    sudo add-apt-repository ppa:git-core/ppa -y
+                    sudo apt-get update
+                    sudo apt-get install git -y
+                    git --version
             - add_ssh_keys:
                 fingerprint:
                     - "4d:bc:43:fc:36:51:1a:8c:4b:a9:2d:15:a6:8d:d8:34"
