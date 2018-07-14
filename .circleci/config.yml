@@ -25,9 +25,6 @@ jobs:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
             - run:
-                name: Install Hugo
-                command: wget https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
-            - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
             - run:
