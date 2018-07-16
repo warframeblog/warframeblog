@@ -20,6 +20,7 @@ canonifyURLs = true
 	locale = "en_US"
 [taxonomies]
 	category = "categories"
+	mod = "mods"
 [permalinks]
 	categories = "/:slug/"
 [sitemap]

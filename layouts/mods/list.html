@@ -1,0 +1,6 @@
+{{ range first 12 (where .Site.Pages ".Params.layout" "primed") }}
+
+	{{.Title}}
+	{{.Params.slug}}
+{{ end }}
+
