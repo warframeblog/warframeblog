@@ -1,7 +1,7 @@
 ---
 title: Excalibur Umbra Exalted Blade Build
 seoTitle: "Excalibur Umbra Exalted Blade Build. Excalibur Umbra Chromatic Blade Build."
-date: 2018-07-16T22:58:13+00:00
+date: 2018-07-16T12:58:13+00:00
 author: warframe
 layout: post
 permalink: /excalibur-umbra-exalted-blade-build/
