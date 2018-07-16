@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/excalibur-umbra-exalted-blade-build/</loc>
+    <lastmod>2018-07-16T22:58:13+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
     <lastmod>2018-07-13T13:00:53+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -795,7 +802,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-07-13T13:00:53+00:00</lastmod>
+    <lastmod>2018-07-16T22:58:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
