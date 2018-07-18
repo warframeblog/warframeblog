@@ -39,7 +39,7 @@ And for the Rhino Prime Accessory Pack you're also gonna get 200 platinum, Noru 
 
 Now, the opening of the Prime Vault is as usual a little bit staggered. So, North and South America is gonna get it on the 24th of July, Europe and Asia is gonna get it on the 25th of July, and finally Japan is gonna get it on the 26th of July. 
 
-Now you of course don't have to buy these packs to get the frames or the weapons because as soon as the Prime Vault opens they were also reintroduce new relics into the game that will drop Rhino Prime, Nyx Prime, and their respective weapons. 
+Now you of course don't have to buy these packs to get the frames or the weapons because as soon as the Prime Vault opens they were also reintroduce new [relics](/how-to-farm-relics/ "How To Farm Relics - Lith, Meso, Neo & Axi") into the game that will drop Rhino Prime, Nyx Prime, and their respective weapons. 
 
 But if you don't want to farm them and you just want to buy them right away the prices should be $60 for the full pack where you get everything, $40 for the individual packs and as I've said already about 20 bucks for the Accessory Packs. 
 
