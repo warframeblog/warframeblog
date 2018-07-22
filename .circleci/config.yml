@@ -1,7 +1,7 @@
 version: 2
 
 jobs:
-    checkout:
+    build:
         docker:
             - image: cibuilds/hugo:latest
         working_directory: ~/warframeblog
@@ -19,30 +19,18 @@ jobs:
             - run:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
-            - persist_to_workspace:
-                root: /root/warframeblog
-                paths: ./
-    build:
-        docker:
-            - image: cibuilds/hugo:latest
-        working_directory: ~/warframeblog
-        steps:
-            - attach_workspace:
-                at: /root/warframeblog
-            - run: ls -l
-            - run: cd /themes/hestia
-            - run: ls -l 
+            - run:
+                name: Mark script as executable
+                command: chmod +x ./.circleci/publish_to_ghpages.sh
+            - run:
+                name: Build and publish site
+                command: ./.circleci/publish_to_ghpages.sh
+
 workflows:
   version: 2
-  checkout_and_build:
+  build_and_deploy:
     jobs:
-      - checkout:
-          filters:
-            branches:
-              only: develop
       - build:
-          requires:
-            - checkout
           filters:
             branches:
               only: develop
