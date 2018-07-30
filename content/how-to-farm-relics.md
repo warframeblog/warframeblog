@@ -46,9 +46,9 @@ And finally, the one I use the most on Hydron leeching [Trinity EV Build](https:
 
 Finally, we have Axi Relics. Hydron does reward Axi Relics on rotations B and C which is waves 15 and 20 but if you just want to farm Axi Relics it's better to go onto Hieracon on Pluto. Hieracon is one of the few excavation missions that you can still do solo because it doesn't suffer from the idiotic enemy spawning if you're in solo mode. So, even though there will be times where your excavator will be out of power it's not going to happen very often. The rewards on Hieracon our overall really good because in rotation A which is excavators 1 and 2 you can get a 400 endo pack and on rotation B which is excavator 3 you can get Neo relic and then finally on rotation C which is the fourth excavator you can get an Axi relic. The reason, why I chose Hieracon rather than Hydron for Axi relics is because you simply get to the final rotation much faster, especially if you're running in a party that can run two excavators at once. And getting a party on Hieracon is not hard at all because it's a very popular farming location.
 
-## How To Farm <span>Prime Vault Related Relics (Ember Prime, Loki Prime and Frost Prime)</span>
+## How To Farm <span>Prime Vault Related Relics (Nyx Prime and Rhino Prime)</span>
 
-After update <span>Plains of Eidolon: Hotfix 22.11.1 some of the relics can be acquired only through completed bounties on Cetus. These relics are </span>Lith G2, Meso E1, Meso F3, Neo F1, Neo E1, Axi L1, Axi S2. So, in case you want to get them you need to start doing bounties. You can read which of these relics drop which parts here: [Prime Vault Unsealed - Ember, Frost & Loki. New Relics Drop Table](https://warframeblog.com/prime-vault-unsealed/).
+After update <span>The Sacrifice: Prime Vault Hotfix 23.1.2 some of the relics can be acquired only through completed Void missions. These relics are </span>Lith B4, Meso N6, Neo R1, and Axi S3. You can read which of these relics drop which parts here: [Prime Vault Unsealed - Rhino Prime & Nyx Prime. New Relics Drop Table](https://warframeblog.com/prime-vault-unsealed-rhino-nyx/).
 
 ## Zephyr Prime, Tiberon Prime, and Kronen Prime Drop Table
 

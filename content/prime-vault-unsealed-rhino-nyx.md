@@ -116,7 +116,7 @@ And here is new relics and which parts they drop:
 * Axi S3 Relic - Scindo Prime Blade - Rare
 
 ## Relics drop locations
-<img src='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg' title='' alt='' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-1024x493.jpg 1024w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-300x144.jpg 300w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-768x369.jpg 768w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg 1430w' sizes='(max-width: 750px) 100vw, 750px'/>
+<img src='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg' title='Relics drop locations for Nyx Prime and Rhino Prime' alt='Warframe Unvaulted Relics drop locations' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-1024x493.jpg 1024w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-300x144.jpg 300w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-768x369.jpg 768w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg 1430w' sizes='(max-width: 750px) 100vw, 750px'/>
 Now, since it only drops in the Void here is the drop locations for each relic. 
 
 So, if you want to **farm Lith B4** you want to do <b>Ani, Hepit, Stribog, Tarnis, Teshub, and Tiwaz</b>. 
