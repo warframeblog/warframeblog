@@ -79,24 +79,41 @@ And here is new relics and which parts they drop:
 ##### Rhino Prime
 
 * Neo R1 Relic - Rhino Prime Blueprint - Rare
-* Meso N6 - Rhino Prime Chassis - Uncommon
-* Lith B4 - Rhino Prime Neuroptics - Uncommon
-* Axi S3 - Rhino Prime Systems - Common
+* Meso N6 Relic - Rhino Prime Chassis - Uncommon
+* Lith B4 Relic - Rhino Prime Neuroptics - Uncommon
+* Axi S3 Relic - Rhino Prime Systems - Common
 
 ##### Boltor Prime 
 
+* Lith B4 Relic - Boltor Prime Blueprint - Rare
+* Axi S3 Relic - Boltor Prime Stock - Common
+* Meso N6 Relic - Boltor Prime Barrel - Common
+* Neo R1 Relic - Boltor Prime Receiver - Uncommon
+
 ##### Ankyros Prime
+
+* Lith B4 Relic - Ankyros Prime Blueprint - Common
+* Neo R1 Relic - Ankyros Prime Gauntlet - Common
+* Axi S3 Relic - Ankyros Prime Blade - Uncommon
 
 ##### Nyx Prime
 
 * Lith B4 Relic - Nyx Prime Blueprint - Common
-* Neo R1 - Nyx Prime Chassis - Uncommon
-* Meso N6 - Nyx Prime Neuroptics - Rare
-* Axi S3 - Nyx Prime Systems - Common
+* Neo R1 Relic - Nyx Prime Chassis - Uncommon
+* Meso N6 Relic - Nyx Prime Neuroptics - Rare
+* Axi S3 Relic - Nyx Prime Systems - Common
 
 ##### Hikou Prime
 
+* Neo R1 Relic - Hikou Prime Blueprint - Common
+* Meso N6 Relic - Hikou Prime Pouch - Common
+* Axi S3 Relic - Hikou Prime Stars - Common
+
 ##### Scindo Prime
+
+* Lith B4 Relic - Scindo Prime Blueprint - Uncommon
+* Meso N6 Relic - Scindo Prime Handle - Uncommon
+* Axi S3 Relic - Scindo Prime Blade - Rare
 
 ## Relics drop locations
 <img src='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg' title='' alt='' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-1024x493.jpg 1024w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-300x144.jpg 300w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-768x369.jpg 768w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg 1430w' sizes='(max-width: 750px) 100vw, 750px'/>
