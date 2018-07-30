@@ -1,7 +1,7 @@
 ---
-title: 'Prime Vault Opening July 24 - Rhino Prime & Nyx Prime.'
-seoTitle: 'Prime Vault Opening July 24 - Rhino Prime & Nyx Prime.'
-date: 2018-07-18T13:37:09+00:00
+title: 'Prime Vault Unsealed - Rhino Prime & Nyx Prime. New Relics Drop Table'
+seoTitle: 'Prime Vault Unsealed - Rhino Prime & Nyx Prime. New Relics Drop Table'
+date: 2018-07-28T13:37:09+00:00
 author: warframe
 layout: post
 permalink: /prime-vault-unsealed-rhino-nyx/
@@ -12,35 +12,102 @@ tags:
   - news
   - relics
 ---
-Hey guys and welcome to another Warframe news article. Today I want to talk a little bit about Prime Vault because it will reopen once again on the 24th of July. <!--more-->
+Hey guys and welcome to another Warframe news article. Today I want to talk a little bit about the Rhino and Nyx Prime unvaulting that happened 24th of July. <!--more--> 
 
-Now, we already knew what the frames are going to be thanks to Tennocon. So, it's Rhino Prime with his weapons and Nyx Prime with her weapons. But there is something special this time around because we will finally be able to buy the accessory separately. We won't have to buy the frames that we may or may not have already just to get the accessories which is amazing. This is something that we've been asking for. 
+So, this time around we have five packs in total. The first one is the Brains and Brawn Dual Prime Pack. 
+This will cost you 60 bucks and it has:
 
-Now, there is of course the full pack where you will get everything as well as 1200 [platinum](/how-earn-platinum-vault-runs/ "How to earn Platinum | Vault Runs"). 
+* 1200 [Platinum](/ways-earn-platinum/ "Ways to Earn Platinum") 
+* Nyx Prime 
+* Rhino Prime 
+* Boltor Prime 
+* Hikou Prime 
+* Ankyros Prime 
+* Scindo Prime 
+* Targis Prime Armor Set 
+* Noru Prime Syandana 
+* Vala Sugatra Prime 
+* Distilling Extractor Prime + Blueprint 
+* Prime Glyphs
 
-<img src='/wp-content/uploads/2018/07/warframe-nyx-prime-pack.jpg' title='Warframe Nyx Prime Pack' alt='Warframe Nyx Prime Pack Features' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/warframe-nyx-prime-pack-1024x576.jpg 1024w, /wp-content/uploads/2018/07/warframe-nyx-prime-pack-300x169.jpg 300w, /wp-content/uploads/2018/07/warframe-nyx-prime-pack-768x432.jpg 768w, /wp-content/uploads/2018/07/warframe-nyx-prime-pack.jpg 1920w' sizes='(max-width: 750px) 100vw, 750px'/>
+It's basically all in one pack if you don't have anything. 
 
-## Individual packs
-### Nyx Prime Pack
-Moving on to the individual packs. So, for Nyx you're gonna get 400 [platinum](/ways-earn-platinum/ "Ways to Earn Platinum"), Nyx Prime Hikou Prime, Scindo Prime, Targis Prime Armor Set, Vala Sugatra Prime and the respective Primed glyphs and profile icons. 
+Now this is then split in half with the Nyx Prime Pack and Brute Prime Pack. So, for Nyx Prime Pack costs 40 bucks and has:
 
-### Rhino Prime Pack
-And for [Rhino](/rhino-iron-skin-build/ "Rhino Iron Skin Build") you're also gonna get 400 platinum, Rhino Prime Boltor Prime, Ankyros Prime, Distilling Extractor Prime + BP, Noru Prime Syandana and once again the glyphs and profile icons. 
+* 400 [Platinum](/how-earn-platinum-vault-runs/ "How to earn Platinum | Vault Runs") 
+* Nyx Prime 
+* Hikou Prime 
+* Scindo Prime 
+* Targis Prime Armor Set 
+* Vala Sugatra Prime 
+* Prime Glyphs/Profile Icons
 
-## Accessory Packs
-### Nyx Prime Accessory Pack
-And then there are the Accessory Packs. And I think they said these will cost 20 bucks. So, for the Nyx Prime Accessory Pack 
-you're gonna get 200 platinum, Targis Prime Armor Set, and the Vala Sugatra Prime. 
-
-### Rhino Prime Accessory Pack
-And for the Rhino Prime Accessory Pack you're also gonna get 200 platinum, Noru Prime Syandana, and Distilling Extractor Prime + Blueprint. 
 
 <img src='/wp-content/uploads/2018/07/warframe-rhino-prime-pack.jpg' title='Warframe Rhino Prime Pack' alt='Warframe Rhino Prime Pack Features' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/warframe-rhino-prime-pack-1024x576.jpg 1024w, /wp-content/uploads/2018/07/warframe-rhino-prime-pack-300x169.jpg 300w, /wp-content/uploads/2018/07/warframe-rhino-prime-pack-768x432.jpg 768w, /wp-content/uploads/2018/07/warframe-rhino-prime-pack.jpg 1920w' sizes='(max-width: 750px) 100vw, 750px'/>
 
-Now, the opening of the Prime Vault is as usual a little bit staggered. So, North and South America is gonna get it on the 24th of July, Europe and Asia is gonna get it on the 25th of July, and finally Japan is gonna get it on the 26th of July. 
+And the Brute Prime Pack which is also 40 bucks and this one has: 
 
-Now you of course don't have to buy these packs to get the frames or the weapons because as soon as the Prime Vault opens they were also reintroduce new [relics](/how-to-farm-relics/ "How To Farm Relics - Lith, Meso, Neo & Axi") into the game that will drop Rhino Prime, Nyx Prime, and their respective weapons. 
+* 400 Platinum 
+* Rhino Prime 
+* Boltor Prime 
+* Ankyros Prime 
+* Distilling Extractor Prime + BP 
+* Noru Prime Syandana 
+* Prime Glyphs/Profile Icons
 
-But if you don't want to farm them and you just want to buy them right away the prices should be $60 for the full pack where you get everything, $40 for the individual packs and as I've said already about 20 bucks for the Accessory Packs. 
+However, this time around they also added two more packs there is the Nyx Prime Accessory Pack which is 20 bucks and has: 
 
-And that is pretty much it for the article. Later on, as new relics will be introduced, I definitely update this article. So, if you are going to farm new relics I suggest you to bookmark this page. And I thank you very much for reading. I hope you've enjoyed the article and I'll see you next time. Bye-bye.     
+* 200 Platinum 
+* Targis Prime Armor Set 
+* Vala Sugatra Prime
+
+And the [Rhino](/rhino-iron-skin-build/ "Rhino Iron Skin Build") Prime Accessory Pack which is also 20 bucks and has:
+
+* 200 Platinum 
+* Noru Prime Syandana 
+* Distilling Extractor Prime + Blueprint
+
+Some people think that the Prime Accessory Packs are too expensive but I really don't think so. I mean this is the first time around we can actually buy them separately because previously you would either have to buy them with a $40 pack or the $60 pack regardless of whether you had the frame or not. 
+
+Now, you of course don't have to buy these you can if you want to but DE also added their [relics](/how-to-farm-relics/ "How To Farm Relics - Lith, Meso, Neo & Axi") back into the rotation. So, you can farm everything if you want to with the exception of the prime accessories of course. 
+
+So, four relics were added Lith B4, Meso N6, Neo R1, and Axi S3 and these are all Void exclusive. So, rather than farming them all over the Star Chart they drop in certain missions in the Void as sort of a callback to the old Void System. I think it's pretty cool. I like it. 
+
+## Which relics drop which parts?
+And here is new relics and which parts they drop:
+
+##### Rhino Prime
+
+* Neo R1 Relic - Rhino Prime Blueprint - Rare
+* Meso N6 - Rhino Prime Chassis - Uncommon
+* Lith B4 - Rhino Prime Neuroptics - Uncommon
+* Axi S3 - Rhino Prime Systems - Common
+
+##### Boltor Prime 
+
+##### Ankyros Prime
+
+##### Nyx Prime
+
+* Lith B4 Relic - Nyx Prime Blueprint - Common
+* Neo R1 - Nyx Prime Chassis - Uncommon
+* Meso N6 - Nyx Prime Neuroptics - Rare
+* Axi S3 - Nyx Prime Systems - Common
+
+##### Hikou Prime
+
+##### Scindo Prime
+
+## Relics drop locations
+<img src='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg' title='' alt='' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-1024x493.jpg 1024w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-300x144.jpg 300w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-768x369.jpg 768w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg 1430w' sizes='(max-width: 750px) 100vw, 750px'/>
+Now, since it only drops in the Void here is the drop locations for each relic. 
+
+So, if you want to **farm Lith B4** you want to do <b>Ani, Hepit, Stribog, Tarnis, Teshub, and Tiwaz</b>. 
+
+If you want to **farm Meso N6** you want to do <b>Ani, Belenus, Oxomoco, Stribog, Taranis, Tiwaz, and Ukko</b>.
+
+If you want to **farm Neo R1** you want to do <b>Ani, Aten, Belenus, Marduk, Mithra, Mot, Oxomoco, and Ukko</b>. 
+
+And finally, if you want to **farm Axi S3** you want to do <b>Aten, Belenus, Marduk Mithra, and Mot</b>.
+
+And that's pretty much all there is to say about that with the exception that I would probably focus on Boltor Prime even though all the items are worth farming Boltor Prime is just a really strong rifle. So, if you don't have an awful lot of time and you want to focus on something I would probably pick the Boltor if I were you. So, that's pretty much it for the article. I thank you very much for reading. I hope you've enjoyed it and it was helpful and I will see you next time. Bye-bye.     
