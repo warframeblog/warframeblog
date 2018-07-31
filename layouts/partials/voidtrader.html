@@ -1,3 +1,5 @@
+{{ if .trader.active}}
+<b>(These offerings available until <span>{{ dateFormat "Monday, January 2, 2006 15:04 MST" .trader.expiry }}</span>)</b>
 <div class="table-responsive">          
 	<table class="table">
 		<thead>
@@ -8,7 +10,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{{- range .inventory -}}
+			{{- range .trader.inventory -}}
 				<tr>
 					<td>{{ .item }}</td>
 					<td>{{ string .ducats }}</td>
@@ -18,3 +20,6 @@
 		</tbody>
 	</table>
 </div>
+{{ else }}
+	<p>Baro Ki'Teer arrives at {{ dateFormat "Monday, January 2, 2006 15:04 MST" .trader.activation }}</p>
+{{ end }}

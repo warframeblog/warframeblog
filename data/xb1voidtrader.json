@@ -1,0 +1,12 @@
+{
+  "id": "5b3f7168069a1b85636f66fb",
+  "activation": "2018-08-10T13:00:00.000Z",
+  "expiry": "2018-08-12T13:00:00.000Z",
+  "character": "Baro Ki'Teer",
+  "location": "Orcus Relay (Pluto)",
+  "inventory": [],
+  "psId": "5b3f7168069a1b85636f66fb0",
+  "active": false,
+  "startString": "9d 22h 30m 17s",
+  "endString": "11d 22h 30m 17s"
+}
