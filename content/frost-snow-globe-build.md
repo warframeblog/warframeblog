@@ -1,6 +1,6 @@
 ---
 title: Frost Snow Globe Build
-seoTitle: "Frost Snow Globe Build | Frost Prime Snow Globe Build | Frost builds"
+seoTitle: "Frost Snow Globe Build. Frost Prime Snow Globe Build. Frost builds"
 date: 2018-01-26T02:38:06+00:00
 author: warframe
 layout: post
@@ -26,6 +26,6 @@ And then using Primed Continuity which increases our duration a little bit and i
 
 Now, I'm going to be honest here, this is by far my least used Frost Build and I only ever use it if I really don't want something or someone to die. That's pretty much it. It is, however fantastic at what it does. So, if you really don't want to fail that mobile defense or a normal defense mission this is the kind of Frost build you want to use. Just run right up to the console or whatever you're defending cast Snow Globe a couple of times and it's not going to go down for a while. That is of course if a nullifier doesn't jump on top of it. This kind of build makes missions where you can be stationary for a while very chill because we just plopped down Snow Globe most of the enemies will freeze when they try to go into the Snow Globe and if there's too many of them and you have no way of taking them down and you can just recast Snow Globe and it's going to spray them all over the tileset.
 
-However, there is just how I personally use this setup because I also see a lot of Frost players using this kind of setup in sortie assassinations and as upside I don't do this personally, but I've been in plenty of groups where a single Frost basically trivialized a sortie three assassination by plopping Snow Globe in the right place. And, it's even more effective if the boss arena is open or the boss summon some ads because most of them are going to freeze when they try to enter the Snow Globe.
+However, there is just how I personally use this build because I also see a lot of Frost players using this kind of setup in sortie assassinations and as upside I don't do this personally, but I've been in plenty of groups where a single Frost basically trivialized a sortie three assassination by plopping Snow Globe in the right place. And, it's even more effective if the boss arena is open or the boss summon some ads because most of them are going to freeze when they try to enter the Snow Globe.
 
-That's pretty much it for the Frost Snow Globe Build. So, I'll see you in the next article of the Frosts Build series and we'll check out Frost Avalanche Build. Bye-Bye.
+That's pretty much it for the Frost Snow Globe Build. So, I'll see you in the next article of the Frosts Build series and we'll check out [Frost Avalanche Build](/frost-avalanche-build/ "Warframe Frost Avalanche Build"). Bye-Bye.

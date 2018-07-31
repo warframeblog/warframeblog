@@ -1,6 +1,6 @@
 ---
 title: Frost Ice Wave Build
-seoTitle: "Frost Ice Wave Build | Frost Prime Ice Wave Build | Frost Builds"
+seoTitle: "Frost Ice Wave Build. Frost Prime Ice Wave Build. Frost Builds"
 date: 2018-01-25T02:19:44+00:00
 author: warframe
 layout: post
