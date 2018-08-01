@@ -149,6 +149,18 @@
     ]
   },
   {
+    "name": "khora",
+    "title": "Khora",
+    "description": "Fiercely poised with feral instincts, the huntress Khora and her feline familiar Venari prowl amidst combat scouring for prey. Mistress of the livewire, she enchains her foes to enforce deadly discipline by whiplash, claws, and serrated steel.",
+    "builds": "On Khora, I use <a href='/khora-whip-claw-build/'>Whip Claw Build</a> which focuses a lot on Whipclaw but also has a lot of quality of life stuff.",
+    "glyph": "KhoraDarkGlyph.png",
+    "image": "khora-warframe.jpg",
+    "roles": [
+      "crowd-control",
+      "utility"
+    ]
+  },
+  {
     "name": "limbo",
     "title": "Limbo",
     "description": "Tapping into the Rift, Limbo demonstrates his art of dimensional travel that disrupts the space-time continuum, blurring the borders between realms and reality.",
