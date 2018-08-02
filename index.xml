@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jul 2018 01:04:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Aug 2018 00:41:50 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Amprex Build</title>
+      <link>https://warframeblog.com/amprex-build/</link>
+      <pubDate>Wed, 01 Aug 2018 00:41:50 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/amprex-build/</guid>
+      <description>&lt;p&gt;Hey guys and welcome to another Warframe weapon build article. Today we gonna take a look at the Amprex.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Frost Avalanche Build</title>
