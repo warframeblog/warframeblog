@@ -230,7 +230,8 @@
   {
     "name": "nezha",
     "title": "Nezha",
-    "description": "",
+    "description": "Nezha invokes sacred fire and blazing weaponry to invigorate friends, ignite foes and insure himself from damage.",
+    "builds": "I use on Nezha two different builds. The first one is <a href='/nezha-safeguard-build/'>Nezha Safeguard Build</a> which focuses more on Warding Halo ability than anything else. The second one is Nezha Divine Spears Build and as you might guess it focuses on Divine Spears ability.",
     "glyph": "NezhaCircaDarkGlyph.png",
     "image": "nezha-warframe.jpg",
     "roles": [
