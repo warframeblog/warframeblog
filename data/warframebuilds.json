@@ -279,10 +279,12 @@
     "name": "oberon",
     "title": "Oberon",
     "description": "Oberon is a paladin among Warframes. Endowed with zealous offensive powers and sacred protective skills, he is a balanced fighter with assault and supportive capabilities. ",
+    "builds": "I have three builds for the Oberon. So, first one is <a href='/oberon-eidolon-hunter-build/' title='Warframe Oberon Eidolon Hunter Build'>Oberon Eidolon Hunter Build</a> which focuses around Renewal and Hallowed Ground so it provides extra armor, it heals you, your allies, and the lures. And then I have two versions of Oberon Reckoning Build. So, the first version focuses more towards endgame and stripping away enemy armor. And the second version focuses more towards early game and just doing damage.",
     "glyph": "OberonOryxDarkGlyph.png",
     "image": "oberon-warframe.jpg",
     "roles": [
       "crowd-control",
+      "survaiability",
       "utility"
     ]
   },
