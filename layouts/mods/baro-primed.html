@@ -2,40 +2,43 @@
   {{ .Params.seoTitle | default .Title }}
 {{- end -}}
 {{ define "bodyClasses" }}archive category{{ end }}
-{{ define "header" }}
-	<div class="boxed-layout-header page-header header-small" id="primary">
-			<div class="container">
-					<div class="row">
-							<div class="col-md-10 col-md-offset-1 text-center">
-									<h1 class="hestia-title">{{ .Title }}</h1>
-									<p id="breadcrumbs-category">
-										<span xmlns:v="http://rdf.data-vocabulary.org/#">
-											<span typeof="v:Breadcrumb"><a href="{{ $.Site.BaseURL }}" rel="v:url" property="v:title">{{ .Site.Title }}</a> » 
-											<span class="breadcrumb_last">{{ .Title }}</span></span>
-										</span>
-									</p>
-									<div>
-										<p>{{ .Params.modName }} are enhanced versions of the {{ .Params.originalMod }} which {{ .Params.increases }}. {{ .Params.modName }} is essentially the {{ .Params.originalMod }} mod with Legendary rarity and 5 more ranks. It is considered the same mod as its Rare counterpart, and thus both mods cannot be equipped together.</p>
-
-										<p>This mod can be purchased unranked from Baro Ki'Teer for {{ .Params.credits }} credits and {{ .Params.ducats }} ducats. Note however that Baro Ki'Teer's stock changes with each appearance, and may not have this item available at every time. Baro Ki'Teer is the only way to get {{ .Params.modName }} aside from buying other players. The trade tax for trading {{ .Params.modName }} from another player is 1 million credits. If you have any doubts to get {{ .Params.modName }} or not below you can see some of the builds that benefits from it.</p>
-
-									</div>
-							</div>
-					</div>
-			</div>
-			<div class="header-filter" data-parallax="active" style="background-image: url(/images/warframe-primed-mods.jpg)"></div>
-	</div>
-{{ end }}
-{{ define "main" }}
-	<div class="hestia-blogs">
-			<div class="container">
-					<div class="row">
-							<div class="col-md-8 archive-post-wrap">
-								{{ range  .Paginator.Pages }}
-									{{ partial "horizontal-card.html" . }}
-								{{ end }}
-							</div>
-					</div>
-			</div>
-	</div>
+{{ define "body" }}
+  <div class="wrapper">
+    <header class="header">
+      {{ partial "nav.html" . }}
+    </header>
+    <div class="main">
+        <div class="hestia-blogs">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-6 col-md-push-6">
+						<div class="mod-image" style="margin-top: 50px">
+							<img src="{{ .Params.image }}" width="40%" height="40%" class="center-block" />
+						</div>
+                    </div>
+                    <div class="col-md-6 col-md-pull-6 archive-post-wrap">
+                    	<div class="mod-info">
+		                	<h1>{{ .Title }}</h1>
+		                	<p><strong>{{ .Params.modName }}</strong> are enhanced versions of the {{ .Params.originalMod }} which <b><em>{{ .Params.increases }}</em></b>. {{ .Params.modName }} is essentially the {{ .Params.originalMod }} mod with Legendary rarity and 5 more ranks. It is considered the same mod as its Rare counterpart, and thus both mods cannot be equipped together.</p>
+		                	<p>This mod can be purchased unranked from <a href="/baro-kiteer-void-trader/" title="Warframe Baro Ki'Teer Void Trader Guide">Baro Ki'Teer</a> for <b>{{ .Params.credits }} credits</b> and <b>{{ .Params.ducats }} ducats</b>. Note however that Baro Ki'Teer's stock changes with each appearance, and may not have this item available at every time. <b><em>Baro Ki'Teer is the only way to get {{ .Params.modName }} aside from buying other players</em></b>. The <b>trade tax</b> for trading {{ .Params.modName }} from another player is <b>1 million <a href="/farm-credits-750k-credits-per-hour/" title="How To Farm Credits">credits</a></b>. If you have any doubts to get {{ .Params.modName }} or not below you can see some of the builds that benefit from it.</p>
+		                	<div class="buttons"> <a href="#builds" title="See more" class="btn btn-primary btn-lg">See builds</a></div>
+		                </div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-12 text-center">
+							<h2 class="hestia-title"><a name="builds">Builds that benefit from {{ .Params.modName }}</a></h2>
+						</div>
+                    	<div class="col-md-10 col-md-offset-1 blog-posts-wrap">
+                    		{{ $modName := slice .Params.modName }}
+                    		{{ range first 30 (where .Site.Pages ".Params.mods" "intersect" $modName) }}
+								{{partial "horizontal-card.html" .}}
+							{{ end }}
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ partial "site-footer.html" . }}
+    </div>
+  </div>
 {{ end }}

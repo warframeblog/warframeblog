@@ -12,6 +12,10 @@ tags:
   - atlas
   - builds
   - warframe
+mods:
+  - Primed Flow
+  - Primed Pressure Point
+  - Primed Fever Strike
 ---
 Hey guys and today we're gonna take a look at Atlas who has received a fantastic new mechanic in the form of a rubble where petrified enemies will drop rubble upon death and you can run over the rubble to pick it up which one either heal you or if you're at full health it will temporarily boost your armor.<!--more-->
 
@@ -31,7 +35,7 @@ I found that the Path of Statues augment is really good versus tougher enemies b
 
 But that's not the whole One Punch Build because Landslide is also affected by a bunch of mods on your [melee weapons](https://warframeblog.com/melee-weapons/), not the stats of your melee weapon. So, you can put it on whatever you want. So, it's affected by damage which is why I have Primed Pressure Point and Spoiled Strike. It's also affected by the melee combo counter which is why I have Drifting Contact here. However, if you can fit in Body Count use that instead. I can't because of the way I forma it.
 
-Then it's affected by impact damage mod so I have Primed Heavy Trauma, Collision Force, and my riven which adds impact damage. And finally, elemental damage. So, once again the riven mode, shocking touch, and Primed fever strike. However, this build will pretty much break your weapon. It is gonna be too slow and almost unusable. So, if you don't want to do that you can use a build like this.
+Then it's affected by impact damage mod so I have Primed Heavy Trauma, Collision Force, and my riven which adds impact damage. And finally, elemental damage. So, once again the riven mode, shocking touch, and Primed Fever Strike. However, this build will pretty much break your weapon. It is gonna be too slow and almost unusable. So, if you don't want to do that you can use a build like this.
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/melee-mods-for-one-punch-1024x576.png" title="Melee build to use along with Atlas One Punch Build" alt="melee weapon build that doesn't make your weapon unusable" width="750" height="422" class="alignnone size-large wp-image-942" srcset="https://warframeblog.com/wp-content/uploads/2018/02/melee-mods-for-one-punch-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/melee-mods-for-one-punch-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/melee-mods-for-one-punch-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
 
