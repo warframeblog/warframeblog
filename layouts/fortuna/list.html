@@ -1,0 +1,68 @@
+{{ define "custom-styles" }}
+  <link rel="stylesheet" href="/assets/css/fortuna.css">
+{{ end }}
+{{ define "body" }}
+  <div class="wrapper">
+    <header class="header">
+      {{ partial "nav.html" . }}
+      <div class="carousel slide" id="carousel-hestia-generic" data-ride="carousel">
+          <div class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <div class="page-header" style="height: 100vh; min-height: 100vh">
+                          <div class="container">
+                              <div class="row hestia-big-title-content">
+                                  <div class="col-md-8 col-md-offset-2 text-center">
+                                      <h1 class="hestia-title">{{ .Title }}</h1><span class="sub-title">{{ .Params.description }}</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="header-filter" style="background-image: url({{ .Params.image }})"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </header>
+  </div>
+  <div class="main">
+    <div class="hestia-blogs" style="background-color: #122734">
+      <div class="container">
+          <div class="row text-center" style="color: white;">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="hestia-title" style="color: white;">Warframe Keeps Expanding</h2>
+              <p class="sub-title" style="padding-bottom: 25px">During the annual TennoCon 2018 Digital Extremes revealed the next big expansion and update coming to Warframe, called Fortuna, will follow last year’s Plains of Eidolon and deliver another open world zone, this time set on Venus.</p>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-6">
+                <div class="videoWrapper videoWrapper169 js-videoWrapper">
+                  <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/j7MqiQ3uzfM?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
+                  <a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-update-reveal-trailer.jpg);" title="Play Fortuna Update Reveal Trailer">Play Fortuna Update Reveal Trailer</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="videoWrapper videoWrapper169 js-videoWrapper">
+                  <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/sE-VRFj997I?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
+                  <a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-and-railjack-full-gameplay-demo.jpg);" title="Play Fortuna & Railjack full 32-Minute Gameplay Demo">Play Fortuna & Railjack full 32-Minute Gameplay Demo</a>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="hestia-blogs" style="background-color: #041625">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 archive-post-wrap" >
+
+
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
+{{ define "custom-scripts"}}
+  <script src="/assets/js/fortuna.js"></script>
+{{ end }}
