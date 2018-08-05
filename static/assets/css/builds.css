@@ -1,9 +1,5 @@
-/*body { 
-  background-color: #444;
-}*/
-
 .builds {
-  margin: 70px auto 0;
+  margin: 20px auto 0;
   padding: 30px 5px;
   color: #fff;
   font: 0/1 "Roboto", "Helvetica", "Arial", sans-serif;
@@ -268,4 +264,9 @@ h1 span.warframe {
   .builds p {
     margin: 0 0 15px;
   }
+}
+
+.navbar-dark {
+  background: rgba(27,44,51, 0.75);
+  color: white;
 }
