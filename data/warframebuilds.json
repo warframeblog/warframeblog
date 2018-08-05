@@ -62,9 +62,11 @@
     "name": "equinox",
     "title": "Equinox",
     "description": "A duality of contrasting forces in a single entity, Equinox unleashes wrath like the onset of daybreak, or draws life to a close like dusk's approach. Shifting between two forms allows her to bolster Tenno strength in light or provide recuperative respite in darkness. ",
+    "builds": "So, I use two builds on Equinox. First one is <a href='/equinox-focus-farm-build/' title='Equinox Focus Farm Build'>Equinox Focus Farm Build</a> which focuses mostly on the Rest & Rage. And the second one is the <a href='/equinox-mend-and-maim-build/' title='Equinox Mend and Maim Build'>Equinox Mend and Maim Build</a> that is probably my favorite setup in the entire game.",
     "glyph": "EquinoxSolsticeDarkGlyph.png",
     "image": "equinox-warframe.jpg",
     "roles": [
+      "damage",
       "crowd-control",
       "utility"
     ]
@@ -231,7 +233,7 @@
     "name": "nezha",
     "title": "Nezha",
     "description": "Nezha invokes sacred fire and blazing weaponry to invigorate friends, ignite foes and insure himself from damage.",
-    "builds": "I use on Nezha two different builds. The first one is <a href='/nezha-safeguard-build/'>Nezha Safeguard Build</a> which focuses more on Warding Halo ability than anything else. The second one is Nezha Divine Spears Build and as you might guess it focuses on Divine Spears ability.",
+    "builds": "I use on Nezha two different builds. The first one is <a href='/nezha-safeguard-build/'>Nezha Safeguard Build</a> which focuses more on Warding Halo ability than anything else. The second one is <a href='/nezha-divine-spears-build/' title='Nezha Divine Spears Build'>Nezha Divine Spears Build</a> and as you might guess it focuses on Divine Spears ability.",
     "glyph": "NezhaCircaDarkGlyph.png",
     "image": "nezha-warframe.jpg",
     "roles": [
@@ -256,6 +258,7 @@
     "name": "nova",
     "title": "Nova",
     "description": "Nova is an antimatter themed Warframe who is somewhat fragile with low shield capacity, fair health and lacks in defensive abilities. In return, she features extremely powerful offensive abilities capable of demolishing entire waves of enemies.",
+    "builds": "I want to share with you two Nova builds. So, the first one is <a href='/nova-slow-build/' title='Nova Slow Build'>Nova Slow Build</a> which focuses on a slow version of a Molecular Prime. The second one is <a href='/nova-speed-build/' title='Nova Speed Build'>Nova Speed Build</a> and focuses on speed version of a Molecular Prime.",
     "glyph": "NovaQuantumDarkGlyph.png",
     "image": "nova-warframe.jpg",
     "roles": [
