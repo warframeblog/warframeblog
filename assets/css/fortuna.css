@@ -1,0 +1,80 @@
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  background-color: black;
+}
+
+.videoWrapper169 {
+  padding-top: 56%;
+}
+
+.videoIframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.videoPoster {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-size: cover;
+  text-indent: -999em;
+  overflow: hidden;
+  opacity: 1;
+  -webkit-transition: opacity 800ms, height 0s;
+  -moz-transition: opacity 800ms, height 0s;
+  transition: opacity 800ms, height 0s;
+  -webkit-transition-delay: 0s, 0s;
+  -moz-transition-delay: 0s, 0s;
+  transition-delay: 0s, 0s;
+}
+
+.videoPoster:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin: -25px 0 0 -10px;
+  border-left: 40px solid rgba(255, 255, 255, 0.5);
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  -webkit-transition: border-color 300ms;
+  -moz-transition: border-color 300ms;
+  transition: border-color 300ms;
+}
+
+.videoPoster:hover:after, .videoPoster:focus:after {
+  border-left-color: rgba(255, 255, 255, 1);
+}
+
+.videoWrapperActive .videoPoster {
+  opacity: 0;
+  height: 0;
+  -webkit-transition-delay: 0s, 800ms;
+  -moz-transition-delay: 0s, 800ms;
+  transition-delay: 0s, 800ms;
+}
+
+.navbar-dark {
+  background: rgba(4, 22, 37, 0.75);
+  color: white;
+}

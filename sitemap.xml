@@ -80,6 +80,13 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/fortuna/</loc>
+    <lastmod>2018-06-22T00:45:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/guides/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
