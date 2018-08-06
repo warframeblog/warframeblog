@@ -3,6 +3,7 @@
   width: 100%;
   height: 0;
   background-color: black;
+  margin-bottom: 20px;
 }
 
 .videoWrapper169 {
@@ -74,7 +75,47 @@
   transition-delay: 0s, 800ms;
 }
 
-.navbar-dark {
-  background: rgba(4, 22, 37, 0.75);
+.tabs-left {
+  border-bottom: none;
+  padding-top: 2px;
+}
+
+.tabs-left > li {
+  float: none;
+  border-radius: 4px;
+  margin: 0 0 8px 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.tabs-left > li > a {
+  color: #c1c7cd;
+  border: 0;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.tabs-left > li > a:hover,
+.tabs-left > li > a:focus {
+  background-color: rgb(105, 61, 204);
+  border: 0;
+  color: white
+}
+
+.tabs-left > li.active > a,
+.tabs-left > li.active > a:hover,
+.tabs-left > li.active > a:focus {
+  background-color: rgb(170, 20, 204);
+  color: white;
+  border: 0;
+}
+
+.tabs-left > li.active > a:hover,
+.tabs-left > li.active > a:focus {
+  background-color: rgb(105, 61, 204);
+}
+
+.features-section {
+  padding-top: 4px; 
   color: white;
 }
