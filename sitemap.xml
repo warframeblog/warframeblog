@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/acolytes-back-acolyte-mods/</loc>
+    <lastmod>2018-08-07T00:45:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
     <lastmod>2018-08-06T23:52:25+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -752,13 +759,6 @@
   </url>
   
   <url>
-    <loc>https://warframeblog.com/acolytes-back-acolyte-mods/</loc>
-    <lastmod>2017-12-22T00:45:17+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://warframeblog.com/akbolto-prime-build/</loc>
     <lastmod>2017-12-20T02:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -844,7 +844,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-08-06T23:52:25+00:00</lastmod>
+    <lastmod>2018-08-07T00:45:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
