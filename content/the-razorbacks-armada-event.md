@@ -1,7 +1,7 @@
 ---
 title: The Razorbacks Armada Returns Once More
 seoTitle: "The Razorbacks Armada Returns. Razorback Armada Guide"
-date: 2018-05-09T04:52:25+00:00
+date: 2018-08-06T23:52:25+00:00
 author: warframe
 layout: post
 permalink: /the-razorbacks-armada-event/
@@ -29,7 +29,7 @@ Now, in order to do the mission, you will need to build a Razorback Cipher which
 
 ## Razorback Cipher Build Requirements
 
-Now, to build the Razorback Cipher you will need 3500 polymer bundles, three gallium and four Cryptographic ALUs and each cipher will take one minute to build.
+Now, to build the Razorback Cipher you will need 3500 polymer bundles, three gallium, and four Cryptographic ALUs and each cipher will take one minute to build.
 
 ## Where to farm Cryptographic ALU?
 
@@ -43,6 +43,6 @@ Now, the boss fight didn't change. It works the same way it did last time. So, y
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/defeat-the-razorback-1024x576.png" title="How to defeat Razorback" alt="Guide How to kill Razorback" width="750" height="422" class="alignnone size-large wp-image-931" srcset="https://warframeblog.com/wp-content/uploads/2018/02/defeat-the-razorback-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/defeat-the-razorback-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/defeat-the-razorback-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
 
-I would recommend bringing in a tanky frame(like [Rhino](https://warframeblog.com/rhino-iron-skin-build/)) though because the boss can do a lot of damage and as you were making your way to the boss you will have to fight a lot of Bursa and Hyenas. And you will have to find some of these Hyenas because as soon as they see you they will lock down the door and it's not always possible to hack the console and then sprint to the door because sometimes they will just lock it again. So, the best thing you can do is just kill them and then hack the console.
+I would recommend bringing in a tanky frame(like [Rhino](/rhino-iron-skin-build/ "Rhino Iron Skin Build") or [Nezha](/nezha-safeguard-build/ "Nezha Safeguard Build")) though because the boss can do a lot of damage and as you were making your way to the boss you will have to fight a lot of Bursa and Hyenas. And you will have to find some of these Hyenas because as soon as they see you they will lock down the door and it's not always possible to hack the console and then sprint to the door because sometimes they will just lock it again. So, the best thing you can do is just kill them and then hack the console.
 
 Now, even if you get really lucky and you get a different Gorgon part each time you will have to do this more than three times because Gorgon Wraith requires four parts if you include the blueprint. Luckily though, all the parts are tradable. So, have fun with The Razorback Armada event and I thank you very much for reading and I will see you next time. Bye-bye.
