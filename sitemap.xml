@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
+    <lastmod>2018-08-06T23:52:25+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/nezha-divine-spears-build/</loc>
     <lastmod>2018-08-05T00:59:50+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -201,13 +208,6 @@
   <url>
     <loc>https://warframeblog.com/hystrix-build/</loc>
     <lastmod>2018-05-13T07:32:42+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
-    <lastmod>2018-05-09T04:52:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -844,7 +844,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-08-05T00:59:50+00:00</lastmod>
+    <lastmod>2018-08-06T23:52:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
