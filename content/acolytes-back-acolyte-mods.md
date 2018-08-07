@@ -29,4 +29,6 @@ And finally, there are too melee mods that I was kind of recommend going for and
 
 Now, the reason why I said kind of recommend going for them is because you can also get Blood Rush from the Orokin Moon spy mission or the Lua spy mission Pavlov and while Body Count is good we have Drifting Contact which you can get from high-level nightmare missions which are also going to increase your combo timer but it's also going to give you a little bit of status chance. So, while both of these modes are really good you can use Drifting Contact instead of Body Count and you can farm Blood Rush outside of this event.
 
+{{< acolytes >}}
+
 And before I end the article I just want to say that I have no idea if all the acolytes are going to show up because sometimes just like two or three of them show up. And then you can't farm all the mods and it's kind of annoying but if all of them show up these are the mods that I would go for. For now, only Angst is active so you can farm: Body Count, Repeater Clip, Spring-loaded Chamber, and Pressurized Magazine. But the other acolytes may show up later. So, if you don't have these mods already and you want to get them I would definitely pay attention to the acolytes and that's pretty much it for the article. Thank you very much for reading as always and I will see you next time. Bye-bye.

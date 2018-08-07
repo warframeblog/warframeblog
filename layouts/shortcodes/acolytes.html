@@ -1,0 +1,162 @@
+<h2>Current Acolytes</h2>
+<p id="acolytes-countdown"></p>
+
+<ul class="nav nav-tabs trader">
+	<li class="active"><a data-toggle="tab" href="#pc">PC</a></li>
+	<li><a data-toggle="tab" href="#ps4">PS4</a></li>
+	<li><a data-toggle="tab" href="#xb1">XBox One</a></li>
+</ul>
+
+<div class="tab-content trader-content">
+	<div id="pc" class="tab-pane fade in active">
+
+	</div>
+	<div id="ps4" class="tab-pane fade">
+	</div>
+	<div id="xb1" class="tab-pane fade">
+	</div>
+</div>
+
+<script type="text/javascript">
+
+	var acolytes = {
+		'Angst' : {
+			image: '/images/acolytes/StrikerAcolyte.png'
+		},
+		'Malice' : {
+			image: '/images/acolytes/HeavyAcolyte.png'
+		},
+		'Mania' : {
+			image: '/images/acolytes/RogueAcolyte.png'
+		},
+		'Misery' : {
+			image: '/images/acolytes/AreaCasterAcolyte.png'
+		},
+		'Torment' : {
+			image: '/images/acolytes/ControlAcolyte.png'
+		},
+		'Violence' : {
+			image: '/images/acolytes/DuellistAcolyte.png'
+		},
+	}
+
+	function loadAcolytesInfo(currentPlatform) {
+		var xhr = new XMLHttpRequest();
+		var url = 'https://api.warframestat.us/' + currentPlatform + '/persistentEnemies';
+
+		xhr.open('GET', url, true);
+		xhr.send();
+
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState != 4) return;
+
+			var platformContent = document.getElementById(currentPlatform);
+			removeNodes(platformContent);
+			if (xhr.status !== 200) {
+				console.error(xhr.status + ': ' + xhr.statusText);
+				platformContent.appendChild(document.createTextNode('Cannot load any data about Acolytes'));
+			} else {
+				var currentAcolytes = JSON.parse(xhr.responseText);
+				if(currentAcolytes.length === 0) {
+					var noAcolytesElement = document.createElement('p');
+					noAcolytesElement.className = 'hestia-title bold';
+					noAcolytesElement.innerHTML = 'No Acolytes are around yet.';
+					platformContent.appendChild(noAcolytesElement);
+				} else {
+					for(var i = 0; i < currentAcolytes.length; i++) {
+						addColyte(platformContent, currentAcolytes[i]);
+					}
+				}
+			}
+		}
+	}
+
+	function removeNodes(parentElement) {
+		while (parentElement.firstChild) {
+		    parentElement.removeChild(parentElement.firstChild);
+		}
+	}
+
+	function addColyte(platformContent, acolyte) {
+		var acolyteElement = createAcolyteElement(acolyte);
+		platformContent.appendChild(acolyteElement);
+	}
+
+	function createAcolyteImageElement(acolyteName) {
+            var acolyteImageElement = document.createElement('div');
+            acolyteImageElement.className = 'col-ms-3 col-sm-3';
+
+            var cardImage = document.createElement('div');
+            cardImage.className = 'card-image';
+
+            var imageElement = document.createElement('img');
+            imageElement.className = 'attachment-hestia-blog size-hestia-blog wp-post-image';
+            imageElement.width = 120;
+            imageElement.height = 120;
+            imageElement.title = acolyteName;
+            imageElement.src = acolytes[acolyteName].image;
+
+            cardImage.appendChild(imageElement);
+            acolyteImageElement.appendChild(cardImage);
+
+            return acolyteImageElement;
+	}
+
+	function createAcolyteEntryElement(acolyte) {
+		var acolyteEntryElement = document.createElement('div');
+		acolyteEntryElement.className = 'col-ms-9 col-sm-9';
+
+		var acolyteTitleElement = document.createElement('h3');
+		acolyteTitleElement.className = 'card-title entry-title';
+		acolyteTitleElement.innerHTML = acolyte.agentType;
+
+		var acolyteHealth = document.createElement('p');
+		acolyteHealth.innerHTML = '<b>Health:</b> ' + (acolyte.healthPercent * 100).toFixed(2) + '%';
+
+		var acolyteLocation =  document.createElement('p');
+		var isDiscovered = acolyte.isDiscovered;
+		acolyteLocation.innerHTML = '<b>Location:</b> ' + (isDiscovered ? acolyte.lastDiscoveredAt : 'Unknown');
+
+		acolyteEntryElement.appendChild(acolyteTitleElement);
+		acolyteEntryElement.appendChild(acolyteHealth);
+		acolyteEntryElement.appendChild(acolyteLocation);
+		return acolyteEntryElement;
+	}
+
+	function createAcolyteElement(acolyte) {
+		var acolyteElement = document.createElement('div');
+		acolyteElement.className = 'card card-plain card-blog post type-post status-publish format-standard has-post-thumbnail hentry';
+
+		var rowElement = document.createElement('div');
+		rowElement.className = 'row';
+
+		var acolyteImageElement = createAcolyteImageElement(acolyte.agentType);
+		var acolyteEntryElement = createAcolyteEntryElement(acolyte);
+
+		rowElement.appendChild(acolyteImageElement);
+		rowElement.appendChild(acolyteEntryElement);
+
+		acolyteElement.appendChild(rowElement);
+
+		return acolyteElement;
+	}
+
+	loadAcolytesInfo('pc');
+	loadAcolytesInfo('ps4');
+	loadAcolytesInfo('xb1');
+	
+	var countdown = document.getElementById('acolytes-countdown');
+	var secondsBetweenActions = 15;
+	var secondsRemaining = secondsBetweenActions;
+	var timerId = setInterval(function() {
+		countdown.innerHTML = 'Updating in: ' + secondsRemaining + 's';
+		secondsRemaining--;
+		if( secondsRemaining < 0 ) {
+			loadAcolytesInfo('pc');
+			loadAcolytesInfo('ps4');
+			loadAcolytesInfo('xb1');
+			countdown.innerHTML = 'Updated';
+			secondsRemaining = secondsBetweenActions;
+		}
+	}, 1000);
+</script>
