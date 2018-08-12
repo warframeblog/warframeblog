@@ -1,103 +1,12 @@
 {
   "id": "5b3f7168069a1b85636f66fb",
-  "activation": "2018-08-10T13:00:00.000Z",
-  "expiry": "2018-08-12T13:00:00.000Z",
+  "activation": "2018-08-24T13:00:00.000Z",
+  "expiry": "2018-08-26T13:00:00.000Z",
   "character": "Baro Ki'Teer",
-  "location": "Orcus Relay (Pluto)",
-  "inventory": [
-    {
-      "item": "Summer Solstice Gorgon",
-      "ducats": 300,
-      "credits": 300000
-    },
-    {
-      "item": "Fanged Fusillade",
-      "ducats": 375,
-      "credits": 150000
-    },
-    {
-      "item": "Vermillion Storm",
-      "ducats": 385,
-      "credits": 175000
-    },
-    {
-      "item": "Astral Twilight",
-      "ducats": 385,
-      "credits": 175000
-    },
-    {
-      "item": "Tempo Royale",
-      "ducats": 385,
-      "credits": 175000
-    },
-    {
-      "item": "Domus Syandana",
-      "ducats": 600,
-      "credits": 400000
-    },
-    {
-      "item": "Prisma Gorgon",
-      "ducats": 600,
-      "credits": 50000
-    },
-    {
-      "item": "Left Prisma Edo Shoulder Armor",
-      "ducats": 100,
-      "credits": 55000
-    },
-    {
-      "item": "Right Prisma Edo Shoulder Armor",
-      "ducats": 100,
-      "credits": 55000
-    },
-    {
-      "item": "Left Prisma Edo Knee Plates",
-      "ducats": 100,
-      "credits": 55000
-    },
-    {
-      "item": "Right Prisma Edo Knee Plates",
-      "ducats": 100,
-      "credits": 55000
-    },
-    {
-      "item": "Prisma Edo Chest Plate",
-      "ducats": 225,
-      "credits": 250000
-    },
-    {
-      "item": "Anpu Staff Skin",
-      "ducats": 325,
-      "credits": 250000
-    },
-    {
-      "item": "Anpu Sugatra",
-      "ducats": 250,
-      "credits": 250000
-    },
-    {
-      "item": "Neo O1 Relic (Intact)",
-      "ducats": 125,
-      "credits": 55000
-    },
-    {
-      "item": "Axi V8 Relic (Intact)",
-      "ducats": 125,
-      "credits": 55000
-    },
-    {
-      "item": "Axi A2 Relic (Intact)",
-      "ducats": 50,
-      "credits": 45000
-    },
-    {
-      "item": "Sands Of Inaros",
-      "ducats": 100,
-      "credits": 25000
-    }
-  ],
-  "psId": "5b3f7168069a1b85636f66fb18",
-  "active": true,
-  "startString": "-43m 8s",
-  "endString": "1d 23h 16m 51s"
+  "location": "Vesper Relay (Venus)",
+  "inventory": [],
+  "psId": "5b3f7168069a1b85636f66fb0",
+  "active": false,
+  "startString": "11d 21h 29m 28s",
+  "endString": "13d 21h 29m 28s"
 }

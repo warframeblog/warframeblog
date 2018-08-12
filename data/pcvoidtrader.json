@@ -1,103 +1,12 @@
 {
   "id": "5b3f70c1be87e4524f04d5ec",
-  "activation": "2018-08-10T13:00:00.000Z",
-  "expiry": "2018-08-12T13:00:00.000Z",
+  "activation": "2018-08-24T13:00:00.000Z",
+  "expiry": "2018-08-26T13:00:00.000Z",
   "character": "Baro Ki'Teer",
-  "location": "Larunda Relay (Mercury)",
-  "inventory": [
-    {
-      "item": "Colour Picker Twitch B Item A",
-      "ducats": 220,
-      "credits": 220000
-    },
-    {
-      "item": "Primed Morphic Transformer",
-      "ducats": 350,
-      "credits": 150000
-    },
-    {
-      "item": "Buzz Kill",
-      "ducats": 375,
-      "credits": 150000
-    },
-    {
-      "item": "Sweeping Serration",
-      "ducats": 375,
-      "credits": 150000
-    },
-    {
-      "item": "Maim",
-      "ducats": 375,
-      "credits": 150000
-    },
-    {
-      "item": "Quanta Vandal",
-      "ducats": 450,
-      "credits": 300000
-    },
-    {
-      "item": "Quanta Aufeis Skin",
-      "ducats": 300,
-      "credits": 300000
-    },
-    {
-      "item": "Ki'teer Chest Plate",
-      "ducats": 150,
-      "credits": 250000
-    },
-    {
-      "item": "Ki'teer Shoulder Plates",
-      "ducats": 350,
-      "credits": 110000
-    },
-    {
-      "item": "Ki'teer Leg Plates",
-      "ducats": 300,
-      "credits": 150000
-    },
-    {
-      "item": "Baro Emote",
-      "ducats": 0,
-      "credits": 1000000
-    },
-    {
-      "item": "Ki'teer Tribute Glyph",
-      "ducats": 80,
-      "credits": 50000
-    },
-    {
-      "item": "Baro Ki'teer Colors",
-      "ducats": 150,
-      "credits": 300000
-    },
-    {
-      "item": "Photobooth Tile Orokin Extraction",
-      "ducats": 325,
-      "credits": 175000
-    },
-    {
-      "item": "Grustrag Three Beacon",
-      "ducats": 200,
-      "credits": 125000
-    },
-    {
-      "item": "Stalker Beacon",
-      "ducats": 200,
-      "credits": 125000
-    },
-    {
-      "item": "Zanuka Hunter Beacon",
-      "ducats": 200,
-      "credits": 125000
-    },
-    {
-      "item": "Sands Of Inaros",
-      "ducats": 100,
-      "credits": 25000
-    }
-  ],
-  "psId": "5b3f70c1be87e4524f04d5ec18",
-  "active": true,
-  "startString": "-42m 8s",
-  "endString": "1d 23h 17m 51s"
+  "location": "Kronia Relay (Saturn)",
+  "inventory": [],
+  "psId": "5b3f70c1be87e4524f04d5ec0",
+  "active": false,
+  "startString": "11d 21h 30m 28s",
+  "endString": "13d 21h 30m 28s"
 }
