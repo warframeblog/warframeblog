@@ -1,6 +1,6 @@
 ---
 title: Volt Eidolon Hunter Build
-seoTitle: "Volt Eidolon Hunter Build. Volt Eidolon Hunter Build. Volt Build"
+seoTitle: "Volt Eidolon Hunter Build. Volt Eidolon Hunter 4 Forma Build. Volt Build"
 date: 2018-08-12T03:26:52+00:00
 author: warframe
 layout: post

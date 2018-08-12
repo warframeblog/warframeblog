@@ -369,7 +369,7 @@
     "name": "volt",
     "title": "Volt",
     "description": "Volt has the power to wield and bend electricity. He is highly versatile, armed with powerful abilities that can damage enemies, provide cover and complement the ranged and melee combat of his cell. The electrical nature of his abilities make him highly effective against the Corpus, with their robots in particular.",
-    "builds": "So, the three builds I have for Volt are: number one the <a href='/volt-speed-build/'>Volt Speed Build</a> which unsurprisingly focuses on speed, then number two the Volt Eidolon Hunter Build which is focused more around his shield and finally at number three we have the <a href='/volt-discharge-build/'>Volt Capacitance Build</a> which focuses more on Discharge.",
+    "builds": "So, the three builds I have for Volt are: number one the <a href='/volt-speed-build/'>Volt Speed Build</a> which unsurprisingly focuses on speed, then number two the <a href='/volt-eidolon-hunter-build/'>Volt Eidolon Hunter Build</a> which is focused more around his shield and finally at number three we have the <a href='/volt-discharge-build/'>Volt Capacitance Build</a> which focuses more on Discharge.",
     "glyph": "VoltDarkGlyph.png",
     "image": "volt-warframe.jpg",
     "roles": [
