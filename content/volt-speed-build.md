@@ -8,6 +8,8 @@ permalink: /volt-speed-build/
 image: /wp-content/uploads/2018/03/volt-speed-build.jpg
 categories:
   - Builds
+video_url:
+  - CLhGq3YPtKM
 tags:
   - builds
   - volt
