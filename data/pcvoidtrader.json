@@ -4,9 +4,100 @@
   "expiry": "2018-08-26T13:00:00.000Z",
   "character": "Baro Ki'Teer",
   "location": "Kronia Relay (Saturn)",
-  "inventory": [],
-  "psId": "5b3f70c1be87e4524f04d5ec0",
-  "active": false,
-  "startString": "11d 21h 30m 28s",
-  "endString": "13d 21h 30m 28s"
+  "inventory": [
+    {
+      "item": "Prisma Twin Gremlins Weapon",
+      "ducats": 500,
+      "credits": 220000
+    },
+    {
+      "item": "Primed Rifle Ammo Mutation",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Shotgun Ammo Mutation",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Pistol Ammo Mutation",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Regen",
+      "ducats": 300,
+      "credits": 220000
+    },
+    {
+      "item": "Detron Mara",
+      "ducats": 500,
+      "credits": 200000
+    },
+    {
+      "item": "Ki'teer Razza Synadana",
+      "ducats": 400,
+      "credits": 350000
+    },
+    {
+      "item": "Ki'teer Foros Shoulder Plates",
+      "ducats": 310,
+      "credits": 100000
+    },
+    {
+      "item": "Ki'teer Foros Chest Plate",
+      "ducats": 175,
+      "credits": 200000
+    },
+    {
+      "item": "Ki'teer Foros Leg Plates",
+      "ducats": 225,
+      "credits": 150000
+    },
+    {
+      "item": "Elixis Odonata Skin",
+      "ducats": 350,
+      "credits": 250000
+    },
+    {
+      "item": "Excalibur Archwing Bobble Head",
+      "ducats": 90,
+      "credits": 200000
+    },
+    {
+      "item": "Kavat Pet Mask",
+      "ducats": 500,
+      "credits": 200000
+    },
+    {
+      "item": "Kavat Pet Wings",
+      "ducats": 400,
+      "credits": 250000
+    },
+    {
+      "item": "Kavat Sentinel Tail",
+      "ducats": 400,
+      "credits": 250000
+    },
+    {
+      "item": "Ki'teer Sugatra",
+      "ducats": 250,
+      "credits": 250000
+    },
+    {
+      "item": "Dragon Mod Pack",
+      "ducats": 500,
+      "credits": 100000
+    },
+    {
+      "item": "Sands Of Inaros",
+      "ducats": 100,
+      "credits": 25000
+    }
+  ],
+  "psId": "5b3f70c1be87e4524f04d5ec18",
+  "active": true,
+  "startString": "-1m 15s",
+  "endString": "1d 23h 58m 44s"
 }

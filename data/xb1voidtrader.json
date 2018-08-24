@@ -4,9 +4,100 @@
   "expiry": "2018-08-26T13:00:00.000Z",
   "character": "Baro Ki'Teer",
   "location": "Vesper Relay (Venus)",
-  "inventory": [],
-  "psId": "5b3f7168069a1b85636f66fb0",
-  "active": false,
-  "startString": "11d 21h 29m 28s",
-  "endString": "13d 21h 29m 28s"
+  "inventory": [
+    {
+      "item": "Prisma Razor Scarf",
+      "ducats": 350,
+      "credits": 275000
+    },
+    {
+      "item": "Primed Point Blank",
+      "ducats": 300,
+      "credits": 110000
+    },
+    {
+      "item": "Primed Pistol Gambit",
+      "ducats": 400,
+      "credits": 220000
+    },
+    {
+      "item": "Primed Fast Hands",
+      "ducats": 375,
+      "credits": 120000
+    },
+    {
+      "item": "Primed Ravage",
+      "ducats": 280,
+      "credits": 100000
+    },
+    {
+      "item": "Prisma Obex",
+      "ducats": 500,
+      "credits": 175000
+    },
+    {
+      "item": "Ki'teer Syandana",
+      "ducats": 500,
+      "credits": 500000
+    },
+    {
+      "item": "Ki'teer Atmos Earpiece",
+      "ducats": 500,
+      "credits": 400000
+    },
+    {
+      "item": "Ki'teer Sentinel Mask",
+      "ducats": 500,
+      "credits": 200000
+    },
+    {
+      "item": "Ki'teer Sentinel Wings",
+      "ducats": 400,
+      "credits": 250000
+    },
+    {
+      "item": "Ki'teer Sentinel Tail",
+      "ducats": 400,
+      "credits": 250000
+    },
+    {
+      "item": "Ki'teer Kubrow Armor",
+      "ducats": 500,
+      "credits": 250000
+    },
+    {
+      "item": "Ki'teer Arrow",
+      "ducats": 375,
+      "credits": 300000
+    },
+    {
+      "item": "Nexus Fur Pattern",
+      "ducats": 150,
+      "credits": 300000
+    },
+    {
+      "item": "Inaros Tomb Scene",
+      "ducats": 325,
+      "credits": 175000
+    },
+    {
+      "item": "Pedestal Prime",
+      "ducats": 0,
+      "credits": 1000000
+    },
+    {
+      "item": "3 Day Affinity Booster",
+      "ducats": 450,
+      "credits": 200000
+    },
+    {
+      "item": "Sands Of Inaros",
+      "ducats": 100,
+      "credits": 25000
+    }
+  ],
+  "psId": "5b3f7168069a1b85636f66fb18",
+  "active": true,
+  "startString": "-2m 15s",
+  "endString": "1d 23h 57m 44s"
 }
