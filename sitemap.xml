@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/how-to-get-revenant/</loc>
+    <lastmod>2018-08-25T01:03:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
     <lastmod>2018-08-24T00:00:53+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -865,7 +872,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-08-24T00:00:53+00:00</lastmod>
+    <lastmod>2018-08-25T01:03:18+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
