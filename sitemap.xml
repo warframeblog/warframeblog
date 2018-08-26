@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/get-octavias-parts/</loc>
+    <lastmod>2018-08-26T01:57:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/how-to-get-revenant/</loc>
     <lastmod>2018-08-25T01:03:18+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -479,13 +486,6 @@
   </url>
   
   <url>
-    <loc>https://warframeblog.com/get-octavias-parts/</loc>
-    <lastmod>2018-03-02T01:57:07+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://warframeblog.com/stubba-build/</loc>
     <lastmod>2018-02-28T16:38:11+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -872,7 +872,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-08-25T01:03:18+00:00</lastmod>
+    <lastmod>2018-08-26T01:57:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
