@@ -25,7 +25,7 @@ Hey guys and welcome to another Warframe guide article. And today I going to sho
 
 So, the first mission we're going to do is the Orokin Derelict Survival and this is where we're going to get the blueprint for the Octavia Neuroptics. It drops on rotation C which means that you have to spend at least 20 minutes there to have a chance of getting it. 
 
-But a drop rate for the Octavia Neuroptics is very low so you probably will spend more than that in the Derelict. I personally got it on my second try but I was really lucky that day. So, I suggest you build lots of Orokin Derelict Survival keys, go to the recruiting chat, typing something like "LF ODS [Octavia Neuroptics]", and I believe a party will quickly find you. 
+But a drop rate for the Octavia Neuroptics is very low so you probably will spend more than that in the Derelict. I personally got it on my second try but I was really lucky that day. So, I suggest you build lots of Orokin Derelict Survival keys, go to the recruiting chat, type something like "LF ODS [Octavia Neuroptics]", and I believe a party will quickly find you. 
 
 Also, I would recommend that you bring with you such frames like [Equinox](/equinox-mend-and-maim-build/ "Equinox Mend and Maim Build"), [Loki](/loki-invisibility-disarm-build/ "Loki Invisibility/Disarm Build"), [Oberon](/oberon-eidolon-hunter-build/ "Oberon Eidolon Hunter Build"), [Volt](/volt-discharge-build/ "Volt Discharge Build"), [Trinity](/trinity-energy-vampire-build/ "EV Trinity Build"), [Frost](/frost-avalanche-build/ "Frost Avalanche Build"), [Mesa](/mesa-peacemaker-build/ "Mesa Peacemaker Build"), and [Banshee](/banshee-resonating-quake-build/ "Banshee Resonating Quake CC Build") because it will significantly simplify your life in the Derelict.
 
