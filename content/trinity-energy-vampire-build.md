@@ -1,6 +1,6 @@
 ---
 title: Trinity Energy Vampire Build
-seoTitle: "Trinity EV Build. Trinity Energy Vampire Build. Warframe Trinity Build."
+seoTitle: "EV Trinity Build. Trinity Energy Vampire Build. Warframe Trinity Build."
 date: 2018-02-18T22:52:39+00:00
 author: warframe
 layout: post
