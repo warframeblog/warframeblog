@@ -15,8 +15,8 @@ jQuery( document ).ready(function ( $ ) {
 
 	var internalPromos = [
 		{ full: 'revenant.png', square: '', href: '/how-to-get-revenant/' },
-		{ full: 'frame-fighter.jpg', square: '', href: '/frame-fighter/'}
-		// { full: 'fortuna.jpg', square: '', href: '/fortuna/' }
+		{ full: 'frame-fighter.jpg', square: '', href: '/frame-fighter/'},
+		{ full: 'warframe-fortuna.png', square: '', href: '/fortuna/' }
 	];
 
 	var externalPromos = [
