@@ -14,6 +14,8 @@ tags:
 ---
 Hey guys. Today we're gonna take a look at the Nekros. And I've been using the exact same build for well over a year now and I haven't been able to come up with anything better than this. It's the Nekros Desecrate Build that basically feeds itself through Equilibrium mod.<!--more-->
 
+{{< promo >}}
+
 And here it is the Nekros Desecrate Build that's so good I haven't touched it in over a year and it's still really effective. The aura I'm using here is Corrosive Projection but you can swap it in whatever you want because Nekros Prime doesn't come with any aura polarity as standard. Then I'm using Health Conversion which is a mod that you can get from Cephalon Simaris on any of the relays. And what this does is it gives you 450 extra armor whenever you pick up a health orb and it stacks three times. But if you take damage it will consume one of the stacks after three seconds. Now, this doesn't work very well on a lot of frames but this build can very easily sustain all three stacks at all times giving you 1350 extra armor. And I've combined that with Vitality for a ton of effective health.
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/warframe-nekros-desecrate-build-1024x576.png" title="Warframe Nekros Desecrate Build" alt="Nekros Desecrate Build that I use" width="750" height="422" class="alignnone size-large wp-image-900" srcset="https://warframeblog.com/wp-content/uploads/2018/02/warframe-nekros-desecrate-build-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/warframe-nekros-desecrate-build-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/warframe-nekros-desecrate-build-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />

@@ -15,6 +15,8 @@ tags:
 ---
 Hey guys and welcome to another Warframe build article. As you probably know, Resonating Quake mod got changed last month and because of that today we're going to take a look at some Banshee Resonating Quake Builds and find out if the mod is still worth it or not.<!--more-->
 
+{{< promo >}}
+
 Besides Banshee Resonating Quake Build you might be interested in others [Banshee builds](https://warframeblog.com/warframe-builds/). Well, if that is the case, you should definitely check out these two builds: the [Banshee Resonance Build](https://warframeblog.com/banshee-resonance-build/) and the [Banshee Savage Silence Build](https://warframeblog.com/banshee-savage-silence-build/).
 
 Let's back to the Resonating Quake Build. At first, many people started complaining&#8230; it is a nerf, but is it really? Definitely not. Sound Quake with the Resonating Quake augment mod isn't a channeling ability anymore. Now it's a re-castable ability that still deals 20x the damage with an increased radius.

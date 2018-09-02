@@ -14,6 +14,8 @@ tags:
 ---
 Hey guys and welcome to another Warframe news article. Today I want to talk a little bit about the Rhino and Nyx Prime unvaulting that happened 24th of July. <!--more--> 
 
+{{< promo >}}
+
 So, this time around we have five packs in total. The first one is the Brains and Brawn Dual Prime Pack. 
 This will cost you 60 bucks and it has:
 

@@ -9,7 +9,9 @@ image: /wp-content/uploads/2018/03/hydroid-pilfering-swarm-build.jpg
 categories:
   - Builds
 ---
-<span>Hey guys and today we’re going to take a look at the Hydroid Pilfering Swarm Build.</span><!--more-->
+Hey guys and today we’re going to take a look at the Hydroid Pilfering Swarm Build.<!--more-->
+
+{{< promo >}}
 
 So, for the Hydroid Pilfering Swarm Build, I'm using Energy Siphon aura but it's not too necessary. It's just to make sure that I always have the energy to cast Tentacle Swarm so you can swap it for whatever you want. Then I have Primed Continuity, Augur Message, and Narrow Minded for a ton of duration so Tentacle Swarm lasts a decent amount of time which is followed up by Stretch and Cunning Drift to balance out and Narrow Minded. And this is so that the tentacles don't spawn too close together and actually cover a decent area.
 

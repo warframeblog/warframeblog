@@ -13,7 +13,9 @@ tags:
   - platinum
   - trading
 ---
-Warframe has one of the best free-to-play model in the market right now. You can earn almost every single item in this game without paying actual money with weapons, inventory space even cosmetics. Every single thing is out there for you to earn, that being said, it's not easy to earn the in-game currency - platinum.
+Warframe has one of the best free-to-play model in the market right now. You can earn almost every single item in this game without paying actual money with weapons, inventory space even cosmetics. Every single thing is out there for you to earn, that being said, it's not easy to earn the in-game currency - platinum.<!--more--> 
+
+{{< promo >}}
 
 Now, if you're looking for an article that will teach you how to get a large amount of platinum very very quickly then this is not the article you want. Over my time with playing, I've earned myself probably around 3500 plus platinum in game. Almost all of these have come in very small amounts, very very slowly. I have made a few large trades here and there but they're very few and far between. I'll be sharing my insights into what I feel is the best way to earn a steady constant amount of platinum. <!--more-->
 

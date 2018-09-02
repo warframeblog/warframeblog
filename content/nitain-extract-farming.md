@@ -27,6 +27,8 @@ For example in the Void, there are two Sabotage missions called Stribog and Mard
 
 The mission itself can be done very quickly and requires just a few minutes same goes for finding all caches, the Void is very simple for that. Solo takes around 5 minutes, but this depends on spawn points of the caches. If you have a teammate.. even better! One person for completing the objective and one for finding the caches. This saves a lot of time and you only need around 2-4 minutes.
 
+{{< promo >}}
+
 This is not the only mission, there are even more missions with a Nitain Extract reward. It's once again the mission Plato on Lua. This mission also is a decent place for farming some Forma. Because this is an exterminate mission, you can rush through the entire mission, but don't forget the caches. The Nitain Extract is in rotation C which means all of the 3 caches are required.
 
 Since the spawn point of the caches are also the same of the Sculptures, you are also able to get some of the [Ayatan Sculptures](https://warframeblog.com/how-farm-endo/).

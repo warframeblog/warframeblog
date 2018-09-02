@@ -33,4 +33,6 @@ Another way and actually the original way of obtaining the Mutalist Alad V Nav C
 
 And the third and final way of obtaining the Mutalist Alad V Nav Coordinates is by doing the Hive missions on Eris. But you need to find all three caches because the only third cache has a possibility to reward you with Mutalist Alad V Nav Coordinates. But it's only 4.51% chance which means it's actually a pretty bad way of farming the Mutalist Nav Coordinates.
 
+{{< promo >}}
+
 So, the best thing you can do to farm the Mutalist Alad V Nav Coordinates is just keeping an eye out for the infested invasions that may have them as a battle pay reward. And while you're waiting for these missions to be done or you're waiting for another invasion to show up you can farm the Orokin Derelict Defense and Orokin Derelict Survival. And that's it for the Mutalist Alad V Nav Coordinates farming guide. So, I thank you very much for reading and I will see you next time. Bye-bye.
