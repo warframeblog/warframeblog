@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" prefix="og: http://ogp.me/ns#">
+<html lang="en-us" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/WebPage">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,8 +25,8 @@
 <link rel="stylesheet" href="https://warframeblog.com/assets/css/hestia/hestia.inline.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:400,700&amp;subset=latin,latin-ext" type="text/css" media="all">
 <link rel="stylesheet" href="https://warframeblog.com/assets/css/style.css">
-	<link rel="shortcut icon" href="https://warframeblog.com/favicon.ico" type="image/x-icon" />
-	<link rel="icon" href="https://warframeblog.com/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="https://warframeblog.com/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="https://warframeblog.com/favicon.ico" type="image/x-icon"/>
 <meta property="og:title" content="Warframe News" />
 <meta property="og:description" content="Useful Warframe guides, warframe and weapon builds, Warframe resource farming guides and latest news about Warframe updates." />
 <meta property="og:type" content="website" />
@@ -40,7 +40,6 @@
 
 
 <meta property="og:site_name" content="Warframe blog" />
-
 
 
 
@@ -112,13 +111,19 @@ if (!doNotTrack) {
 			<div class="container">
 					<div class="row">
 							<div class="col-md-10 col-md-offset-1 text-center">
-									<h1 class="hestia-title">Warframe News</h1>
-									<p id="breadcrumbs-category">
-										<span xmlns:v="http://rdf.data-vocabulary.org/#">
-											<span typeof="v:Breadcrumb"><a href="https://warframeblog.com/" rel="v:url" property="v:title">Warframe Blog</a> » 
-											<span class="breadcrumb_last">Warframe News</span></span>
-										</span>
-									</p>
+								<h1 class="hestia-title">Warframe News</h1>
+								<ol class="breadcrumbs" vocab="http://schema.org/" typeof="BreadcrumbList">
+									<li property="itemListElement" typeof="ListItem">
+								    	<a property="item" typeof="WebPage" href="https://warframeblog.com/">
+								    		<span property="name">Warframe Blog</span>
+								    	</a>
+								    	<meta property="position" content="1">
+									</li> » 
+									<li property="itemListElement" typeof="ListItem">
+										<span property="name">Warframe News</span></a>
+										<meta property="position" content="2">
+									</li>
+								</ol>
 							</div>
 					</div>
 			</div>
