@@ -15,6 +15,7 @@ canonifyURLs = true
 	title = "Warframe blog"
 	description = "Useful Warframe guides, warframe and weapon builds, Warframe resource farming guides and latest news about Warframe updates."
 	seoTitle = "Warframe blog - Latest news, best builds, and fresh guides"
+	googleAdsense = "ca-pub-2537852360607581"
 	image = "/images/warframe-blog-header.jpg"
 	locale = "en_US"
 	navClasses = "navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-transparent hestia_left"

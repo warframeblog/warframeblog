@@ -15,8 +15,6 @@ tags:
 ---
 Hey guys and welcome to another warfare build. Today we’re going to take a look at Rhino Iron Skin Build.<!--more-->
 
-{{< promo >}}
-
 This is the build I think most people imagine when you mention Rhino - a beefy dude with iron skin that's running through missions not giving a damn.
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-30-00.36.51-1024x576.png" title="Rhino Iron Skin Build" alt="Rhino Iron Skin Build that I use" width="750" height="422" class="alignnone wp-image-653 size-large" srcset="https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-30-00.36.51-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-30-00.36.51-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-30-00.36.51-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />

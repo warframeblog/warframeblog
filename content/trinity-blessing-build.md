@@ -14,8 +14,6 @@ tags:
 ---
 Hey guys and today we're gonna check out Trinity Blessing Build which focuses on Blessing and it's geared more towards providing massive damage reduction as well as healing to your entire team.<!--more-->
 
-{{< promo >}}
-
 Now, for Trinity Blessing Build, I decided to go with Energy Siphon as my aura because Blessing can be pretty expensive especially if you don't have a ton of efficiency. But once again if you feel comfortable with Corrosive Projection run that instead. Now after that, I am running Primed Continuity, Constitution, and Augur Message for a ton of duration so that I don't have to cast Blessing over and over and over again to keep up the damage reduction which is followed up by two defensive mods of your choice. I'm running Vitality and Redirection here. But once again you can run whatever you want you can even run just one of them and put in another mod. Defensive mods are very subjective.
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/trinity-blessing-build-mods-1024x640.png" title="Warframe Trinity Blessing Build" alt="Trinity Blessing Build that I use" width="750" height="469" class="alignnone size-large wp-image-917" srcset="https://warframeblog.com/wp-content/uploads/2018/02/trinity-blessing-build-mods-1024x640.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/trinity-blessing-build-mods-300x188.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/trinity-blessing-build-mods-768x480.png 768w" sizes="(max-width: 750px) 100vw, 750px" />

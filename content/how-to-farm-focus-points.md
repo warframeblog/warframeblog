@@ -12,9 +12,9 @@ tags:
   - farming
   - focus
 ---
-Hey guys and welcome to another article. I want to show you a very efficient, if not the most efficient method for farming lots of Focus points, around 150000 Focus in under 5 minutes.<!--more-->
+Hey guys and welcome to another article. I want to show you a very efficient, if not the most efficient method for farming lots of Focus points, around 150000 Focus in under 5 minutes.
 
-{{< promo >}}
+<!--more-->
 
 If you may noticed, the Daily Focus Cap got increased to 250K from 100K. That's a huge difference and allows us to rank up our Focus abilities/passives even faster.
 

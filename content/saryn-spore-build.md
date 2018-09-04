@@ -15,8 +15,6 @@ tags:
 ---
 Hello everyone! Today I’m bringing you guys an updated version of Saryn Spore Build article. As all of you know update 22.20 brought a bunch of new stuff and the biggest change by far is definitely Saryn 3.0. And then Saryn 3.5 rework happens. And because of that, I decided to update this build article too.<!--more-->
 
-{{< promo >}}
-
 ## Saryn 3.0 Rework
 
 So, the Saryn 3.0 was the stuff of nightmares. This rework basically flips Saryn upside down and give her a whole new groove. It came with some good things some bad things. It sometimes might even give you a hard time modding her. And for the same reason I've put together this short article to serve as a guide, explains some things, and also show you what you have to do when it comes to modding the new Saryn.
