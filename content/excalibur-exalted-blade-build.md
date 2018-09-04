@@ -17,8 +17,6 @@ tags:
 ---
 Hey guys. And today we’re going to continue Excalibur [Builds series](https://warframeblog.com/warframe-builds/) and take a look at Excalibur Exalted Blade Build which is focused around Exalted Blade and I'm gonna show you both the normal version and the Chromatic Blade one. The reason I separated them is that you want to use a different build on your melee weapon for each one.<!--more-->
 
-{{< promo >}}
-
 So, for <span>Excalibur Exalted Blade Build, I'm using</span> Steel Charged as its aura. This is really good here because it adds a ton of mod capacity but it also increases the damage of Exalted Blade. And then I'm using Vitality and Steel Fiber for some extra tankiness which is kind of necessary because this build is designed to go up against high levels.
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/03/excalibur-exalted-blade-build-1024x576.png" title="Warframe Excalibur Exalted Blade Build" alt="Excalibur Exalted Blade Build that I use" width="750" height="422" class="alignnone size-large wp-image-1015" srcset="https://warframeblog.com/wp-content/uploads/2018/03/excalibur-exalted-blade-build-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/03/excalibur-exalted-blade-build-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/03/excalibur-exalted-blade-build-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
