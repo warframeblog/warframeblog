@@ -11,18 +11,18 @@ jobs:
                 command: |
                     sudo apt-get remove git
                     sudo apt-get update
-                    sudo apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf
-            - run:
-                name: Build git
-                command: |
-                    mkdir git-src
-                    cd git-src
-                    curl -L --progress https://github.com/git/git/archive/v2.7.1.tar.gz | tar xz
-                    cd git-2.7.1
-                    make configure ./configure && make prefix=/usr/local all
-            - run: 
-                name: Install git
-                command: cd git-src && make prefix=/usr/local install
+                    sudo apt-get install git
+            # - run:
+            #     name: Build git
+            #     command: |
+            #         mkdir git-src
+            #         cd git-src
+            #         curl -L --progress https://github.com/git/git/archive/v2.7.1.tar.gz | tar xz
+            #         cd git-2.7.1
+            #         make configure ./configure && make prefix=/usr/local all
+            # - run: 
+            #     name: Install git
+            #     command: pwd && cd git-src && make prefix=/usr/local install
             - run: git --version
             - add_ssh_keys:
                 fingerprint:
