@@ -1,0 +1,32 @@
+{
+  "name": "warframeblog",
+  "version": "1.0.0",
+  "description": "[![CircleCI](https://circleci.com/gh/warframeblog/warframeblog/tree/develop.svg?style=svg)](https://circleci.com/gh/warframeblog/warframeblog/tree/develop)",
+  "scripts": {
+    "start": "concurrently \"gulp\" \"hugo serve \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warframeblog/warframeblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warframeblog/warframeblog/issues"
+  },
+  "homepage": "https://warframeblog.com/",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "concurrently": "^4.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-inline-source": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass-magic-importer": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "uncss": "^0.16.2"
+  }
+}
