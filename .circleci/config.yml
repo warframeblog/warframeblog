@@ -9,17 +9,6 @@ jobs:
             - run:
                 name: Update git
                 command: apk update && apk add git
-            # - run:
-            #     name: Build git
-            #     command: |
-            #         mkdir git-src
-            #         cd git-src
-            #         curl -L --progress https://github.com/git/git/archive/v2.7.1.tar.gz | tar xz
-            #         cd git-2.7.1
-            #         make configure ./configure && make prefix=/usr/local all
-            # - run: 
-            #     name: Install git
-            #     command: pwd && cd git-src && make prefix=/usr/local install
             - run: git --version
             - add_ssh_keys:
                 fingerprint:
@@ -27,18 +16,15 @@ jobs:
             - run: git config --global user.email bot@warframeblog.com
             - run: git config --global user.name CircleCI
             - checkout
-            - run: pwd
             - run:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
-            - run: node -v
-            - run: npm -v
             - run:
                 name: Install dependencies
                 command: npm install
             - run:
                 name: Install Hugo
-                command: wget https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+                command: wget https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Linux-64bit.deb -O /tmp/hugo.deb && dpkg -i /tmp/hugo.deb
             - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
