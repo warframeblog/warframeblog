@@ -24,7 +24,7 @@ jobs:
                 command: npm install
             - run:
                 name: Install Hugo
-                command: wget https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Linux-64bit.deb -O /tmp/hugo.deb && dpkg -i /tmp/hugo.deb
+                command: apk update && apk add hugo
             - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
