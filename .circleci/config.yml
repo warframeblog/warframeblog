@@ -6,9 +6,9 @@ jobs:
             - image: circleci/node:latest
         working_directory: ~/warframeblog
         steps:
-            - run:
-                name: Update git
-                command: apk update && apk add git
+            # - run:
+            #     name: Update git
+            #     command: apk update && apk add git
             - run: git --version
             - add_ssh_keys:
                 fingerprint:
