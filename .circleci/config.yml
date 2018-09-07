@@ -10,6 +10,9 @@ jobs:
                 name: Update git
                 command: apk update && apk add git
             - run: git --version
+            - run:
+                name: Install OpenSSH
+                command: apk update && apk add openssh
             - add_ssh_keys:
                 fingerprint:
                     - "4d:bc:43:fc:36:51:1a:8c:4b:a9:2d:15:a6:8d:d8:34"
