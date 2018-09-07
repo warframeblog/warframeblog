@@ -20,6 +20,9 @@ jobs:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
             - run:
+                name: Install dependencies
+                command: npm install
+            - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
             - run:

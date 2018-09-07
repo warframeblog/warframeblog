@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "[![CircleCI](https://circleci.com/gh/warframeblog/warframeblog/tree/develop.svg?style=svg)](https://circleci.com/gh/warframeblog/warframeblog/tree/develop)",
   "scripts": {
-    "start": "concurrently \"gulp\" \"hugo serve \""
+    "start": "concurrently \"gulp\" \"hugo serve \"",
+    "minify": "gulp minify:markup"
   },
   "repository": {
     "type": "git",
