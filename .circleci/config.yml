@@ -22,7 +22,7 @@ jobs:
                     make configure ./configure && make prefix=/usr/local all
             - run: 
                 name: Install git
-                command: make prefix=/usr/local install
+                command: cd git-src && make prefix=/usr/local install
             - run: git --version
             - add_ssh_keys:
                 fingerprint:
