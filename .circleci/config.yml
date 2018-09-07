@@ -4,6 +4,7 @@ jobs:
     build:
         docker:
             - image: cibuilds/hugo:latest
+            - image: circleci/node:latest
         working_directory: ~/warframeblog
         steps:
             - run:
