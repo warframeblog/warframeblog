@@ -20,6 +20,8 @@ jobs:
             - run:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
+            - run: node -v
+            - run: npm -v
             - run:
                 name: Install dependencies
                 command: npm install
