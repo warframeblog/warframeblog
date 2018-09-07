@@ -7,11 +7,11 @@ jobs:
         working_directory: ~/warframeblog
         steps:
             - run:
-                name: Install add-apt-repository
-                command: sudo apt-get install python-software-properties software-properties-common
+                name: Remove git & install dependencies to build git
+                command: apt-get remove git && apt-get update && apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf
             - run:
-                name: Update git
-                command: sudo add-apt-repository ppa:git-core/ppa -y && sudo apt-get update && sudo apt-get install git -y
+                name: Build & install git
+                command: cd /tmp && curl -L --progress https://github.com/git/git/archive/v2.7.1.tar.gz | tar xz && cd git-2.7.1 && make configure ./configure && make prefix=/usr/local all
             - run: git --version
             - add_ssh_keys:
                 fingerprint:
