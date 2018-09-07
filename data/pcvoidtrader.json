@@ -1,94 +1,94 @@
 {
   "id": "5b3f70c1be87e4524f04d5ec",
-  "activation": "2018-08-24T13:00:00.000Z",
-  "expiry": "2018-08-26T13:00:00.000Z",
+  "activation": "2018-09-07T13:00:00.000Z",
+  "expiry": "2018-09-09T13:00:00.000Z",
   "character": "Baro Ki'Teer",
-  "location": "Kronia Relay (Saturn)",
+  "location": "Orcus Relay (Pluto)",
   "inventory": [
     {
-      "item": "Prisma Twin Gremlins Weapon",
-      "ducats": 500,
-      "credits": 220000
-    },
-    {
-      "item": "Primed Rifle Ammo Mutation",
-      "ducats": 400,
-      "credits": 140000
-    },
-    {
-      "item": "Primed Shotgun Ammo Mutation",
-      "ducats": 400,
-      "credits": 140000
-    },
-    {
-      "item": "Primed Pistol Ammo Mutation",
-      "ducats": 400,
-      "credits": 140000
-    },
-    {
-      "item": "Primed Regen",
-      "ducats": 300,
-      "credits": 220000
-    },
-    {
-      "item": "Detron Mara",
-      "ducats": 500,
-      "credits": 200000
-    },
-    {
-      "item": "Ki'teer Razza Synadana",
-      "ducats": 400,
-      "credits": 350000
-    },
-    {
-      "item": "Ki'teer Foros Shoulder Plates",
-      "ducats": 310,
+      "item": "Mirage Alternate Skin",
+      "ducats": 550,
       "credits": 100000
     },
     {
-      "item": "Ki'teer Foros Chest Plate",
+      "item": "Primed Fever Strike",
+      "ducats": 350,
+      "credits": 200000
+    },
+    {
+      "item": "Primed Bane Of Infested",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Bane Of Corpus",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Bane Of Grineer",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Bane Of Corrupted",
+      "ducats": 400,
+      "credits": 140000
+    },
+    {
+      "item": "Machete Wraith",
+      "ducats": 410,
+      "credits": 250000
+    },
+    {
+      "item": "Prisma Shade",
+      "ducats": 500,
+      "credits": 300000
+    },
+    {
+      "item": "Prisma Jet Sentinel Wings",
+      "ducats": 300,
+      "credits": 200000
+    },
+    {
+      "item": "Prisma Koi Sentinel Tail",
+      "ducats": 200,
+      "credits": 200000
+    },
+    {
+      "item": "Prisma Mech Head Sentinel Mask",
       "ducats": 175,
       "credits": 200000
     },
     {
-      "item": "Ki'teer Foros Leg Plates",
-      "ducats": 225,
+      "item": "Ki'teer Atmos Diadem",
+      "ducats": 525,
+      "credits": 375000
+    },
+    {
+      "item": "Prisma Yamako Syandana",
+      "ducats": 400,
+      "credits": 250000
+    },
+    {
+      "item": "Pyra Sugatra",
+      "ducats": 100,
+      "credits": 200000
+    },
+    {
+      "item": "Liset Prisma Skin",
+      "ducats": 120,
       "credits": 150000
     },
     {
-      "item": "Elixis Odonata Skin",
-      "ducats": 350,
-      "credits": 250000
+      "item": "Corrupted Heavy Gunner Ball",
+      "ducats": 100,
+      "credits": 40000
     },
     {
-      "item": "Excalibur Archwing Bobble Head",
-      "ducats": 90,
-      "credits": 200000
-    },
-    {
-      "item": "Kavat Pet Mask",
-      "ducats": 500,
-      "credits": 200000
-    },
-    {
-      "item": "Kavat Pet Wings",
-      "ducats": 400,
-      "credits": 250000
-    },
-    {
-      "item": "Kavat Sentinel Tail",
-      "ducats": 400,
-      "credits": 250000
-    },
-    {
-      "item": "Ki'teer Sugatra",
-      "ducats": 250,
-      "credits": 250000
-    },
-    {
-      "item": "Dragon Mod Pack",
-      "ducats": 500,
-      "credits": 100000
+      "item": "Nexus Gene-masking Kit",
+      "ducats": 200,
+      "credits": 300000
     },
     {
       "item": "Sands Of Inaros",
@@ -98,6 +98,6 @@
   ],
   "psId": "5b3f70c1be87e4524f04d5ec18",
   "active": true,
-  "startString": "-1m 15s",
-  "endString": "1d 23h 58m 44s"
+  "startString": "3m 16s",
+  "endString": "2d 3m 16s"
 }
