@@ -8,7 +8,7 @@ jobs:
         steps:
             - run:
                 name: Remove git & install dependencies to build git
-                command: apt-get remove git && apt-get update && apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf
+                command: sudo apt-get remove git && sudo apt-get update && sudo apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf
             - run:
                 name: Build & install git
                 command: cd /tmp && curl -L --progress https://github.com/git/git/archive/v2.7.1.tar.gz | tar xz && cd git-2.7.1 && make configure ./configure && make prefix=/usr/local all
