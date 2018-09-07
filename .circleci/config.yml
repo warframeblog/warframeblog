@@ -3,15 +3,12 @@ version: 2
 jobs:
     build:
         docker:
-            - image: circleci/node:latest
+            - image: node:alpine
         working_directory: ~/warframeblog
         steps:
             - run:
-                name: Remove git & install dependencies to build git
-                command: |
-                    sudo apt-get remove git
-                    sudo apt-get update
-                    sudo apt-get install git
+                name: Update git
+                command: apk update && apk add git
             # - run:
             #     name: Build git
             #     command: |
