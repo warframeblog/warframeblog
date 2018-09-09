@@ -18,6 +18,8 @@
   },
   "homepage": "https://warframeblog.com/",
   "devDependencies": {
+    "angled-edges": "^2.0.0",
+    "bulma": "^0.7.1",
     "clean-css": "^4.2.1",
     "concurrently": "^4.0.1",
     "gulp": "^3.9.1",
@@ -29,5 +31,6 @@
     "node-sass-magic-importer": "^5.2.0",
     "rimraf": "^2.6.2",
     "uncss": "^0.16.2"
-  }
+  },
+  "dependencies": {}
 }
