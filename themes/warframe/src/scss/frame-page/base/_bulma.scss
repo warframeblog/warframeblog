@@ -1,4 +1,11 @@
-$primary: #2e3141;
+$primary: #353849;
+$navbar-background-color: #2e3141;
+$navbar-item-hover-background-color: $navbar-background-color;
+$navbar-item-active-background-color: $navbar-background-color;
+$navbar-dropdown-background-color: $navbar-background-color;
+$navbar-dropdown-border-top: $navbar-background-color;
+$navbar-dropdown-arrow: #ffffff;
+$navbar-tab-hover-background-color: $navbar-background-color;
 
 @import '~bulma/sass/utilities/_all';
 @import '~bulma/sass/base/_all';

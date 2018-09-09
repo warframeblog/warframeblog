@@ -4,3 +4,7 @@
 		display: flex;
 	}
 }
+
+.hero .navbar.is-not-transparent {
+	background: $navbar-background-color;
+}

@@ -11,4 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			});
 		});
 	}
+
+	window.addEventListener('scroll', event => {
+		event.preventDefault();
+
+		if(window.scrollY > 30) {
+			const mainNavbar = document.getElementById('main-navbar');
+			mainNavbar.classList.add('is-not-transparent');
+		} else {
+			const mainNavbar = document.getElementById('main-navbar');
+			mainNavbar.classList.remove('is-not-transparent');
+		}
+	});
 });
