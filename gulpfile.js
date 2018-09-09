@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const rimraf = require('rimraf');
 const sass = require('gulp-sass');
 const htmlmin = require('gulp-htmlmin');
+const autoprefixer = require('gulp-autoprefixer');
 const nodeSassMagicImporter = require('node-sass-magic-importer');
 
 const stylesDestDirectory = 'themes/warframe/static/assets/css';
@@ -14,8 +15,11 @@ gulp.task('clean:styles', () => {
 gulp.task('styles', ['clean:styles'], () => {
 	gulp.src(stylesSource)
 		.pipe(sass({
-			importer: nodeSassMagicImporter
+			includePaths: ['node_modules'],
+			importer: nodeSassMagicImporter(),
+			// outputStyle: 'compressed'
 		}).on('error', sass.logError))
+		.pipe(autoprefixer())
 		.pipe(gulp.dest(stylesDestDirectory));
 });
 
