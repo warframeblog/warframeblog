@@ -1,0 +1,29 @@
+@import '~angled-edges/_angled-edges';
+
+.frame-ability {
+	background-color: #4c5c96;
+
+//4c5c96
+// 45558d
+//#3f4e85
+//35457d
+	@include angled-edge('outside top', 'upper left', #4c5c96);
+	@include angled-edge('outside bottom', 'lower left', #4c5c96);
+}
+
+.frame-second-ability {
+	background-color: #45558d;
+	position: relative;
+	margin-top: 98px;
+
+//4c5c96
+// 45558d
+//#3f4e85
+//35457d
+	@include angled-edge('outside top', 'upper right', #45558d);
+	@include angled-edge('outside bottom', 'lower right', #45558d);
+}
+
+.abiility-description {
+	color: $white;
+}
