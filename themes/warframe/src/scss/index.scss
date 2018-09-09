@@ -1,0 +1,48 @@
+@import '~bulma/bulma';
+@import '~angled-edges/_angled-edges';
+
+
+// TODO move to base
+.columns.is-reverse-mobile {
+	@include mobile {
+		flex-direction: column-reverse;
+		display: flex;
+	}
+}
+
+h1.frame-page-title, h3.ability-title {
+	padding-bottom: 1em;
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+.frame-hero {
+	background-color: #2e3141;
+	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://i.redd.it/h476ie38fbez.jpg");
+	background-size: auto, cover;
+	background-position: center, center;
+	position: relative;
+}
+
+.frame-ability {
+	background-color: #4c5c96;
+
+//4c5c96
+// 45558d
+//#3f4e85
+//35457d
+	@include angled-edge('outside top', 'upper left', #4c5c96);
+	@include angled-edge('outside bottom', 'lower left', #4c5c96);
+}
+
+.frame-second-ability {
+	background-color: #45558d;
+	position: relative;
+	margin-top: 99px;
+
+//4c5c96
+// 45558d
+//#3f4e85
+//35457d
+	@include angled-edge('outside top', 'upper right', #45558d);
+	@include angled-edge('outside bottom', 'lower right', #45558d);
+}

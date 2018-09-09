@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Warframe</title>
+	<link rel="stylesheet" href="/assets/css/index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic" type="text/css" media="all">
+</head>
+<body>
+	<section class="hero is-primary is-large frame-hero angled-bottom-left">
+		<div class="hero-head">
+			{{- partial "navbar.html" . -}}
+		</div>
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-offset-2 is-8">
+						<h1 class="frame-page-title">Excalibur</h1>
+						<p>
+							Excalibur is one of the three starter Warframes a new player can select. Excalibur is a master swordsman and his abilities allow him to bring forth his summoned blade, cutting enemies in his path, while also presenting options for mobility and defense.
+						</p>
+						<!-- <p class="subtitle">
+							Excalibur’s passive is called Swordsmanship. He receives a bonus to melee damage and attack speed while wielding a sword type melee weapon. Swords, dual swords, rapiers and nikanas all benefit from his passive.
+						</p> -->					
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="hero-foot">
+		</div>
+	</section>
+	<section class="section frame-ability frame-first-ability">
+		<div class="container has-text-right">
+			<div class="columns is-reverse-mobile">
+				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
+					{{- partial "frame-page/frame-ability-info.html" . -}}
+				</div>
+				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
+					{{- partial "frame-page/frame-ability-image.html" . -}}
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section frame-ability frame-second-ability">
+		<div class="container has-text-left">
+			<div class="columns">
+				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
+					{{- partial "frame-page/frame-ability-image.html" . -}}
+				</div>
+				<div class="column is-5-desktop is-7-tablet is-12-mobile">
+					{{- partial "frame-page/frame-ability-info.html" . -}}
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
