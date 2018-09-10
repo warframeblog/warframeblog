@@ -14,6 +14,7 @@ tags:
   - builds
   - excalibur
   - warframe
+  - ExcaliburBuilds
 ---
 <span>Hey guys. </span><span>And today we’re going to continue Excalibur <a href="https://warframeblog.com/warframe-builds/">Builds series</a> and take a look at Excalibur Radial Javelin Build.</span><!--more-->
 

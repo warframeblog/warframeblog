@@ -14,6 +14,7 @@ tags:
   - builds
   - excalibur
   - warframe
+  - ExcaliburBuilds
 ---
 Hey guys. And today we’re going to start a new Excalibur [Builds series](https://warframeblog.com/warframe-builds/). And let's start it off with Excalibur Radial Blind Build!<!--more-->
 

@@ -85,6 +85,22 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quaerat nesciunt facere, nisi id corrupti deserunt enim pariatur nobis numquam, velit. Commodi vitae libero, omnis rem eveniet earum quo veritatis.</p>
 				</div>
 			</div>
+			<div class="columns is-multiline">
+				{{ $buildsTag := (slice "ExcaliburBuilds") }}
+				{{ range $index, $element := first 6 (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
+					{{ if (modBool $index 2) }}
+						<div class="column is-offset-2 is-4">
+							<h1>{{ $element.Title }}</h1>
+						</div>
+					{{ else }}
+						<div class="column is-4">
+							<h1>{{ $element.Title }}</h1>
+						
+						</div>
+					{{ end }} 
+				{{ end }}
+				
+			</div>
 		</div>
 	</section>
 

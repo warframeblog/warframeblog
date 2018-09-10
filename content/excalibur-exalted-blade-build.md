@@ -14,6 +14,7 @@ tags:
   - builds
   - excalibur
   - warframe
+  - ExcaliburBuilds
 ---
 Hey guys. And today we’re going to continue Excalibur [Builds series](https://warframeblog.com/warframe-builds/) and take a look at Excalibur Exalted Blade Build which is focused around Exalted Blade and I'm gonna show you both the normal version and the Chromatic Blade one. The reason I separated them is that you want to use a different build on your melee weapon for each one.<!--more-->
 
