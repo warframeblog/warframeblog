@@ -1,0 +1,7 @@
+@import '~angled-edges/_angled-edges';
+
+.frame-builds-section {
+	background-color: #2e3141;
+	margin-top: 98px;
+	@include angled-edge('outside top', 'upper left', #2e3141);
+}
