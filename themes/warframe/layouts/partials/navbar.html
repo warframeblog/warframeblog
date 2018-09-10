@@ -1,7 +1,7 @@
 <nav id="main-navbar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 	<div class="container">
 		<div class="navbar-brand">
-			<a class="navbar-item" href="https://bulma.io">
+			<a class="navbar-item" href="{{ .Site.BaseURL }}">
 				Warframe Blog
 			</a>
 
@@ -16,18 +16,18 @@
 			</div>
 
 			<div class="navbar-end">
-				<a class="navbar-item">News</a>
+				<a class="navbar-item" href="/warframe-news/">News</a>
 				<div class="navbar-item has-dropdown is-hoverable">
-					<a class="navbar-link">Guides</a>
+					<a class="navbar-link" href="/guides/">Guides</a>
 					<div class="navbar-dropdown">
-						<a class="navbar-item">Warframe Fortuna</a>
+						<a class="navbar-item" href="/fortuna/">Warframe Fortuna</a>
 					</div>
 				</div>
-				<a class="navbar-item">Farming</a>
+				<a class="navbar-item" href="/farming/">Farming</a>
 				<div class="navbar-item has-dropdown is-hoverable">
-					<a class="navbar-link">Builds</a>
+					<a class="navbar-link" href="/builds/">Builds</a>
 					<div class="navbar-dropdown">
-						<a class="navbar-item">Warframe Builds</a>
+						<a class="navbar-item" href="/warframe-builds/">Warframe Builds</a>
 					</div>
 				</div>
 			</div>
