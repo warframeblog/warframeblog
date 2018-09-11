@@ -90,12 +90,11 @@
 				{{ range $index, $element := first 6 (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
 					{{ if (modBool $index 2) }}
 						<div class="column is-offset-2 is-4">
-							<h1>{{ $element.Title }}</h1>
+							{{- partial "frame-page/frame-build-card.html" . -}}
 						</div>
 					{{ else }}
 						<div class="column is-4">
-							<h1>{{ $element.Title }}</h1>
-						
+							{{- partial "frame-page/frame-build-card.html" . -}}
 						</div>
 					{{ end }} 
 				{{ end }}

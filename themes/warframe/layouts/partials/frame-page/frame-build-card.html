@@ -1,0 +1,13 @@
+<div class="card">
+	<div class="card-image">
+		<figure class="image is-16by9">
+			<img src="{{ .Params.image }}" alt="{{ .Title }}">
+		</figure>
+	</div>
+	<div class="card-content">
+		<h2 class="frame-page-title">Slash Dash</h2>
+		<p class="abiility-description">
+			{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} {{end}}
+		</p>
+	</div>
+</div>
