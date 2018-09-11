@@ -1,13 +1,15 @@
-<div class="card">
+<article class="card">
 	<div class="card-image">
 		<figure class="image is-16by9">
-			<img src="{{ .Params.image }}" alt="{{ .Title }}">
+			<a href="{{ .Permalink }}" title="{{ .Title }}"><img src="{{ .Params.image }}" alt="{{ .Title }}"></a>
 		</figure>
 	</div>
 	<div class="card-content">
-		<h2 class="frame-page-title">Slash Dash</h2>
+		<h2 class="frame-page-title">
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
+		</h2>
 		<p class="abiility-description">
-			{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} {{end}}
+			{{ .Summary | plainify | safeHTML | truncate 120 }}
 		</p>
 	</div>
-</div>
+</article>
