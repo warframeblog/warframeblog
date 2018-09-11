@@ -2,6 +2,7 @@
 
 .frame-ability {
 	position: relative;
+	padding-top: 200px;
 //4c5c96
 // 45558d
 //#3f4e85
@@ -10,30 +11,29 @@
 
 .frame-first-ability {
 	background-color: #4c5c96;
+	padding-top: 100px;
+	padding-bottom: 50px;
 
-	@include angled-edge('outside top', 'upper left', #4c5c96);
+	// @include angled-edge('outside top', 'upper left', #4c5c96);
 	@include angled-edge('outside bottom', 'lower left', #4c5c96);
 }
 
 .frame-second-ability {
 	background-color: #455489;
-	margin-top: 98px;
-	@include angled-edge('outside top', 'upper right', #455489);
+	// @include angled-edge('outside top', 'upper right', #455489);
 	@include angled-edge('outside bottom', 'lower right', #455489);
 }
 
 .frame-third-ability {
 	background-color: #3f4c7c;
-	margin-top: 98px;
 
-	@include angled-edge('outside top', 'upper left', #3f4c7c);
+	// @include angled-edge('outside top', 'upper left', #3f4c7c);
 	@include angled-edge('outside bottom', 'lower left', #3f4c7c);
 }
 
 .frame-fourth-ability {
 	background-color: #38446f;
-	margin-top: 98px;
-	@include angled-edge('outside top', 'upper right', #38446f);
+	// @include angled-edge('outside top', 'upper right', #38446f);
 	@include angled-edge('outside bottom', 'lower right', #38446f);
 }
 
