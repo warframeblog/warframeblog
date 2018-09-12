@@ -32,11 +32,12 @@
 	<section class="section frame-ability frame-first-ability">
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
+				{{ $frameFirstAbility := $.Site.Data.frames.excalibur.firstAbility}}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.firstability) -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
 				</div>
 				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" . -}}
+					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameFirstAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -44,11 +45,12 @@
 	<section class="section frame-ability frame-second-ability">
 		<div class="container has-text-left">
 			<div class="columns">
+				{{ $frameSecondAbility := $.Site.Data.frames.excalibur.secondAbility }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" . -}}
+					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
 				</div>
 				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.secondability) -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -56,11 +58,12 @@
 	<section class="section frame-ability frame-third-ability">
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
+				{{ $frameThirdAbility := $.Site.Data.frames.excalibur.thirdAbility }}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.thirdability) -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
 				</div>
 				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" . -}}
+					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -68,11 +71,12 @@
 	<section class="section frame-ability frame-fourth-ability">
 		<div class="container has-text-left">
 			<div class="columns">
+				{{ $frameFourthAbility := $.Site.Data.frames.excalibur.fourthAbility }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" . -}}
+					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
 				</div>
 				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.fourthability) -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
 				</div>
 			</div>
 		</div>
