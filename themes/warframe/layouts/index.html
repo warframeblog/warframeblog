@@ -4,11 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Warframe</title>
 	<link rel="stylesheet" href="/assets/css/index.css">
+	<link rel="stylesheet" href="/assets/css/builds.css"><!-- Temporarily -->
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic" type="text/css" media="all">
 </head>
-<body>
+<body style="background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url('/images/frames/excalibur.jpg');">
 	{{ $frame := index .Site.Data.frames "excalibur" }}
-	<section class="hero is-primary is-medium frame-hero-section" style="background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url('/assets/img/bg.jpg');">
+	<section class="hero is-primary is-medium frame-hero-section">
 		<div class="hero-head">
 			{{- partial "navbar.html" . -}}
 		</div>
@@ -103,7 +105,16 @@
 			</div>
 		</div>
 	</section>
-
+	<footer class="section footer" >
+		<div class="container">
+			<div class="columns has-text-left">
+				<div class="column is-offset-2 is-8">
+					<h2 class="frame-page-title">Explore more warframes</h2>
+				</div>
+			</div>
+				
+		</div>
+	</footer>
 	<script src='/assets/js/navbar.js'></script>
 </body>
 </html>

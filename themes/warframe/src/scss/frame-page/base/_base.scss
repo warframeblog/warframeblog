@@ -2,3 +2,11 @@
 
 @import '_bulma';
 @import '_typography';
+
+// TODO move it somewhere else
+body {
+	background-color: #2e3141;
+	background-size: auto, cover;
+	background-attachment: fixed, fixed;
+	background-position: center, center;
+}
