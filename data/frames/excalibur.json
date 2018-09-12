@@ -1,4 +1,6 @@
 {
+  "name": "Excalibur",
+  "passive": "<strong>Excalibur’s passive</strong> is called Swordsmanship. He receives a bonus to melee damage and attack speed while wielding a sword type melee weapon. Swords, dual swords, rapiers and nikanas all benefit from his passive.",
   "firstAbility": {
     "name": "Slash Dash",
     "description": "His first ability is Slash Dash. Excalibur dashes between enemies in front of him and cuts them with his exalted blade. Enemies that survive the strike will be knocked down. If there are no enemies in front of Excalibur, he will perform a dash in the direction you’re looking at. During Slash Dash, Excalibur is immune to damage and if you press the melee attack button during the dash, Excalibur will stop and instantly equip his melee weapon. ",

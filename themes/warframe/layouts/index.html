@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic" type="text/css" media="all">
 </head>
 <body>
+	{{ $frame := index .Site.Data.frames "excalibur" }}
 	<section class="hero is-primary is-medium frame-hero-section" style="background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url('/assets/img/bg.jpg');">
 		<div class="hero-head">
 			{{- partial "navbar.html" . -}}
@@ -19,20 +20,16 @@
 						<p>
 							Excalibur is one of the three starter Warframes a new player can select. Excalibur is a master swordsman and his abilities allow him to bring forth his summoned blade, cutting enemies in his path, while also presenting options for mobility and defense.
 						</p>
-						<p>
-							<strong>Excalibur’s passive</strong> is called Swordsmanship. He receives a bonus to melee damage and attack speed while wielding a sword type melee weapon. Swords, dual swords, rapiers and nikanas all benefit from his passive.
-						</p>					
+						<p>{{ $frame.passive | safeHTML }}</p>					
 					</div>
 				</div>
 			</div>			
-		</div>
-		<div class="hero-foot">
 		</div>
 	</section>
 	<section class="section frame-ability frame-first-ability">
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
-				{{ $frameFirstAbility := $.Site.Data.frames.excalibur.firstAbility}}
+				{{ $frameFirstAbility := $frame.firstAbility}}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
 					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
 				</div>
@@ -45,7 +42,7 @@
 	<section class="section frame-ability frame-second-ability">
 		<div class="container has-text-left">
 			<div class="columns">
-				{{ $frameSecondAbility := $.Site.Data.frames.excalibur.secondAbility }}
+				{{ $frameSecondAbility := $frame.secondAbility }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
 					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
 				</div>
@@ -58,7 +55,7 @@
 	<section class="section frame-ability frame-third-ability">
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
-				{{ $frameThirdAbility := $.Site.Data.frames.excalibur.thirdAbility }}
+				{{ $frameThirdAbility := $frame.thirdAbility }}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
 					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
 				</div>
@@ -71,7 +68,7 @@
 	<section class="section frame-ability frame-fourth-ability">
 		<div class="container has-text-left">
 			<div class="columns">
-				{{ $frameFourthAbility := $.Site.Data.frames.excalibur.fourthAbility }}
+				{{ $frameFourthAbility := $frame.fourthAbility }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
 					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
 				</div>
@@ -85,7 +82,7 @@
 		<div class="container">
 			<div class="columns has-text-left">
 				<div class="column is-offset-2 is-8">
-					<h2 class="frame-page-title">Excalibur Builds</h2>
+					<h2 class="frame-page-title">{{ $frame.name }} Builds</h2>
 				</div>
 			</div>
 			<div class="columns is-multiline">
