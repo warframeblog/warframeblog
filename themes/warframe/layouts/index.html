@@ -33,7 +33,7 @@
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" . -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.firstability) -}}
 				</div>
 				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
 					{{- partial "frame-page/frame-ability-image.html" . -}}
@@ -48,7 +48,7 @@
 					{{- partial "frame-page/frame-ability-image.html" . -}}
 				</div>
 				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" . -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.secondability) -}}
 				</div>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" . -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.thirdability) -}}
 				</div>
 				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
 					{{- partial "frame-page/frame-ability-image.html" . -}}
@@ -72,7 +72,7 @@
 					{{- partial "frame-page/frame-ability-image.html" . -}}
 				</div>
 				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" . -}}
+					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $.Site.Data.frames.excalibur.fourthability) -}}
 				</div>
 			</div>
 		</div>
