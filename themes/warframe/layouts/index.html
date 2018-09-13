@@ -83,7 +83,7 @@
 	<section class="section frame-builds-section">
 		<div class="container">
 			<div class="columns has-text-left">
-				<div class="column is-offset-2 is-8">
+				<div class="column is-offset-2-desktop is-8-desktop is-12-mobile">
 					<h2 class="frame-page-title">{{ $frame.name }} Builds</h2>
 					<p>{{ $frame.affectedByMods }}</p>
 					<p>So, all things considered, here are some builds you may want to try on your {{ $frame.name }}:</p>
@@ -93,11 +93,11 @@
 				{{ $buildsTag := (slice "ExcaliburBuilds") }}
 				{{ range $index, $element := first 6 (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
 					{{ if (modBool $index 2) }}
-						<div class="column is-offset-2 is-4">
+						<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
 							{{- partial "frame-page/frame-build-card.html" . -}}
 						</div>
 					{{ else }}
-						<div class="column is-4">
+						<div class="column is-4-desktop is-12-mobile">
 							{{- partial "frame-page/frame-build-card.html" . -}}
 						</div>
 					{{ end }} 
