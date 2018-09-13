@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "passive": "",
+  "abilities": [
+    {
+      "name": "",
+      "description": "",
+      "image": "/images/abilities/"
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": "/images/abilities/"
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": "/images/abilities/"
+    },
+    {
+      "name": "",
+      "description": "",
+      "image": "/images/abilities/"
+    }
+  ],
+  "affectedByMods": ""
+}

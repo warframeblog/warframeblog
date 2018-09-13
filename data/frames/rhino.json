@@ -1,0 +1,25 @@
+{
+  "name": "Rhino",
+  "passive": "",
+  "firstAbility": {
+    "name": "",
+    "description": "",
+    "image": ""
+  },
+  "secondAbility": {
+    "name": "",
+    "description": "",
+    "image": ""
+  },
+  "thirdAbility": {
+    "name": "",
+    "description": "",
+    "image": ""
+  },
+  "fourthAbility": {
+    "name": "",
+    "description": "",
+    "image": ""
+  },
+  "affectedByMods": ""
+}

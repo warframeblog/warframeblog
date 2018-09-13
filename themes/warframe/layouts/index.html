@@ -31,7 +31,7 @@
 	<section class="section frame-ability frame-first-ability">
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
-				{{ $frameFirstAbility := $frame.firstAbility}}
+				{{ $frameFirstAbility := index $frame.abilities 0 }}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
 					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
 				</div>
@@ -44,7 +44,7 @@
 	<section class="section frame-ability frame-second-ability">
 		<div class="container has-text-left">
 			<div class="columns">
-				{{ $frameSecondAbility := $frame.secondAbility }}
+				{{ $frameSecondAbility := index $frame.abilities 1 }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
 					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
 				</div>
@@ -57,7 +57,7 @@
 	<section class="section frame-ability frame-third-ability">
 		<div class="container has-text-right">
 			<div class="columns is-reverse-mobile">
-				{{ $frameThirdAbility := $frame.thirdAbility }}
+				{{ $frameThirdAbility := index $frame.abilities 2 }}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
 					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
 				</div>
@@ -70,7 +70,7 @@
 	<section class="section frame-ability frame-fourth-ability">
 		<div class="container has-text-left">
 			<div class="columns">
-				{{ $frameFourthAbility := $frame.fourthAbility }}
+				{{ $frameFourthAbility := index $frame.abilities 3 }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
 					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
 				</div>

@@ -1,25 +1,27 @@
 {
   "name": "Excalibur",
   "passive": "<strong>Excalibur’s passive</strong> is called Swordsmanship. He receives a bonus to melee damage and attack speed while wielding a sword type melee weapon. Swords, dual swords, rapiers and nikanas all benefit from his passive.",
-  "firstAbility": {
-    "name": "Slash Dash",
-    "description": "His first ability is Slash Dash. Excalibur dashes between enemies in front of him and cuts them with his exalted blade. Enemies that survive the strike will be knocked down. If there are no enemies in front of Excalibur, he will perform a dash in the direction you’re looking at. During Slash Dash, Excalibur is immune to damage and if you press the melee attack button during the dash, Excalibur will stop and instantly equip his melee weapon. ",
-    "image": "/images/abilities/excalibur/slash-dash.png"
-  },
-  "secondAbility": {
-    "name": "Radial Blind",
-    "description": "Excalibur’s second ability is Radial Blind. Excalibur releases an intense flash of light from his exalted blade that blinds enemies around him. Blind enemies are not able to see you but they still might run for cover or fire at your last know location. Blinded enemies are vulnerable to melee finishers.",
-    "image": "/images/abilities/excalibur/radial-blind.png"
-  },
-  "thirdAbility": {
-    "name": "Radial Javelin",
-    "description": "Excalibur’s third ability is called Radial Javelin. Excalibur summons several javelins that are launched against enemies around him, damaging them. If enemies hit by a javelin survive they will be momentarily stunned.",
-    "image": "/images/abilities/excalibur/radial-javelin.png"
-  },
-  "fourthAbility": {
-    "name": "Exalted Blade",
-    "description": "<p>Excalibur’s fourth ability is called Exalted Blade. Excalibur summons his ethereal sword and uses it as a melee weapon. The exalted blade behaves like a normal melee weapon. You can use normal attacks, wall attacks and slam attacks with each attack increasing the melee combo counter. You can also perform slide attacks. These will perform a smaller radial blind at the end of the slide attack, at the cost of some energy. </p> <p>While Exalted Blade is active you have access to a unique melee stance, with its own combo attacks. Attacks with the ethereal blade will create an energy wave in the direction you're aiming with the same damage as the attack that created it. These waves will go through enemies and will eventually dissipate, dealing less damage the more they travel. While Exalted Blade is active, Slash Dash will also produce these energy waves after each hit.  While Exalted Blade is active, Excalibur will auto block frontal attacks. If using melee channeling, the auto block can parry enemy melee attacks.</p>",
-    "image": "/images/abilities/excalibur/exalted-blade.png"
-  },
+  "abilities": [
+    {
+      "name": "Slash Dash",
+      "description": "His first ability is Slash Dash. Excalibur dashes between enemies in front of him and cuts them with his exalted blade. Enemies that survive the strike will be knocked down. If there are no enemies in front of Excalibur, he will perform a dash in the direction you’re looking at. During Slash Dash, Excalibur is immune to damage and if you press the melee attack button during the dash, Excalibur will stop and instantly equip his melee weapon. ",
+      "image": "/images/abilities/excalibur/slash-dash.png"
+    },
+    {
+      "name": "Radial Blind",
+      "description": "Excalibur’s second ability is Radial Blind. Excalibur releases an intense flash of light from his exalted blade that blinds enemies around him. Blind enemies are not able to see you but they still might run for cover or fire at your last know location. Blinded enemies are vulnerable to melee finishers.",
+      "image": "/images/abilities/excalibur/radial-blind.png"
+    },
+    {
+      "name": "Radial Javelin",
+      "description": "Excalibur’s third ability is called Radial Javelin. Excalibur summons several javelins that are launched against enemies around him, damaging them. If enemies hit by a javelin survive they will be momentarily stunned.",
+      "image": "/images/abilities/excalibur/radial-javelin.png"
+    },
+    {
+      "name": "Exalted Blade",
+      "description": "<p>Excalibur’s fourth ability is called Exalted Blade. Excalibur summons his ethereal sword and uses it as a melee weapon. The exalted blade behaves like a normal melee weapon. You can use normal attacks, wall attacks and slam attacks with each attack increasing the melee combo counter. You can also perform slide attacks. These will perform a smaller radial blind at the end of the slide attack, at the cost of some energy. </p> <p>While Exalted Blade is active you have access to a unique melee stance, with its own combo attacks. Attacks with the ethereal blade will create an energy wave in the direction you're aiming with the same damage as the attack that created it. These waves will go through enemies and will eventually dissipate, dealing less damage the more they travel. While Exalted Blade is active, Slash Dash will also produce these energy waves after each hit.  While Exalted Blade is active, Excalibur will auto block frontal attacks. If using melee channeling, the auto block can parry enemy melee attacks.</p>",
+      "image": "/images/abilities/excalibur/exalted-blade.png"
+    }
+  ],
   "affectedByMods": "Ability Strength mods affect the damage of Slash Dash, Radial Javelin and Exalted Blade. Besides these mods, Slash Dash and Exalted Blade’s damage is affected by melee damage and elemental mods on your equipped melee weapon and the melee combo multiplier. His passive will also contribute to the damage of Slash Dash if you have a sword equipped and will always work with Exalted Blade since his ethereal blade is classified as a sword. Ability Range mods affect Slash Dash’s range and the radius of Radial Blind and Radial Javelin. Ability Duration mods affect the duration of Radial Blind. Ability Duration and Range mods will also affect Exalted Blade’s blind during a slide attack."
 }
