@@ -19,7 +19,9 @@
   "homepage": "https://warframeblog.com/",
   "devDependencies": {
     "angled-edges": "^2.0.0",
+    "axios": "^0.18.0",
     "bulma": "^0.7.1",
+    "cheerio": "^1.0.0-rc.2",
     "clean-css": "^4.2.1",
     "concurrently": "^4.0.1",
     "gulp": "^3.9.1",
