@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warframes on Warframe Blog</title>
+    <link>https://warframeblog.com/warframes/</link>
+    <description>Recent content in Warframes on Warframe Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Sep 2018 00:41:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://warframeblog.com/warframes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Excalibur</title>
+      <link>https://warframeblog.com/warframes/excalibur/</link>
+      <pubDate>Sun, 16 Sep 2018 00:41:50 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframes/excalibur/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
