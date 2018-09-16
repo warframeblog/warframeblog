@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/assets/css/frame-page/index.css">
 {{- end -}}
 {{- define "body" -}}
-<body style="background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url('/images/frames/excalibur.jpg');">
+<body style="background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
 	{{ $frame := index .Site.Data.frames "excalibur" }}
 	<section class="hero is-primary is-medium frame-hero-section">
 		<div class="hero-head">
@@ -16,10 +16,8 @@
 			<div class="container">
 				<div class="columns">
 					<div class="column is-offset-2 is-8">
-						<h1 class="frame-page-title">Excalibur</h1>
-						<p>
-							Excalibur is one of the three starter Warframes a new player can select. Excalibur is a master swordsman and his abilities allow him to bring forth his summoned blade, cutting enemies in his path, while also presenting options for mobility and defense.
-						</p>
+						<h1 class="frame-page-title">{{ .Title }}</h1>
+						<p>{{ .Params.description }}</p>
 						<p>{{ $frame.passive | safeHTML }}</p>					
 					</div>
 				</div>
