@@ -76,8 +76,8 @@ axios.all(buildUrls().map(getFrameDataRequest))
     		const path = join(FRAME_FOLDER, frameData.title.toLowerCase());
 			if (!fs.existsSync(path)){
 				fs.mkdirSync(path);
+	    		saveAbilityImagesToDisk(path, frameData.abilities);
+		    	console.log(`Ability images for ${frameData.title} were saved`);
 			}
-    		saveAbilityImagesToDisk(path, frameData.abilities);
-	    	console.log(`Ability images for ${frameData.title} were saved`);
     	}
     }).catch(e => console.error(e));

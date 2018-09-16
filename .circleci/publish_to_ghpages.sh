@@ -13,8 +13,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo
-npm run minify
+npm start
 
 find ./public/images -name ".git" -type f -delete
 find ./public/wp-content -name ".git" -type f -delete
