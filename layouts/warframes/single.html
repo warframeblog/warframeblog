@@ -88,7 +88,7 @@
 				</div>
 			</div>
 			<div class="columns is-multiline">
-				{{ $buildsTag := (slice "ExcaliburBuilds") }}
+				{{ $buildsTag := (slice (print $frame.name "Builds")) }}
 				{{ range $index, $element := first 6 (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
 					{{ if (modBool $index 2) }}
 						<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
