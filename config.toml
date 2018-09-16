@@ -23,6 +23,7 @@ canonifyURLs = true
 	category = "categories"
 [permalinks]
 	categories = "/:slug/"
+	warframes = "/:section/:slug/"
 [sitemap]
 	changefreq = "daily"
 	filename = "sitemap.xml"

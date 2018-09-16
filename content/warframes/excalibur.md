@@ -5,5 +5,6 @@ description: 'Excalibur is one of the three starter Warframes a new player can s
 date: 2018-09-16T00:41:50+00:00
 author: warframe
 layout: warframes
+permalink: /warframes/excalibur/
 image: /images/frames/excalibur.jpg
 ---
