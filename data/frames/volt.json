@@ -1,0 +1,27 @@
+{
+  "name": "Volt",
+  "passive": "Volt’s passive is Static Discharge. Whenever Volt travels along the ground, he will build static energy which adds extra Electricity damage to Volt’s next weapon attack or offensive ability cast.",
+  "abilities": [
+    {
+      "name": "Shock",
+      "description": "His first ability is called Shock. Volt launches an electric projectile towards an area that chains between enemies, stunning and inflicting Electricity damage.",
+      "image": "/images/abilities/volt/shock.png"
+    },
+    {
+      "name": "Speed",
+      "description": "Volt’s second ability is Speed. Volt energizes the area around him, giving himself and any allies within range increased movement speed, reload speed and melee attack speed.",
+      "image": "/images/abilities/volt/speed.png"
+    },
+    {
+      "name": "Electric shield",
+      "description": "<p>His third ability is called Electric Shield. Volt creates a shield made of electricity that protects against enemy fire. Additionally, any bullets or projectiles fired through the shield by Volt of his allies will gain additional Electricity and Critical damage. Volt can deploy a maximum of 6 shields at any given time. If Volt deploys a seventh shield, the oldest one will dissipate. Firing through multiple shields at the same time will stack the Electricity damage. While the shield can block enemy fire, it is not a physical barrier, allies and enemies can pass freely through it. Casting Shock on an Electric Shield will electrify it, dealing Electricity damage to any enemy that passes through the shield.</p> <p> Additionally, Volt can pick up shields that have been deployed in order to protect himself while moving. The shield becomes smaller and Volt is only able to use his secondary and melee weapons. He also becomes slower. Carrying a shield will drain energy but only while Volt is moving. Volt will also knock down any enemies hit by the shield while he is sprinting. The shield can be put down again using the same button used to pick it up.</p>",
+      "image": "/images/abilities/volt/electric-shield.png"
+    },
+    {
+      "name": "Discharge",
+      "description": "Volt’s fourth ability is called Discharge. He emits an electric pulse around him that stuns enemies caught by it. Enemies caught by the pulse will also emit Electricity damage, damaging nearby enemies. After a few seconds, all enemies that were caught by the pulse will take Electricity damage over time.",
+      "image": "/images/abilities/volt/discharge.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Shock and Discharge and the speed increase of Speed. Ability Range mods affect the chaining range of Shock, the range of Speed’s buff and the range of Discharge’s pulse. Ability Duration mods affect the duration of Speed and Electric Shield and also affect the duration of Discharge’s damage over time component. This concludes Volt’s Warframe Spotlight. Thank you for watching and I will see you all next time."
+}

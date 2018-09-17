@@ -14,6 +14,7 @@ tags:
   - builds
   - volt
   - warframe
+  - VoltBuilds
 ---
 Hey guys and today we’re gonna check out Volt Speed Build.<!--more-->
 

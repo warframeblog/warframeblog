@@ -14,6 +14,7 @@ tags:
   - volt
   - builds
   - warframe
+  - VoltBuilds
 ---
 
 Hey guys and today we’re gonna take a look at Volt Eidolon Hunter Build that I personally really enjoy using for fighting the Eidolons.<!--more-->

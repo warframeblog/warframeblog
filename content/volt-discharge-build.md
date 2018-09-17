@@ -16,6 +16,7 @@ tags:
   - builds
   - volt
   - warframe
+  - VoltBuilds
 ---
 Hey guys and today we’re going to take a look at the Volt Discharge Build.<!--more-->
 
