@@ -13,6 +13,7 @@ tags:
   - equinox
   - farming
   - focus
+  - EquinoxBuilds
 ---
 Hey guys and today we're gonna take a look at Equinox Focus Farm Build. Equinox is probably the best focus farming warframe in the entire game at the moment. But don't be fooled by that he's not just a focus farmer he can do a lot of other stuff as well. But about that, we will talk in another article.<!--more-->
 

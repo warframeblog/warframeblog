@@ -12,6 +12,7 @@ tags:
   - banshee
   - builds
   - warframe
+  - BansheeBuilds
 ---
 Hey guys and today we're going to take a look at Banshee and Banshee Prime specifically the Banshee Resonance Build which is a fantastic build that you can use in all kinds of different missions. It's kind of like the most versatile one and it's my most used Banshee build by far.<!--more-->
 

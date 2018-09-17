@@ -12,6 +12,7 @@ tags:
   - builds
   - equinox
   - warframe
+  - EquinoxBuilds
 ---
 <span>Hey guys and today we’re gonna take a look at Equinox Mend and Maim Build.</span><!--more-->
 

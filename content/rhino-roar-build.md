@@ -12,6 +12,7 @@ tags:
   - builds
   - rhino
   - warframe
+  - RhinoBuilds
 ---
 <span>Hey guys and welcome to another warfare build. Today we’re going to take a look at Rhino </span>Roar Build and I love this build for [hunting the Teralyst in the Plains of Eidolon](https://warframeblog.com/how-kill-eidolon-teralyst-basics/) . So, let's get into it.<!--more-->
 

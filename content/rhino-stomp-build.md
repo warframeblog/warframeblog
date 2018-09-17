@@ -12,6 +12,7 @@ tags:
   - builds
   - rhino
   - warframe
+  - RhinoBuilds
 ---
 Hey guys and welcome to another warfare build. Today we’re going to take a look at Rhino Stomp Build.<!--more-->
 

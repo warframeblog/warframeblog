@@ -12,6 +12,7 @@ tags:
   - banshee
   - builds
   - warframe
+  - BansheeBuilds
 ---
 Hey guys and today we're going to take a look at Banshee and Banshee Prime specifically the Banshee Savage Silence Build which is my favorite [focus farming](https://warframeblog.com/how-to-farm-focus-points/) setup because it's actually fun to use. It's nice and fast..<!--more-->
 

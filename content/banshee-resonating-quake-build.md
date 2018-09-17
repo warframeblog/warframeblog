@@ -12,6 +12,7 @@ tags:
   - banshee
   - builds
   - warframe
+  - BansheeBuilds
 ---
 Hey guys and welcome to another Warframe build article. As you probably know, Resonating Quake mod got changed last month and because of that today we're going to take a look at some Banshee Resonating Quake Builds and find out if the mod is still worth it or not.<!--more-->
 
