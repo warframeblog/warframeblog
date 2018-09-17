@@ -7,7 +7,7 @@
 {{- end -}}
 {{- define "body" -}}
 <body style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
-	{{ $frame := index .Site.Data.frames "excalibur" }}
+	{{ $frame := index .Site.Data.frames (lower .Title) }}
 	<section class="hero is-primary is-medium frame-hero-section">
 		<div class="hero-head">
 			{{- partial "frame-page/navbar.html" . -}}
