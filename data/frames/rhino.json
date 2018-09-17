@@ -1,25 +1,27 @@
 {
   "name": "Rhino",
-  "passive": "",
-  "firstAbility": {
-    "name": "",
-    "description": "",
-    "image": ""
-  },
-  "secondAbility": {
-    "name": "",
-    "description": "",
-    "image": ""
-  },
-  "thirdAbility": {
-    "name": "",
-    "description": "",
-    "image": ""
-  },
-  "fourthAbility": {
-    "name": "",
-    "description": "",
-    "image": ""
-  },
-  "affectedByMods": ""
+  "passive": "Rhino’s passive is Heavy Landing. When falling from a high distance, Rhino will create a shockwave upon landing, damaging nearby enemies and knocking them down.",
+  "abilities": [
+    {
+      "name": "Rhino Charge",
+      "description": "His first ability is Rhino Charge. Rhino charges forward, trampling any enemies in his path. This ability hits enemies in front and within a small radius of the charge’s path, dealing damage and knocking them down. During a charge, Rhino is immune to all incoming damage. Rhino Charge can be combined with itself. If cast within a certain amount of time of the previous Rhino Charge, the next one will deal more damage over a longer distance and will cost less energy. These effects are capped on the third cast of Rhino Charge within the combo window.",
+      "image": "/images/abilities/rhino/rhino-charge.png"
+    },
+    {
+      "name": "Iron Skin",
+      "description": "Rhino’s second ability is Iron Skin. When casting this ability, Rhino creates a layer of protective skin that protects against all incoming damage and status effects. Iron Skin has its own health pool. When this health is depleted, Iron Skin is broken and Rhino will be able to take damage again. Iron Skin has a short period of invulnerability when cast. During this period, all damage taken from enemies is absorbed by Iron Skin, increasing its total health pool.",
+      "image": "/images/abilities/rhino/iron-skin.png"
+    },
+    {
+      "name": "Roar",
+      "description": "Rhino’s third ability is Roar. Rhino lets out a massive roar that increases the damage of all allies within range. Rhino is also affected by this buff.",
+      "image": "/images/abilities/rhino/roar.png"
+    },
+    {
+      "name": "Rhino Stomp",
+      "description": "Rhino’s fourth ability is Rhino Stomp. Rhino stomps the ground with such force that all enemies within range take damage and get knocked up into the air. While enemies hit by this ability are falling, they will be put into stasis, only hitting the ground when Stomp’s effect ends. Enemies affected by Rhino Stomp take extra damage from Rhino Charge.",
+      "image": "/images/abilities/rhino/rhino-stomp.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Rhino Charge and Rhino Stomp, the damage multiplier of Roar and the amount of health Iron Skin has. Additionally, Iron Skin’s health is also affected by armor mods and by absorbing enemy damage for the first few seconds after it is cast. Ability Range mods affect the range and impact radius of Rhino Charge, the radius of Roar and Rhino Stomp. Ability Duration mods affect the duration of Rhino Charge’s combo window, the duration of Roar and the stasis duration of Rhino Stomp."
 }
