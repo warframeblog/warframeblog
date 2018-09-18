@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - trinity
+  - TrinityBuilds
 ---
 Hey guys and today we're gonna check out Trinity Blessing Build which focuses on Blessing and it's geared more towards providing massive damage reduction as well as healing to your entire team.<!--more-->
 

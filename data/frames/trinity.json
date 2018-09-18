@@ -1,0 +1,27 @@
+{
+  "name": "Trinity",
+  "passive": "Trinity’s passive is Triage. She is able to revive fallen allies faster and from further away.",
+  "abilities": [
+    {
+      "name": "Well of Life",
+      "description": "Her first ability is Well of Life. Trinity marks an enemy which will then be incapacitated. This enemy’s health will be fully restored and will be massively increased while Well of Life lasts. Allies that do damage to this enemy will have their health restored by a percentage of the damage they inflict. This ability expires after a period of time or when a certain amount of health has been restored. When Well of Life expires, if the marked enemy is still alive, its health will be restored to the same value it was before being affected by this ability.",
+      "image": "/images/abilities/trinity/well-of-life.png"
+    },
+    {
+      "name": "Energy Vampire",
+      "description": "Trinity’s second ability is Energy Vampire. Trinity marks an enemy which will become staggered while this ability lasts. The enemy will emit 4 energy pulses across Energy Vampire’s duration, which restore energy to any allies within its radius. Enemies affected by Energy Vampire will also take damage with each pulse. Killing an enemy affected by this ability will release all remaining energy pulses at once.",
+      "image": "/images/abilities/trinity/energy-vampire.png"
+    },
+    {
+      "name": "Link",
+      "description": "Trinity’s third ability is Link. Trinity creates links between her and nearby enemies, gaining damage reduction and redirecting any damage and status effects back to the linked enemies. Links are created while the ability is active and there are enemies in range. If the linked enemies die or they are far enough away from Trinity, the links will be lost. New links will be created whenever Trinity gets closer to enemy units.",
+      "image": "/images/abilities/trinity/link.png"
+    },
+    {
+      "name": "Blessing",
+      "description": "Trinity’s fourth ability is Blessing. Trinity instantly restores the health and shields of any allies within affinity range, while giving them a damage resistance buff.",
+      "image": "/images/abilities/trinity/blessing.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the percentage of damage that is converted to healing of Well of Life as well as the maximum health that can be restored before the ability ends. They also affect the damage and energy restored of Energy Vampire and the amount of healing, shields restored and damage reduction from Blessing. Ability Range mods affect the cast range of Well of Life, the cast range and the energy pulse’s radius of Energy Vampire and the range of Link. Ability Duration mods affect the duration of Well of Life, Energy Vampire, Link and the damage resistance buff from blessing. One thing to note with Energy Vampire is that the number of pulses is always the same and the time between them depends on the ability’s duration. The longer it lasts the longer the time between each pulse is."
+}

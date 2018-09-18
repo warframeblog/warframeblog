@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - trinity
+  - TrinityBuilds
 ---
 Hey guys and today we're gonna check out Trinity EV Build which focuses on Energy Vampire ability and the Vampire Leech augment mod and it provides a lot of energy and over shields to your entire team and can also do some really nice burst healing with the Blessing.<!--more-->
 
