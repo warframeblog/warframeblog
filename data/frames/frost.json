@@ -1,0 +1,27 @@
+{
+  "name": "Frost",
+  "passive": "Frost’s passive is Cryogenic. Any enemy that strikes Frost with a melee weapon has a chance to be temporarily frozen.",
+  "abilities": [
+    {
+      "name": "Freeze",
+      "description": "His first ability is Freeze. Frost launches an icy projectile towards a targeted area. Enemies hit by this projectile will take Cold damage and be temporarily frozen. If the projectile hits a surface it creates an ice patch that slows down any enemy that enters it. Freeze’s projectile will also deal Cold damage and slow down all enemies near its point of impact.",
+      "image": "/images/abilities/frost/freeze.png"
+    },
+    {
+      "name": "Ice Wave",
+      "description": "Frost’s second ability is Ice Wave. Frost creates a wave of ice shards that will deal Cold damage and slow down any enemies it hits.",
+      "image": "/images/abilities/frost/ice-wave.png"
+    },
+    {
+      "name": "Snow Globe",
+      "description": "<p>Frost’s third ability is Snow Globe. Frost creates a protective snow globe in a location. Anyone within the globe will be protected from outside gunfire, including enemies. Gunfire from inside the globe is not blocked. Snow Globe is not a physical barrier. Anyone can freely pass through it but enemies that go inside will be slowed down. Casting Snow Globe will also freeze and push back any enemies within its radius. If these enemies hit an obstacle they will take damage. Only four Snow Globes can exist at the same time. When a fifth one is created, the oldest one will disappear. If you need to manually remove a Snow Globe, casting Freeze on the outside of one will destroy it and deal Cold damage to all enemies within it.</p><p>Snow Globe has its own health. When it is depleted the globe is destroyed. When Frost casts this ability, the globe is invulnerable for a few moments, absorbing all enemy fire and adding the amount of damage absorbed to its total health. Snow Globe’s health also takes Frost’s armor into account. If you cast a Snow Globe inside an existing globe, the older globe will be removed and their total health will be combined into the new one. For each new cast the invulnerability period is reactivated. You can see the percentage of health remaining in the ability’s icon.</p>",
+      "image": "/images/abilities/frost/snow-globe.png"
+    },
+    {
+      "name": "Avalanche",
+      "description": "Frost’s fourth ability is Avalanche. Frost summons an avalanche that momentarily freezes enemies around him and will also reduce their armor. After a few moments, all frozen enemies will take Cold damage. Any enemy that dies from this will shatter, dealing Cold damage to nearby enemies while also slowing them down.",
+      "image": "/images/abilities/frost/avalanche.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Freeze, Ice Wave and Avalanche. It also affects the armor reduction of Avalanche. Armor mods affect the health of Snow Globe and Ability Strength mods affect the armor multiplier that’s used to increase it. The damage from Snow Globe’s explosion when you cast Freeze on it is also affected by these mods. Ability Range mods affect the length and width of Ice Wave, the radius of Snow Globe and Avalanche’s freeze and shatter radius. Ability Duration mods affect the duration of Freeze’s effects and the freezing duration of Avalanche."
+}

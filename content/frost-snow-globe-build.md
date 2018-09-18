@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - frost
+  - FrostBuilds
 ---
 Hello everyone. Today we're going to continue the Frost Builds series and check out Frost Snow Globe Build!<!--more-->
 

@@ -11,6 +11,7 @@ categories:
 tags:
   - frost
   - warframe
+  - FrostBuilds
 ---
 Hey guys and today we’re gonna take a look at Frost Avalanche Build. This is my favorite Frost Build and it's focused around the Icy Avalanche augment mod.<!--more-->
 

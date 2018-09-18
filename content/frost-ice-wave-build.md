@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - frost
+  - FrostBuilds
 ---
 Hey guys. And today we're going to start a new Frost Builds series.<!--more-->
 
