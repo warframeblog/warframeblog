@@ -1,0 +1,27 @@
+{
+  "name": "Banshee",
+  "passive": "Banshee’s passive is Suppressor. All weapons equipped by Banshee and her equipped Sentinel are silent.",
+  "abilities": [
+    {
+      "name": "Sonic Boom",
+      "description": "Banshee’s first ability is Sonic Boom. Banshee emits a sonic shockwave in front of her that will damage and knock back enemies. Enemies that cannot be knocked back will be momentarily stunned or knocked down.",
+      "image": "/images/abilities/banshee/sonic-boom.png"
+    },
+    {
+      "name": "Sonar",
+      "description": "Banshee’s second ability is Sonar. Banshee emits a pulse that will track all enemies around her on the map and will expose their weak spots. These weak spots will be highlighted on each enemy affected by Sonar. When targeting these highlighted areas, the damage done to them will be multiplied.",
+      "image": "/images/abilities/banshee/sonar.png"
+    },
+    {
+      "name": "Silence",
+      "description": "Banshee’s third ability is Silence. Banshee creates an aura around her that will stun and silence any enemy who enters it. When an enemy first comes into contact with the aura they are momentarily stunned. After the stun effect ends they will be unable to hear, limiting their perception. This allows Banshee to act more stealthily preventing affected enemies hearing the sounds of combat. Affected enemies will remain under Silence’s effects while the ability lasts, even if they leave the silencing aura.",
+      "image": "/images/abilities/banshee/silence.png"
+    },
+    {
+      "name": "Sound Quake",
+      "description": "Banshee’s fourth ability is Sound Quake. Banshee plants her hands on the ground, emitting ultrasonic reverberations around her, staggering and dealing Blast damage to affected enemies. This damage diminishes with distance. While Sound Quake is active, Banshee’s energy will be constantly drained.",
+      "image": "/images/abilities/banshee/sound-quake.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Sonic Boom and Sound Quake, and the damage multiplier of Sonar. Ability Range mods affect the range of Sonic Boom and the radius of Sonar, Silence and Sound Quake. Ability Duration mods affect the duration of Sonar and Silence, and the channeling cost of Sound Quake."
+}
