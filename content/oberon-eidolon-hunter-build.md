@@ -8,6 +8,9 @@ permalink: /oberon-eidolon-hunter-build/
 image: /wp-content/uploads/2018/03/oberon-eidolon-hunter-build.jpg
 categories:
   - Builds
+tags:
+  - oberon
+  - OberonBuilds
 ---
 Hey guys and today we’re gonna take a look at the Oberon Eidolon Hunter Build.<!--more-->
 

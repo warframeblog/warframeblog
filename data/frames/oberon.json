@@ -1,0 +1,27 @@
+{
+  "name": "Oberon",
+  "passive": "Oberon’s passive is Beastmaster. Allied pets get extra health, shields and armor and one instant revive per mission.",
+  "abilities": [
+    {
+      "name": "Smite",
+      "description": "Oberon’s first ability is Smite. Oberon smites a target, inflicting Radiation and Impact damage and knocking them down. Additionally, this target is afflicted with a Radiation status effect, making it attack its allies. After the initial target takes damage, it emits several projectiles that seek out enemies around it. These projectiles deal Radiation damage plus a percentage of the original target’s maximum health and shields, divided among the number of projectiles. The projectiles will also stagger their target and inflict a Puncture status effect, reducing their damage for a short duration. They also have a low chance to inflict a Radiation status effect. These projectiles have a limited duration and will dissipate if they do not find a target.",
+      "image": "/images/abilities/oberon/smite.png"
+    },
+    {
+      "name": "Hallowed Ground",
+      "description": "Oberon’s second ability is Hallowed Ground. Oberon creates a sanctified area on the ground, on an angle in front of him, causing damage to enemies that enter it. Enemies will take Radiation damage over time and have a chance to be afflicted by a Radiation status effect. Additionally, allies that stand on Hallowed Ground become immune to any negative status effect. Several hallowed grounds can be active at the same time, each with its own duration, up to a set maximum amount. Placing a new one after reaching that maximum will remove the oldest one.",
+      "image": "/images/abilities/oberon/hallowed-ground.png"
+    },
+    {
+      "name": "Renewal",
+      "description": "<p>Oberon’s third ability is Renewal. Oberon releases healing energy that heals nearby allies and regenerates health over time. This ability creates a permanent field in the area where it is cast. Allies close to Oberon when he casts Renewal will be healed and they will also get a health regeneration buff that remains while Renewal is active, regardless of range. Allies that enter the field after the ability is cast will also get the regeneration buff. Fully healed allies will also be healed of any negative status effect.</p><p> Anyone that stands on Hallowed Ground with the Renewal buff will get a bonus to armor while Renewal is active, even if they leave the Hallowed Ground. If Renewal is deactivated the armor buff will persist for short duration. While active, Renewal will also slowdown the bleedout timer of any incapacitated allies. Renewal will constantly drain Oberon’s energy for each ally affected and will last until it is deactivated or Oberon runs out of energy.</p>",
+      "image": "/images/abilities/oberon/renewal.png"
+    },
+    {
+      "name": "Reckoning",
+      "description": "Oberon’s fourth ability is Reckoning. Oberon lifts enemies around him and slams them into the ground. The targets of this ability take Radiation and Impact damage, are knocked down and are afflicted by a Radiation status effect. If the targets are already affected by a radiation status effect they will take extra damage. Enemies that die to this ability have a chance to spawn a health orb. Enemies that survive the impact will emit a flash of light, blinding nearby enemies for a short duration. If the surviving enemies were standing in Hallowed Ground they will also have their armor permanently reduced.",
+      "image": "/images/abilities/oberon/reckoning.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the base damage of Smite and its number of projectiles, the damage and status chance of Hallowed Ground, the initial heal and health over time of Renewal and its armor bonus, and the damage of Reckoning. Ability Range mods affect the cast range of Smite and its projectiles homing range, the radius and angle of Hallowed Ground, the field radius of Renewal and the radius of Reckoning and its blinding effect. Ability Duration mods affect the lifespan of Smite’s projectiles, the duration of Hallowed Ground, the energy drain per second of Renewal and the duration of its armor buff when it is deactivated. It also affects Renewal’s bleedout timer slowdown and the blind duration of Reckoning."
+}
