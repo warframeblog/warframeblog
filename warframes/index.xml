@@ -6,10 +6,28 @@
     <description>Recent content in Warframes on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Sep 2018 15:21:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Sep 2018 14:37:46 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/warframes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mesa</title>
+      <link>https://warframeblog.com/warframes/mesa/</link>
+      <pubDate>Wed, 19 Sep 2018 14:37:46 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframes/mesa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nekros</title>
+      <link>https://warframeblog.com/warframes/nekros/</link>
+      <pubDate>Wed, 19 Sep 2018 10:21:26 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframes/nekros/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Frost</title>
@@ -17,7 +35,7 @@
       <pubDate>Tue, 18 Sep 2018 15:21:25 +0000</pubDate>
       
       <guid>https://warframeblog.com/warframes/frost/</guid>
-      <description>Frost’s third ability is Snow Globe. Frost creates a protective snow globe in a location. Anyone within the globe will be protected from outside gunfire, including enemies. Gunfire from inside the globe is not blocked. Snow Globe is not a physical barrier. Anyone can freely pass through it but enemies that go inside will be slowed down. Casting Snow Globe will also freeze and push back any enemies within its radius.</description>
+      <description></description>
     </item>
     
     <item>

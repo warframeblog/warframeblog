@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/warframes/mesa/</loc>
+    <lastmod>2018-09-19T14:37:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/warframes/nekros/</loc>
+    <lastmod>2018-09-19T10:21:26+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/frost/</loc>
     <lastmod>2018-09-18T15:21:25+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -907,14 +921,14 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-09-18T15:21:25+00:00</lastmod>
+    <lastmod>2018-09-19T14:37:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/warframes/</loc>
-    <lastmod>2018-09-18T15:21:25+00:00</lastmod>
+    <lastmod>2018-09-19T14:37:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
