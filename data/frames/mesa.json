@@ -1,0 +1,27 @@
+{
+  "name": "Mesa",
+  "passive": "Mesa’s passive is Marksman’s Dexterity. Mesa gets a health bonus if she does not have a melee weapon equipped and she gains buffs to secondary weapons, a reload speed buff if they’re one handed and a fire rate bonus if they’re dual weapons.",
+  "abilities": [
+    {
+      "name": "Ballistic Battery",
+      "description": "Mesa’s first ability is Ballistic Battery. When it's activated, Mesa will store a percentage of damage caused by her guns. When cast again, Mesa’s next shot will unleash the absorbed damage. There's a maximum amount of damage Mesa can absorb with this ability.",
+      "image": "/images/abilities/mesa/ballistic-battery.png"
+    },
+    {
+      "name": "Shooting Gallery",
+      "description": "Mesa’s second ability is Shooting Gallery. Mesa creates two energy lassos, one around her and another one around an ally. The lasso around the ally will periodically transfer between Mesa’s allies while the other will stay with her. While this ability lasts, the lasso will give Mesa and the current affected ally a bonus to weapon damage. Furthermore, each lasso will continuously jam the weapons of nearby enemies. These enemies will then stand still to attempt to fix their weapons. Melee units will instead be stunned for a short duration.",
+      "image": "/images/abilities/mesa/shooting-gallery.png"
+    },
+    {
+      "name": "Shatter Shield",
+      "description": "Mesa’s third ability is Shatter Shield. Mesa creates a shield around her that reduces the damage of incoming bullets and projectiles and reflects the damage back to her attackers.",
+      "image": "/images/abilities/mesa/shatter-shield.png"
+    },
+    {
+      "name": "Peacemaker",
+      "description": "Mesa’s fourth ability is Peacemaker. Mesa draws her Regulator pistols and guns down her foes. When this ability is activated Mesa becomes immobile and draws her Regulators. A focus ring will appear on the screen around Mesa. Holding the fire button will cause Mesa to auto target and shoot enemies inside the focus ring. With each shot taken the ring will become smaller, reducing the effective area Mesa can target. Peacemaker’s damage will be amplified as the Regulators are fired until it reaches a maximum value. The rate of fire will also ramp up with each shot. All of this lasts until the ability ends. Peacemaker drains energy per second and will last until Mesa runs out of energy or the ability is deactivated manually.",
+      "image": "/images/abilities/mesa/peacemaker.png"
+    }
+  ],
+  "affectedByMods": "Ability strength mods affect the percentage of damage absorbed by Ballistic Battery and its maximum stored damage, the damage bonus of Shooting Gallery, the damage reduction of Shatter Shield and the damage bonus of Peacemaker. The damage of Peacemaker can also be increased by modding Mesa’s Regulator pistols. Ability Range mods affect the stun range of Shooting Gallery. They also affect the bullet reflection range of Shatter Shield. Ability Duration mods affect the duration of Shooting Gallery, Shatter Shield and the energy drain of Peacemaker."
+}
