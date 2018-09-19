@@ -12,6 +12,7 @@ tags:
   - builds
   - saryn
   - warframe
+  - SarynBuilds
 ---
 Hello everyone! Today I’m bringing you guys an updated version of Saryn Spore Build article. As all of you know update 22.20 brought a bunch of new stuff and the biggest change by far is definitely Saryn 3.0. And then Saryn 3.5 rework happens. And because of that, I decided to update this build article too.<!--more-->
 

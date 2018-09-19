@@ -30,7 +30,7 @@
 - [ ] [Octavia](https://warframeblog.com/warframes/octavia/ "Warframe Octavia")
 - [ ] [Revenant](https://warframeblog.com/warframes/revenant/ "Warframe Revenant")
 - [X] [Rhino](https://warframeblog.com/warframes/rhino/ "Warframe Rhino")
-- [ ] [Saryn](https://warframeblog.com/warframes/saryn/ "Warframe Saryn")
+- [X] [Saryn](https://warframeblog.com/warframes/saryn/ "Warframe Saryn")
 - [X] [Trinity](https://warframeblog.com/warframes/trinity/ "Warframe Trinity")
 - [ ] [Titania](https://warframeblog.com/warframes/titania/ "Warframe Titania")
 - [ ] [Valkyr](https://warframeblog.com/warframes/valkyr/ "Warframe Valkyr")
