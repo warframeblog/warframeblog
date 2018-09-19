@@ -10,7 +10,21 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/warframes/oberon/</loc>
+    <lastmod>2018-09-19T14:37:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/banshee/</loc>
+    <lastmod>2018-09-19T14:37:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/warframes/saryn/</loc>
     <lastmod>2018-09-19T14:37:42+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
