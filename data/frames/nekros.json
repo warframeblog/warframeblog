@@ -1,0 +1,27 @@
+{
+  "name": "Nekros",
+  "passive": "Nerkros’ passive is Soul Siphon. When enemies die around Nekros, he will regenerate a little of his health.",
+  "abilities": [
+    {
+      "name": "Soul Punch",
+      "description": "Nekros’ first ability is Soul Punch. Nekros creates a telekinetic projectile that will damage and stun a single target. This target’s soul will be ejected from its body, becoming a projectile. This soul projectile will damage all enemies in its path and will dissipate when it hits a surface, dealing damage to enemies around its point of contact.",
+      "image": "/images/abilities/nekros/soul-punch.png"
+    },
+    {
+      "name": "Terrify",
+      "description": "Nekros’ second ability is Terrify. Nekros casts fear into the heart of enemies around him, causing them to run for their lives. Enemies affected by this ability are unable to attack and will run away. They are also more vulnerable to attacks, having reduced armor. This ability can be recast while active and will refresh its duration on affected enemies. The armor reduction effect will stack with multiple casts.",
+      "image": "/images/abilities/nekros/terrify.png"
+    },
+    {
+      "name": "Desecrate",
+      "description": "Nekros’ third ability is Desecrate. Nekros creates an aura around him that has a chance to turn enemy corpses into additional loot. This bonus loot can be anything that is part of the enemy’s own loot table. While Desecrate is active, it will drain energy for each corpse consumed. The ability lasts while Nekros has energy or until it’s deactivated.",
+      "image": "/images/abilities/nekros/desecrate.png"
+    },
+    {
+      "name": "Shadows of the Dead",
+      "description": "Nekros’ fourth ability is Shadows of the Dead. Nekros creates several shadow copies of his most recently killed enemies to fight for him, prioritizing the strongest. These copies are just like they were in life and gain bonus damage, health and shields. They are also more likely to be targeted by enemies. Each shadow will lose a percentage of their health every second while active. The shadows last until they die, either from the health loss over time or due to enemy fire. Casting the ability again while it is active will refresh each shadow’s shields and health and will summon them to Nekros’ side if they are not close enough. It will also summon more shadows until you reach the ability’s maximum shadow capacity.",
+      "image": "/images/abilities/nekros/shadows-of-the-dead.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Soul Punch’s initial projectile, the number of affected enemies and armor reduction of Terrify and the bonus damage, health and shields of Shadows of the Dead. Ability Range mods affect the cast range of Soul Punch and the radius of Terrify and Desecrate. Ability Duration mods affect the duration of Terrify and the health drain per second of Shadows of the Dead."
+}

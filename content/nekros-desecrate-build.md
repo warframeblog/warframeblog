@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - nekros
+  - NekrosBuilds
 ---
 Hey guys. Today we're gonna take a look at the Nekros. And I've been using the exact same build for well over a year now and I haven't been able to come up with anything better than this. It's the Nekros Desecrate Build that basically feeds itself through Equilibrium mod.<!--more-->
 
