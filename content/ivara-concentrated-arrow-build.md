@@ -8,6 +8,8 @@ permalink: /ivara-concentrated-arrow-build/
 image: /wp-content/uploads/2018/04/warframe-ivara-concentrated-arrow-build.jpg
 categories:
   - Builds
+tags:
+  - IvaraBuilds
 ---
 Hey guys and welcome to another Warframe build article. Update 22.17.3 came out with four Augment Mods. The most interesting one is definitely the mod for Ivara - Concentrated Arrow.<!--more-->
 

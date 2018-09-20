@@ -1,0 +1,27 @@
+{
+  "name": "Hydroid",
+  "passive": "Hydroid's passive is Deep Tendril. Every melee slam attack has a chance to summon a tentacle from the deep. These tentacles will grab and thrash enemies around inflicting damage. There may only be a few of these tentacles active at the same time.",
+  "abilities": [
+    {
+      "name": "Tempest Barrage",
+      "description": "Hydroid's first stability is Tempest Barrage. Hydroid targets an area and calls down an artillery barrage of water projectiles dealing damage and knocking down enemies around them. The ability button can be held to charge Tempest Barrage. This results in increased damage and duration at the cost of more energy. It also highlights the targeted area, allowing free aim before casting the ability.",
+      "image": "/images/abilities/hydroid/tempest-barrage.png"
+    },
+    {
+      "name": "Tidal Surge",
+      "description": "Hydroid's second ability is Tidal Surge. Hydroid transforms into water and surges forward with increased speed as a massive wave. Enemies hit by the wave are ragdolled and take damage. While traveling as a wave Hydroid is immune to damage.",
+      "image": "/images/abilities/hydroid/tidal-surge.png"
+    },
+    {
+      "name": "Undertow",
+      "description": "<p>Hydroid's third ability is Undertow. Hydroid transforms into a pool of water becoming invulnerable. Enemies that step onto the pool are submerged and begin drowning, taking damage over time which will keep increasing while enemies remains submerged. The damage over time increase applies to each individual enemy inside the pool. Hydroid's allies can shoot into the pool to do some damage to the enemies inside. This damage is distributed evenly. When submerged enemies die they are released from inside the pool. They are also released if the ability is deactivated.</p><p>While Undertow is active, Hydroid can pressed the primary attack button while aiming at an enemy in range to spawn a water tendril that grabs that enemy and pools it inside the pool at the cost of some energy. Hydroid skills can be cast while Undertow is active. Tempest Barrage can damage enemies inside the pool, and Tidal Surge will allow Hydroid to remain in pool form but he won't travel as far. Speaking of travel, Hydroid can actually move in pool form at the cost of some energy. Depending on the distance traveled, pressing the sprint button will make Hydroid move slightly faster.</p>",
+      "image": "/images/abilities/hydroid/undertow.png"
+    },
+    {
+      "name": "Tentacle Swarm",
+      "description": "Hydroid's fourth ability is Tentacle Swarm. Hydroid summons a creature from the deep, causing several tentacles to emerge from all surfaces within a targeted area. This ability can be charged by holding down the cast button. This increases the spawn area and the number of tentacles spawned at the cost of extra energy. Tentacles will deal damage when they emerge and when they disappear into the grounds. They will also grab enemies, flailing them around while dealing damage over time. Casting Tentacle Swarm, while Undertow is active will cause the tentacles to emerge centered in the pool and they will inflict more damage than normal.",
+      "image": "/images/abilities/hydroid/tentacle-swarm.png"
+    }
+  ],
+  "affectedByMods": "The ability strength mods affect the damage of Tempest Barrage, Tidal Surge, the base damage and damage over time increase of Undertow and the damage of Tentacle Swarm. Ability Range mods affect the explosion radius of Tempest Barrages projectiles, the contact radius of Tidal Surge, the radius of Undertow pool, and its tentacle grab range, and the spawn radius of Tentacle Swarm. Ability duration mods affect duration of Tempest Barrage, the wave speed of Tidal Surge, the energy channeling costs of Undertow, and the duration of Tentacle Swarm."
+}

@@ -8,6 +8,8 @@ permalink: /hydroid-pilfering-swarm-build/
 image: /wp-content/uploads/2018/03/hydroid-pilfering-swarm-build.jpg
 categories:
   - Builds
+tags:
+  - HydroidBuilds
 ---
 <span>Hey guys and today we’re going to take a look at the Hydroid Pilfering Swarm Build.</span><!--more-->
 

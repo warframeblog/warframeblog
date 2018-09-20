@@ -1,0 +1,27 @@
+{
+  "name": "Ember",
+  "passive": "Ember’s passive is Ignition. If Ember takes Heat damage and becomes on fire, her abilities will deal more damage and Ember will regenerate energy over time. For this to occur Ember needs to take Heat damage from enemies or from environmental hazards. It can also be achieved by utilizing self-damaging weapons with heat damage.",
+  "abilities": [
+    {
+      "name": "Fireball",
+      "description": "Ember’s first ability is Fireball. Ember launches a fiery projectile towards an area that deals Heat damage to enemies hit and sets them on fire. The affected area will be on fire for a few moments, dealing Heat damage to enemies that pass through it. Fireball can be charged before launching it by holding the ability button. This will make Fireball deal more damage on impact and over time.",
+      "image": "/images/abilities/ember/fireball.png"
+    },
+    {
+      "name": "Accelerant",
+      "description": "Her second ability is called Accelerant. Ember emits a fiery wave, stunning enemies around her for a moment. All Heat damage against enemies affected by Accelerant will be amplified while Ember gains a bonus to casting speed.",
+      "image": "/images/abilities/ember/accelerant.png"
+    },
+    {
+      "name": "Fire Blast",
+      "description": "Ember’s third ability is Fire Blast. Ember creates a ring of fire at her location. While casting this ability she slams the ground, generating a wave of fire that expands outwards, dealing Heat damage and setting enemies on fire while pushing them back and knocking them down. The resulting ring of fire will persist, inflicting Heat damage over time to any enemies that linger within the flames. Shooting a weapon through the ring’s flames, will inflict extra Heat damage on enemies. You can shoot through multiple rings, inflicting even more Heat damage.",
+      "image": "/images/abilities/ember/fire-blast.png"
+    },
+    {
+      "name": "World on Fire",
+      "description": "Ember’s fourth ability is World on Fire. When casting this ability Ember blasts nearby enemies, inflicting Heat damage on them. Afterwards, an aura around her is created that periodically creates explosions near enemies, dealing Heat damage to them while having a chance to set them on fire. While World on Fire is active it will constantly drain energy. The longer it’s active the more damage the explosions will do, however, its range becomes shorter and the energy drain becomes higher, up to a cap.",
+      "image": "/images/abilities/ember/world-on-fire.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Fireball, Fire Blast and World on Fire as well as the damage multiplier of Accelerant. The chance to set enemies on fire with World on Fire is also affected by these mods. The extra Heat damage you gain by shooting through Fire Blast’s flames is not affected. Ability Range mods affect the range of Accelerant and World on Fire. Ability Duration mods affect the duration of Accelerant’s cast speed bonus, the ring duration of Fire Blast and the energy drain of World on Fire."
+}

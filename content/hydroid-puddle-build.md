@@ -8,6 +8,8 @@ permalink: /hydroid-puddle-build/
 image: /wp-content/uploads/2018/03/hydroid-puddle-build.jpg
 categories:
   - Builds
+tags:
+  - HydroidBuilds
 ---
 <span>Hey guys and today we’re going to take a look at the Hydroid Puddle Build.</span><!--more-->
 

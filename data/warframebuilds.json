@@ -57,7 +57,8 @@
     "roles": [
       "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/ember"
   },
   {
     "name": "equinox",
@@ -130,7 +131,8 @@
     "roles": [
       "damage",
       "survaiability"
-    ]
+    ],
+    "link": "/warframes/hydroid"
   },
   {
     "name": "inaros",
@@ -152,7 +154,8 @@
       "damage",
       "survaiability",
       "utility"
-    ]
+    ],
+    "link": "/warframes/ivara"
   },
   {
     "name": "khora",

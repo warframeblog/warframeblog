@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - ember
+  - EmberBuilds
 ---
 Hey guys! Today we're going to take a look at two World on Fire builds that I like to use on Ember and switch between them based on what I'm doing.<!--more-->
 
