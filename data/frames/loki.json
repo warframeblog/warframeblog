@@ -1,0 +1,27 @@
+{
+  "name": "Loki",
+  "passive": "Loki’s passive is Wall Grapple. When Loki latches on to a wall, he can stay grappled longer than any other warframe.",
+  "abilities": [
+    {
+      "name": "Decoy",
+      "description": "Loki’s first ability is Decoy. He creates a holographic copy of himself that draws enemy fire until it dissipates or is destroyed. Loki can only place one Decoy at a time. Any Decoy that Loki places will destroy the previous.",
+      "image": "/images/abilities/loki/decoy.png"
+    },
+    {
+      "name": "Invisibility",
+      "description": "Loki’s second ability is Invisibility. Loki becomes invisible to his enemies for a period of time. While invisible, Loki won’t be targeted by enemies but they will still try and retaliate to damage by firing at Loki’s last known location. Even though Loki is invisible, enemies can still hear him when he fires his weapons, if they are not suppressed. Invisibility also applies to any companion that Loki brings along.",
+      "image": "/images/abilities/loki/invisibility.png"
+    },
+    {
+      "name": "Switch Teleport",
+      "description": "Loki’s third ability is Switch Teleport. Loki will switch places with a target, enemy or ally. If targeting an enemy, they will become confused for a moment upon being teleported. Loki’s Decoy is a valid target for Switch Teleport.",
+      "image": "/images/abilities/loki/switch-teleport.png"
+    },
+    {
+      "name": "Radial Disarm",
+      "description": "Loki’s fourth ability is Radial Disarm. Loki emits a wave of energy that stuns and permanently disarms all enemies within range. Enemies that cannot be disarmed, mostly infested units, will take damage from this ability instead.",
+      "image": "/images/abilities/loki/radial-disarm.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage that Radial Disarm does to enemies that cannot be disarmed. Ability Range mods affect the range of Switch Teleport and the radius of Radial Disarm. Ability Duration mods affect the duration of Decoy and Invisibility."
+}

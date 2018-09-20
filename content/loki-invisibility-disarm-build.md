@@ -12,6 +12,7 @@ tags:
   - builds
   - loki
   - warframe
+  - LokiBuilds
 ---
 <p style="text-align: left;">
   Hey guys and welcome to another warframe build article. And today we're gonna check out Loki Invisibility Build.<!--more-->

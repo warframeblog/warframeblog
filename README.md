@@ -17,7 +17,7 @@
 - [ ] [Ivara](https://warframeblog.com/warframes/ivara/ "Warframe Ivara")
 - [ ] [Khora](https://warframeblog.com/warframes/khora/ "Warframe Khora")
 - [ ] [Limbo](https://warframeblog.com/warframes/limbo/ "Warframe Limbo")
-- [ ] [Loki](https://warframeblog.com/warframes/loki/ "Warframe Loki")
+- [X] [Loki](https://warframeblog.com/warframes/loki/ "Warframe Loki")
 - [ ] [Mag](https://warframeblog.com/warframes/mag/ "Warframe Mag")
 - [X] [Mesa](https://warframeblog.com/warframes/mesa/ "Warframe Mesa")
 - [ ] [Mirage](https://warframeblog.com/warframes/mirage/ "Warframe Mirage")
