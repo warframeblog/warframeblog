@@ -1,7 +1,7 @@
 ---
 title: Operation Plague Star Is Back. How To Kill Hemocyte
 seoTitle: "Operation Plague Star Is Back. How To Kill Hemocyte - Warframe Blog"
-date: 2018-04-06T18:51:13+00:00
+date: 2018-09-19T14:51:13+00:00
 author: warframe
 layout: post
 permalink: /how-to-kill-hemocyte/
