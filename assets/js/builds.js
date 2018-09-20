@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 
   $('.warframes li').click(function(event) {
-    if(!$(this).hasClass('active')) {
+    if(!$(this).hasClass('active') || !$(this).attr('data-basics')) {
         return;
     }
     var image = $(this).attr('data-image');
