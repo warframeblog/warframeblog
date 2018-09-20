@@ -8,6 +8,8 @@ permalink: /nova-speed-build/
 image: /wp-content/uploads/2018/04/warframe-nova-speed-build.jpg
 categories:
   - Builds
+tags:
+  - NovaBuilds
 ---
 <span>Hey guys and today we’re gonna take a look at the Nova Speed Build </span>which unlike [Nova Slow Build](https://warframeblog.com/nova-slow-build/) speeds enemies up rather than slowing them down.<!--more-->
 

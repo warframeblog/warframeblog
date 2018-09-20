@@ -8,6 +8,8 @@ permalink: /nova-slow-build/
 image: /wp-content/uploads/2018/04/warframe-nova-slow-build.jpg
 categories:
   - Builds
+tags:
+  - NovaBuilds
 ---
 <span>Hey guys and today we’re gonna take a look at the Nova Slow Build.</span><!--more-->
 
