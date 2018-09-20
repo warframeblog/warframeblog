@@ -1,0 +1,27 @@
+{
+  "name": "Equinox",
+  "passive": "Equinox’s passive is Equilibrium. Equinox converts a percentage of picked up health and energy orbs into energy and health respectively.",
+  "abilities": [
+    {
+      "name": "Metamorphosis",
+      "description": "Equinox’s first ability is Metamorphosis. Equinox transforms between Day and Night forms, changing her abilities. Upon changing forms, Equinox gains a temporary buff, depending on the form she changed into. Changing into the Day Form gives her additional weapon damage and movement speed while changing into her Night Form gives her bonus armor and shields. You can only have the buff for the form you’re currently in. Equinox always starts a mission in one of her two forms. This is determined by her energy color. Bright colors will make her start in Day Form while darker colors make her start in Night Form.",
+      "image": "/images/abilities/equinox/metamorphosis.png"
+    },
+    {
+      "name": "Rest & Rage",
+      "description": "Equinox’s second ability is Rest & Rage. Equinox targets an area affecting nearby enemies with different effects, based on her current form. In Night Form the ability is called Rest. Affected enemies are put to sleep for a period of time. They will wake up when the duration expires or they take enough damage. In Day Form, the ability is called Rage. Affected enemies are enraged. They receive additional damage but will also have their movement and attack speeds increased.",
+      "image": "/images/abilities/equinox/rest-and-rage.png"
+    },
+    {
+      "name": "Pacify & Provoke",
+      "description": "Equinox’s third ability is Pacify & Provoke. Equinox emits an aura around her that has different effects based on her current form. In Night Form, the ability is called Pacify. Equinox emits a crippling aura that reduces the damage of all enemies in range. The closer they are to Equinox, the stronger the damage reduction is. In Day Form, the ability is called Provoke. Equinox and all nearby warframes get additional Ability Strength. This is a channeled ability. It will remain active, until it’s deactivated. Pacify drains energy for each enemy affected and Provoke drains energy for each warframe ability used within the aura.",
+      "image": "/images/abilities/equinox/pacify-and-provoke.png"
+    },
+    {
+      "name": "Mend & Maim",
+      "description": "<p>Equinox’s fourth ability is Mend & Maim. Equinox emits an aura around her that has different effects based on her current form. In Night Form, the ability is called Mend. Equinox emits a regenerative aura that replenishes a little of allied shields for each enemy killed within the aura. This can create overshields. It will also accumulate a percentage of the shields and health of each enemy killed as healing energy. When the ability is deactivated, the healing energy is released, healing and replenishing the shields of Equinox and any allies within range.</p><p> In Day Form, the ability is called Maim. Equinox emits an aura that deals Slash damage to any enemies affected by it. It will also inflict Slash status effects, making them bleed over time. Enemies damaged by the aura are momentarily stunned. All of these effects happen once per enemy. Additionally, a percentage of the shields and health of enemies killed within the aura is accumulated as Slash damage. When the ability is deactivated, this damage is released, affecting all enemies within range. This is a channeled ability which means it will remain active, constantly draining energy, until it’s deactivated.</p>",
+      "image": "/images/abilities/equinox/mend-and-maim.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the bonuses of Metamorphosis, the damage vulnerability and enemy speed bonus of Rage, the enemy damage reduction of Pacify and the Ability Strength bonus of Provoke, the shields restored per kill of Mend and the aura damage of Maim. Ability Range mods affect the cast range and targeted area of Rest & Rage and the aura radius of Pacify & Provoke and of Mend & Main. Ability Duration mods affect the duration of the bonuses from Metamorphosis, the duration of Rest & Rage and the energy drain of Mend & Maim."
+}
