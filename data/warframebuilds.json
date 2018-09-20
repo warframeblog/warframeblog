@@ -34,7 +34,8 @@
       "damage",
       "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/banshee"
   },
   {
     "name": "chroma",
@@ -82,7 +83,8 @@
       "damage",
       "survaiability",
       "crowd-control"
-    ]
+    ],
+    "link": "/warframes/excalibur"
   },
   {
     "name": "frost",
@@ -94,7 +96,8 @@
     "roles": [
       "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/frost"
   },
   {
     "name": "gara",
@@ -204,7 +207,8 @@
     "roles": [
       "damage",
       "survaiability"
-    ]
+    ],
+    "link": "/warframes/mesa"
   },
   {
     "name": "mirage",
@@ -227,7 +231,8 @@
       "survaiability",
       "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/nekros"
   },
   {
     "name": "nezha",
@@ -289,7 +294,8 @@
       "crowd-control",
       "survaiability",
       "utility"
-    ]
+    ],
+    "link": "/warframes/oberon"
   },
   {
     "name": "octavia",
@@ -314,7 +320,8 @@
       "survaiability",
       "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/rhino"
   },
   {
     "name": "saryn",
@@ -325,7 +332,8 @@
     "image": "saryn-warframe.png",
     "roles": [
       "damage"
-    ]
+    ],
+    "link": "/warframes/saryn"
   },
   {
     "name": "titania",
@@ -345,7 +353,8 @@
     "image": "trinity-warframe.jpg",
     "roles": [
       "utility"
-    ]
+    ],
+    "link": "/warframes/trinity"
   },
   {
     "name": "valkyr",
@@ -376,7 +385,8 @@
       "survaiability",
       "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/volt"
   },
   {
     "name": "wukong",
