@@ -6,7 +6,7 @@ const htmlmin = require('gulp-htmlmin');
 const autoprefixer = require('gulp-autoprefixer');
 const nodeSassMagicImporter = require('node-sass-magic-importer');
 
-const framePageStyles = 'static/assets/css/frame-page';
+const framePageStyles = 'static/assets/css/warframe-page';
 const stylesSource = 'src/styles/**/*.scss';
 const stylesDestDirectory = 'static/assets/css';
 
