@@ -35,7 +35,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/banshee"
+    "link": "/warframes/banshee/"
   },
   {
     "name": "chroma",
@@ -58,7 +58,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/ember"
+    "link": "/warframes/ember/"
   },
   {
     "name": "equinox",
@@ -72,7 +72,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/equinox"
+    "link": "/warframes/equinox/"
   },
   {
     "name": "excalibur",
@@ -86,7 +86,7 @@
       "survaiability",
       "crowd-control"
     ],
-    "link": "/warframes/excalibur"
+    "link": "/warframes/excalibur/"
   },
   {
     "name": "frost",
@@ -99,7 +99,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/frost"
+    "link": "/warframes/frost/"
   },
   {
     "name": "gara",
@@ -132,7 +132,7 @@
       "damage",
       "survaiability"
     ],
-    "link": "/warframes/hydroid"
+    "link": "/warframes/hydroid/"
   },
   {
     "name": "inaros",
@@ -155,7 +155,7 @@
       "survaiability",
       "utility"
     ],
-    "link": "/warframes/ivara"
+    "link": "/warframes/ivara/"
   },
   {
     "name": "khora",
@@ -190,7 +190,7 @@
       "survaiability",
       "crowd-control"
     ],
-    "link": "/warframes/loki"
+    "link": "/warframes/loki/"
   },
   {
     "name": "mag",
@@ -213,7 +213,7 @@
       "damage",
       "survaiability"
     ],
-    "link": "/warframes/mesa"
+    "link": "/warframes/mesa/"
   },
   {
     "name": "mirage",
@@ -225,7 +225,7 @@
       "damage",
       "survaiability"
     ],
-    "link": "/warframes/mirage"
+    "link": "/warframes/mirage/"
   },
   {
     "name": "nekros",
@@ -239,7 +239,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/nekros"
+    "link": "/warframes/nekros/"
   },
   {
     "name": "nezha",
@@ -278,7 +278,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/nova"
+    "link": "/warframes/nova/"
   },
   {
     "name": "nyx",
@@ -303,7 +303,7 @@
       "survaiability",
       "utility"
     ],
-    "link": "/warframes/oberon"
+    "link": "/warframes/oberon/"
   },
   {
     "name": "octavia",
@@ -329,7 +329,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/rhino"
+    "link": "/warframes/rhino/"
   },
   {
     "name": "saryn",
@@ -341,7 +341,7 @@
     "roles": [
       "damage"
     ],
-    "link": "/warframes/saryn"
+    "link": "/warframes/saryn/"
   },
   {
     "name": "titania",
@@ -362,7 +362,7 @@
     "roles": [
       "utility"
     ],
-    "link": "/warframes/trinity"
+    "link": "/warframes/trinity/"
   },
   {
     "name": "valkyr",
@@ -394,7 +394,7 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/volt"
+    "link": "/warframes/volt/"
   },
   {
     "name": "wukong",
@@ -417,6 +417,6 @@
       "crowd-control",
       "utility"
     ],
-    "link": "/warframes/zephyr"
+    "link": "/warframes/zephyr/"
   }
 ]
