@@ -1,7 +1,9 @@
 # WarframeBlog
 [![CircleCI](https://circleci.com/gh/warframeblog/warframeblog/tree/develop.svg?style=svg)](https://circleci.com/gh/warframeblog/warframeblog/tree/develop)
 
-## Warframe Pages State
+<details>
+	<summary>Warframe Pages State</summary>
+	
 - [ ] [Ash](https://warframeblog.com/warframes/ash/ "Warframe Ash")
 - [ ] [Atlas](https://warframeblog.com/warframes/atlas/ "Warframe Atlas")
 - [X] [Banshee](https://warframeblog.com/warframes/banshee/ "Warframe Banshee")
@@ -38,3 +40,4 @@
 - [X] [Volt](https://warframeblog.com/warframes/volt/ "Warframe Volt")
 - [ ] [Wukong](https://warframeblog.com/warframes/wukong/ "Warframe Wukong")
 - [X] [Zephyr](https://warframeblog.com/warframes/zephyr/ "Warframe Zephyr")
+</details>
