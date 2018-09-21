@@ -11,6 +11,7 @@ categories:
 tags:
   - builds
   - warframe
+  - MirageBuilds
 ---
 Hello everyone! Today we're going to be taking a look at Mirage Prime: some of the changes that come with her, some of the stats increase, the looks, the design. In towards the end of this article, I will be showing you guys my amazing all-around build and how I've been running Mirage Prime since the update launched.<!--more-->
 

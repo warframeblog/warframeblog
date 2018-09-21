@@ -222,8 +222,10 @@
     "glyph": "MirageDarkGlyph.png",
     "image": "mirage-warframe.jpg",
     "roles": [
-      "damage"
-    ]
+      "damage",
+      "survaiability"
+    ],
+    "link": "/warframes/mirage"
   },
   {
     "name": "nekros",
@@ -413,7 +415,7 @@
     "roles": [
       "survaiability",
       "crowd-control",
-      "damage"
+      "utility"
     ],
     "link": "/warframes/zephyr"
   }

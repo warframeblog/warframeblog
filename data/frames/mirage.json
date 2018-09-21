@@ -1,0 +1,27 @@
+{
+  "name": "Mirage",
+  "passive": "Mirage’s passive is Jester’s Proficiency. She has faster bullet jumps and acrobatic maneuvers.",
+  "abilities": [
+    {
+      "name": "Hall of Mirrors",
+      "description": "Mirage’s first ability is Hall of Mirrors. Mirage creates several holographic clones around her that follow and mimic her actions while they last. Each clone draws enemy attention but they are immune to damage. They also deal a percentage of Mirage’s current weapon’s damage.",
+      "image": "/images/abilities/mirage/hall-of-mirrors.png"
+    },
+    {
+      "name": "Sleight of Hand",
+      "description": "Mirage’s second ability is Sleight of Hand. Mirage places a light sensitive jewel at a target location while simultaneously booby trapping nearby interactive objects. The jewel attracts nearby enemies and lasts until its duration expires or an enemy gets close to it. When an enemy comes close, the jewel detonates inflicting an effect to enemies around it, depending on the lighting conditions. If the jewel was placed in light, it deals Blast damage. If it was placed in darkness, it will blind them instead. This ability can be cast while Hall of Mirrors is active and Mirage’s clones will place smaller jewels next to the main one. These smaller jewels have diminished effects. The other part of the ability has Mirage booby trap nearby interactive objects, like arc traps, containers and control consoles, among others. These all have different effects that harm enemies in one way or another.",
+      "image": "/images/abilities/mirage/sleight-of-hand.png"
+    },
+    {
+      "name": "Eclipse",
+      "description": "Mirage’s third ability is Eclipse. Mirage adapts to the lighting conditions of her environment while the ability lasts. If Mirage is standing in light she deals bonus damage. If she is standing in darkness she gains damage reduction instead.",
+      "image": "/images/abilities/mirage/eclipse.png"
+    },
+    {
+      "name": "Prism",
+      "description": "Mirage’s fourth ability is Prism. Mirage launches an energy prism that bounces between surfaces and shoots lasers in all directions. Each laser deals Radiation damage and their damage is increased if Mirage is standing in light. Prism drains energy while it’s active and will disappear when Mirage runs out of energy, its duration expires or Mirage activates the ability again. If she does this, the prism will detonate, blinding enemies around it for a while.",
+      "image": "/images/abilities/mirage/prism.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage percentage of Mirage’s weapon that each Hall of Mirrors clone will do, the explosion damage of Sleight of Hand’s jewel and the damage of some of its booby traps, the damage bonus and damage reduction of Eclipse and the damage of Prism’s lasers. Ability Range mods affect the trap radius of Sleight of Hand and its jewel’s charm, explosion and blind radius. They also affect the blind radius of Prism and the range of its lasers. Ability Duration mods affect the duration of Hall of Mirrors and Eclipse, the trap duration of Sleight of Hand and the blind duration of its jewel, Prism’s duration, energy cost while active and blind duration."
+}
