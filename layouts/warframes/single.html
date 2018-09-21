@@ -109,13 +109,13 @@
 				</div>
 			</div>
 			<div class="columns is-multiline is-mobile has-text-centered warframe-list">
-				{{ range $index, $element := .Site.Data.warframebuilds }}
-					{{ if and ($element.link) (ne $element.name (lower $frame.name)) }}
+				{{ range .Site.Data.warframebuilds }}
+					{{ if and (.link) (ne .name (lower $frame.name)) }}
 						<div class="column">
 							<div class="warframe-element" data-roles="any">
-								<a href="{{ .link }}" target="_blank">
+								<a href="{{ .link }}" target="_blank" title="Warframe {{ .title }}">
 									<h2>{{ .title }}</h2>
-									<img src="/images/glyphs/{{ .glyph }}" title="{{ .title }}" alt="{{ .title }}" />
+									<img src="/images/glyphs/{{ .glyph }}" title="Warframe {{ .title }}" alt="{{ .title }}" />
 								</a>
 							</div>
 						</div>
