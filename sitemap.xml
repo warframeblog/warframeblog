@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/warframes/zephyr/</loc>
+    <lastmod>2018-09-21T10:08:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/ivara/</loc>
     <lastmod>2018-09-20T14:15:50+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -984,14 +991,14 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-09-20T14:15:50+00:00</lastmod>
+    <lastmod>2018-09-21T10:08:42+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/warframes/</loc>
-    <lastmod>2018-09-20T14:15:50+00:00</lastmod>
+    <lastmod>2018-09-21T10:08:42+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
