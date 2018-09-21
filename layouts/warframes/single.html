@@ -10,7 +10,7 @@
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
 	<section class="hero is-primary is-medium frame-hero-section">
 		<div class="hero-head">
-			{{- partial "frame-page/navbar.html" . -}}
+			{{- partial "warframe-page/navbar.html" . -}}
 		</div>
 		<div class="hero-body">
 			<div class="container">
@@ -29,10 +29,10 @@
 			<div class="columns is-reverse-mobile">
 				{{ $frameFirstAbility := index $frame.abilities 0 }}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
+					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
 				</div>
 				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameFirstAbility) -}}
+					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFirstAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -42,10 +42,10 @@
 			<div class="columns">
 				{{ $frameSecondAbility := index $frame.abilities 1 }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
+					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
 				</div>
 				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
+					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -55,10 +55,10 @@
 			<div class="columns is-reverse-mobile">
 				{{ $frameThirdAbility := index $frame.abilities 2 }}
 				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
+					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
 				</div>
 				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
+					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -68,10 +68,10 @@
 			<div class="columns">
 				{{ $frameFourthAbility := index $frame.abilities 3 }}
 				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "frame-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
+					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
 				</div>
 				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "frame-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
+					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
 				</div>
 			</div>
 		</div>
@@ -90,11 +90,11 @@
 				{{ range $index, $element := first 6 (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
 					{{ if (modBool $index 2) }}
 						<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
-							{{- partial "frame-page/frame-build-card.html" . -}}
+							{{- partial "warframe-page/frame-build-card.html" . -}}
 						</div>
 					{{ else }}
 						<div class="column is-4-desktop is-12-mobile">
-							{{- partial "frame-page/frame-build-card.html" . -}}
+							{{- partial "warframe-page/frame-build-card.html" . -}}
 						</div>
 					{{ end }} 
 				{{ end }}
