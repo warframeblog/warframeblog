@@ -12,6 +12,7 @@ tags:
   - builds
   - warframe
   - zephyr
+  - ZephyrBuilds
 ---
 Hey guys and welcome to another Warframe article. And today we're gonna take a look at Zephyr who has had a bit of a rework with update 22.12.0.<!--more-->
 

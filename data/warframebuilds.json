@@ -410,6 +410,11 @@
     "builds": "",
     "glyph": "ZephyrDarkGlyph.png",
     "image": "zephyr-warframe.jpg",
-    "roles": []
+    "roles": [
+      "survaiability",
+      "crowd-control",
+      "damage"
+    ],
+    "link": "/warframes/zephyr"
   }
 ]

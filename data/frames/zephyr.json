@@ -1,0 +1,27 @@
+{
+  "name": "Zephyr",
+  "passive": "Zephyr’s passive is Lightweight. While airborne she descends slower and has better control over her movement.",
+  "abilities": [
+    {
+      "name": "Tail Wind",
+      "description": "Zephyr’s first ability is Tail Wind. Zephyr propels herself in the direction she’s aiming, dealing Slash damage and knocking down any enemy she hits. This ability can be cast both on the ground and in the air. If cast in the air it will cost less energy. If cast on the ground, you can hold the ability button to charge Tail Wind. This will cause Zephyr to launch herself upwards, dealing Impact damage to enemies close to her launch position and knocking them down. Zephyr will then stay airborne, hovering for a period of time. Casting Tail Wind again, rolling or using a melee attack will cancel the hovering. When you cast Tail Wind in the air while aiming down, Zephyr will perform a dive bomb, hitting the ground with full force, dealing Impact damage and knocking down any enemies near the point of contact. The damage dealt is amplified based on the height at which Zephyr started the nose dive. Greater heights mean greater damage.",
+      "image": "/images/abilities/zephyr/tail-wind.png"
+    },
+    {
+      "name": "Airburst",
+      "description": "Zephyr’s second ability is Airburst. Zephyr creates air projectiles that travel forward and explode on contact. Enemies hit by the explosion take damage and are knocked back. The cost of this ability is halved if Zephyr is airborne.",
+      "image": "/images/abilities/zephyr/airburst.png"
+    },
+    {
+      "name": "Turbulence",
+      "description": "Zephyr’s third ability is Turbulence. Zephyr creates a wind shield around her, protecting her from enemy fire by altering the course of any bullets or projectiles that hit the shield.",
+      "image": "/images/abilities/zephyr/turbulence.png"
+    },
+    {
+      "name": "Tornado",
+      "description": "Zephyr’s fourth ability is Tornado. Zephyr creates several tornadoes at a location that seek out and engulf enemies. Enemies trapped inside a tornado will take damage over time. This damage can be amplified if Zephyr and her allies shoot each tornado. The tornado will absorb the damage and increase the damage it does to enemies. If the tornadoes absorb elemental damage they will adapt and deal that type of elemental damage to any enemies caught within them. The elemental damage type of a tornado will always be the same as the element that had the highest amount of damage absorbed. Casting Airburst into a tornado will increase its height. Zephyr can move the nearest tornado toward a location by zooming in on it.",
+      "image": "/images/abilities/zephyr/tornado.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the contact damage of Tail Wind plus the damage from its hover jump and dive bomb components. They also affect the damage of Airburst and Tornado. Ability Range mods affect the contact radius of Tail Wind plus the radius of the damage from its hover jump and dive bomb components. They also affect the explosion radius of Airburst, the shield radius of Turbulence and the spawn radius of Tornado. Ability Duration mods affect the speed and duration of Tail Wind plus the duration of the hovering effect. They also affect the duration of Turbulence and Tornado."
+}

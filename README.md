@@ -37,4 +37,4 @@
 - [ ] [Vauban](https://warframeblog.com/warframes/vauban/ "Warframe Vauban")
 - [X] [Volt](https://warframeblog.com/warframes/volt/ "Warframe Volt")
 - [ ] [Wukong](https://warframeblog.com/warframes/wukong/ "Warframe Wukong")
-- [ ] [Zephyr](https://warframeblog.com/warframes/zephyr/ "Warframe Zephyr")
+- [X] [Zephyr](https://warframeblog.com/warframes/zephyr/ "Warframe Zephyr")
