@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/assets/css/frame-page/index.css">
 {{- end -}}
 {{- define "body" -}}
-<body style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
+<body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
 	<section class="hero is-primary is-medium frame-hero-section">
 		<div class="hero-head">
@@ -104,8 +104,27 @@
 	<footer class="section footer" >
 		<div class="container">
 			<div class="columns has-text-left">
+				<div class="column is-offset-2-desktop is-8-desktop is-12-mobile">
+					<h2 class="frame-page-title">Explore more warframes</h2>
+				</div>
+			</div>
+			<div class="columns is-multiline is-mobile has-text-centered warframe-list">
+				{{ range $index, $element := .Site.Data.warframebuilds }}
+					{{ if and ($element.link) (ne $element.name (lower $frame.name)) }}
+						<div class="column">
+							<div class="warframe-element" data-roles="any">
+								<a href="{{ $element.link }}" target="_blank">
+									<h2>{{ .title }}</h2>
+									<img src="/images/glyphs/{{ .glyph }}" title="{{ .title }}" alt="{{ .title }}" />
+								</a>
+							</div>
+						</div>
+					{{ end }}
+				{{ end }}
+			</div>
+			<div class="columns has-text-left">
 				<div class="column is-offset-2 is-8">
-					<hr />
+					<hr>
 					<a href="{{ .Site.BaseURL }}">Warframe Blog</a> has no official link with Digital Extremes or Warframe, we are just a fan site.
 				</div>
 			</div>

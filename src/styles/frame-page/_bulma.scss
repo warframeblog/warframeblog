@@ -25,3 +25,14 @@ $card-background-color: #353849;
 
 @import '~bulma/sass/grid/columns';
 @import '~bulma/sass/layout/_all';
+
+.columns.is-reverse-mobile {
+	@include mobile {
+		flex-direction: column-reverse;
+		display: flex;
+	}
+}
+
+.hero .navbar.is-not-transparent {
+	background: $navbar-background-color;
+}

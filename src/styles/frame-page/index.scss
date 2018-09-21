@@ -1,5 +1,17 @@
 @charset 'utf-8';
 
-@import 'base/_base';
-@import 'layout/_layout';
-@import 'state/_state';
+@import '~angled-edges/_angled-edges';
+
+@import '../components/frame-list';
+
+@import '_bulma';
+@import '_typography';
+@import '_sections';
+
+
+.warframe-page {
+	background-color: #2e3141;
+	background-size: auto, cover;
+	background-attachment: fixed, fixed;
+	background-position: center, center;
+}
