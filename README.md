@@ -15,7 +15,7 @@
 - [ ] [Gara](https://warframeblog.com/warframes/gara/ "Warframe Gara")
 - [ ] [Harrow](https://warframeblog.com/warframes/harrow/ "Warframe Harrow")
 - [X] [Hydroid](https://warframeblog.com/warframes/hydroid/ "Warframe Hydroid")
-- [ ] [Inaros](https://warframeblog.com/warframes/inaros/ "Warframe Inaros")
+- [X] [Inaros](https://warframeblog.com/warframes/inaros/ "Warframe Inaros")
 - [X] [Ivara](https://warframeblog.com/warframes/ivara/ "Warframe Ivara")
 - [ ] [Khora](https://warframeblog.com/warframes/khora/ "Warframe Khora")
 - [ ] [Limbo](https://warframeblog.com/warframes/limbo/ "Warframe Limbo")

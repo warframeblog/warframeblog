@@ -1,0 +1,31 @@
+{
+  "name": "Inaros",
+  "passive": "Inaros’ passive is Undying. While regular warframes go down into a bleedout state, Inaros enters a sarcophagus. While in this state, Inaros can aim at enemies or allies to siphon life from them, filling up his revive meter, allowing him to resurrect himself. If the enemy Inaros is siphoning from is killed by an ally, it will still count towards his revival. He can also be revived normally by other players. However, Inaros cannot move while in the sarcophagus. In addition to this, Inaros will restore a percentage of his health whenever he kills an enemy with a finisher attack.",
+  "abilities": [
+    {
+      "name": "Desiccation",
+      "description": "Inaros’ first ability is Desiccation. Inaros blasts enemies in front of him with a wave of sand, blinding them and opening them up to melee finishers. The wave of sand will deal damage on contact and also some damage over time. A percentage of the damage done over time is converted to health for Inaros.",
+      "image": "/images/abilities/inaros/desiccation.png"
+    },
+    {
+      "name": "Devour",
+      "description": "Inaros’ second ability is Devour. Inaros sinks an enemy target in quicksand for a period of time, incapacitating them. Inaros and his allies can approach this incapacitated enemy and perform the Devour action on them, by holding down the interaction button. This will deal damage over time to this enemy while, at the same time, restoring the health of shields of the one doing the devouring. The damage over time will ramp up to a maximum over a short period of time. During this action, the one performing it is immune to damage and status effects. Holding down the ability button will tether the enemy, dragging him towards Inaros which will start devouring automatically once the enemy is close enough. If the incapacitated target dies from being devoured it becomes a Sand Shadow, a friendly copy of that enemy unit that will aid Inaros. Sand Shadows last for the same duration the Devour action lasted or for a minimum duration, if the previous was too short.",
+      "image": "/images/abilities/inaros/devour.png"
+    },
+    {
+      "name": "Sandstorm",
+      "description": "Inaros’ third ability is Sandstorm. Inaros becomes a whirling spiral of sand while the ability is active. While in this form, Inaros will pull in enemies and send them flying, dealing Slash damage per second while they remain inside the sandstorm, with a chance to inflict a Slash status effect, making them bleed. While Sandstorm is active, Inaros moves slower and takes less damage. He will also pull in nearby pickups. If Inaros damages an enemy with Sandstorm that is under the effects of Devour he will heal himself. If this enemy dies a Sand Shadow is created. Sandstorm is a channeled ability which means it will remain active, constantly draining energy, until it’s deactivated.",
+      "image": "/images/abilities/inaros/sandstorm.png"
+    },
+    {
+      "name": "Scarab Swarm",
+      "description": "Inaros’ fourth ability is Scarab Swarm. This ability has two components. First, it must be charged by holding down the ability button. During the charge, Inaros remains immobile and will convert some of his health into armor, up to 100% extra armor. Inaros will also be immune to impairing effects like knockdown while charging. Once Inaros has at least 25% of his bonus armor, he can target an enemy unit and tap the ability button to release a scarab projectile. This projectile will infest enemies with scarabs on contact and they will receive Corrosive damage over time. While the damage over time lasts, enemies affected cannot move or use abilities but they can sometimes attack. Targets affected by this will create an aura around them that will restore health to Inaros and his allies, as long as they are in range. All of these effects can spread to nearby enemies from units already infested with scarabs.",
+      "image": "/images/abilities/inaros/scarab-swarm.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the initial damage and damage over time of Desiccation, the damage of Devour and Sandstorm and the damage and healing of Scarab Swarm. Ability Range mods affect the range of Desiccation, the cast and tether range of Devour, the radius of Sandstorm and the casting range and healing aura radius of Scarab Swarm. Ability Duration mods affect the damage over time duration of Desiccation, the quicksand duration of Devour, the energy drain of Sandstorm and the duration of Scarab Swarm.",
+  "videoBuilds": [
+    "pNmZWRalwnk",
+    "TafvjXyZ-eI"
+  ]
+}
