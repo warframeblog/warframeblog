@@ -7,7 +7,7 @@
 - [X] [Ash](https://warframeblog.com/warframes/ash/ "Warframe Ash")
 - [ ] [Atlas](https://warframeblog.com/warframes/atlas/ "Warframe Atlas")
 - [X] [Banshee](https://warframeblog.com/warframes/banshee/ "Warframe Banshee")
-- [ ] [Chroma](https://warframeblog.com/warframes/chroma/ "Warframe Chroma")
+- [X] [Chroma](https://warframeblog.com/warframes/chroma/ "Warframe Chroma")
 - [X] [Ember](https://warframeblog.com/warframes/ember/ "Warframe Ember")
 - [X] [Equinox](https://warframeblog.com/warframes/equinox/ "Warframe Equinox")
 - [x] [Excalibur](https://warframeblog.com/warframes/excalibur/ "Warframe Excalibur")

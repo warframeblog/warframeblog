@@ -46,7 +46,8 @@
     "image": "chroma-warframe.png",
     "roles": [
       "damage"
-    ]
+    ],
+    "link": "/warframes/chroma/"
   },
   {
     "name": "ember",

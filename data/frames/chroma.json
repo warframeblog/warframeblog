@@ -1,0 +1,31 @@
+{
+  "name": "Chroma",
+  "passive": "Chroma’s passive is Elemental Alignment. Chroma has one element he is attuned to which will alter the way some of his abilities function. When customizing Chroma’s appearance, changing his energy color will alter his chosen element. Only the four basic elements can be chosen, Heat, Cold, Electric and Toxin. There is an icon next to his energy color that indicates the current element.",
+  "abilities": [
+    {
+      "name": "Spectral Scream",
+      "description": "Chroma’s first ability is Spectral Scream. Chroma unleashes a deep breath of elemental energy in a cone in front of him that deals damage per second based on the chosen element. Besides the elemental damage, this ability has a chance to inflict a status effect of the same element. This is a channeled ability which means that it will constantly drain energy and will last until it’s deactivated or Chroma runs out of energy.",
+      "image": "/images/abilities/chroma/spectral-scream.png"
+    },
+    {
+      "name": "Elemental Ward",
+      "description": "<p>Chroma’s second ability is Elemental Ward. Chroma emits an aura around him that has different effects based on his current element. Each different aura has an offensive and defensive component. The Heat aura will increase the health of Chroma and any nearby allies while dealing Heat damage per second to enemies, with a small chance to inflict a status effect, setting them on fire. The Cold aura increases the armor of Chroma and any nearby allies and creates an ice shield around them that reflects enemy ranged attacks back to them as Cold damage. This damage is amplified when reflected and has a chance to inflict a Cold status effect, causing enemies to slow down.</p><p>The Electric aura increases the shields of Chroma and any nearby allies. Any damage taken while this aura is active will be converted into electric discharges that strike enemies in range. The damage the enemies take is amplified and converted to Electric damage. Enemies can also suffer an Electric status effect, stunning them and chaining the damage to others nearby. These electric discharges have a minimum damage they will always inflict. Finally, the Toxin aura creates toxic fumes around Chroma and any nearby allies, increasing their reload speed and weapon holster rate. The fumes also have a chance to deal Toxin damage to nearby enemies, based on their maximum health, and will also inflict a Toxin status effect, poisoning them and dealing Toxin damage per second.</p>",
+      "image": "/images/abilities/chroma/elemental-ward.png"
+    },
+    {
+      "name": "Vex Armor",
+      "description": "Chroma’s third ability is Vex Armor. Chroma will gain multipliers to damage and armor while this ability is active, based on if either his shields or health were damaged. For each shield point lost, Chroma’s armor will be increased and for each point of health loss his damage will increase instead. Both of these effects can be active at the same time and they will keep increasing with damage taken up to a maximum amount. Nearby allies will also be affected by these buffs.",
+      "image": "/images/abilities/chroma/vex-armor.png"
+    },
+    {
+      "name": "Effigy",
+      "description": "Chroma’s fourth ability is Effigy. Chroma sheds his pelt and turns it into a sentry. The pelt has its own health and will attack nearby enemies until it dies, is deactivated or Chroma runs out of energy, as Effigy is a channeled ability. While it’s active, the pelt will attack nearby enemies with a stream of elemental energy, based on Chroma’s chosen element. It also has a radial elemental attack that damages and knocks back enemies around it and a radial stun attack. Enemies killed by the pelt have a chance to drop additional credits. While Effigy is active, Chroma has a bonus to movement speed and a penalty to armor.",
+      "image": "/images/abilities/chroma/effigy.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Spectral Scream, the damage and armor multiplier of Vex Amor and their maximum values and the health and continuous damage of Effigy. If also affects several components of Elemental Ward, namely the health bonus and damage of the Heat aura, the armor bonus, damage multiplier and status chance of the Cold aura, the shield bonus, damage multiplier and status chance of the Electric aura, and the damage chance of the Toxin aura. Ability Range mods affect the range of Spectral Scream, the aura radius of Elemental Ward and the range of the Electric aura’s discharges and the aura range of Vex Armor. Ability Duration mods affect the energy drain of Spectral Scream and Effigy and the duration of Elemental Ward and Vex Armor.",
+  "videoBuilds": [
+    "rmVM-JQn0eE",
+    "edaRKqUZGZY"
+  ]
+}
