@@ -1,0 +1,31 @@
+{
+  "name": "Ash",
+  "passive": "Ash’s passive is Hemorrhage. All bleed effects inflicted by Ash on his enemies deal more damage and last longer.",
+  "abilities": [
+    {
+      "name": "Shuriken",
+      "description": "His first ability is called Shuriken. Ash throws a few shuriken which deal damage to enemies and inflict a bleed effect on them, dealing damage over time. Shuriken doesn’t need to target enemies. Ash will automatically throw them at the nearest enemies from the location you're aiming at.",
+      "image": "/images/abilities/ash/shuriken.png"
+    },
+    {
+      "name": "Smoke Screen",
+      "description": "Ash’s second ability is Smoke Screen. Ash throws a smoke bomb at his feet that will conceal him for a while. It will also conceal any companion that Ash brings along with him. While concealed, Ash cannot be targeted by enemies although they will still hear him and will try to retaliate to any damage received. When Ash throws the Smoke Bomb, enemies that are close by will be staggered momentarily.",
+      "image": "/images/abilities/ash/smoke-screen.png"
+    },
+    {
+      "name": "Teleport",
+      "description": "Ash’s third ability is Teleport. Ash teleports to a target within range, friend or foe. If the target is an enemy, he will be staggered and open to a melee finisher attack. If the enemy is not able to be targeted by a melee finisher, he will be more vulnerable to melee damage while the stagger remains.",
+      "image": "/images/abilities/ash/teleport.png"
+    },
+    {
+      "name": "Blade Storm",
+      "description": "<p>Ash’s fourth ability is Blade Storm. Ash creates multiple clones that will strike marked enemies. When you first activate Blade Storm you will enter targeting mode. During this mode just move your aim reticle over enemies to mark them for assassination, each one will gain one death mark. Staring at an enemy longer or moving the reticle over him one more time, will mark him again.</p><p> Each enemy can have a maximum of three death marks. Marking an enemy costs energy but if Ash is under the effect of Smoke Screen this cost is reduced. Using Blade Storm again will activate it. Clones of Ash will teleport between marked enemies, using finisher attacks on them for heavy damage and inflicting a damage over time bleed effect on them. Each strike against an enemy will consume one death mark. While the clones are attacking the marked targets, Ash can cast Teleport, at no energy cost, on a marked target to join Blade Storm, becoming invulnerable while striking his enemies. All strikes done by Ash and his clones during Blade Storm count towards Ash’s melee combo counter and the damage they inflict bypasses armor.</p>",
+      "image": "/images/abilities/ash/blade-storm.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Shuriken and Blade Storm. Additionally, Blade Storm’s damage is affected by the melee combo multiplier and its animation speed is affected by melee attack speed mods. Melee damage mods on your equipped melee weapon do not affect this ability, however, the aura mod that increases melee damage does work. Ways to make enemies take extra damage from finisher attacks also affect the damage they take from this ability. Ability Range mods affect Smoke Screen’s stagger radius, Teleport’s range and the range from where you can mark targets with Blade Storm. Ability Duration mods affect the duration of Smoke Screen.",
+  "videoBuilds": [
+    "KVkhcz_Xcxs",
+    "ebBPou1eWv4"
+  ]
+}

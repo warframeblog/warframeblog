@@ -4,7 +4,7 @@
 <details>
 	<summary>Warframe Pages State</summary>
 	
-- [ ] [Ash](https://warframeblog.com/warframes/ash/ "Warframe Ash")
+- [X] [Ash](https://warframeblog.com/warframes/ash/ "Warframe Ash")
 - [ ] [Atlas](https://warframeblog.com/warframes/atlas/ "Warframe Atlas")
 - [X] [Banshee](https://warframeblog.com/warframes/banshee/ "Warframe Banshee")
 - [ ] [Chroma](https://warframeblog.com/warframes/chroma/ "Warframe Chroma")

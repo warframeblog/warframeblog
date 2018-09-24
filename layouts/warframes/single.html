@@ -87,21 +87,36 @@
 			</div>
 			<div class="columns is-multiline">
 				{{ $buildsTag := (slice (print $frame.name "Builds")) }}
-				{{ range $index, $element := first 6 (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
-					{{ if (modBool $index 2) }}
-						<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
-							{{- partial "warframe-page/frame-build-card.html" . -}}
-						</div>
-					{{ else }}
-						<div class="column is-4-desktop is-12-mobile">
-							{{- partial "warframe-page/frame-build-card.html" . -}}
-						</div>
-					{{ end }} 
+				{{ $buildArticles := (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
+				{{ if $buildArticles }}
+					{{ range $index, $element := first 6 ($buildArticles) }}
+						{{ if (modBool $index 2) }}
+							<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
+								{{- partial "warframe-page/frame-build-card.html" . -}}
+							</div>
+						{{ else }}
+							<div class="column is-4-desktop is-12-mobile">
+								{{- partial "warframe-page/frame-build-card.html" . -}}
+							</div>
+						{{ end }} 
+					{{ end }}
+				{{ else if $frame.videoBuilds }}
+					{{ range $index, $element := $frame.videoBuilds }}
+						{{ if (modBool $index 2) }}
+							<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
+								{{- partial "warframe-page/build-video.html" . -}}
+							</div>
+						{{ else }}
+							<div class="column is-4-desktop is-12-mobile">
+								{{- partial "warframe-page/build-video.html" . -}}
+							</div>
+						{{ end }}
+					{{ end }}
 				{{ end }}
 			</div>
 		</div>
 	</section>
-	<footer class="section footer" >
+	<footer class="section footer">
 		<div class="container">
 			<div class="columns has-text-left">
 				<div class="column is-offset-2-desktop is-8-desktop is-12-mobile">
