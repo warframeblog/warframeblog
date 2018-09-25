@@ -17,7 +17,7 @@ So, first thing first here's list of the relics that you need to get new prime p
 
 ## Where to farm relics
 
-Now, when it comes to farming the relics I suggest you read this article – [How To Farm Relics – Lith, Meso, Neo &](https://warframeblog.com/how-to-farm-relics/) Axi.
+Now, when it comes to farming the relics I suggest you read this article – [How To Farm Relics – Lith, Meso, Neo & Axi](https://warframeblog.com/how-to-farm-relics/).
 
 ## Which relics drop which parts?
 

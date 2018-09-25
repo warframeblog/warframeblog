@@ -1,7 +1,7 @@
 ---
 title: 'How To Farm Relics - Lith, Meso, Neo & Axi'
 seoTitle: "How To Farm Relics - Lith, Meso, Neo & Axi - Warframe Blog"
-date: 2018-02-07T15:45:53+00:00
+date: 2018-09-25T15:45:53+00:00
 author: warframe
 layout: post
 permalink: /how-to-farm-relics/
@@ -12,15 +12,30 @@ tags:
   - farming
   - relics
 ---
-So, hey guys and welcome to another Warframe article. I think I finally did enough testing to say: &#8220;okay, here are the best missions for farming relics&#8221;. I've been farming relics for a couple of months now and I always take notes on how long the mission took and how many relics I got. <!--more-->
+Hey guys and welcome to another Warframe article. And today I want to talk about missions where you can efficiently farm lots of Void relics. <!--more-->
 
-And at the moment I'm sitting on 1038 relics even though I have been using some of them to get the new primed items and ducats. I have 261 Lith relics, 213 Meso relics, 404 Neo relics, and 160 Axi relics.
+Let's go over the missions that I've had the most success with when farming relics.
 
-## How To Farm Lith Relics
+## How and Where To Farm Lith Relics?
+### Farm Lith Relics in Orokin Derelict Defense
 
-So, let's go over the missions that I've had the most success with when farming them. The best mission for farming Lith relics has to be Spear on Mars. It drops all the Lith relics on rotation A which is waves 5 and 10 and if you run with something like Ember with a [world on fire build](https://warframeblog.com/ember-world-fire-build/) you can easily do 10 waves in under 6 minutes. Now you don't need Ember to run this mission efficiently you could run something like speed Nova or whatever really but Ember makes this really really easy and fast. Because you just turn on world on fire and run from one side of the tileset to the other.
+So, if you want to get Lith Void relics I would very much recommend you to do Orokin Derelict Defense (ODD) - Lith relic drop chance is 11.11%. Now, all you have to do to access this mission is simply go to the market, type in "derelict", and then buy the Orokin Derelict Defense Key. This is a reusable blueprint for the key that allows you to play the mission once. Now it may not seem terribly worth it to spend resources every time just to access a mission but it is very much worth it. 
 
-Also, if you are running something like Ember and you want to bum rush the waves to get your relics as fast as possible it's better to do it solo rather than with a random party. Because when you're running solo you have far fewer enemy spawning in so you don't have to kill as many of them. And you also won't have to worry about your party members running all over the tileset causing the enemies to take cover in weird places and generally just slowing the enemies down. The drop chance on relics is not 100 percent so every now and then you will get a random mod something like vitality or trick magazine but most of the time you will get a Lith relic on waves 5 and 10.
+The blueprint only takes one minute to build so you can either build them in bulk by just spending some time at the foundry or you can just start building a new one every time you go and do the mission. Now you're only going to get Lith relics on the rotation A which are waves five and ten. So, the best way of farming relics here is to simply do 10 waves extract and do it again. It can reward you with any of the Lith relics, and sometimes you might get an endo pack every now and then but it happens very rarely.
+
+### Farm Lith Relics in Spear on Mars
+And for those of you who don't want to build keys in your foundry, the mission for farming Lith relics might be Spear on Mars. As well as ODD it drops Lith relics on rotation A. The relics drop chance is 8.33% so every now and then you will get a random mod something like Vitality or Trick Magazine but most of the time you will get a Lith Relic.
+
+Also, if you want to rush the waves to get your relics as fast as possible it's better to do it solo rather than with a random party. Because when you're running solo you have far fewer enemy spawning in. So you don't have to kill as many of them. And you also won't have to worry about your party members running all over the tileset causing the enemies to take cover in weird places and generally just slowing the enemies down. 
+
+## Best Warframes To Farm Lith Relics
+Here are some frames and builds to run these missions in the most effective way:
+
+* [Banshee](/warframes/banshee/ "Warframe Banshee") - [Resonating Quake Build](/banshee-resonating-quake-build/ "Banshee Resonating Quake Build")
+* [Equinox](/warframes/equinox/ "Warframe Equinox") - [Mend and Maim Build](/equinox-mend-and-maim-build/ "Equinox Mend and Maim Build")
+* [Volt](/warframes/volt/ "Warframe Volt") - [Discharge Build](/volt-discharge-build/ "Volt Discharge Build")
+* [Ember](/warframes/ember/ "Warframe Ember") - [World on Fire Build](/ember-world-fire-build/ "Ember World On Fire Build")
+* [Nova](/warframes/nova/ "Warframe Nova") - [Speed Build](/nova-speed-build/ "Nova Speed Build")
 
 ## How To Farm Meso Relics
 
