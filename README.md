@@ -20,7 +20,7 @@
 - [ ] [Khora](https://warframeblog.com/warframes/khora/ "Warframe Khora")
 - [ ] [Limbo](https://warframeblog.com/warframes/limbo/ "Warframe Limbo")
 - [X] [Loki](https://warframeblog.com/warframes/loki/ "Warframe Loki")
-- [ ] [Mag](https://warframeblog.com/warframes/mag/ "Warframe Mag")
+- [X] [Mag](https://warframeblog.com/warframes/mag/ "Warframe Mag")
 - [X] [Mesa](https://warframeblog.com/warframes/mesa/ "Warframe Mesa")
 - [X] [Mirage](https://warframeblog.com/warframes/mirage/ "Warframe Mirage")
 - [X] [Nekros](https://warframeblog.com/warframes/nekros/ "Warframe Nekros")

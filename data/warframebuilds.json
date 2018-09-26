@@ -203,7 +203,8 @@
     "image": "mag-warframe.jpg",
     "roles": [
       "utility"
-    ]
+    ],
+    "link": "/warframes/mag/"
   },
   {
     "name": "mesa",

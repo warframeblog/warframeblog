@@ -1,0 +1,31 @@
+{
+  "name": "Mag",
+  "passive": "Mag’s passive is called Magnetic Attraction. Whenever Mag bullet jumps, she pulls nearby items towards her.",
+  "abilities": [
+    {
+      "name": "Pull",
+      "description": "Her first ability is called Pull. Mag generates a strong magnetic pull dragging enemies towards her and dealing magnetic damage. This damage is doubled if the enemies are under the effect of her second ability, Magnetize. Enemies pulled towards mag are stunned if they survive the damage and if they die to this ability they have an increased chance of dropping an energy orb.",
+      "image": "/images/abilities/mag/pull.png"
+    },
+    {
+      "name": "Magnetize",
+      "description": "Mag’s Second ability is Magnetize. She creates a magnetic field centered on a targeted enemy, immobilizing him and dragging nearby enemies towards the center of this field. All bullets and projectiles fired towards the magnetic field are redirected towards its center and their damage amplified. The magnetic field will also absorb the damage of all incoming bullets and projectiles. A percentage of the damage absorbed is dealt periodically to all enemies within it. If the enemy targeted by the field dies, the field will explode at the end of its duration, dealing damage to enemies around it based on the amount of damage it has absorbed. Only 4 magnetic fields can be active at any given time. Creating a fifth one will make the oldest field either disappear or cause an explosion, depending if the ability’s target has been killed or not.",
+      "image": "/images/abilities/mag/magnetize.png"
+    },
+    {
+      "name": "Polarize",
+      "description": "Mag’s third ability is called Polarize. She emits a magnetic pulse around her that expands outwards. Polarize only affects enemies that have either shields or armor, shields take damage and armor is reduced and then damaged. Enemies with depleted shields or with no more armor will no longer be affected by this ability. Enemies hit by Polarize will also deal magnetic damage in a small area around them based on the amount of damage they took. Enemies hit by the pulse will also drop shards. These shards deal a small amount of damage but only when paired with Magnetize. If the shards get caught in the field, they will act like they were projectiles fired at it. Their damage is amplified and absorbed by the field, just like bullets and projectiles. Polarize will also replenish the shields of Mag and any Allies that are hit by it.",
+      "image": "/images/abilities/mag/polarize.png"
+    },
+    {
+      "name": "Crush",
+      "description": "Mag’s fourth ability is Crush. Mag magnetizes the bones of enemies around her, suspending them in midair and inflicting magnetic damage to them. It inflicts extra damage to targets affected by Magnetize. Crush will also replenish the shields of allies in range of the ability and can even increase them over their limit, creating overshields.",
+      "image": "/images/abilities/mag/crush.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Pull, Polarize and Crush. All the damage that can be inflicted with Magnetize is also increased by these mods. They also affects the amount of armor reduced during Polarize and the amount of shields restored by Polarize and Crush. Ability Range mods will increase the range of Pull, the radius of Magnetize’s magnetic field and explosion, the initial radius of Polarize and the range of Crush. Ability Duration mods increase the duration of the Magnetize’s field. They also affect how long Polarize expands for.",
+  "videoBuilds": [
+    "oom5d2K3D-k",
+    "-QkdGeSAQVs"
+  ]
+}
