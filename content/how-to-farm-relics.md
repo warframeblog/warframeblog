@@ -1,6 +1,6 @@
 ---
 title: 'How To Farm Relics - Lith, Meso, Neo & Axi'
-seoTitle: "How To Farm Relics - Lith, Meso, Neo & Axi - Warframe Blog"
+seoTitle: How and Where To Farm Relics? Best Place To Farm Relics.
 date: 2018-09-25T15:45:53+00:00
 author: warframe
 layout: post
@@ -19,12 +19,12 @@ Let's go over the missions that I've had the most success with when farming reli
 ## How and Where To Farm Lith Relics?
 ### Farm Lith Relics in Orokin Derelict Defense
 
-So, if you want to get Lith Void relics I would very much recommend you to do Orokin Derelict Defense (ODD) - Lith relic drop chance is 11.11%. Now, all you have to do to access this mission is simply go to the market, type in "derelict", and then buy the Orokin Derelict Defense Key. This is a reusable blueprint for the key that allows you to play the mission once. Now it may not seem terribly worth it to spend resources every time just to access a mission but it is very much worth it. 
+So, if you want to get Lith Void relics I would very much recommend you to do <b>Orokin Derelict Defense (ODD) - Lith relic drop chance is 11.11%</b>. Now, all you have to do to access this mission is simply go to the market, type in "derelict", and then buy the Orokin Derelict Defense Key. This is a reusable blueprint for the key that allows you to play the mission once. Now it may not seem terribly worth it to spend resources every time just to access a mission but it is very much worth it. 
 
 The blueprint only takes one minute to build so you can either build them in bulk by just spending some time at the foundry or you can just start building a new one every time you go and do the mission. Now you're only going to get Lith relics on the rotation A which are waves five and ten. So, the best way of farming relics here is to simply do 10 waves extract and do it again. It can reward you with any of the Lith relics, and sometimes you might get an endo pack every now and then but it happens very rarely.
 
 ### Farm Lith Relics in Spear on Mars
-And for those of you who don't want to build keys in your foundry, the mission for farming Lith relics might be Spear on Mars. As well as ODD it drops Lith relics on rotation A. The relics drop chance is 8.33% so every now and then you will get a random mod something like Vitality or Trick Magazine but most of the time you will get a Lith Relic.
+And for those of you who don't want to build keys in your foundry, the mission for farming Lith relics might be Spear on Mars. As well as ODD it drops Lith relics on rotation A. <b>The relics drop chance is 8.33%</b> so every now and then you will get a random mod something like Vitality or Trick Magazine but most of the time you will get a Lith Relic.
 
 Also, if you want to rush the waves to get your relics as fast as possible it's better to do it solo rather than with a random party. Because when you're running solo you have far fewer enemy spawning in. So you don't have to kill as many of them. And you also won't have to worry about your party members running all over the tileset causing the enemies to take cover in weird places and generally just slowing the enemies down. 
 
@@ -37,11 +37,12 @@ Here are some frames and builds to run these missions in the most effective way:
 * [Ember](/warframes/ember/ "Warframe Ember") - [World on Fire Build](/ember-world-fire-build/ "Ember World On Fire Build")
 * [Nova](/warframes/nova/ "Warframe Nova") - [Speed Build](/nova-speed-build/ "Nova Speed Build")
 
-## How To Farm Meso Relics
+## How and Where To Farm Meso Relics?
+### IO on Jupiter - Best Place To Farm Meso Relics
 
-Moving on to Meso and the best one for farming those, in my opinion, is IO on Jupiter. And this is basically a corpus version of Spear on Mars for Meso relics. It's actually a little bit better than Spear on Mars because the tileset is even smaller and the spawn locations are close to each other so if you're running with something like Ember with the world on fire build you can do 10 waves in under 5 minutes. All you have to do just turn on world on fire and run from one side to the other.
+Moving on to Meso Void Relics and the best one for farming those, in my opinion, is IO on Jupiter. And this is basically a corpus version of Spear on Mars for Meso Relics. It's actually a little bit better than Spear on Mars because the tileset is even smaller and the spawn locations are close to each other so if you're running with something like Ember with the World on Fire Build you can do 10 waves in under 5 minutes. All you have to do just turn on World on Fire and run from one side to the other.
 
-Now I would very much recommend bringing in an automatic weapon to deal with nullifiers because you will get a couple of nullifiers going from wave 5 to 10. If you run this with a bow or a sniper rifle, it's either going to take you a while to take the bubble or you're going to have to run into the bubble which will deactivate your world on fire. So, what you want to do is just bring an automatic rifle and start peppering the bubble as soon as you see it. Once the bubble goes down the nullifier will just die from world on fire or whatever you are using to kill the enemies. Just like with Spear, the relics don't have 100% of chance, every now and then, you will see stuff like endo but most of the time you will get a relic on rotation a which is waves 5 and 10.
+Now I would very much recommend bringing in an automatic weapon to deal with nullifiers because you will get a couple of nullifiers going from wave 5 to 10. If you run this with a bow or a sniper rifle, it's either going to take you a while to take the bubble or you're going to have to run into the bubble which will deactivate your ability. So, what you want to do is just bring an automatic rifle and start peppering the bubble as soon as you see it. Once the bubble goes down the nullifier will just die from World On Fire or whatever you are using to kill the enemies. Just like with Spear, the Void Relics don't have 100% of chance, every now and then, you will see stuff like endo but most of the time you will get a relic on rotation A which is waves 5 and 10.
 
 ## How To Farm Neo Relics
 
@@ -49,11 +50,11 @@ Moving on to Neo relics and the best mission in my opinion for farming those is 
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-1024x576.jpg" title="How To Farm Neo Relics" alt="Warframe neo relics farming" width="750" height="422" class="alignnone size-large wp-image-762" srcset="https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-1024x576.jpg 1024w, https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-300x169.jpg 300w, https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-768x432.jpg 768w, https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm.jpg 1280w" sizes="(max-width: 750px) 100vw, 750px" />
 
-I personally have three different setups, that I use for Hydron and the one I use depends on what I actually want to do on Hydron. So, if I just want to farm Hydron solo I'm going to use [Saryn Spore Build](https://warframeblog.com/saryn-spore-build/). I'm using very high-efficiency setup so, it's not as power-hungry and I don't have to use like a bazillion energy restores but it's kind of slow.
+I personally have three different setups, that I use for Hydron and the one I use depends on what I actually want to do on Hydron. So, if I just want to farm Hydron solo I'm going to use [Saryn Spore Build](/saryn-spore-build/). I'm using very high-efficiency setup so, it's not as power-hungry and I don't have to use like a bazillion energy restores but it's kind of slow.
 
 The second setup I use is resonating Banshee and this one is much faster but also far more power-hungry so, if you don't have any Trinity with you, you're going to have to use a lot of energy restores. This setup can get somewhat expensive if you just want to play solo because you will have to use energy restores, but if you're playing in an organized party where you have a Trinity and a buffer frame it is amazing because it's straight up the fastest way to get through the waves on Hydron. So, it's awesome for farming relics and if you have a lens on your Banshee it's also very good for farming focus.
 
-And finally, the one I use the most on Hydron leeching [Trinity EV Build](https://warframeblog.com/trinity-energy-vampire-build/). This is a setup that I use for levelling weapons. I will simply unequip everything except the weapon I want to level up. I go into Hydron and I give people energy using Energy Vampire and heal them using Blessing. However, there is a downside to running this setup because even though you are giving people energy and you are healing them you don't have any damage. So, the speed at which you clear waves is up to your teammates. And if you get into a party that's full of leeches and no one has any damage it's going to take 10 to 15 minutes to do five waves. And once again, the drop chance of the relics is not 100%. So, every now and then you will get a random mod and they drop on rotation A which is waves five and ten.
+And finally, the one I use the most on Hydron leeching [Trinity EV Build](/trinity-energy-vampire-build/). This is a setup that I use for levelling weapons. I will simply unequip everything except the weapon I want to level up. I go into Hydron and I give people energy using Energy Vampire and heal them using Blessing. However, there is a downside to running this setup because even though you are giving people energy and you are healing them you don't have any damage. So, the speed at which you clear waves is up to your teammates. And if you get into a party that's full of leeches and no one has any damage it's going to take 10 to 15 minutes to do five waves. And once again, the drop chance of the relics is not 100%. So, every now and then you will get a random mod and they drop on rotation A which is waves five and ten.
 
 ## How To Farm Axi Relics
 
