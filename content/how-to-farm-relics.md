@@ -62,8 +62,14 @@ And finally, the one I use the most on Hydron leeching [Trinity EV Build](/trini
 
 Finally, we have Axi Relics. Hydron does reward Axi Relics on rotations B and C which is waves 15 and 20 but if you just want to farm Axi Relics it's better to go onto Hieracon on Pluto. Hieracon is one of the few excavation missions that you can still do solo because it doesn't suffer from the idiotic enemy spawning if you're in solo mode. So, even though there will be times where your excavator will be out of power it's not going to happen very often. The rewards on Hieracon our overall really good because in rotation A which is excavators 1 and 2 you can get a 400 endo pack and on rotation B which is excavator 3 you can get Neo relic and then finally on rotation C which is the fourth excavator you can get an Axi relic. The reason, why I chose Hieracon rather than Hydron for Axi relics is because you simply get to the final rotation much faster, especially if you're running in a party that can run two excavators at once. And getting a party on Hieracon is not hard at all because it's a very popular farming location.
 
-## Zephyr Prime, Tiberon Prime, and Kronen Prime Drop Table
+## Prime Parts Drop Tables
+### Zephyr Prime, Tiberon Prime, and Kronen Prime
+If you want to get your hands on Zephyr Prime, Tiberon Prime or Kronen Prime relics I suggest you read [this article](/zephyr-prime-access-is-here/ "Zephyr Prime Access Is Here") to find out which relics you need.
 
-If you want to get your hands on Zephyr Prime Tiberon Prime or Kronen Prime relics I suggest you read [this article](https://warframeblog.com/zephyr-prime-access-is-here/) to find out which relics you need.
+### Limbo Prime, Pyrana Prime, and Destreza Prime
+You can find drop tables for Limbo Prime, Pyrana Prime, and Destreza Prime parts [here](/limbo-prime-access/ "Limbo Prime Access Is Here").
+
+### Chroma Prime, Rubico Prime, and Gram Prime
+If you want to get your hands on Chroma Prime, Rubico Prime, and Gram Prime relics I suggest you read [this article](/chroma-prime-access/ "Chroma Prime Access Is Here") to find out which relics you need.
 
 It's pretty much it for the article. So, just a quick recap, in my opinion, the best missions for farming relics are Spear on Mars for Lith relics, IO and Jupiter for Meso relics, Hydron on Sedna for Neo relics and Hieracon on Pluto for Axi relics. I'm not saying that these are the only missions you should farm and the other ones are useless, all I'm saying is that these are the missions that I've had the most success with when it comes to farming relics in the last couple of months. Thank you very much for reading as always, I hope the article was helpful and I will see you next time, bye bye!
