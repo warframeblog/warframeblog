@@ -384,7 +384,10 @@
     "builds": "",
     "glyph": "VaubanArmisticeDarkGlyph.png",
     "image": "vauban-warframe.jpg",
-    "roles": []
+    "roles": [
+      "crowd-control"
+    ],
+    "link": "/warframes/vauban/"
   },
   {
     "name": "volt",

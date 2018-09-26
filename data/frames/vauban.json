@@ -1,0 +1,31 @@
+{
+  "name": "Vauban",
+  "passive": "Vauban’s passive is Reinforce. Vauban deals 25% more damage to incapacitated enemies.",
+  "abilities": [
+    {
+      "name": "Tesla",
+      "description": "Vauban’s first ability is Tesla. Vauban throws a grenade that holds an electrical charge and strikes enemies that come into range, dealing Electric damage. These grenades stick to any surface, enemy or ally, and hold multiple charges. Each time they strike an enemy, one charge is removed. Each grenade lasts until its duration expires or they run out of charges. Vauban can have multiple grenades active at the same time. Tesla can be charged by holding down the ability button. This increases the damage and status chance.﻿",
+      "image": "/images/abilities/vauban/tesla.png"
+    },
+    {
+      "name": "Minelayer",
+      "description": "<p>Vauban’s second ability is Minelayer. Vauban throws one out of four types of grenades that activate into a trap. Tapping the ability button will cycle between the four grenade types and holding it down will use the one currently selected. Vauban can have multiple Minelayer traps active at the same time. First, we have Bounce. When Vauban throws a Bounce grenade it will deploy into a bounce pad. Allies and enemies that step onto the pad will be launched in the direction the pad is facing. Enemies will also take some damage and are knocked down. They also suffer a Magnetic status effect, reducing their shields. Each pad has limited uses, expiring when they run out of charges. </p><p>The next trap is Trip Laser. The Trip Laser grenade deploys into a long laser trip wire. Enemies that move through the trip wire will be stunned or knocked down depending on if they were walking or running, respectively. The trip wire lasts until its duration ends. Next we have Shred. The Shred grenade deploys into an explosive landmine that explodes when an enemy gets close enough. All enemies within the explosion’s radius will take Blast damage and will be knocked back. Their armor will also be reduced for a short time. Finally, we have Concuss. The Concuss grenade deploys into a concussive landmine that explodes due to an enemy’s proximity. The resulting explosion will stun nearby enemies and will make them unable to hear gunfire noise for a short duration. They will also suffer a Radiation status effect, making them attack their allies.</p>",
+      "image": "/images/abilities/vauban/minelayer.png"
+    },
+    {
+      "name": "Bastille",
+      "description": "Vauban’s third ability is Bastille. Vauban throws a grenade that deploys into a containment field. Enemies that enter the field will be suspended in stasis, unable to do anything. Bastille can hold a limited number of enemies. If it’s holding its maximum amount of enemies, new ones that enter the field will not be suspended. Multiple Bastilles can be active at the same time, each with its own duration and held enemies.",
+      "image": "/images/abilities/vauban/bastille.png"
+    },
+    {
+      "name": "Vortex",
+      "description": "Vauban’s fourth ability is Vortex. Vauban throws a grenade that deploys into a vortex that violently attracts nearby enemies. Enemies caught by Vortex will take some Magnetic damage per second. Vortex also has a chance of inflicting a Magnetic status effect. There can be multiple Vortexes active at the same time.",
+      "image": "/images/abilities/vauban/vortex.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Tesla, the maximum number of enemies Bastille can hold and the damage over time of Vortex. It also affects the damage of Minelayer’s Bounce and the damage and armor reduction of Shred. Ability Range mods affect the attack range of Tesla and the radius of Bastille and Vortex. It also affects the explosion radius of Minelayer’s Shred and Concuss. Ability Duration mods affect Tesla’s number of charges per grenade and the duration of Bastille and Vortex. It also affects the duration of Minelayer’s Trip Laser, the armor reduction debuff of Shred and the deafening effect of Concuss.",
+  "videoBuilds": [
+    "98znEcsG58M",
+    "JkAipDMOdiw"
+  ]
+}

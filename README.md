@@ -36,7 +36,7 @@
 - [X] [Trinity](https://warframeblog.com/warframes/trinity/ "Warframe Trinity")
 - [ ] [Titania](https://warframeblog.com/warframes/titania/ "Warframe Titania")
 - [ ] [Valkyr](https://warframeblog.com/warframes/valkyr/ "Warframe Valkyr")
-- [ ] [Vauban](https://warframeblog.com/warframes/vauban/ "Warframe Vauban")
+- [X] [Vauban](https://warframeblog.com/warframes/vauban/ "Warframe Vauban")
 - [X] [Volt](https://warframeblog.com/warframes/volt/ "Warframe Volt")
 - [ ] [Wukong](https://warframeblog.com/warframes/wukong/ "Warframe Wukong")
 - [X] [Zephyr](https://warframeblog.com/warframes/zephyr/ "Warframe Zephyr")
