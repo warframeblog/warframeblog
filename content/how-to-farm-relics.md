@@ -87,4 +87,4 @@ You can find drop tables for Limbo Prime, Pyrana Prime, and Destreza Prime parts
 ### Chroma Prime, Rubico Prime, and Gram Prime
 If you want to get your hands on Chroma Prime, Rubico Prime, and Gram Prime relics I suggest you read [this article](/chroma-prime-access/ "Chroma Prime Access Is Here") to find out which relics you need.
 
-It's pretty much it for the article. So, just a quick recap, in my opinion, the best missions for farming relics are Spear on Mars for Lith relics, IO and Jupiter for Meso relics, Hydron on Sedna for Neo relics and Hieracon on Pluto for Axi relics. I'm not saying that these are the only missions you should farm and the other ones are useless, all I'm saying is that these are the missions that I've had the most success with when it comes to farming relics in the last couple of months. Thank you very much for reading as always, I hope the article was helpful and I will see you next time, bye bye!
+And that's pretty much it for the article. I wish you good luck when farming relics. And I will see you next time. Bye-bye.
