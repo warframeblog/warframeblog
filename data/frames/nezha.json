@@ -1,0 +1,27 @@
+{
+  "name": "Nezha",
+  "passive": "Nezha’s passive is Frictionless. Nezha has reduced friction on the ground. He keeps the momentum gained by moving for longer and can perform longer slides.",
+  "abilities": [
+    {
+      "name": "Fire Walker",
+      "description": "Nezha’s first ability is Fire Walker. Nezha ignites the ground under him leaving behind a trail of fire as he moves. The flames will persist for a period of time before dissipating. This trail of fire will deal Heat damage per second to enemies that walk over them with a chance to inflict a Heat status effect, setting them on fire. The flames will also cleanse allies that stand on them, curing them of any negative status effects. Fire Walker will also increase Nezha’s movement speed while the ability lasts.",
+      "image": "/images/abilities/nezha/fire-walker.png"
+    },
+    {
+      "name": "Blazing Chakram",
+      "description": "Nezha’s second ability is Blazing Chakram. Nezha throws a flaming chakram that inflicts Heat damage and a Heat status effect to each enemy it hits. The chakram will bounce off of enemies and surfaces up to maximum number of times before returning to Nezha. Enemies hit by the chakram are also marked for a period of time. Marked enemies will take increased damage and have an increased chance of dropping health and energy orbs when they die. Holding down the ability button will charge the chakram before throwing it, increasing its damage and range. It will also make the chakram fly in a straight line, forwards and then backwards towards Nezha, damaging all enemies hit and knocking them down. Casting the ability again while the chakram is in flight will teleport Nezha to its position. If Fire Walker is active and Nezha teleports, it will cause an explosion at his destination, inflicting Heat damage to enemies around Nezha with a chance to cause a Heat status effect. ",
+      "image": "/images/abilities/nezha/blazing-chakram.png"
+    },
+    {
+      "name": "Warding Halo",
+      "description": "Nezha’s third ability is Warding Halo. Nezha creates a protective ring of fire around himself, making him immune to status effects and reducing all incoming damage until it is destroyed. This ring has a base health which is increased based on Nezha’s armor. The ring is also immune to damage for a few seconds upon casting. During that invulnerability period, the ring absorbs incoming enemy damage which is converted and added to the ring’s total health. Additionally, enemies that get too close to Nezha will be staggered and dealt Slash damage per second. When the ring is destroyed, a heat wave will be released outwards inflicting a Heat status effect to nearby enemies. Nezha also benefits from a very short period of invulnerability when the ring is destroyed.",
+      "image": "/images/abilities/nezha/warding-halo.png"
+    },
+    {
+      "name": "Divine Spears",
+      "description": "Nezha’s fourth ability is Divine Spears. Nezha conjures several fiery spears that burst from the ground, impaling enemies around him, dealing Puncture damage. Impaled enemies will be incapacitated while the ability lasts. When the ability ends, or if Nezha casts it again, the spears will disappear and impaled enemies are dealt Impact damage as they are slammed into the ground. Throwing a Blazing Chakram on an impaled enemy will spawn another chakram which then fires at a nearby enemy. This effect can chain as the chakrams hit impaled enemies.",
+      "image": "/images/abilities/nezha/divine-spears.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage per second of Fire Walker and the explosion damage after it detonates with Blazing Chakram. They also affect Blazing Chakram’s damage and the increased damage enemies take when marked, the base health, armor multiplier, damage absorption multiplier and damage over time of Warding Halo and the damage of Divine Spears. Warding Halo’s health can also be increased with armor mods. Ability Range mods affect the radius of Fire Walker’s explosion after it detonates with Blazing Chakram. They also affect the stagger radius of Warding Halo and the radius of Divine Spears. Ability Duration mods affect the speed buff duration of Fire Walker and the duration its flames persist in the world, the mark duration of Blazing Chakram and the duration of Divine Spears."
+}
