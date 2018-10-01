@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Sep 2018 12:45:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 15:08:33 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nezha</title>
+      <link>https://warframeblog.com/warframes/nezha/</link>
+      <pubDate>Mon, 01 Oct 2018 15:08:33 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframes/nezha/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How To Farm Relics - Lith, Meso, Neo &amp; Axi</title>
