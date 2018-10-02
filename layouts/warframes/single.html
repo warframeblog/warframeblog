@@ -126,7 +126,7 @@
 			<div class="columns is-multiline is-mobile has-text-centered warframe-list">
 				{{ range .Site.Data.warframebuilds }}
 					{{ if and (.link) (ne .name (lower $frame.name)) }}
-						<div class="column">
+						<div class="column is-2-desktop is-3-tablet is-4-mobile">
 							<div class="warframe-element" data-roles="any">
 								<a href="{{ .link }}" target="_blank" title="Warframe {{ .title }}">
 									<h2>{{ .title }}</h2>
