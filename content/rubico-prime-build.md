@@ -1,7 +1,7 @@
 ---
 title: Rubico Prime Build
 seoTitle: "Rubico Prime Build. Warframe Rubico Prime Build. Rubico Prime 4 Forma Build"
-date: 2018-10-02T12:14:24+00:00
+date: 2018-10-04T02:14:24+00:00
 author: warframe
 layout: post
 permalink: /rubico-prime-build/
@@ -10,12 +10,11 @@ categories:
   - Builds
 video_url:
   - WNOJO3882QY
-draft: true
 ---
-Hey guys and welcome to another Warframe article and today we're gonna take a quick look at a new sniper rifle that was just released with the Chrome Prime Access - the Rubico Prime.<!--more-->
+Hey guys and welcome to another Warframe article and today we're gonna take a quick look at a new sniper rifle that was just released with the [Chrome Prime Access](/chroma-prime-access/ "Chroma Prime Access Is Here") - the Rubico Prime.<!--more-->
 
 ## How To Get Rubico Prime?
-Now, just like with any other primed item, you get the parts for Rubico Prime from relics. The Rubico Prime blueprint is a rare drop from the Meso R1 relic, the barrel is an uncommon drop from the Neo H2 relic, the receiver is a common drop from the Lith O1 relic, and finally the Rubico Prime Stock is an uncommon drop from the Lith B5 relic.
+Now, just like with any other primed item, you get the parts for Rubico Prime from [relics](/how-to-farm-relics/ "How To Farm Relics"). The Rubico Prime blueprint is a rare drop from the Meso R1 relic, the barrel is an uncommon drop from the Neo H2 relic, the receiver is a common drop from the Lith O1 relic, and finally the Rubico Prime Stock is an uncommon drop from the Lith B5 relic.
 
 ## Rubico Prime Stats
 The Rubico Prime is a semi-automatic sniper rifle that requires you to be at least mastery rank 12 to use it and does 187 damage per shot: 149.6 is impact, 28.1 is puncture, and only 9.3 is slash. It fires up to 3.67 rounds per second with 5 rounds in the magazine 72 rounds in total, and a decent reload time of two seconds. It comes with two different zoom levels. The first one being a 2.5 times zoom which will grant you plus 35% bonus critical multiplier. And the second one is 5 time zoom which will grant you 50% bonus critical multiplier. 
