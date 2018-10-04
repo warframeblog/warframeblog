@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/rubico-prime-build/</loc>
+    <lastmod>2018-10-04T02:14:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/balor-fomorian-event/</loc>
     <lastmod>2018-10-03T02:15:48+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1047,7 +1054,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-10-03T02:15:48+00:00</lastmod>
+    <lastmod>2018-10-04T02:14:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
