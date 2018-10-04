@@ -1,6 +1,6 @@
 ---
 title: How to get Hydroid
-seoTitle: "How to get Hydroid - Warframe Blog"
+seoTitle: "✅ How to get Hydroid - Warframe Blog"
 date: 2017-12-29T01:03:18+00:00
 author: warframe
 layout: post

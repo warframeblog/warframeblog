@@ -1,6 +1,6 @@
 ---
 title: How to get Inaros
-seoTitle: "How to get Inaros? Sands Of Inaros Quest Walkthrough Guide"
+seoTitle: "✅ How to get Inaros? Sands Of Inaros Quest Walkthrough Guide"
 date: 2018-08-08T00:03:18+00:00
 author: warframe
 layout: post

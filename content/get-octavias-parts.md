@@ -1,6 +1,6 @@
 ---
 title: "How To Get Octavia's Parts"
-seoTitle: "How to Get Octavia? Warframe How to Get Octavia Parts?"
+seoTitle: "✅ How to Get Octavia? Warframe How to Get Octavia Parts?"
 date: 2018-08-26T01:57:07+00:00
 author: warframe
 layout: post

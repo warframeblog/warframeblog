@@ -1,6 +1,6 @@
 ---
 title: How to get Revenant
-seoTitle: "How to get Revenant? Revenant Quest Guide Step By Step"
+seoTitle: "✅ How to get Revenant? Revenant Quest Guide Step By Step"
 date: 2018-08-25T01:03:18+00:00
 author: warframe
 layout: post
