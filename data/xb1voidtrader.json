@@ -1,94 +1,104 @@
 {
   "id": "5b3f7168069a1b85636f66fb",
-  "activation": "2018-09-21T13:00:00.000Z",
-  "expiry": "2018-09-23T13:00:00.000Z",
+  "activation": "2018-10-05T13:00:00.000Z",
+  "expiry": "2018-10-07T13:00:00.000Z",
   "character": "Baro Ki'Teer",
-  "location": "Orcus Relay (Pluto)",
+  "location": "Vesper Relay (Venus)",
   "inventory": [
     {
-      "item": "Colour Picker Twitch B Item A",
-      "ducats": 220,
+      "item": "Prisma Twin Gremlins Weapon",
+      "ducats": 500,
       "credits": 220000
     },
     {
-      "item": "Primed Morphic Transformer",
-      "ducats": 350,
-      "credits": 150000
+      "item": "Primed Rifle Ammo Mutation",
+      "ducats": 400,
+      "credits": 140000
     },
     {
-      "item": "Buzz Kill",
-      "ducats": 375,
-      "credits": 150000
+      "item": "Primed Shotgun Ammo Mutation",
+      "ducats": 400,
+      "credits": 140000
     },
     {
-      "item": "Sweeping Serration",
-      "ducats": 375,
-      "credits": 150000
+      "item": "Primed Pistol Ammo Mutation",
+      "ducats": 400,
+      "credits": 140000
     },
     {
-      "item": "Maim",
-      "ducats": 375,
-      "credits": 150000
-    },
-    {
-      "item": "Quanta Vandal",
-      "ducats": 450,
-      "credits": 300000
-    },
-    {
-      "item": "Quanta Aufeis Skin",
+      "item": "Primed Regen",
       "ducats": 300,
-      "credits": 300000
+      "credits": 220000
     },
     {
-      "item": "Ki'teer Chest Plate",
-      "ducats": 150,
+      "item": "Detron Mara",
+      "ducats": 500,
+      "credits": 200000
+    },
+    {
+      "item": "Ki'teer Razza Synadana",
+      "ducats": 400,
+      "credits": 350000
+    },
+    {
+      "item": "Ki'teer Foros Shoulder Plates",
+      "ducats": 310,
+      "credits": 100000
+    },
+    {
+      "item": "Ki'teer Foros Chest Plate",
+      "ducats": 175,
+      "credits": 200000
+    },
+    {
+      "item": "Ki'teer Foros Leg Plates",
+      "ducats": 225,
+      "credits": 150000
+    },
+    {
+      "item": "Elixis Odonata Skin",
+      "ducats": 350,
       "credits": 250000
     },
     {
-      "item": "Ki'teer Shoulder Plates",
-      "ducats": 350,
-      "credits": 110000
+      "item": "Excalibur Archwing Bobble Head",
+      "ducats": 90,
+      "credits": 200000
     },
     {
-      "item": "Ki'teer Leg Plates",
-      "ducats": 300,
-      "credits": 150000
+      "item": "Kavat Pet Mask",
+      "ducats": 500,
+      "credits": 200000
     },
     {
-      "item": "Baro Emote",
-      "ducats": 0,
-      "credits": 1000000
+      "item": "Kavat Pet Wings",
+      "ducats": 400,
+      "credits": 250000
     },
     {
-      "item": "Ki'teer Tribute Glyph",
-      "ducats": 80,
-      "credits": 50000
+      "item": "Kavat Sentinel Tail",
+      "ducats": 400,
+      "credits": 250000
     },
     {
-      "item": "Baro Ki'teer Colors",
-      "ducats": 150,
-      "credits": 300000
+      "item": "Ki'teer Sugatra",
+      "ducats": 250,
+      "credits": 250000
     },
     {
-      "item": "Photobooth Tile Orokin Extraction",
-      "ducats": 325,
+      "item": "Dragon Mod Pack",
+      "ducats": 500,
+      "credits": 100000
+    },
+    {
+      "item": "Dark Sword Day Of The Dead Skin",
+      "ducats": 320,
+      "credits": 250000
+    },
+    {
+      "item": "Day Of The Dead Kavat Armor",
+      "ducats": 400,
       "credits": 175000
-    },
-    {
-      "item": "Grustrag Three Beacon",
-      "ducats": 200,
-      "credits": 125000
-    },
-    {
-      "item": "Stalker Beacon",
-      "ducats": 200,
-      "credits": 125000
-    },
-    {
-      "item": "Zanuka Hunter Beacon",
-      "ducats": 200,
-      "credits": 125000
     },
     {
       "item": "Sands Of Inaros",
@@ -96,8 +106,8 @@
       "credits": 25000
     }
   ],
-  "psId": "5b3f7168069a1b85636f66fb18",
+  "psId": "5b3f7168069a1b85636f66fb20",
   "active": true,
-  "startString": "-1h 6m 51s",
-  "endString": "1d 22h 53m 8s"
+  "startString": "-2h 23m 32s",
+  "endString": "1d 21h 36m 27s"
 }

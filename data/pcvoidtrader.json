@@ -1,104 +1,154 @@
 {
   "id": "5b3f70c1be87e4524f04d5ec",
-  "activation": "2018-09-21T13:00:00.000Z",
-  "expiry": "2018-09-23T13:00:00.000Z",
+  "activation": "2018-10-05T13:00:00.000Z",
+  "expiry": "2018-10-07T13:00:00.000Z",
   "character": "Baro Ki'Teer",
-  "location": "Larunda Relay (Mercury)",
+  "location": "Kronia Relay (Saturn)",
   "inventory": [
     {
-      "item": "Taxon Desert-camo Skin",
-      "ducats": 200,
-      "credits": 150000
-    },
-    {
-      "item": "Primed Charged Shell",
+      "item": "Primed Expel Corpus",
       "ducats": 350,
-      "credits": 200000
+      "credits": 140000
     },
     {
-      "item": "Pummel",
+      "item": "Primed Expel Corrupted",
+      "ducats": 350,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Expel Grineer",
+      "ducats": 350,
+      "credits": 140000
+    },
+    {
+      "item": "Primed Expel Infested",
+      "ducats": 350,
+      "credits": 140000
+    },
+    {
+      "item": "Wraith Turbines Scarf",
+      "ducats": 400,
+      "credits": 500000
+    },
+    {
+      "item": "Baro Horn",
+      "ducats": 525,
+      "credits": 375000
+    },
+    {
+      "item": "Inaros Liset Skin",
+      "ducats": 400,
+      "credits": 300000
+    },
+    {
+      "item": "Primed Pressure Point",
+      "ducats": 385,
+      "credits": 300000
+    },
+    {
+      "item": "Primed Cryo Rounds",
+      "ducats": 350,
+      "credits": 110000
+    },
+    {
+      "item": "Primed Reach",
       "ducats": 300,
-      "credits": 150000
-    },
-    {
-      "item": "Crash Course",
-      "ducats": 330,
-      "credits": 200000
-    },
-    {
-      "item": "Full Contact",
-      "ducats": 365,
       "credits": 220000
     },
     {
-      "item": "Collision Force",
-      "ducats": 400,
-      "credits": 250000
+      "item": "Primed Continuity",
+      "ducats": 350,
+      "credits": 100000
     },
     {
-      "item": "Supra Vandal",
+      "item": "Wraith Viper",
+      "ducats": 400,
+      "credits": 75000
+    },
+    {
+      "item": "Prisma Tetra",
+      "ducats": 400,
+      "credits": 50000
+    },
+    {
+      "item": "Prisma Hecate Syandana",
+      "ducats": 250,
+      "credits": 300000
+    },
+    {
+      "item": "Prisma Naberus Arm Armor",
+      "ducats": 220,
+      "credits": 140000
+    },
+    {
+      "item": "Prisma Arrows",
+      "ducats": 350,
+      "credits": 75000
+    },
+    {
+      "item": "Baro Kubrow Sigil",
+      "ducats": 55,
+      "credits": 45000
+    },
+    {
+      "item": "Baro Kavat Sigil",
+      "ducats": 55,
+      "credits": 45000
+    },
+    {
+      "item": "Baro Kiteer Sekhara",
+      "ducats": 400,
+      "credits": 200000
+    },
+    {
+      "item": "Ki'teer Kavat Armor",
       "ducats": 500,
       "credits": 275000
     },
     {
-      "item": "Prova Vandal",
-      "ducats": 410,
+      "item": "Scimitar Prisma Skin",
+      "ducats": 210,
+      "credits": 450000
+    },
+    {
+      "item": "Dark Sword Day Of The Dead Skin",
+      "ducats": 320,
       "credits": 250000
     },
     {
-      "item": "Hydroid Immortal Skin",
-      "ducats": 550,
-      "credits": 100000
+      "item": "Day Of The Dead Kavat Armor",
+      "ducats": 400,
+      "credits": 175000
     },
     {
-      "item": "Zephyr Immortal Skin",
-      "ducats": 550,
-      "credits": 100000
+      "item": "Falcon Mod Pack",
+      "ducats": 250,
+      "credits": 50000
     },
     {
-      "item": "Right Prisma Daedalus Knee Plates",
-      "ducats": 65,
+      "item": "3 Day Affinity Booster",
+      "ducats": 450,
+      "credits": 200000
+    },
+    {
+      "item": "3 Day Credit Booster",
+      "ducats": 350,
       "credits": 75000
     },
     {
-      "item": "Left Prisma Daedalus Knee Plates",
-      "ducats": 65,
-      "credits": 75000
+      "item": "3 Day Resource (Amount) Booster",
+      "ducats": 400,
+      "credits": 150000
     },
     {
-      "item": "Left Prisma Daedalus Shoulderguard",
-      "ducats": 65,
-      "credits": 75000
+      "item": "Baro Emote",
+      "ducats": 0,
+      "credits": 1000000
     },
     {
-      "item": "Right Prisma Daedalus Shoulderguard",
-      "ducats": 65,
-      "credits": 75000
-    },
-    {
-      "item": "Prisma Daedalus Chest Plate",
-      "ducats": 150,
-      "credits": 100000
-    },
-    {
-      "item": "Noggle Statue - Baro Ki'teer",
-      "ducats": 70,
-      "credits": 250000
-    },
-    {
-      "item": "Elixis Opticor",
-      "ducats": 325,
-      "credits": 250000
-    },
-    {
-      "item": "Xiphos Prisma Skin",
-      "ducats": 220,
-      "credits": 400000
-    },
-    {
-      "item": "Display - Argyle",
-      "ducats": 100,
-      "credits": 75000
+      "item": "Pedestal Prime",
+      "ducats": 0,
+      "credits": 1000000
     },
     {
       "item": "Sands Of Inaros",
@@ -106,8 +156,8 @@
       "credits": 25000
     }
   ],
-  "psId": "5b3f70c1be87e4524f04d5ec20",
+  "psId": "5b3f70c1be87e4524f04d5ec30",
   "active": true,
-  "startString": "-1h 6m 51s",
-  "endString": "1d 22h 53m 8s"
+  "startString": "-2h 22m 29s",
+  "endString": "1d 21h 37m 30s"
 }
