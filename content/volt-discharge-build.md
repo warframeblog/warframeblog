@@ -10,8 +10,6 @@ video_url:
 image: /wp-content/uploads/2018/03/volt-discharge-build.jpg
 categories:
   - Builds
-video_url:
-  - CLhGq3YPtKM
 tags:
   - builds
   - volt
