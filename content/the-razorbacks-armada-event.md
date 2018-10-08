@@ -1,7 +1,7 @@
 ---
 title: The Razorbacks Armada Returns Once More
 seoTitle: "The Razorbacks Armada Returns. Razorback Armada Guide"
-date: 2018-08-06T23:52:25+00:00
+date: 2018-10-08T16:52:25+00:00
 author: warframe
 layout: post
 permalink: /the-razorbacks-armada-event/
@@ -17,7 +17,7 @@ tags:
 ---
 Hey guys and welcome to another Warframe article and The Razorback Armada event has returned or should I say the Razorback is back?<!--more-->
 
-Now, this is actually our own doing because it's tied into the invasion system. But I'm not sure which way this actually works if it if you help the Corpus they can get resources faster and they build the Razorback faster or if it's the other way around where you help the Grineer which pushes up the Corpus and they build the Razorback. Anyway, they finished building the Razorback and they are now in Kronia Relay on Saturn.
+Now, this is actually our own doing because it's tied into the invasion system. But I'm not sure which way this actually works if it if you help the Corpus they can get resources faster and they build the Razorback faster or if it's the other way around where you help the Grineer which pushes up the Corpus and they build the Razorback. Anyway, they finished building the Razorback and they are now in <b>Orcus Relay on Pluto</b>.
 
 ## What you can get from doing The Razorback Armada event?
 
