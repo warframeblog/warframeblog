@@ -1,0 +1,31 @@
+{
+  "name": "Titania",
+  "passive": "Titania’s passive is Dust Bloom. Titania can cover more distance with her bullet jump. Additionally, when Titania bullet jumps, she creates a trampoline that improves the bullet jumping of her allies, if the maneuver is performed on top of it.",
+  "abilities": [
+    {
+      "name": "Spellbind",
+      "description": "Titania’s first ability is Spellbind. Titania targets a location and makes any enemies within the ability’s radius drop their weapons. They also become incapacitated, slowly floating away in mid-air, in the direction they were moving. Nearby allies become immune to status effects. When the ability ends, any enemies that previously had weapons must retrieve them before attacking.",
+      "image": "/images/abilities/titania/spellbind.png"
+    },
+    {
+      "name": "Tribute",
+      "description": "<p>Titania’s second ability is Tribute. Titania targets an enemy and blasts him with energy, dealing damage and blasting him away. If the enemy survives, its damage will be reduced for a period of time. Additionally, an afterimage of the target will remain in its original position. Picking it up will provide one of four different buffs. You can check which buff you’ll get by the little icon above each afterimage. The four different buffs you can get are as follows.</p><p> First we have Dust. Dust is an aura that reduces the accuracy of enemies around Titania. Next we have Thorns. The Thorns aura will reflect incoming damage back to the attacker. Any allies near Titania will also benefit from this effect. Next we have Entangle. The Entangle aura will reduce the speed of enemies around Titania. And finally, we have Full Moon. The Full Moon aura increases the damage of companions. Any allies near Titania will also benefit from this effect, increasing their own companions’ damage. Picking up a buff that is already active will improve its effect, up to a maximum, and will also refresh its duration. Tribute will only work once per enemy and the buff you get depends on the enemy type.</p> ",
+      "image": "/images/abilities/titania/tribute.png"
+    },
+    {
+      "name": "Lantern",
+      "description": "Titania’s third ability is Lantern. Titania targets an enemy and makes him float up into the air until the ability lasts. This enemy becomes invulnerable and is unable to do anything. Other enemies that come close to the floating enemy will be entranced and will get closer to it, taking damage over time when they get too close. When the ability expires, the floating enemy will explode, dealing damage to itself and nearby enemies. This can be triggered early by casting the ability again.",
+      "image": "/images/abilities/titania/lantern.png"
+    },
+    {
+      "name": "Razorwing",
+      "description": "Titania’s fourth ability is Razorwing. Titania shrinks down into her pixie form. While in this form, she can fly freely as if she were using an Archwing, using the same set of controls. She also gets a chance to evade attacks, making her more durable. In addition, she will also command some Razorflies. These small butterflies will swarm an enemy and deal damage until it dies. They also have a better chance to be targeted by enemies, drawing their fire. Razorflies can be killed and will only reappear by recasting the ability. While Razorwing is active, Titania gets to use her two signature weapons, the Dex Pixia dual machine pistols and the Diwata heavy sword. Titania can also continue to use her other abilities while in this form. This is a channeled ability which means it will remain active, constantly draining energy, until it’s deactivated.",
+      "image": "/images/abilities/titania/razorwing.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the initial damage of Tribute, the damage over time and the explosion damage of Lantern, the Razorfly damage of Razorwing and the damage of both the Dex Pixia and Diwata weapons. These weapons can also be modded from the arsenal page. Ability Range mods affect the radius and cast range of Spellbind, the cast range of Tribute and the cast range, attraction radius, damage over time radius and explosion radius of Lantern. Ability Duration mods affect the duration of Spellbind, the reduction of the targeted enemy’s damage of Tribute, the duration of Lantern and the energy drain of Razorwing. This concludes Titania’s Warframe Spotlight. Thank you for watching and I will see you all next time.",
+  "videoBuilds": [
+    "RML4ARuUEjY",
+    "jPav3EWXdQs"
+  ]
+}

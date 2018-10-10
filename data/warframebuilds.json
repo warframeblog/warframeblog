@@ -355,7 +355,11 @@
     "builds": "",
     "glyph": "TitaniaDarkGlyph.png",
     "image": "titania-warframe.png",
-    "roles": []
+    "roles": [
+      "damage",
+      "crowd-control"
+    ],
+    "link": "/warframes/titania/"
   },
   {
     "name": "trinity",

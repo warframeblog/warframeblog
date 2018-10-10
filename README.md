@@ -34,7 +34,7 @@
 - [X] [Rhino](https://warframeblog.com/warframes/rhino/ "Warframe Rhino")
 - [X] [Saryn](https://warframeblog.com/warframes/saryn/ "Warframe Saryn")
 - [X] [Trinity](https://warframeblog.com/warframes/trinity/ "Warframe Trinity")
-- [ ] [Titania](https://warframeblog.com/warframes/titania/ "Warframe Titania")
+- [X] [Titania](https://warframeblog.com/warframes/titania/ "Warframe Titania")
 - [ ] [Valkyr](https://warframeblog.com/warframes/valkyr/ "Warframe Valkyr")
 - [X] [Vauban](https://warframeblog.com/warframes/vauban/ "Warframe Vauban")
 - [X] [Volt](https://warframeblog.com/warframes/volt/ "Warframe Volt")
