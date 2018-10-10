@@ -6,10 +6,19 @@
     <description>Recent content in Warframes on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Oct 2018 15:08:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Oct 2018 11:18:42 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/warframes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Titania</title>
+      <link>https://warframeblog.com/warframes/titania/</link>
+      <pubDate>Wed, 10 Oct 2018 11:18:42 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframes/titania/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nezha</title>
