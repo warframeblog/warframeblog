@@ -1,0 +1,31 @@
+{
+  "name": "Nyx",
+  "passive": "Nyx’s passive is Relinquish. Any enemy affected by Nyx’s abilities has a chance to be disarmed.",
+  "abilities": [
+    {
+      "name": "Mind Control",
+      "description": "Nyx’s first ability is Mind Control. Nyx invades the mind of a targeted enemy, forcing it to fight alongside her for a period of time. The controlled enemy will be briefly stunned when the ability is first cast after which Nyx will have full control. This enemy will then start to attack his former allies while using its abilities to the benefit of Nyx and her allies. While the enemy is mind controlled it will be immune to friendly fire but all the damage taken from allies will trigger once the Mind Control effect ends. Only one enemy can be controlled at a time. Besides letting the ability expire, Mind Control can be ended early by casting it again. Nyx’s passive will disarm enemies affected by Mind Control but will only trigger when Mind Control’s effects end.",
+      "image": "/images/abilities/nyx/mind-control.png"
+    },
+    {
+      "name": "Psychic Bolts",
+      "description": "Nyx’s second ability is Psychic Bolts. Nyx launches several energy bolts which will seek out enemies. These bolts have a chance to cause a Radiation status effect on enemies hit and a smaller chance to cause a Bleed status effect.",
+      "image": "/images/abilities/nyx/psychic-bolts.png"
+    },
+    {
+      "name": "Chaos",
+      "description": "Nyx’s third ability is Chaos. Nyx confuses all enemies around her making them attack random targets. Enemies affected by this ability will be briefly stunned when it is cast and will then attack the targets closest to them but they have a higher chance to attack other enemies afflicted by Chaos. Nyx can cast Mind Control on a target affected by Chaos, which will override the effect.",
+      "image": "/images/abilities/nyx/chaos.png"
+    },
+    {
+      "name": "Absorb",
+      "description": "Nyx’s fourth ability is Absorb. Nyx enters a meditative state creating an energy bubble around her that absorbs damage, from enemies and allies alike. While in this state, Nyx is more likely to be targeted by enemies and becomes immune to status effects. When the ability is used again, Nyx will detonate the bubble, inflicting all absorbed damage as Magnetic damage to enemies around her. The resulting explosion will also knock down enemies affected by it. Absorb will always do damage as it has a minimum amount of damage it can do. This minimum damage will increase passively every second and is dealt to enemies if, when the bubble explodes, it is higher than the amount of damage absorbed. Absorb will constantly drain Nyx’s energy while it is active and this energy drain will become more severe the more damage she absorbs. If Nyx runs out of energy she will automatically detonate the bubble.",
+      "image": "/images/abilities/nyx/absorb.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Psychic Bolts and the minimum damage and passive damage gain from Absorb. Ability Range mods affect the cast range of Mind Control, the radius of Chaos and the explosion radius of Absorb. Ability Duration mods affect the duration of Mind Control and Chaos, and the energy drain of Absorb.",
+  "videoBuilds": [
+    "n8_bOpGvRMQ",
+    "WXLz8DzH3YE"
+  ]
+}
