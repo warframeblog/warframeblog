@@ -13,7 +13,7 @@ categories:
 ---
 Hey guys and welcome to another weapon build article. Today we're gonna take a quick look at a secondary weapon that I've been eyeballing for quite a while because it's kind of interesting and it goes by the name of Embolist.<!--more-->
 
-Now, first things first if you want to get your hands on the Embolist you will first have to research it via the Bio Lab in your dojo. If you then want to build the Embolist you have to invest additional 30000 [credits](https://warframeblog.com/farm-credits-750k-credits-per-hour/), five Mutagen Mass, 15000 Salvage, 1200 circuits, and one forma.
+Now, first things first if you want to get your hands on the Embolist you will first have to research it via the Bio Lab in your dojo. If you then want to build the Embolist you have to invest additional 30000 [credits](/farm-credits-750k-credits-per-hour/ "How to Get Credits in Warframe"), five Mutagen Mass, 15000 Salvage, 1200 circuits, and one forma.
 
 The Embolist is a secondary beam pistol that requires you to be at least mastery rank 9 to use it. It does 35 toxin damage per tick. It fires up to 8 rounds per second with 33 rounds in the magazine 210 rounds in total and 1.3 seconds reload time. It is a very low 3% crit chance with a below average 1.5x crit multiplier and a very nice 41% status chance. It also comes with one Dash polarity which is not the worst thing for a secondary weapon.
 
@@ -39,7 +39,7 @@ Here we're running Pistol Pestilence and Scorch for gas damage and then Jolt for
 
 But it performs better versus the Infested especially when there is a lot of them so the gas clouds overlap and you proc an insane amount of toxin on everything within range. And it's really good versus the Corpus as well because the toxin procs from the gas clouds will go straight through their shields and proto shields. And every now and then the gas clouds will take care of the annoying drones that are flying around as well.
 
-Now, the Embolist is pretty interesting because it's basically like a pocket version of the [Ignis](https://warframeblog.com/ignis-wraith-build/) that just sprays out mad amounts of status at the cost of crit because it doesn't really have any.
+Now, the Embolist is pretty interesting because it's basically like a pocket version of the [Ignis](/ignis-wraith-build/ "Warframe Ignis Build") that just sprays out mad amounts of status at the cost of crit because it doesn't really have any.
 
 The Embolist is pretty unique when it comes to secondary weapons because the closest thing that I can think of it's probably Atomos which is another secondary beam weapon. But this one is far less reliable on the status front. It does a less damage though that is kind of balanced out by the fact that it has decent crit so you can build it for the hybrid.
 
