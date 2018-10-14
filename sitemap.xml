@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/warframe-arbitrations-alerts-guide/</loc>
+    <lastmod>2018-10-14T02:15:48+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/titania/</loc>
     <lastmod>2018-10-10T11:18:42+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1068,7 +1075,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-10-10T11:18:42+00:00</lastmod>
+    <lastmod>2018-10-14T02:15:48+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

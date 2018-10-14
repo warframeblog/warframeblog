@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Oct 2018 11:18:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Oct 2018 02:15:48 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Warframe Arbitrations: Lethal Alerts Guide</title>
+      <link>https://warframeblog.com/warframe-arbitrations-alerts-guide/</link>
+      <pubDate>Sun, 14 Oct 2018 02:15:48 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframe-arbitrations-alerts-guide/</guid>
+      <description>&lt;p&gt;Hey guys and welcome to another Warframe guide article. And the Chimera update is finally here and it brought us a new alert-style game mode - Arbitrations(elite alerts / lethal alerts), featuring elite versions of endless missions with various modifiers. &lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Titania</title>
