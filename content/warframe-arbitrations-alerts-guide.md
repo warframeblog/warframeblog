@@ -14,7 +14,9 @@ tags:
 Hey guys and welcome to another Warframe guide article. And the Chimera update is finally here and it brought us a new alert-style game mode - Arbitrations(elite alerts / lethal alerts), featuring elite versions of endless missions with various modifiers. <!--more-->
 
 ## Lethal Alerts Prerequisite
-*<strong style="color: #e91e63">All Star Chart nodes must be completed before participating in Arbitrations.</strong> If you have not completed the entire star chart, you can go to the Arbiters of Hexis in any relay and talk to NPC. He will tell you what nodes in the Star Chart you must complete to unlock Arbitrations!*
+*<strong style="color: #e91e63">All Star Chart nodes must be completed before participating in Arbitrations.</strong> If you have not completed the entire star chart, you can go to the Arbiters of Hexis in any relay and talk to NPC.* 
+
+<img src='/wp-content/uploads/2018/10/warframe-arbitrations-npc.jpg' title='Warframe Lethal Alerts Prerequisite' alt='Talk to Arbitrations NPC to find out which node you are not completed' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/10/warframe-arbitrations-npc-960x540.jpg 1024w, /wp-content/uploads/2018/10/warframe-arbitrations-npc-300x169.jpg 300w, /wp-content/uploads/2018/10/warframe-arbitrations-npc-768x432.jpg 768w, /wp-content/uploads/2018/10/warframe-arbitrations-npc.jpg 960w' sizes='(max-width: 750px) 100vw, 750px'/> *He will tell you what nodes in the Star Chart you must complete to unlock Arbitrations!*
 
 ## Arbitrations: Lethal Alerts﻿
 <img src="/wp-content/uploads/2018/10/warframe-arbitrations-alert.jpg" title="Warframe Arbitrations: Lethal Alerts﻿" alt="New alert-style game mode - Arbitrations in Warframe" />
