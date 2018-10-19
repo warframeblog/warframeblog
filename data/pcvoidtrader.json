@@ -1,114 +1,101 @@
 {
   "id": "5b3f70c1be87e4524f04d5ec",
-  "activation": "2018-10-05T13:00:00.000Z",
-  "expiry": "2018-10-07T13:00:00.000Z",
+  "activation": "2018-10-19T13:00:00.000Z",
+  "startString": "-9m 29s",
+  "expiry": "2018-10-21T13:00:00.000Z",
+  "active": true,
   "character": "Baro Ki'Teer",
-  "location": "Kronia Relay (Saturn)",
+  "location": "Orcus Relay (Pluto)",
   "inventory": [
     {
-      "item": "Primed Expel Corpus",
+      "item": "Wraith Turbines Arm Armor",
       "ducats": 350,
-      "credits": 140000
+      "credits": 150000
     },
     {
-      "item": "Primed Expel Corrupted",
-      "ducats": 350,
-      "credits": 140000
+      "item": "Jolt",
+      "ducats": 300,
+      "credits": 150000
     },
     {
-      "item": "Primed Expel Grineer",
-      "ducats": 350,
-      "credits": 140000
+      "item": "Voltaic Strike",
+      "ducats": 300,
+      "credits": 150000
     },
     {
-      "item": "Primed Expel Infested",
-      "ducats": 350,
-      "credits": 140000
+      "item": "High Voltage",
+      "ducats": 300,
+      "credits": 150000
     },
     {
-      "item": "Wraith Turbines Scarf",
-      "ducats": 400,
+      "item": "Shell Shock",
+      "ducats": 300,
+      "credits": 150000
+    },
+    {
+      "item": "Vulkar Wraith",
+      "ducats": 450,
+      "credits": 300000
+    },
+    {
+      "item": "Prisma Veritux",
+      "ducats": 550,
+      "credits": 150000
+    },
+    {
+      "item": "Right Prisma Edo Shoulder Armor",
+      "ducats": 100,
+      "credits": 55000
+    },
+    {
+      "item": "Left Prisma Edo Shoulder Armor",
+      "ducats": 100,
+      "credits": 55000
+    },
+    {
+      "item": "Right Prisma Edo Knee Plates",
+      "ducats": 100,
+      "credits": 55000
+    },
+    {
+      "item": "Left Prisma Edo Knee Plates",
+      "ducats": 100,
+      "credits": 55000
+    },
+    {
+      "item": "Prisma Edo Chest Plate",
+      "ducats": 225,
+      "credits": 250000
+    },
+    {
+      "item": "Ki'teer Syandana",
+      "ducats": 500,
       "credits": 500000
     },
     {
-      "item": "Baro Horn",
+      "item": "Baro Visor",
       "ducats": 525,
       "credits": 375000
     },
     {
-      "item": "Inaros Liset Skin",
-      "ducats": 400,
-      "credits": 300000
-    },
-    {
-      "item": "Primed Pressure Point",
-      "ducats": 385,
-      "credits": 300000
-    },
-    {
-      "item": "Primed Cryo Rounds",
-      "ducats": 350,
-      "credits": 110000
-    },
-    {
-      "item": "Primed Reach",
-      "ducats": 300,
-      "credits": 220000
-    },
-    {
-      "item": "Primed Continuity",
-      "ducats": 350,
-      "credits": 100000
-    },
-    {
-      "item": "Wraith Viper",
-      "ducats": 400,
-      "credits": 75000
-    },
-    {
-      "item": "Prisma Tetra",
-      "ducats": 400,
+      "item": "Prisma Sigil ",
+      "ducats": 50,
       "credits": 50000
     },
     {
-      "item": "Prisma Hecate Syandana",
-      "ducats": 250,
+      "item": "Ki'teer Kubrow Armor",
+      "ducats": 500,
+      "credits": 250000
+    },
+    {
+      "item": "Nexus Gene-masking Kit",
+      "ducats": 200,
       "credits": 300000
     },
     {
-      "item": "Prisma Naberus Arm Armor",
-      "ducats": 220,
-      "credits": 140000
-    },
-    {
-      "item": "Prisma Arrows",
-      "ducats": 350,
-      "credits": 75000
-    },
-    {
-      "item": "Baro Kubrow Sigil",
-      "ducats": 55,
-      "credits": 45000
-    },
-    {
-      "item": "Baro Kavat Sigil",
-      "ducats": 55,
-      "credits": 45000
-    },
-    {
-      "item": "Baro Kiteer Sekhara",
-      "ducats": 400,
-      "credits": 200000
-    },
-    {
-      "item": "Ki'teer Kavat Armor",
-      "ducats": 500,
-      "credits": 275000
-    },
-    {
-      "item": "Scimitar Prisma Skin",
-      "ducats": 210,
-      "credits": 450000
+      "item": "Elixis Redeemer Skin",
+      "ducats": 325,
+      "credits": 250000
     },
     {
       "item": "Dark Sword Day Of The Dead Skin",
@@ -121,34 +108,9 @@
       "credits": 175000
     },
     {
-      "item": "Falcon Mod Pack",
-      "ducats": 250,
-      "credits": 50000
-    },
-    {
-      "item": "3 Day Affinity Booster",
-      "ducats": 450,
-      "credits": 200000
-    },
-    {
-      "item": "3 Day Credit Booster",
-      "ducats": 350,
-      "credits": 75000
-    },
-    {
-      "item": "3 Day Resource (Amount) Booster",
-      "ducats": 400,
-      "credits": 150000
-    },
-    {
-      "item": "Baro Emote",
-      "ducats": 0,
-      "credits": 1000000
-    },
-    {
-      "item": "Pedestal Prime",
-      "ducats": 0,
-      "credits": 1000000
+      "item": "Dragon Mod Pack",
+      "ducats": 500,
+      "credits": 100000
     },
     {
       "item": "Sands Of Inaros",
@@ -156,8 +118,6 @@
       "credits": 25000
     }
   ],
-  "psId": "5b3f70c1be87e4524f04d5ec30",
-  "active": true,
-  "startString": "-2h 22m 29s",
-  "endString": "1d 21h 37m 30s"
+  "psId": "5b3f70c1be87e4524f04d5ec22",
+  "endString": "1d 23h 50m 30s"
 }
