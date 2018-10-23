@@ -1,0 +1,31 @@
+{
+  "name": "Nidus",
+  "passive": "Nidus’ passive is Adaptive Mutation. Nidus is able to use a unique resource called Mutation. This can acquired by using some of his abilities, as we’ll see later on, and is used to fuel and enhance some of them. Mutation can stack up to one hundred. You can see Nidus’ current level of Mutation above his abilities, in the form of a ring. When the ring is full, you gain one level of Mutation. When Nidus has at least fifteen Mutation stacks, he becomes Undying. Instead of dying, fifteen Mutation stacks will be consumed and Nidus becomes invincible for a short duration. Some of his health will also be restored. Besides the Mutation resource, Nidus has no shields and possesses passive health regeneration and bonus ability strength.",
+  "abilities": [
+    {
+      "name": "Virulence",
+      "description": "Nidus’ first ability is Virulence. This is Nidus’ main way to increase his Mutation level. Nidus ruptures the ground, creating a growth of Infestation in the direction he’s facing. Enemies hit by this become staggered and take damage. This damage is amplified depending on Nidus’ current level of Mutation. The higher the level, the more damage this ability inflicts. Nidus will also gain some energy for each enemy hit. To gain Mutation, this ability must hit enemies. Each hit will fill the Mutation indicator and when it’s full you gain one Mutation stack. Holding the ability button will display the area that will affected by Virulence, allowing Nidus to aim more precisely. Releasing the ability button will cast the ability.",
+      "image": "/images/abilities/nidus/virulence.png"
+    },
+    {
+      "name": "Larva",
+      "description": "Nidus’ second ability is Larva. Nidus creates an Infested pod that erupts with tendrils. These tendrils will grab nearby enemies and pull them in. The grabbed enemies will be unable to do anything while the ability lasts. Larva will only grab enemies when it spawns.",
+      "image": "/images/abilities/nidus/larva.png"
+    },
+    {
+      "name": "Parasitic Link",
+      "description": "Nidus’ third ability is Parasitic Link. Nidus links himself to a target. Targeting an ally gives them and Nidus a bonus to Ability Strength. Targeting an enemy causes them to be incapacitated and a percentage of damage Nidus takes will be transferred towards this enemy. Any negative status effects will also be transferred to the enemy. While the ability is active, the enemy target will be immune to outside sources of damage but not to the damage transferred from Nidus. When linked to a target, if Nidus casts Virulence, a second instance of Virulence is cast from the linked target towards the targeted location, converging with Nidus’ original cast. Holding down Virulence’s ability button will also show the projection for the second cast. Parasitic Link will last until its duration ends or is deactivated manually. It will also end when Nidus and the linked target are too far apart to sustain the link. This ability uses Mutation instead of energy.",
+      "image": "/images/abilities/nidus/parasitic-link.png"
+    },
+    {
+      "name": "Ravenous",
+      "description": "<p>Nidus’ fourth ability is Ravenous. Nidus creates an area of Infestation around him for a period of time. While in this area, Nidus and his allies will regenerate health over time. Ravenous can be recast while active but only one instance can exist at a time. If cast inside the existing area, the duration is refreshed and it will remain there. Several maggots are also spawned inside this area. These maggots will seek out nearby enemies and latch onto them. While attached to an enemy, each maggot will continuously stun them and deal Toxin damage over time.</p> <p>Maggots possess their own health and will draw enemy fire. Maggots will die when the ability expires, the enemy they are attached to dies or they die. They can also be killed if they are hit by Virulence and will be highlighted when Virulence’s ability button is held. When a maggot dies it will explode, dealing Blast damage to enemies around them. This damage is amplified depending on Nidus’ current level of Mutation. Enemies hit by the explosion will contribute to Nidus’ Mutation level. Maggots will continuously respawn while Ravenous is active. This ability costs Mutation instead of energy.</p>",
+      "image": "/images/abilities/nidus/ravenous.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage of Virulence, the Ability Strength bonus and the percentage of damage transferred of Parasitic Link and the health regeneration of Ravenous and the explosion damage from its maggots. The damage of Virulence and of Ravenous’ maggot explosion will also be amplified by Nidus’ current Mutation level. Ability Range mods affect the length of Virulence, the grab radius of Larva, the link range of Parasitic Link and the maggot explosion radius of Ravenous. Ability Duration mods affect the duration of Larva, Parasitic Link and Ravenous.",
+  "videoBuilds": [
+    "YDcHyNmLTgY",
+    "iA2D3DWlNBI"
+  ]
+}
