@@ -29,7 +29,7 @@
 - [X] [Nova](https://warframeblog.com/warframes/nova/ "Warframe Nova")
 - [X] [Nyx](https://warframeblog.com/warframes/nyx/ "Warframe Nyx")
 - [X] [Oberon](https://warframeblog.com/warframes/oberon/ "Warframe Oberon")
-- [ ] [Octavia](https://warframeblog.com/warframes/octavia/ "Warframe Octavia")
+- [X] [Octavia](https://warframeblog.com/warframes/octavia/ "Warframe Octavia")
 - [ ] [Revenant](https://warframeblog.com/warframes/revenant/ "Warframe Revenant")
 - [X] [Rhino](https://warframeblog.com/warframes/rhino/ "Warframe Rhino")
 - [X] [Saryn](https://warframeblog.com/warframes/saryn/ "Warframe Saryn")

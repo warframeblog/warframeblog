@@ -320,8 +320,11 @@
     "glyph": "OctaviaDarkGlyph.png",
     "image": "octavia-warframe.jpg",
     "roles": [
+      "damage",
+      "crowd-control",
       "utility"
-    ]
+    ],
+    "link": "/warframes/octavia/"
   },
   {
     "name": "rhino",

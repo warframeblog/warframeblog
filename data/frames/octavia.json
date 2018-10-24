@@ -1,0 +1,31 @@
+{
+  "name": "Octavia",
+  "passive": "Octavia’s passive is Harmonic Symphony. Behind Octavia’s abilities lies the Mandachord. Using this powerful instrument, you can create music that will affect Octavia’s abilities. You can access the Mandachord by visiting Octavia’s appearance tab in the Arsenal. The Mandachord is split into four bars where you can place several notes to create music. The music starts playing in the first bar and, when it reaches the end of the fourth, will loop back to the first. All four bars are divided into three sections, corresponding to a different instrument. We have Percussion, Bass and Melody. Each section will affect a different ability. After you create a song to your liking don’t forget to save it. In addition to the Mandachord, when Octavia casts an ability, she and any nearby allies are Inspired, regenerating energy over time.",
+  "abilities": [
+    {
+      "name": "Mallet",
+      "description": "Octavia’s first ability is Mallet. Octavia throws a device towards a location that creates an invulnerable floating orb that plays music, more specifically, the Percussion section of her song. The Mallet will draw and absorb enemy damage. The absorbed damage is amplified and dealt to enemies around the Mallet as Blast damage. The damage is dealt based on the rhythm of the Percussion section, meaning it splits the damage between each note.",
+      "image": "/images/abilities/octavia/mallet.png"
+    },
+    {
+      "name": "Resonator",
+      "description": "<p>Octavia’s second ability is Resonator. Octavia launches an invulnerable rollerball that charms enemies around it, making them follow it. The more enemies are following the Resonator, the larger its charm radius becomes, up to a maximum. Resonator will plays the Bass section of Octavia’s song and will deal Blast damage to charmed enemies, based on the rhythm of the Bass, while they remain in range. The Resonator will be drawn towards nearby enemies that are not charmed. When the ability expires, enemies that were previously charmed will become momentarily staggered.</p><p> Resonator can be combined with Mallet. When both are active, the Resonator will pick up the Mallet. The Mallet will continuously deal damage per beat to enemies inside its radius. This damage increases over time and it is independent of its absorbed damage component. Additionally, enemies charmed by the Resonator will actively shoot the Mallet. The combination of the Resonator with the Mallet will further improve its ability to draw enemy fire.</p>",
+      "image": "/images/abilities/octavia/resonator.png"
+    },
+    {
+      "name": "Metronome",
+      "description": "<p>Octavia’s third ability is Metronome. Octavia creates an aura around her that plays the Melody section of her song for a period of time. Octavia and any allies inside the aura will gain an armor bonus. Additionally, Octavia and any allies inside the aura can perform certain actions in sync to the melody to gain several buffs. The aura has several rings of light that represent the melody’s notes. Each ring will start at the edge of the aura and will shrink towards Octavia, where it will disappear. The actions that must be performed have to sync with the moment where the ring is centered on Octavia, when a note plays. Each successful action performed in sync with the music will give the player that performs it a percentage towards a buff, seen at the top of the screen. The total percentage can lower or increase, depending on the timing. When it reaches one hundred percent, the buff will be gained.</p> <p>There are four different buffs and they are tied to specific actions. First, we have Vivace. Performing a jump in sync to the melody will grant increased movement speed. Next, we have Nocturne. Crouching in sync to the melody will grant invisibility. Next, there is Opera. Firing a ranged weapon in sync to the melody will grant a bonus to multishot. Finally, we have Forte. Using a melee weapon in sync to the melody will grant a bonus to melee damage. All of these buffs can be active at the same time and each will have its own duration. They can also be refreshed by performing the corresponding actions again while they are still active.</p>",
+      "image": "/images/abilities/octavia/metronome.png"
+    },
+    {
+      "name": "Amp",
+      "description": "Octavia’s fourth ability is Amp. Octavia turns the ground into a sound field for a period of time. When inside this field, Octavia and her allies gain a damage multiplier that depends on the level of sound in the area. This multiplier has both minimum and maximum values. The level of sound in the area can be increased with Octavia’s other abilities, gunfire, footsteps, melee strikes, alarms and many others. If Mallet is active inside the field, it will have increased damage and radius.",
+      "image": "/images/abilities/octavia/amp.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the damage multiplier of Mallet, the damage of Resonator, the armor bonus of Metronome, the speed bonus of Vivace, the multishot bonus of Opera, the melee damage bonus of Forte and the minimum and maximum damage multipliers of Amp. Ability Range mods affect the radius of Mallet, the minimum and maximum charm radii of Resonator and the radius of both Metronome and Amp. Ability Duration mods affect the durations of Mallet, Resonator, Metronome and all its buffs and Amp. This concludes Octavia’s Warframe Spotlight. Thank you for watching and I will see you all next time.",
+  "videoBuilds": [
+    "eVNspBsaAcE",
+    "t00OG_8PxYE"
+  ]
+}
