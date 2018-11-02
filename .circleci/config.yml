@@ -22,17 +22,17 @@ jobs:
             - run:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
-            - restore_cache:
-                keys:
-                    - npm-deps-{{ checksum "package-lock.json" }}
-                    - npm-deps-
+            # - restore_cache:
+            #     keys:
+            #         - npm-deps-{{ checksum "package-lock.json" }}
+            #         - npm-deps-
             - run:
                 name: Install dependencies
                 command: npm install
-            - save_cache:
-                key: npm-deps-{{ checksum "package-lock.json" }}
-                paths:
-                    - node_modules
+            # - save_cache:
+            #     key: npm-deps-{{ checksum "package-lock.json" }}
+            #     paths:
+            #         - node_modules
             - run:
                 name: Install Hugo
                 command: apk update && apk add hugo
