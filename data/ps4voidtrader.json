@@ -1,106 +1,106 @@
 {
   "id": "5b3f71a7bda563ab921d6244",
-  "activation": "2018-10-19T13:00:00.000Z",
-  "startString": "-9m 30s",
-  "expiry": "2018-10-21T13:00:00.000Z",
+  "activation": "2018-11-02T13:00:00.000Z",
+  "startString": "2m 24s",
+  "expiry": "2018-11-04T14:00:00.000Z",
   "active": true,
   "character": "Baro Ki'Teer",
-  "location": "Larunda Relay (Mercury)",
+  "location": "Kuiper Relay (Eris)",
   "inventory": [
     {
-      "item": "Mirage Alternate Skin",
-      "ducats": 550,
-      "credits": 100000
+      "item": "Taxon Desert-camo Skin",
+      "ducats": 200,
+      "credits": 150000
     },
     {
-      "item": "Primed Fever Strike",
+      "item": "Primed Charged Shell",
       "ducats": 350,
       "credits": 200000
     },
     {
-      "item": "Primed Bane Of Infested",
-      "ducats": 400,
-      "credits": 140000
+      "item": "Pummel",
+      "ducats": 300,
+      "credits": 150000
     },
     {
-      "item": "Primed Bane Of Corpus",
-      "ducats": 400,
-      "credits": 140000
+      "item": "Crash Course",
+      "ducats": 330,
+      "credits": 200000
     },
     {
-      "item": "Primed Bane Of Grineer",
-      "ducats": 400,
-      "credits": 140000
+      "item": "Full Contact",
+      "ducats": 365,
+      "credits": 220000
     },
     {
-      "item": "Primed Bane Of Corrupted",
+      "item": "Collision Force",
       "ducats": 400,
-      "credits": 140000
+      "credits": 250000
     },
     {
-      "item": "Machete Wraith",
+      "item": "Supra Vandal",
+      "ducats": 500,
+      "credits": 275000
+    },
+    {
+      "item": "Prova Vandal",
       "ducats": 410,
       "credits": 250000
     },
     {
-      "item": "Prisma Shade",
-      "ducats": 500,
-      "credits": 300000
+      "item": "Hydroid Immortal Skin",
+      "ducats": 550,
+      "credits": 100000
     },
     {
-      "item": "Prisma Jet Sentinel Wings",
-      "ducats": 300,
-      "credits": 200000
+      "item": "Zephyr Immortal Skin",
+      "ducats": 550,
+      "credits": 100000
     },
     {
-      "item": "Prisma Koi Sentinel Tail",
-      "ducats": 200,
-      "credits": 200000
+      "item": "Left Prisma Daedalus Knee Plates",
+      "ducats": 65,
+      "credits": 75000
     },
     {
-      "item": "Prisma Mech Head Sentinel Mask",
-      "ducats": 175,
-      "credits": 200000
+      "item": "Right Prisma Daedalus Knee Plates",
+      "ducats": 65,
+      "credits": 75000
     },
     {
-      "item": "Ki'teer Atmos Diadem",
-      "ducats": 525,
-      "credits": 375000
+      "item": "Left Prisma Daedalus Shoulderguard",
+      "ducats": 65,
+      "credits": 75000
     },
     {
-      "item": "Prisma Yamako Syandana",
-      "ducats": 400,
+      "item": "Right Prisma Daedalus Shoulderguard",
+      "ducats": 65,
+      "credits": 75000
+    },
+    {
+      "item": "Prisma Daedalus Chest Plate",
+      "ducats": 150,
+      "credits": 100000
+    },
+    {
+      "item": "Noggle Statue - Baro Ki'teer",
+      "ducats": 70,
       "credits": 250000
     },
     {
-      "item": "Pyra Sugatra",
-      "ducats": 100,
-      "credits": 200000
-    },
-    {
-      "item": "Liset Prisma Skin",
-      "ducats": 120,
-      "credits": 150000
-    },
-    {
-      "item": "Corrupted Heavy Gunner Ball",
-      "ducats": 100,
-      "credits": 40000
-    },
-    {
-      "item": "Nexus Gene-masking Kit",
-      "ducats": 200,
-      "credits": 300000
-    },
-    {
-      "item": "Dark Sword Day Of The Dead Skin",
-      "ducats": 320,
+      "item": "Elixis Opticor",
+      "ducats": 325,
       "credits": 250000
     },
     {
-      "item": "Day Of The Dead Kavat Armor",
-      "ducats": 400,
-      "credits": 175000
+      "item": "Xiphos Prisma Skin",
+      "ducats": 220,
+      "credits": 400000
+    },
+    {
+      "item": "Display - Argyle",
+      "ducats": 100,
+      "credits": 75000
     },
     {
       "item": "Sands Of Inaros",
@@ -109,5 +109,5 @@
     }
   ],
   "psId": "5b3f71a7bda563ab921d624420",
-  "endString": "1d 23h 50m 29s"
+  "endString": "2d 1h 2m 24s"
 }
