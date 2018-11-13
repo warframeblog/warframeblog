@@ -13,7 +13,7 @@
 - [x] [Excalibur](https://warframeblog.com/warframes/excalibur/ "Warframe Excalibur")
 - [X] [Frost](https://warframeblog.com/warframes/frost/ "Warframe Frost")
 - [ ] [Gara](https://warframeblog.com/warframes/gara/ "Warframe Gara")
-- [ ] [Harrow](https://warframeblog.com/warframes/harrow/ "Warframe Harrow")
+- [X] [Harrow](https://warframeblog.com/warframes/harrow/ "Warframe Harrow")
 - [X] [Hydroid](https://warframeblog.com/warframes/hydroid/ "Warframe Hydroid")
 - [X] [Inaros](https://warframeblog.com/warframes/inaros/ "Warframe Inaros")
 - [X] [Ivara](https://warframeblog.com/warframes/ivara/ "Warframe Ivara")

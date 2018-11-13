@@ -1,0 +1,31 @@
+{
+  "name": "Harrow",
+  "passive": "Harrow’s passive is Conviction. Harrow has an overshield capacity larger than other warframes.",
+  "abilities": [
+    {
+      "name": "Condemn",
+      "description": "Harrow’s first ability is Condemn. Harrow creates a wave of energy that travels forward, trapping enemies caught in its path with chains, immobilizing them for the ability’s duration. For every enemy that is chained up, Harrow gains some shield points which are used to restore his own shields and can accumulate further into overshields.",
+      "image": "/images/abilities/harrow/condemn.png"
+    },
+    {
+      "name": "Penance",
+      "description": "Harrow’s second ability is Penance. Harrow flagellates himself twice, sacrificing all of his shields and overshields in order to gain bonuses to attack speed for both ranged and melee weapons and also a bonus to reload speed. Additionaly, a percentage of all damage inflicted by Harrow on enemies is converted to health for Harrow and any allies within affinity range. Besides mods, the duration of Penance also depends on the amount of shields lost during the ability’s activation.",
+      "image": "/images/abilities/harrow/penance.png"
+    },
+    {
+      "name": "Thurible",
+      "description": "Harrow’s third ability is Thurible. Upon casting, Harrow starts channeling his energy through his thurible, consuming it in the process. The ability button can then be pressed again to stop the channeling. This will give Harrow an aura that, while it lasts, makes each enemy killed by Harrow restore energy to himself and any allies within the aura’s range. Killing an enemy with a headshot will restore even more energy, based on a multiplier. While channeling the ability, you can see the amount of energy restored per kill next to the aiming reticle.",
+      "image": "/images/abilities/harrow/thurible.png"
+    },
+    {
+      "name": "Covenant",
+      "description": "Harrow’s fourth ability is Covenant. This ability has two components. When casting this ability, Harrow and any allies within affinity range will be invulnerable for a period of time. During the invulnerability phase, any damage taken by Harrow and any allies affected will be absorbed and converted to a critical chance bonus, up to a maximum value. Covenant has a base critical chance bonus. All damage absorbed that is converted is then added to this base critical chance until it hits the maximum value. When the invulnerability ends, everyone that was affected by this ability will receive the Retaliation buff, which grants them the total critical chance bonus obtained during the invulnerability phase for a period of time. All weapons will be affected by this buff and all headshots will have an even greater chance to critically hit, based on a multiplier.",
+      "image": "/images/abilities/harrow/covenant.png"
+    }
+  ],
+  "affectedByMods": "Ability Strength mods affect the amount of shields restored, per target, of Condemn, the amount of health restored, the attack speed and reload speed bonuses of Penance, the amount of energy gained while channeling Thurible and the base critical chance and damage to critical chance conversion ratio of Covenant. Ability Range mods affect the wave distance and size of Condemn and the aura radius of Thurible. Ability Duration mods affect the chain duration of Condemn, the duration of Penance and Thurible and the duration of both the invulnerability and retaliation phases of Covenant.",
+  "videoBuilds": [
+    "UCWN_gdMuDk",
+    "2rYlWP0VJfM"
+  ]
+}
