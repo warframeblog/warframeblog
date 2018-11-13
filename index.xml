@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Nov 2018 00:00:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 14:48:24 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Harrow</title>
+      <link>https://warframeblog.com/warframes/harrow/</link>
+      <pubDate>Tue, 13 Nov 2018 14:48:24 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframes/harrow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Warframe Baro Ki&#39;Teer Void Trader</title>
