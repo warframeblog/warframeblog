@@ -5,75 +5,93 @@ date: 2018-11-14T13:37:09+00:00
 author: warframe
 layout: post
 permalink: /prime-vault-unsealed-nova-mag/
-image: /wp-content/uploads/2018/07/warframe-prime-vault-unsealed-rhino-nyx.jpg
+image: /wp-content/uploads/2018/11/warframe-prime-vault-unsealed-nova-mag.jpg
 categories:
   - Warframe News
 tags:
   - news
   - relics
-draft: true
 ---
 Hey guys! Welcome to another Warframe article and the Prime Vault has opened up yet again so you can now farm  <!--more--> :
 
-* Nova Prime with Soma Prime and Vasto Prime
-* Mag Prime with Boar Prime and Dakra Prime
+* [Nova](/warframes/nova/ "Warframe Nova") Prime with Soma Prime and Vasto Prime
+* [Mag](/warframes/mag/ "Warframe Mag") Prime with Boar Prime and Dakra Prime
 
 Now, if you don’t want to farm these items and you would rather just buy them with money there are [five different packs](https://www.warframe.com/prime-vault) you can choose from.
 
-So, four relics were added Lith B4, Meso N6, Neo R1, and Axi S3 and these are all Void exclusive. So, rather than farming them all over the Star Chart they drop in certain missions in the Void as sort of a callback to the old Void System. I think it's pretty cool. I like it. 
+So, five relics were added <b>Lith M2, Meso B3, Neo N9, Axi S4, and Axi A5</b>. You can farm them in the Void, [Fortuna](/fortuna/ "Warframe Fortuna") Bounties, and Cetus Bounties.
 
 ## Which relics drop which parts?
-And here is new relics and which parts they drop:
+And here is new [relics](/how-to-farm-relics/ "How To Farm Relics") and which parts they drop:
 
 ##### Nova Prime
 
-* Neo N2 Relic - Nova Prime Blueprint - Uncommon
+* Axi S4 Relic - Nova Prime Blueprint - Uncommon
 * Neo N9 Relic - Nova Prime Chassis - Rare
-* Lith C1 Relic - Nova Prime Neuroptics - Uncommon
-* Meso S1 Relic - Nova Prime Systems - Uncommon
+* Lith M2 Relic - Nova Prime Neuroptics - Common
+* Meso B3 Relic - Nova Prime Systems - Common
 
 ##### Soma Prime 
 
-* Lith B4 Relic - Boltor Prime Blueprint - Rare
-* Axi S3 Relic - Boltor Prime Stock - Common
-* Meso N6 Relic - Boltor Prime Barrel - Common
-* Neo R1 Relic - Boltor Prime Receiver - Uncommon
+* Meso B3 Relic - Boltor Prime Blueprint - Common
+* Lith M2 Relic - Boltor Prime Barrel - Common
+* Neo N9 Relic - Boltor Prime Receiver - Uncommon
+* Axi S4 Relic - Boltor Prime Stock - Rare
 
 ##### Vasto Prime
 
-* Lith B4 Relic - Ankyros Prime Blueprint - Common
-* Neo R1 Relic - Ankyros Prime Gauntlet - Common
-* Axi S3 Relic - Ankyros Prime Blade - Uncommon
+* Axi A5 Relic - Vasto Prime Blueprint - Uncommon
+* Axi A5 Relic - Vasto Prime Barrel - Common
+* Axi A5 Relic - Vasto Prime Receiver - Common
 
 ##### Mag Prime
 
-* Lith B4 Relic - Mag Prime Blueprint - Common
-* Neo R1 Relic - Mag Prime Chassis - Uncommon
-* Meso N6 Relic - Mag Prime Neuroptics - Rare
-* Axi S3 Relic - Mag Prime Systems - Common
+* Lith M2 Relic - Mag Prime Blueprint - Rare
+* Meso B3 Relic - Mag Prime Chassis - Uncommon
+* Neo N9 Relic - Mag Prime Neuroptics - Common
+* Axi S4 Relic - Mag Prime Systems - Common
 
 ##### Boar Prime
 
-* Neo R1 Relic - Hikou Prime Blueprint - Common
-* Meso N6 Relic - Hikou Prime Pouch - Common
-* Axi S3 Relic - Hikou Prime Stars - Common
+* Neo N9 Relic - Boar Prime Blueprint - Common
+* Lith M2 Relic - Boar Prime Barrel - Uncommon
+* Axi S4 Relic - Boar Prime Receiver - Uncommon
+* Meso B3 Relic - Boar Prime Stock - Rare
 
 ##### Dakra Prime
 
-* Lith B4 Relic - Scindo Prime Blueprint - Uncommon
-* Meso N6 Relic - Scindo Prime Handle - Uncommon
-* Axi S3 Relic - Scindo Prime Blade - Rare
+* Meso B3 Relic - Dakra Prime Blueprint - Uncommon
+* Axi S4 Relic - Dakra Prime Blade - Uncommon
+* Lith M2 / Neo N9 Relics - Dakra Prime Handle - Common
 
 ## Relics drop locations
-<img src='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg' title='Relics drop locations for Nyx Prime and Rhino Prime' alt='Warframe Unvaulted Relics drop locations' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-1024x493.jpg 1024w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-300x144.jpg 300w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations-768x369.jpg 768w, /wp-content/uploads/2018/07/nyx-rhino-prime-relics-drop-locations.jpg 1430w' sizes='(max-width: 750px) 100vw, 750px'/>
-Now, since it only drops in the Void here is the drop locations for each relic. 
+### How to get Lith M2 relics?
+So, if you want to **farm Lith M2** you want to choose between: 
 
-So, if you want to **farm Lith B4** you want to do <b>Ani, Hepit, Stribog, Tarnis, Teshub, and Tiwaz</b>. 
+* Void missions: <b>Hepit[Capture], Stribog[Sabotage], Tarnis[Defense], Teshub[Exterminate], and Tiwaz[Mobile Defense]</b>.
+* <b>Tier 2 Fortuna Bounty</b>(Stage 2 or Stage 3)
+* <b>Tier 2 Cetus Bounty</b>(Stage 2 or Stage 3)
 
-If you want to **farm Meso N6** you want to do <b>Ani, Belenus, Oxomoco, Stribog, Taranis, Tiwaz, and Ukko</b>.
+### Where to farm Meso B3 relics?
+If you want to **farm Meso B3** you want to choose between: 
 
-If you want to **farm Neo R1** you want to do <b>Ani, Aten, Belenus, Marduk, Mithra, Mot, Oxomoco, and Ukko</b>. 
+* Void missions: <b>Ukko[Capture], Oxomoco [Exterminate], Stribog [Sabotage], Tiwaz [Mobile Defense], Belenus [Defense], Taranis [Defense], and Ani [Survival]</b>.
+* <b>Tier 3 Fortuna Bounty</b>(Stage 2 & 3 or Stage 4)
+* <b>Tier 3 Cetus Bounty</b>(Stage 2 & 3 or Stage 4)
 
-And finally, if you want to **farm Axi S3** you want to do <b>Aten, Belenus, Marduk Mithra, and Mot</b>.
+### How to get Neo N9 relics?
+If you want to **farm Neo N9** you want to choose between: 
 
-And that's pretty much all there is to say about that with the exception that I would probably focus on Boltor Prime even though all the items are worth farming Boltor Prime is just a really strong rifle. So, if you don't have an awful lot of time and you want to focus on something I would probably pick the Boltor if I were you. So, that's pretty much it for the article. I thank you very much for reading. I hope you've enjoyed it and it was helpful and I will see you next time. Bye-bye.     
+
+* Void missions: <b>Ukko[Capture], Oxomoco [Exterminate], Marduk [Sabotage], Aten [Mobile Defense], Belenus [Defense], Mithra [Interception], Mot [Survival], and Ani [Survival]</b>.
+* <b>Tier 4 Fortuna Bounty</b>(Stage 2 & 3 or Stage 4 or Stage 5)
+* <b>Tier 4 Cetus Bounty</b>(Stage 2 & 3 or Stage 4 or Stage 5)
+
+### Where to farm Axi S4 and Axi A5 relics?
+And finally, if you want to **farm Axi S4 or Axi A5** you want to choose between:
+
+* Void missions: <b>Marduk [Sabotage], Aten [Mobile Defense], Belenus(Rotation C) [Defense], Mithra(Rotation C) [Interception], and Mot(Rotation C) [Survival]</b>.
+* <b>Tier 5 Fortuna Bounty</b>(Stage 2 & 3 or Stage 4 or Stage 5)
+* <b>Tier 5 Cetus Bounty</b>(Stage 2 & 3 or Stage 4 or Stage 5)
+
+And that's pretty much it for the article. I thank you very much for reading. I hope you've enjoyed it and it was helpful and I will see you next time. Bye-bye.     

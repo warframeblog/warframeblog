@@ -87,4 +87,9 @@ You can find drop tables for Limbo Prime, Pyrana Prime, and Destreza Prime parts
 ### Chroma Prime, Rubico Prime, and Gram Prime
 If you want to get your hands on Chroma Prime, Rubico Prime, and Gram Prime relics I suggest you read [this article](/chroma-prime-access/ "Chroma Prime Access Is Here") to find out which relics you need.
 
+### Nova Prime, Soma Prime, and Vasto Prime
+If you want to get your hands on Nova Prime, Soma Prime, and Vasto Prime relics I suggest you read [this article](/prime-vault-unsealed-nova-mag/ "How to get Nova Prime, Soma Prime, and Vasto Prime") to find out which relics you need.
+### Mag Prime, Boar Prime, and Dakra Prime
+If you want to get your hands on Mag Prime, Boar Prime, and Dakra Prime relics I suggest you read [this article](/prime-vault-unsealed-nova-mag/ "How to get Mag Prime, Boar Prime, and Dakra Prime") to find out which relics you need.
+
 And that's pretty much it for the article. I wish you good luck when farming relics. And I will see you next time. Bye-bye.
