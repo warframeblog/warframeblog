@@ -18,7 +18,7 @@ tags:
 ---
 <span>Hey guys. </span><span>And today we’re going to continue Excalibur <a href="https://warframeblog.com/warframe-builds/">Builds series</a> and take a look at Excalibur Radial Javelin Build.</span><!--more-->
 
-So, for Excalibur Radial Javelin Build, I'm using Steel Charge as its aura though it doesn't really benefit it in any way. It's just there so it fits the polarity and adds a ton of capacity for me to play around with. So, if you have the basic Excalibur that doesn't have any polarity in the Aura you can slap on Energy Siphon or Corrosive Projection there.
+So, for [Excalibur](/warframes/excalibur/ "Warframe Excalibur") Radial Javelin Build, I'm using Steel Charge as its aura though it doesn't really benefit it in any way. It's just there so it fits the polarity and adds a ton of capacity for me to play around with. So, if you have the basic Excalibur that doesn't have any polarity in the Aura you can slap on Energy Siphon or Corrosive Projection there.
 
 Then I'm using Primed Vigor because I have Primed Vigor and it provides a little bit of health and shields but you can use whatever you want. You don't even have to use a defensive mode here because you're gonna be killing enemies from pretty far away. And then I'm using Augur Reach and Stretch for a good amount of range without sacrificing any strength like you would with Overextended. This is really nice because you can hit enemies that are really far away.
 

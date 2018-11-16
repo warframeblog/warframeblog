@@ -30,7 +30,7 @@ But Exalted Blade is also affected by a bunch of stuff on your melee weapon so y
 
 ## Excalibur Chromatic Blade Build
 
-Now, when it comes to the Chromatic Blade augment the best thing you can do in my opinion with this build is simply take out Primed Flow and put it there. And this is because as I've mentioned already this Excalibur build is super efficient and drains a less than one energy every second so you don't really need the bigger energy pool. It's just sort of a quality-of-life thing.
+Now, when it comes to the Chromatic Blade augment the best thing you can do in my opinion with this build is simply take out Primed Flow and put it there. And this is because as I've mentioned already this [Excalibur](/warframes/excalibur/ "Warframe Excalibur") build is super efficient and drains a less than one energy every second so you don't really need the bigger energy pool. It's just sort of a quality-of-life thing.
 
 Now, the thing that's gonna change the most with the addition of this augment is the build on your melee weapon. Now, you, of course, don't have to run the exact same setup on your melee weapon that I'm using here it's just the one that I found work the best for me.
 
