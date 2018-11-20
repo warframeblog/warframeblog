@@ -8,12 +8,12 @@
 
 <div class="tab-content trader-content">
 	<div id="pc" class="tab-pane fade in active">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.pcvoidtrader) -}}
+		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.pc) -}}
 	</div>
 	<div id="ps4" class="tab-pane fade">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.ps4voidtrader) -}}
+		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.ps4) -}}
 	</div>
 	<div id="xb1" class="tab-pane fade">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.xb1voidtrader) -}}
+		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.xb1) -}}
 	</div>
 </div>
