@@ -1,11 +1,11 @@
 ---
 title: Nezha Reaping Chakram Build
 seoTitle: "Nezha Reaping Chakram Build. Nezha Chakram Build. Warframe Nezha Build"
-date: 2018-11-29T00:59:50+00:00
+date: 2018-12-01T00:00:50+00:00
 author: warframe
 layout: post
 permalink: /nezha-reaping-chakram-build/
-image: /wp-content/uploads/2018/08/warframe-nezha-safeguard-build.jpg
+image: /wp-content/uploads/2018/12/warframe-nezha-reaping-chakram-build.jpg
 categories:
   - Builds
 video_url:
@@ -15,11 +15,12 @@ tags:
   - builds
   - warframe
   - NezhaBuilds
-draft: true
 ---
-Hello everyone and welcome to another Warframe build article. Today I will show you Nezha Reaping Chakram Build that I've been using ever since they did the revisit. I've been having a lot of fun with this Nezha build and I hope you will too. So let's get right to it. 
+Hello everyone and welcome to another Warframe build article. Today I will show you Nezha Reaping Chakram Build that I've been using ever since they did the revisit. <!--more--> I've been having a lot of fun with this Nezha build and I hope you will too. So let's get right to it. 
 
 ## Nezha Chakram Build
+
+<img src='/wp-content/uploads/2018/12/nezha-reaping-chakram-build.jpg' title='Warframe Nezha Reaping Chakram Build' alt='Nezha Reaping Chakram Build' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/12/nezha-reaping-chakram-build-1024x359.jpg 1024w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build-300x105.jpg 300w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build-768x270.jpg 768w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build.jpg 1057w' sizes='(max-width: 750px) 100vw, 750px'/>
 
 Now the aura I'm using here is Corrosive Projection because we're doing mostly heat damage and heat damage is terrible versus armor so this helps with the Grineer and Corrupted. Then I have Primed Continuity for some extra duration for Fire Walker and Divine Spears which is followed up by Intensify, Power Drift, Augur Secrets, and Energy Conversion for power strength. 
 
