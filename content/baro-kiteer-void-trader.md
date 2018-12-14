@@ -2,7 +2,7 @@
 title: "Warframe Baro Ki'Teer Void Trader"
 seoTitle: "Warframe Baro Ki'Teer Void Trader - Warframe Blog"
 description: "Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer bring us? How to get ducats? how to get more of his exclusive currency - ducats - to buy Baro's wares? Where to sell primed parts for ducats?"
-date: 2018-11-30T00:00:53+00:00
+date: 2018-12-14T00:00:53+00:00
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
