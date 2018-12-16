@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/toroids-farming/</loc>
+    <lastmod>2018-12-15T03:26:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
     <lastmod>2018-12-14T00:00:53+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1131,7 +1138,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-12-14T00:00:53+00:00</lastmod>
+    <lastmod>2018-12-15T03:26:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
