@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2018-12-17T00:45:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/toroids-farming/</loc>
     <lastmod>2018-12-15T03:26:52+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -26,6 +33,27 @@
   <url>
     <loc>https://warframeblog.com/polymer-bundles-farming/</loc>
     <lastmod>2018-12-02T03:26:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-chroma-prime/</loc>
+    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
+    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
+    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1132,6 +1160,13 @@
   <url>
     <loc>https://warframeblog.com/categories/</loc>
     <lastmod>2018-06-22T00:45:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
