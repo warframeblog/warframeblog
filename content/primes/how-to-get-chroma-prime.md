@@ -33,6 +33,8 @@ For Neo relics, my recommendation is Hydron on Sedna. It is the fastest way to f
 
 ### How To Get Chroma Prime Systems relics
 For Axi relics farming I would recommend Xini on Eris. It's an interception mission that's pretty straightforward. The first two rounds drop Neo relics and rounds 3 and 4 regularly dropping Axi relics. Optimally you want to stay four rounds before extracting.
-Xini also has a high Neurodes drop, so be sure to keep an eye for Neurodes.
+
+Xini also has a high Neurodes drop, so be sure to keep an eye for [Neurodes](/warframe-neurodes-farming/ "Warframe Neurodes Farming
+").
 
 And that’s pretty much all I want to say about <strong>Chroma Prime Relics farming</strong>. I hope this guide helped and good luck farming that Golder Dragon. Bye-bye.
