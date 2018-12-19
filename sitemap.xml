@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-mesa-prime/</loc>
+    <lastmod>2018-12-18T23:23:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/</loc>
     <lastmod>2018-12-17T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1166,14 +1173,14 @@
   
   <url>
     <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
+    <lastmod>2018-12-18T23:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2018-12-15T03:26:52+00:00</lastmod>
+    <lastmod>2018-12-18T23:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
