@@ -4,6 +4,7 @@
 	<li class="active"><a data-toggle="tab" href="#pc">PC</a></li>
 	<li><a data-toggle="tab" href="#ps4">PS4</a></li>
 	<li><a data-toggle="tab" href="#xb1">XBox One</a></li>
+	<li><a data-toggle="tab" href="#swi">Nintendo Switch</a></li>
 </ul>
 
 <div class="tab-content trader-content">
@@ -15,5 +16,8 @@
 	</div>
 	<div id="xb1" class="tab-pane fade">
 		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.xb1) -}}
+	</div>
+	<div id="swi" class="tab-pane fade">
+		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.swi) -}}
 	</div>
 </div>

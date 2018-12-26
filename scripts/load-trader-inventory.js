@@ -2,7 +2,7 @@ const fs = require('fs');
 const join = require('path').join;
 const axios = require('axios');
 
-const PLATFORMS = ['pc', 'ps4', 'xb1'];
+const PLATFORMS = ['pc', 'ps4', 'xb1', 'swi'];
 const FRAME_FOLDER = join(__dirname, '../data/trader');
 const getTraderInventoryUrlByPlatform = platform => `https://api.warframestat.us/${platform}/voidTrader`;
 
