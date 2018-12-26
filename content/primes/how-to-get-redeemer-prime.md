@@ -9,7 +9,7 @@ image: /wp-content/uploads/2018/12/warframe-how-to-get-redeemer-prime.jpg
 categories:
   - Primes
 ---
-Hey guys. And the [Mesa Prime](/primes/how-to-get-mesa-prime/ "How To Get Mesa Prime") along with Akjagara Prime and Rede﻿emer Prime﻿ have arrived in Warframe. Today I'll be showing you which relics you'll need to farm to get Redeemer Prime and where you can farm these relics. <!--more-->
+Hey guys. And the [Mesa Prime](/primes/how-to-get-mesa-prime/ "How To Get Mesa Prime") along with [Akjagara Prime](/primes/how-to-get-akjagara-prime/ "How To Get Akjagara Prime") and Rede﻿emer Prime﻿ have arrived in Warframe. Today I'll be showing you which relics you'll need to farm to get Redeemer Prime and where you can farm these relics. <!--more-->
 
 ## Redeemer Prime Relics
 So, Redeemer Prime parts scattered across three different relics:

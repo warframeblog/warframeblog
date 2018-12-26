@@ -4,7 +4,7 @@ seoTitle: "How To Get Akjagara Prime. How To Farm Akjagara Prime Relics"
 date: 2018-12-26T00:23:44+00:00
 author: warframe
 layout: post
-permalink: /primes/how-to-get-Akjagara-prime/
+permalink: /primes/how-to-get-akjagara-prime/
 image: /wp-content/uploads/2018/12/warframe-how-to-get-akjagara-prime.jpg
 categories:
   - Primes
@@ -45,4 +45,4 @@ Also, you can get Akjagara Prime relics by playing [Sanctuary Onslaught mode](/s
 
 Finally, relic packs always a decent way to get your hands on those new Akjagara Prime relics.
 
-And that’s pretty much all I want to say about <strong>Mesa Prime Relics farming</strong>. I hope this guide helped and good luck farming that dual pistols. Bye-bye.
+And that’s pretty much all I want to say about <strong>Akjagara Prime Relics farming</strong>. I hope this guide helped and good luck farming that dual pistols. Bye-bye.
