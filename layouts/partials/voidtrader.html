@@ -1,5 +1,6 @@
 {{ if .trader.active}}
-<b>(These offerings available until <span>{{ dateFormat "Monday, January 2, 2006 15:04 MST" .trader.expiry }}</span>)</b>
+<p style="padding-top: 10px;"><b>Location:</b> {{ .trader.location }} </p>
+
 <div class="table-responsive">          
 	<table class="table">
 		<thead>
@@ -20,6 +21,9 @@
 		</tbody>
 	</table>
 </div>
+<p>
+	<b>(These offerings available until <span>{{ dateFormat "Monday, January 2, 2006 15:04 MST" .trader.expiry }}</span>)</b>
+</p>
 {{ else }}
 	<p>Baro Ki'Teer arrives in {{ .trader.location }} at {{ dateFormat "Monday, January 2, 2006 15:04 MST" .trader.activation }}</p>
 {{ end }}
