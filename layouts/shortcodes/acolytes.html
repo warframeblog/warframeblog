@@ -5,6 +5,7 @@
 	<li class="active"><a data-toggle="tab" href="#pc">PC</a></li>
 	<li><a data-toggle="tab" href="#ps4">PS4</a></li>
 	<li><a data-toggle="tab" href="#xb1">XBox One</a></li>
+	<li><a data-toggle="tab" href="#swi">Nintendo Switch</a></li>
 </ul>
 
 <div class="tab-content trader-content">
@@ -14,6 +15,8 @@
 	<div id="ps4" class="tab-pane fade">
 	</div>
 	<div id="xb1" class="tab-pane fade">
+	</div>
+	<div id="swi" class="tab-pane fade">
 	</div>
 </div>
 
@@ -144,6 +147,7 @@
 	loadAcolytesInfo('pc');
 	loadAcolytesInfo('ps4');
 	loadAcolytesInfo('xb1');
+	loadAcolytesInfo('swi');
 	
 	var countdown = document.getElementById('acolytes-countdown');
 	var secondsBetweenActions = 15;
@@ -155,6 +159,8 @@
 			loadAcolytesInfo('pc');
 			loadAcolytesInfo('ps4');
 			loadAcolytesInfo('xb1');
+			loadAcolytesInfo('swi');
+
 			countdown.innerHTML = 'Updated';
 			secondsRemaining = secondsBetweenActions;
 		}
