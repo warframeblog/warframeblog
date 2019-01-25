@@ -76,7 +76,7 @@ workflows:
   update_trader_inventory:
     triggers:
       - schedule:
-          cron: "0 17 * * FRI"
+          cron: "0 17 * * 5"
           filters:
             branches:
               only: develop
