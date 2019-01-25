@@ -72,7 +72,7 @@ workflows:
   update_trader_inventory:
     triggers:
       - schedule:
-          cron: "43 9 * * *"
+          cron: "0,5,10,15,20,50,55 * * * *"
           filters:
             branches:
               only: develop
