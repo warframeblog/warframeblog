@@ -22,17 +22,9 @@ jobs:
             - run:
                 name: Checkout submodules
                 command: git submodule sync && git submodule update --init
-            # - restore_cache:
-            #     keys:
-            #         - npm-deps-{{ checksum "package-lock.json" }}
-            #         - npm-deps-
             - run:
                 name: Install dependencies
                 command: npm install
-            # - save_cache:
-            #     key: npm-deps-{{ checksum "package-lock.json" }}
-            #     paths:
-            #         - node_modules
             - run:
                 name: Install Hugo
                 command: apk update && apk add hugo
@@ -42,6 +34,32 @@ jobs:
             - run:
                 name: Build and publish site
                 command: ./.circleci/publish_to_ghpages.sh
+    trader_inventory:
+        docker:
+            - image: node:8.12.0-alpine
+        working_directory: ~/warframeblog
+        steps:
+            - run:
+                name: Install OpenSSH
+                command: apk update && apk add openssh
+            - add_ssh_keys:
+                fingerprint:
+                    - "4d:bc:43:fc:36:51:1a:8c:4b:a9:2d:15:a6:8d:d8:34"
+            - run: git config --global user.email bot@warframeblog.com
+            - run: git config --global user.name CircleCI
+            - checkout
+            - run:
+                name: Install dependencies
+                command: npm install
+            - run:
+                name: Load trader inventory
+                command: npm run trader:inventory
+            - run:
+                name: Mark script as executable
+                command: chmod +x ./.circleci/commit_to_develop_branch.sh
+            - run:
+                name: Commit updated trader inventory
+                command: ./.circleci/commit_to_develop_branch.sh
 
 workflows:
   version: 2
@@ -51,3 +69,12 @@ workflows:
           filters:
             branches:
               only: develop
+  update_trader_inventory:
+    triggers:
+      - schedule:
+          cron: "43 9 * * *"
+          filters:
+            branches:
+              only: develop
+    jobs:
+      - trader_inventory
