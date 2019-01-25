@@ -1,9 +1,12 @@
 const fs = require('fs');
 const join = require('path').join;
 const axios = require('axios');
+const matter = require('gray-matter');
 
 const PLATFORMS = ['pc', 'ps4', 'xb1', 'swi'];
 const FRAME_FOLDER = join(__dirname, '../data/trader');
+const PATH_TO_TRADER_INVENTORY_POST = join(__dirname, '../content', 'baro-kiteer-void-trader.md');
+
 const getTraderInventoryUrlByPlatform = platform => `https://api.warframestat.us/${platform}/voidTrader`;
 
 
@@ -24,4 +27,13 @@ axios.all(buildUrls().map(url => axios.get(url)))
         	console.log(`Saved file ${pathToFile}`);
         }
     }))
-    .catch(err => console.log(err));
+    .catch(err => console.log(err))
+    .then(() => {
+        const content = fs.readFileSync(PATH_TO_TRADER_INVENTORY_POST, 'utf8');
+        const contentFile = matter(content);
+        contentFile.data.date = new Date();
+
+        fs.writeFileSync(PATH_TO_TRADER_INVENTORY_POST, contentFile.stringify());
+        console.log(`Updated publish date for ${PATH_TO_TRADER_INVENTORY_POST} file`);
+
+    }).catch(err => console.log(err));
