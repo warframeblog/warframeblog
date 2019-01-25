@@ -5,7 +5,8 @@
   "scripts": {
     "start": "concurrently \"gulp\" \"hugo serve \"",
     "build": "gulp build",
-    "minify": "gulp minify:markup"
+    "minify": "gulp minify:markup",
+    "baro:inventory": "node scripts/load-trader-inventory"
   },
   "repository": {
     "type": "git",
