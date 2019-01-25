@@ -35,5 +35,4 @@ axios.all(buildUrls().map(url => axios.get(url)))
 
         fs.writeFileSync(PATH_TO_TRADER_INVENTORY_POST, contentFile.stringify());
         console.log(`Updated publish date for ${PATH_TO_TRADER_INVENTORY_POST} file`);
-
     }).catch(err => console.log(err));
