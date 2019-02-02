@@ -6,7 +6,8 @@
     "start": "concurrently \"gulp\" \"hugo serve \"",
     "build": "gulp build",
     "minify": "gulp minify:markup",
-    "trader:inventory": "node scripts/load-trader-inventory"
+    "trader:inventory": "node scripts/load-trader-inventory",
+    "primes": "node scripts/primes-generator"
   },
   "repository": {
     "type": "git",
@@ -33,12 +34,14 @@
     "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.6.5",
     "gulp-sourcemaps": "^2.6.4",
+    "lodash": "^4.17.11",
     "node-sass-magic-importer": "^5.2.0",
     "rimraf": "^2.6.2",
-    "uncss": "^0.16.2"
+    "uncss": "^0.16.2",
+    "gray-matter": "^4.0.1",
+    "inquirer": "^6.2.2",
+    "node-sass": "^4.9.4"
   },
   "dependencies": {
-    "gray-matter": "^4.0.1",
-    "node-sass": "^4.9.4"
   }
 }
