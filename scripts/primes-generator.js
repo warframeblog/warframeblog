@@ -105,12 +105,26 @@ const generateContentIntro = contentDetails => {
 const generateRelicsSection = (contentDetails, requiredRelics) => {
 	const primed = contentDetails.primed;
 	const sectionTitle = `\n\n## ${primed} Prime Relics`;
-	const sectionIntro = `\nSo, ${primed} Prime parts scattered across four different relics:\n`;
-	let relicsList = '';
-	_.forEach(requiredRelics, relic => {
-		relicsList += `\n* <b>${relic.name}</b> that drops the ${relic.item}`;
-	});
+	const relicsAmount = requiredRelics.length;
+	const sectionIntro = `\nSo, ${primed} Prime parts scattered across ${convertNumberIntoWords(relicsAmount)} different relics:\n`;
+	const relicsList = generateRelicsList(requiredRelics);
+
 	return sectionTitle + sectionIntro + relicsList;
+}
+
+const convertNumberIntoWords = number => {
+	if(number === 3) {
+		return 'three';
+	} else if(number === 4) {
+		return 'four';
+	}
+	return null;
+}
+
+const generateRelicsList = relics => {
+	return _.map(relics, relic => {
+		return `\n* <b>${relic.name}</b> that drops the ${relic.item}`;
+	}).join('');
 }
 
 Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
