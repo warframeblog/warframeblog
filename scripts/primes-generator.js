@@ -132,8 +132,16 @@ const generateRelicsList = relics => {
 const generateFarmingSection = (contentDetails, requiredRelics) => {
 	const primed = contentDetails.primed;
 	const farmingTitle = `\n\n## ${primed} Prime Relics Farming`;
+	const farmingIntro = generateFarmingIntro(primed);
 
-	return farmingTitle;
+	return farmingTitle + farmingIntro;
+}
+
+const generateFarmingIntro = primed => {
+	return `\nBefore we proceed any further, I would like to say that all spots that I'll share with you are based on `
+		+ `my personal experience <strong>farming ${primed} Prime relics</strong>. The spots gave me the necessary relics `
+		+ `at the shortest time, but you may have a different result as relic drops are also based on a chance. `
+		+ `Now, let's get on to the <strong>how to farm ${primed} Prime relics</strong> fast and easy.`;
 }
 
 const generateEndingSection = primed => {
