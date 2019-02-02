@@ -54,19 +54,6 @@ const formatRelicNames = relics => {
 	});
 }
 
-const findRequiredRelics = (relics, primed) => {
-	let requiredRelics = [];
-	_.forOwn(relics, function(items, relicName) {
-		_.forEach(items, function(item) {
-			if(item.name.includes(primed)) {
-				requiredRelics.push(relicName);
-				return;
-			}
-		});
-	});
-	return requiredRelics;
-}
-
 const generateFrontMatter = primed => {
 	let frontMatter = {};
 	frontMatter.title = `How To Get ${primed} Prime`;
@@ -79,10 +66,28 @@ const generateFrontMatter = primed => {
 	return frontMatter;
 }
 
-const generateContent = contentDetails => {
+const findRequiredRelics = (relics, primed) => {
+	let requiredRelics = [];
+	_.forOwn(relics, function(items, relicName) {
+		_.forEach(items, function(item) {
+			if(item.name.includes(primed)) {
+				const relic = {
+					name: relicName,
+					item: item.name,
+					rarity: item.rarity
+				}
+				requiredRelics.push(relic);
+				return;
+			}
+		});
+	});
+	return requiredRelics;
+}
+
+const generateContent = (contentDetails, requiredRelics) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
-	content += generateRelicsSection(contentDetails);
+	content += generateRelicsSection(contentDetails, requiredRelics);
 	return content;
 }
 
@@ -97,12 +102,15 @@ const generateContentIntro = contentDetails => {
 	}
 }
 
-const generateRelicsSection = contentDetails => {
+const generateRelicsSection = (contentDetails, requiredRelics) => {
 	const primed = contentDetails.primed;
 	const sectionTitle = `\n\n## ${primed} Prime Relics`;
-	const sectionIntro = `\nSo, ${primed} Prime parts scattered across four different relics:`;
-
-	return sectionTitle + sectionIntro;
+	const sectionIntro = `\nSo, ${primed} Prime parts scattered across four different relics:\n`;
+	let relicsList = '';
+	_.forEach(requiredRelics, relic => {
+		relicsList += `\n* <b>${relic.name}</b> that drops the ${relic.item}`;
+	});
+	return sectionTitle + sectionIntro + relicsList;
 }
 
 Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
@@ -115,12 +123,11 @@ Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
 		const allRelics = gutherRelics(dropsPageResponse.data);
 
 		const primed = answers.primed;
-		const requiredRelics = findRequiredRelics(allRelics, primed);
 		// const frontMatter = generateFrontMatter(primed);
 		// console.log(frontMatter);
-		console.log(requiredRelics)
-		// const content = generateContent(answers);
-		// console.log(content);
+		const requiredRelics = findRequiredRelics(allRelics, primed);
+		const content = generateContent(answers, requiredRelics);
+		console.log(content);
 		// const fileContent = matter.stringify(content, frontMatter);
 		// const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
 		// fs.writeFileSync(pathToFile, fileContent);
