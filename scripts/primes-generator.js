@@ -88,6 +88,8 @@ const generateContent = (contentDetails, requiredRelics) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
 	content += generateRelicsSection(contentDetails, requiredRelics);
+	content += generateFarmingSection(contentDetails, requiredRelics);
+	content += generateEndingSection(contentDetails.primed);
 	return content;
 }
 
@@ -125,6 +127,15 @@ const generateRelicsList = relics => {
 	return _.map(relics, relic => {
 		return `\n* <b>${relic.name}</b> that drops the ${relic.item}`;
 	}).join('');
+}
+
+const generateFarmingSection = (contentDetails, requiredRelics) => {
+	return '';
+}
+
+const generateEndingSection = primed => {
+	return `\n\nAnd that’s pretty much all I want to say about <strong>${primed} Relics farming</strong>. `
+		+ `I hope this guide helped and good luck with farming. Bye-bye.`
 }
 
 Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
