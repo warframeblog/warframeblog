@@ -130,7 +130,10 @@ const generateRelicsList = relics => {
 }
 
 const generateFarmingSection = (contentDetails, requiredRelics) => {
-	return '';
+	const primed = contentDetails.primed;
+	const farmingTitle = `\n\n## ${primed} Prime Relics Farming`;
+
+	return farmingTitle;
 }
 
 const generateEndingSection = primed => {
