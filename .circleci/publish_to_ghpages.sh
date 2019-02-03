@@ -6,8 +6,7 @@ echo "Checkout gh-pages branch to public directory"
 git clone --single-branch --branch gh-pages https://github.com/warframeblog/warframeblog.git public
 cd public
 git submodule update --init --recursive
-ls wp-content/uploads
-ls wp-content/uploads/2019
+git submodule update --recursive --remote
 git status
 cd ..
 
@@ -37,8 +36,6 @@ if [[ -z $(git status --porcelain) ]]; then
     echo "There are no changes to commit.";
     exit 0;
 fi
-
-exit 0;
 
 timestamp=$(date +%s%3N)
 echo "Publishing version $timestamp"
