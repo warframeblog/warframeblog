@@ -2,15 +2,20 @@
 
 set -e
 
-echo "Deleting old publication"
-rm -rf public
-git worktree prune
+echo "Checkout gh-pages branch to public directory"
+git clone --single-branch --branch gh-pages https://github.com/warframeblog/warframeblog.git public
+git submodule
 
-echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages public origin/gh-pages
 
-echo "Removing existing files"
-rm -rf public/*
+# echo "Deleting old publication"
+# rm -rf public
+# git worktree prune
+
+# echo "Checking out gh-pages branch into public"
+# git worktree add -B gh-pages public origin/gh-pages
+
+# echo "Removing existing files"
+# rm -rf public/*
 
 echo "Generating site"
 npm run build
@@ -36,12 +41,3 @@ git status && \
   git tag "$timestamp" && \
   git push origin gh-pages && \
   git push origin "$timestamp"
-
-cd ..
-rm -rf public
-git worktree prune
-git checkout -f gh-pages
-git submodule
-rm -rf wp-content/uploads/2019
-git submodule add https://github.com/warframeblog/images2019.git wp-content/uploads/2019
-git status
