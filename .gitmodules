@@ -7,3 +7,6 @@
 [submodule "static/wp-content/uploads/2018"]
 	path = static/wp-content/uploads/2018
 	url = https://github.com/warframeblog/images2018
+[submodule "static/wp-content/uploads/2019"]
+	path = static/wp-content/uploads/2019
+	url = https://github.com/warframeblog/images2019.git
