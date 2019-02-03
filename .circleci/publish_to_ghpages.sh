@@ -18,6 +18,16 @@ npm run build
 find ./public/images -name ".git" -type f -delete
 find ./public/wp-content -name ".git" -type f -delete
 
+
+cd public
+
+git checkout .gitmodules
+rm -rf wp-content/uploads/2019/*
+git submodule update --recursive --remote
+cd wp-content/uploads/2019/
+git checkout master
+cd ~
+pwd
 cd public
 
 if [[ -z $(git status --porcelain) ]]; then

@@ -1,7 +1,7 @@
 ---
 title: Argonak Build. Critical rifle with a laser-sight.
 seoTitle: "Argonak Build. Critical rifle with a laser-sight - Warframe Blog"
-date: 2018-01-01T18:49:08+00:00
+date: 2018-01-02T18:49:08+00:00
 author: warframe
 layout: post
 permalink: /argonak-build/
