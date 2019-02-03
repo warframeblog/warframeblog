@@ -1,7 +1,7 @@
 ---
 title: The Acolytes Are Back Again. Acolyte Mods
 seoTitle: "The Acolytes Are Back Again. Acolyte Mods. Acolyte Tracker"
-date: 2019-01-25T17:45:17+00:00
+date: 2019-01-25T16:45:17+00:00
 author: warframe
 layout: post
 permalink: /acolytes-back-acolyte-mods/
