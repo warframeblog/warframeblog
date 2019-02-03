@@ -24,6 +24,8 @@ cd public
 git checkout .gitmodules
 cat .gitmodules
 rm -rf wp-content/uploads/2019/*
+git submodule sync && git submodule update --init
+ls wp-content/uploads/
 git submodule update --recursive --remote
 
 if [[ -z $(git status --porcelain) ]]; then
