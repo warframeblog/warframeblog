@@ -23,9 +23,11 @@ cd public
 
 git checkout .gitmodules
 rm -rf wp-content/uploads/2019/*
-git submodule sync && git submodule update --init
+git submodule update --init --recursive
+echo "submodule files"
 ls wp-content/uploads/2019
 git submodule update --recursive --remote
+echo "submodule files"
 ls wp-content/uploads/2019
 
 if [[ -z $(git status --porcelain) ]]; then
@@ -37,7 +39,7 @@ timestamp=$(date +%s%3N)
 echo "Publishing version $timestamp"
 git status && \
   git add --all && \
-  git commit -m "publish_to_ghpage $timestamps" && \
+  git commit -m "publish_to_ghpage $timestamps [ci skip]" && \
   git tag "$timestamp" && \
   git push origin gh-pages && \
   git push origin "$timestamp"
