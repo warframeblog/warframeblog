@@ -21,16 +21,8 @@ find ./public/wp-content -name ".git" -type f -delete
 
 cd public
 
-git checkout .gitmodules
 rm -rf wp-content/uploads/2019/*
-git submodule update --init --recursive
-git submodule update --recursive
-echo "submodule files"
-ls wp-content/uploads/2019
-git submodule update --recursive --remote
-echo "submodule files"
-ls wp-content/uploads/2019
-git submodule
+git submodule add https://github.com/warframeblog/images2019.git wp-content/uploads/2019
 
 if [[ -z $(git status --porcelain) ]]; then
     echo "There are no changes to commit.";
