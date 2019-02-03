@@ -17,7 +17,8 @@ const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb
 const questions = [
 	{ type: 'input', name: 'primed', message: 'What have got primed?'},
 	{ type: 'confirm', name: 'unvaulted', message: 'It it unvaulted?', default: false },
-	{ type: 'input', name: 'alongWith', message: 'Along with what it have got primed?(Separate by comma)'}
+	{ type: 'input', name: 'alongWith', message: 'Along with what it have got primed?(Separate by comma)'},
+	{ type: 'input', name: 'image', message: 'Provide a link to the image'},
 ];
 
 const gutherRelics = dropsPage => {
@@ -58,7 +59,7 @@ const formatRelicNames = relics => {
 	});
 }
 
-const generateFrontMatter = primed => {
+const generateFrontMatter = (primed, image) => {
 	let frontMatter = {};
 	frontMatter.title = `How To Get ${primed} Prime`;
 	frontMatter.seoTitle = `How To Get ${primed} Prime. How To Farm ${primed} Prime Relics`;
@@ -66,6 +67,7 @@ const generateFrontMatter = primed => {
 	frontMatter.author = 'warframe';
 	frontMatter.layout = 'post';
 	frontMatter.permalink = `/primes/how-to-get-${primed.toLowerCase()}-prime/`;
+	frontMatter.image = image;
 	frontMatter.categories = ['Primes'];
 	return frontMatter;
 }
@@ -216,13 +218,11 @@ Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
 		const allRelics = gutherRelics(dropsPageResponse.data);
 
 		const primed = answers.primed;
-		// const frontMatter = generateFrontMatter(primed);
-		// console.log(frontMatter);
+		const frontMatter = generateFrontMatter(primed, answers.image);
 		const requiredRelics = findRequiredRelics(allRelics, primed);
 		const content = generateContent(answers, requiredRelics);
-		console.log(content);
-		// const fileContent = matter.stringify(content, frontMatter);
-		// const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
-		// fs.writeFileSync(pathToFile, fileContent);
+		const fileContent = matter.stringify(content, frontMatter);
 
+		const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
+		fs.writeFileSync(pathToFile, fileContent);
 	}).catch(e => console.log(e));
