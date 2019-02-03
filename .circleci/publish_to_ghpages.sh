@@ -36,6 +36,8 @@ git status && \
   git push origin "$timestamp"
 
 cd ..
+rm -rf public
+git worktree prune
 git checkout gh-pages
 git submodule
 rm -rf wp-content/uploads/2019
