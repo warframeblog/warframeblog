@@ -38,8 +38,7 @@ git status && \
 cd ..
 rm -rf public
 git worktree prune
-git reset HEAD
-git checkout gh-pages
+git checkout -f gh-pages
 git submodule
 rm -rf wp-content/uploads/2019
 git submodule add https://github.com/warframeblog/images2019.git wp-content/uploads/2019
