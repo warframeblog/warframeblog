@@ -26,6 +26,8 @@ if [[ -z $(git status --porcelain) ]]; then
     exit 0;
 fi
 
+exit 0;
+
 timestamp=$(date +%s%3N)
 echo "Publishing version $timestamp"
 git status && \

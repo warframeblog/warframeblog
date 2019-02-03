@@ -21,7 +21,7 @@ jobs:
             - checkout
             - run:
                 name: Checkout submodules
-                command: git submodule sync && git submodule update --init
+                command: git submodule sync && git submodule update --init themes/hestia && git submodule update --init static/wp-content/uploads/2017 && git submodule update --init static/wp-content/uploads/2018
             - run:
                 name: Install dependencies
                 command: npm install
