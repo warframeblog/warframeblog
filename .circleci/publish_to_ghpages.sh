@@ -4,8 +4,8 @@ set -e
 
 echo "Checkout gh-pages branch to public directory"
 git clone --single-branch --branch gh-pages https://github.com/warframeblog/warframeblog.git public
-git submodule
-
+ls static/wp-content/uploads
+ls static/wp-content/uploads/2019
 
 # echo "Deleting old publication"
 # rm -rf public
@@ -25,6 +25,7 @@ find ./public/wp-content -name ".git" -type f -delete
 
 
 cd public
+git submodule
 
 if [[ -z $(git status --porcelain) ]]; then
     echo "There are no changes to commit.";
