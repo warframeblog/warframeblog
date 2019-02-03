@@ -17,8 +17,9 @@ const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb
 const questions = [
 	{ type: 'input', name: 'primed', message: 'What have got primed?'},
 	{ type: 'confirm', name: 'unvaulted', message: 'It it unvaulted?', default: false },
-	{ type: 'input', name: 'alongWith', message: 'Along with what it have got primed?(Separate by comma)'},
-	{ type: 'input', name: 'image', message: 'Provide a link to the image'},
+	{ type: 'input', name: 'relics', message: 'Specify relics if it was unvaulted(Separate by comma):'},
+	{ type: 'input', name: 'alongWith', message: 'Along with what it have got primed(Separate by comma)?'},
+	{ type: 'input', name: 'image', message: 'Provide a link to the image:'},
 ];
 
 const gutherRelics = dropsPage => {
@@ -187,7 +188,7 @@ const generateFarmingLocationsByEraParagraph = era => {
 		+ `ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith `
 		+ `relics in 10 waves most of the time.`;
 	} else if(MESO_ERA_RELIC === era) {
-		return `\nIn order to farm Meso relics, I would recommend IO on Jupiter. This mission can be completed really quickly and `
+		return `\nIn order to farm <b>Meso relics</b>, I would recommend <b>IO on Jupiter</b>. This mission can be completed really quickly and `
 		+ `with some luck, you should be able to get two Meso relics in 10 waves.`;
 	} else if(NEO_ERA_RELIC === era) {
 		return `\nFor <b>Neo relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics `
