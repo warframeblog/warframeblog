@@ -22,7 +22,7 @@ So, Gram Prime parts scattered across three different relics:
 Before we proceed any further, I would like to say that all spots that I'll share with you are based on my personal experience <strong>farming Gram Prime relics</strong>. The spots gave me the necessary relics at the shortest time, but you may have a different result as relic drops are also based on a chance. Now, let's get on to the <strong>how to farm Gram Prime relics</strong> fast and easy.
 
 ### How To Get Gram Prime Blade relics
-In order to farm Meso T3, I would recommend IO on Jupiter. This mission can be completed really quickly and with some luck, you should be able to get two Meso relics in 10 waves.
+In order to farm Meso relics, I would recommend IO on Jupiter. This mission can be completed really quickly and with some luck, you should be able to get two Meso relics in 10 waves.
 
 ### How To Get Gram Prime Handle relics
 For Neo relics, my recommendation is Hydron on Sedna. It is the fastest way to farm for Neo relics because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe and weapons. So, don't forget to bring alongside your weapons that you want to level up.
