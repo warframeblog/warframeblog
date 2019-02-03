@@ -22,11 +22,11 @@ find ./public/wp-content -name ".git" -type f -delete
 cd public
 
 git checkout .gitmodules
-cat .gitmodules
 rm -rf wp-content/uploads/2019/*
 git submodule sync && git submodule update --init
-ls wp-content/uploads/
+ls wp-content/uploads/2019
 git submodule update --recursive --remote
+ls wp-content/uploads/2019
 
 if [[ -z $(git status --porcelain) ]]; then
     echo "There are no changes to commit.";
