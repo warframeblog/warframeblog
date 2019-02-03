@@ -24,7 +24,12 @@ cd public
 git checkout .gitmodules
 rm -rf wp-content/uploads/2019/*
 git submodule update --recursive --remote
-cd wp-content/uploads/2019/
+cd wp-content/uploads/
+pwd
+ls
+cd 2019
+pwd
+git status
 git checkout master
 cd ~
 pwd
