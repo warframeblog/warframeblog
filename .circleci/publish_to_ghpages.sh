@@ -21,7 +21,7 @@ find ./public/wp-content -name ".git" -type f -delete
 
 cd public
 
-rm -rf wp-content/uploads/2019/*
+rm -rf wp-content/uploads/2019
 git submodule add https://github.com/warframeblog/images2019.git wp-content/uploads/2019
 
 if [[ -z $(git status --porcelain) ]]; then
