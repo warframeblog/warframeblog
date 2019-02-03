@@ -5,8 +5,7 @@ set -e
 echo "Checkout gh-pages branch to public directory"
 git clone --single-branch --branch gh-pages https://github.com/warframeblog/warframeblog.git public
 cd public
-git submodule update --init --recursive
-git submodule update --recursive --remote
+
 git status
 cd ..
 
@@ -28,6 +27,10 @@ find ./public/wp-content -name ".git" -type f -delete
 
 
 cd public
+ls wp-content/uploads
+ls wp-content/uploads/2019
+git submodule update --init --recursive
+git submodule update --recursive --remote
 ls wp-content/uploads
 ls wp-content/uploads/2019
 git submodule
