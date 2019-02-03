@@ -38,6 +38,7 @@ git status && \
 cd ..
 rm -rf public
 git worktree prune
+git reset HEAD
 git checkout gh-pages
 git submodule
 rm -rf wp-content/uploads/2019
