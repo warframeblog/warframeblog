@@ -25,12 +25,6 @@ git checkout .gitmodules
 cat .gitmodules
 rm -rf wp-content/uploads/2019/*
 git submodule update --recursive --remote
-cd wp-content/uploads/2019
-ls
-git status
-cd ~
-pwd
-cd public
 
 if [[ -z $(git status --porcelain) ]]; then
     echo "There are no changes to commit.";
