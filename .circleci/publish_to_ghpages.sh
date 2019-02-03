@@ -8,6 +8,7 @@ cd public
 git submodule update --init --recursive
 ls wp-content/uploads
 ls wp-content/uploads/2019
+git status
 cd ..
 
 # echo "Deleting old publication"
@@ -31,7 +32,7 @@ cd public
 ls wp-content/uploads
 ls wp-content/uploads/2019
 git submodule
-
+git status
 if [[ -z $(git status --porcelain) ]]; then
     echo "There are no changes to commit.";
     exit 0;
