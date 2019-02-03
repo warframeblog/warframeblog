@@ -22,15 +22,12 @@ find ./public/wp-content -name ".git" -type f -delete
 cd public
 
 git checkout .gitmodules
+cat .gitmodules
 rm -rf wp-content/uploads/2019/*
 git submodule update --recursive --remote
-cd wp-content/uploads/
-pwd
+cd wp-content/uploads/2019
 ls
-cd 2019
-pwd
 git status
-git checkout master
 cd ~
 pwd
 cd public
