@@ -4,8 +4,11 @@ set -e
 
 echo "Checkout gh-pages branch to public directory"
 git clone --single-branch --branch gh-pages https://github.com/warframeblog/warframeblog.git public
-ls static/wp-content/uploads
-ls static/wp-content/uploads/2019
+cd public
+git submodule update --init --recursive
+ls wp-content/uploads
+ls wp-content/uploads/2019
+cd ..
 
 # echo "Deleting old publication"
 # rm -rf public
@@ -25,6 +28,8 @@ find ./public/wp-content -name ".git" -type f -delete
 
 
 cd public
+ls wp-content/uploads
+ls wp-content/uploads/2019
 git submodule
 
 if [[ -z $(git status --porcelain) ]]; then
