@@ -23,6 +23,13 @@ const questions = [
 
 const gutherRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
+	return {
+		availableRelics: findAvailableRelics($),
+		cetusRelics: findCetusBountiesRelics($)
+	};
+}
+
+const findAvailableRelics = $ => {
 	const $relicsTableBody = $('#relicRewards').next().find('tbody');
 	let relics = {};
 	$relicsTableBody.find('tr:not(.blank-row)').each(function() {
@@ -37,7 +44,6 @@ const gutherRelics = dropsPage => {
 			relics[lastAddedRelic].push({name, rarity});
 		}
 	});
-
 	return normalizeRelicsData(relics);
 }
 
@@ -59,6 +65,23 @@ const formatRelicNames = relics => {
 	});
 }
 
+const findCetusBountiesRelics = $ => {
+	const $cetutBountiesRewardsTableBody = $('#cetusRewards').next().find('tbody');
+	let cetusBountiesRelics = [];
+	$cetutBountiesRewardsTableBody.find('tr:not(.blank-row)').each(function() {
+		const $el = $(this);
+		if($el.find('th:contains("Ghoul")').length) {
+			return false;
+		} else if($el.children("td").length) {
+			const item = $el.find('td:nth-child(2)').text();
+			if(item.includes('Relic') && !cetusBountiesRelics.includes(item)) {
+				cetusBountiesRelics.push(item);
+			}
+		}
+	});
+	return cetusBountiesRelics;
+}
+
 const generateFrontMatter = contentDetails => {
 	const primed = contentDetails.primed
 	let frontMatter = {};
@@ -73,9 +96,9 @@ const generateFrontMatter = contentDetails => {
 	return frontMatter;
 }
 
-const findRequiredRelics = (allRelics, relicsOfUnvaultedItem, primed) => {
+const findRequiredRelics = (relics, relicsOfUnvaultedItem, primed) => {
 	let requiredRelics = [];
-	_.forOwn(allRelics, (items, relicName) => {
+	_.forOwn(relics.availableRelics, (items, relicName) => {
 		if(relicsOfUnvaultedItem && !relicsOfUnvaultedItem.includes(relicName)) {
 			return;
 		}
@@ -94,11 +117,12 @@ const findRequiredRelics = (allRelics, relicsOfUnvaultedItem, primed) => {
 	return requiredRelics;
 }
 
-const generateContent = (contentDetails, requiredRelics) => {
+const generateContent = (contentDetails, allRelics, requiredRelics) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
 	content += generateRelicsSection(contentDetails, requiredRelics);
 	content += generateFarmingSection(contentDetails, requiredRelics);
+	content += generateBountiesRelicsFarmingSection(contentDetails, allRelics, requiredRelics)
 	content += generateEndingSection(contentDetails.primed);
 	return content;
 }
@@ -207,6 +231,24 @@ const generateFarmingLocationsByEraParagraph = era => {
 	return '';
 }
 
+const generateBountiesRelicsFarmingSection = (contentDetails, allRelics, requiredRelics) => {
+	const cetusRelics = allRelics.cetusRelics;
+	const matchedRelics = _.filter(requiredRelics, relic => {
+		return cetusRelics.includes(relic.name);
+	});
+	
+	if(matchedRelics.length === requiredRelics.length) {
+		const bountiesRelicsTitle = `\n\n## Farming ${contentDetails.primed} Prime Relics in Bounties`;
+		const bountiesRelicsIntro = `\nBounties are a fantastic way to get relics as well. You can take up the bounties from Cetus of `
+		+ `[Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. With tier 2 bounties granting Lith relics, tier 3 `
+		+ `bounties granting Meso relics, tier 4 bounties granting Neo relics, and tier 5 bounties granting Axi relics.`;
+
+		return bountiesRelicsTitle + bountiesRelicsIntro;
+	}
+
+	return '';
+}
+
 const generateEndingSection = primed => {
 	return `\n\nAnd that’s pretty much all I want to say about <strong>${primed} Prime Relics farming</strong>. `
 		+ `I hope this guide helped and good luck with farming. Bye-bye.`
@@ -230,10 +272,10 @@ Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
 
 		const relicsOfUnvaultedItem = findRelicsOfUnvaultedItem(primed);
 		contentDetails.unvaulted = !relicsOfUnvaultedItem ? false : true;
-		console.log(contentDetails.unvaulted)
 		const requiredRelics = findRequiredRelics(allRelics, relicsOfUnvaultedItem, primed);
 		console.log(requiredRelics);
-		const content = generateContent(contentDetails, requiredRelics);
+		const content = generateContent(contentDetails, allRelics, requiredRelics);
+		console.log(content);
 		const fileContent = matter.stringify(content, frontMatter);
 
 		// const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
