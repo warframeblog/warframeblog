@@ -5,6 +5,7 @@ const matter = require('gray-matter');
 const inquirer = require('inquirer');
 const cheerio = require('cheerio');
 const _ = require('lodash');
+const unvaultedPrimedItems = require('../data/unvaulted');
 
 const PRIMES_FOLDER = join(__dirname, '../content', 'primes');
 const LITH_ERA_RELIC = 'Lith';
@@ -16,8 +17,6 @@ const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb
 
 const questions = [
 	{ type: 'input', name: 'primed', message: 'What have got primed?'},
-	{ type: 'confirm', name: 'unvaulted', message: 'It it unvaulted?', default: false },
-	{ type: 'input', name: 'relics', message: 'Specify relics if it was unvaulted(Separate by comma):'},
 	{ type: 'input', name: 'alongWith', message: 'Along with what it have got primed(Separate by comma)?'},
 	{ type: 'input', name: 'image', message: 'Provide a link to the image:'},
 ];
@@ -60,7 +59,8 @@ const formatRelicNames = relics => {
 	});
 }
 
-const generateFrontMatter = (primed, image) => {
+const generateFrontMatter = contentDetails => {
+	const primed = contentDetails.primed
 	let frontMatter = {};
 	frontMatter.title = `How To Get ${primed} Prime`;
 	frontMatter.seoTitle = `How To Get ${primed} Prime. How To Farm ${primed} Prime Relics`;
@@ -68,14 +68,17 @@ const generateFrontMatter = (primed, image) => {
 	frontMatter.author = 'warframe';
 	frontMatter.layout = 'post';
 	frontMatter.permalink = `/primes/how-to-get-${primed.toLowerCase()}-prime/`;
-	frontMatter.image = image;
+	frontMatter.image = contentDetails.image;
 	frontMatter.categories = ['Primes'];
 	return frontMatter;
 }
 
-const findRequiredRelics = (relics, primed) => {
+const findRequiredRelics = (allRelics, relicsOfUnvaultedItem, primed) => {
 	let requiredRelics = [];
-	_.forOwn(relics, function(items, relicName) {
+	_.forOwn(allRelics, (items, relicName) => {
+		if(relicsOfUnvaultedItem && !relicsOfUnvaultedItem.includes(relicName)) {
+			return;
+		}
 		_.forEach(items, function(item) {
 			if(item.name.includes(primed)) {
 				const relic = {
@@ -209,21 +212,30 @@ const generateEndingSection = primed => {
 		+ `I hope this guide helped and good luck with farming. Bye-bye.`
 }
 
+const findRelicsOfUnvaultedItem = primed => {
+	return _.get(unvaultedPrimedItems, `${primed} Prime`);
+}
+
 Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
 	.then((result) => {
-		const answers = result[0];
+		const contentDetails = result[0];
 		const dropsPageResponse = result[1];
-		if(!answers || !dropsPageResponse) {
+		if(!contentDetails || !dropsPageResponse) {
 			throw new Error('Something went wrong');
 		}
 		const allRelics = gutherRelics(dropsPageResponse.data);
 
-		const primed = answers.primed;
-		const frontMatter = generateFrontMatter(primed, answers.image);
-		const requiredRelics = findRequiredRelics(allRelics, primed);
-		const content = generateContent(answers, requiredRelics);
+		const primed = contentDetails.primed;
+		const frontMatter = generateFrontMatter(contentDetails);
+
+		const relicsOfUnvaultedItem = findRelicsOfUnvaultedItem(primed);
+		contentDetails.unvaulted = !relicsOfUnvaultedItem ? false : true;
+		console.log(contentDetails.unvaulted)
+		const requiredRelics = findRequiredRelics(allRelics, relicsOfUnvaultedItem, primed);
+		console.log(requiredRelics);
+		const content = generateContent(contentDetails, requiredRelics);
 		const fileContent = matter.stringify(content, frontMatter);
 
-		const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
-		fs.writeFileSync(pathToFile, fileContent);
+		// const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
+		// fs.writeFileSync(pathToFile, fileContent);
 	}).catch(e => console.log(e));
