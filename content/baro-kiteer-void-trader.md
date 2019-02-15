@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-02-15T14:00:35.767Z
+date: 2019-02-15T17:00:31.245Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
