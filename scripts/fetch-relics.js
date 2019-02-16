@@ -22,11 +22,12 @@ axios.get(DROPS_PAGE_URL)
 const fetchRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
 	const missionRelics = findMissionRelics($);
+	const voidRelics = collectVoidMissionToRelics(missionRelics);
 	return {
 		availableRelics: findAvailableRelics($),
 		cetusRelics: findCetusBountiesRelics($),
 		solarisRelics: findSolarisBountiesRelics($),
-		voidRelics: missionRelics
+		voidRelics
 	};
 }
 
@@ -116,4 +117,9 @@ const findMissionRelics = $ => {
 			}
 		}});
 	return missionRelics;
+}
+
+const collectVoidMissionToRelics = missionByRelics => {
+	const voidMissionFeauture = 'Void';
+	return _.pickBy(missionByRelics, (relics, missionName) => missionName.includes(voidMissionFeauture));
 }
