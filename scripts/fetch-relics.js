@@ -8,6 +8,9 @@ const cheerio = require('cheerio');
 const _ = require('lodash');
 
 const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html';
+const VOID_MISSION_FEATURE = 'Void';
+const SANCTUARY_FEATURE = 'Sanctuary';
+
 
 axios.get(DROPS_PAGE_URL)
 	.then(page => {
@@ -16,18 +19,21 @@ axios.get(DROPS_PAGE_URL)
 		return fetchRelics(pageData);
 	}).catch(e => console.log(e))
 	.then(relics => {
-		console.log(relics.voidRelics)
+		// console.log(relics.voidRelics)
+		console.log(relics.sanctuaryRelics)
 	})
 
 const fetchRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
 	const missionRelics = findMissionRelics($);
-	const voidRelics = collectVoidMissionToRelics(missionRelics);
+	const voidRelics = collectSpecificMissions(missionRelics, VOID_MISSION_FEATURE);
+	const sanctuaryRelics = collectSpecificMissions(missionRelics, SANCTUARY_FEATURE);
 	return {
 		availableRelics: findAvailableRelics($),
 		cetusRelics: findCetusBountiesRelics($),
 		solarisRelics: findSolarisBountiesRelics($),
-		voidRelics
+		voidRelics,
+		sanctuaryRelics
 	};
 }
 
@@ -119,7 +125,6 @@ const findMissionRelics = $ => {
 	return missionRelics;
 }
 
-const collectVoidMissionToRelics = missionByRelics => {
-	const voidMissionFeauture = 'Void';
-	return _.pickBy(missionByRelics, (relics, missionName) => missionName.includes(voidMissionFeauture));
+const collectSpecificMissions = (missionByRelics, missionFeature) => {
+	return _.pickBy(missionByRelics, (relics, missionName) => missionName.includes(missionFeature));
 }
