@@ -5,7 +5,7 @@ const matter = require('gray-matter');
 const inquirer = require('inquirer');
 const cheerio = require('cheerio');
 const _ = require('lodash');
-const unvaultedPrimedItems = require('../data/unvaulted');
+const unvaultedPrimedItems = require('../data/relics/unvaulted');
 
 const PRIMES_FOLDER = join(__dirname, '../content', 'primes');
 const LITH_ERA_RELIC = 'Lith';
