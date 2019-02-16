@@ -1,43 +1,44 @@
-//relics by rewards
-//void relics
-//orb vallis relics
-//cetus relics(skip ghoul relics)
-//sanctuary relics
 const axios = require('axios');
 const cheerio = require('cheerio');
 const _ = require('lodash');
+const fs = require('fs');
+const join = require('path').join;
 
 const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html';
 const VOID_MISSION_FEATURE = 'Void';
 const SANCTUARY_FEATURE = 'Sanctuary';
 
+const RELICS_DATA_FOLDER = join('../data', 'relics');
+const JSON_FILE_EXT = '.json';
 
 axios.get(DROPS_PAGE_URL)
 	.then(page => {
-
-		const pageData = page.data;
-		return fetchRelics(pageData);
+		if(!page) {
+			throw new Error('Cannot load drops page');
+		}
+		return fetchRelics(page.data);
 	}).catch(e => console.log(e))
-	.then(relics => {
-		// console.log(relics.voidRelics)
-		console.log(relics.sanctuaryRelics)
-	})
+	.then(saveRelicsDataToFiles)
+	.catch(e => console.log(e));
 
 const fetchRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
+	const relicsRewards = findRelicsByRewards($);
+	const cetusRelics = findCetusBountiesRelics($);
+	const solarisRelics = findSolarisBountiesRelics($);
 	const missionRelics = findMissionRelics($);
 	const voidRelics = collectSpecificMissions(missionRelics, VOID_MISSION_FEATURE);
 	const sanctuaryRelics = collectSpecificMissions(missionRelics, SANCTUARY_FEATURE);
 	return {
-		availableRelics: findAvailableRelics($),
-		cetusRelics: findCetusBountiesRelics($),
-		solarisRelics: findSolarisBountiesRelics($),
+		relicsRewards,
+		cetusRelics,
+		solarisRelics,
 		voidRelics,
 		sanctuaryRelics
 	};
 }
 
-const findAvailableRelics = $ => {
+const findRelicsByRewards = $ => {
 	const $relicsTableBody = $('#relicRewards').next().find('tbody');
 	let relics = {};
 	$relicsTableBody.find('tr:not(.blank-row)').each(function() {
@@ -127,4 +128,12 @@ const findMissionRelics = $ => {
 
 const collectSpecificMissions = (missionByRelics, missionFeature) => {
 	return _.pickBy(missionByRelics, (relics, missionName) => missionName.includes(missionFeature));
+}
+
+const saveRelicsDataToFiles = relics => {
+	_.each(relics, (fileContent, fileName) => {
+		const filePath = join(RELICS_DATA_FOLDER, fileName + JSON_FILE_EXT);
+		fs.writeFileSync(filePath, JSON.stringify(fileContent));
+		console.log(`File was saved ${fileName + JSON_FILE_EXT}`);
+	});
 }
