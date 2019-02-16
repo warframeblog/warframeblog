@@ -16,16 +16,17 @@ axios.get(DROPS_PAGE_URL)
 		return fetchRelics(pageData);
 	}).catch(e => console.log(e))
 	.then(relics => {
-		console.log(relics.cetusRelics)
-		console.log(relics.solarisRelics)
+		console.log(relics.voidRelics)
 	})
 
 const fetchRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
+	const missionRelics = findMissionRelics($);
 	return {
 		availableRelics: findAvailableRelics($),
 		cetusRelics: findCetusBountiesRelics($),
-		solarisRelics: findSolarisBountiesRelics($)
+		solarisRelics: findSolarisBountiesRelics($),
+		voidRelics: missionRelics
 	};
 }
 
@@ -97,4 +98,22 @@ const findSolarisBountiesRelics = $ => {
 		}
 	});
 	return solarisBountieRelics;
+}
+
+const findMissionRelics = $ => {
+	const $missionRewardsTableBody = $('#missionRewards').next().find('tbody');
+	let missionRelics = {};
+	$missionRewardsTableBody.find('tr:not(.blank-row)').each(function() {
+		const $el = $(this);
+		if($el.children("th").length) {
+			missionRelics[$el.text()] = [];
+		} else if($el.children("td").length) {
+			const name = $el.find('td:first-child').text();
+			if(name.includes('Relic')) {
+				const missionNames = Object.keys(missionRelics);
+				const lastAddedMission = missionNames[missionNames.length - 1];
+				missionRelics[lastAddedMission].push(name);
+			}
+		}});
+	return missionRelics;
 }
