@@ -32,8 +32,10 @@ const generateContent = (contentDetails, allRelics, relicsToItemParts) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
 	content += generateRelicsSection(contentDetails, relicsToItemParts);
-	content += generateFarmingSection(contentDetails, relicsToItemParts);
-	// content += generateBountiesRelicsFarmingSection(contentDetails, allRelics, relicsToItemParts)
+
+	const relicErasByItemParts = relics.collectRelicErasByItemParts(relicsToItemParts);
+	content += generateFarmingSection(contentDetails, relicsToItemParts, relicErasByItemParts);
+	content += generateBountiesRelicsFarmingSection(contentDetails, relicsToItemParts, relicErasByItemParts)
 	content += generateEndingSection(contentDetails.primed);
 	return content;
 }
@@ -77,13 +79,11 @@ const generateRelicsList = relicsToItemParts => {
 	}).join('');
 }
 
-const generateFarmingSection = (contentDetails, relicsToItemParts) => {
+const generateFarmingSection = (contentDetails, relicsToItemParts, relicErasByItemParts) => {
 	const primed = contentDetails.primed;
 	const farmingTitle = `\n\n## ${primed} Prime Relics Farming`;
 	const farmingIntro = generateFarmingIntro(primed);
 
-	const relicErasByItemParts = relics.collectRelicErasByItemParts(relicsToItemParts);
-	// console.log(relicErasByItemParts)
 	const farmingRelicsByErasSection = generateFarmingRelicsByErasSection(primed, relicErasByItemParts);
 
 	return farmingTitle + farmingIntro + farmingRelicsByErasSection;
@@ -129,17 +129,15 @@ const generateFarmingLocationsByEraParagraph = era => {
 	return '';
 }
 
-const generateBountiesRelicsFarmingSection = (contentDetails, allRelics, requiredRelics) => {
-	const cetusRelics = allRelics.cetusRelics;
-	const matchedRelics = _.filter(requiredRelics, relic => {
-		return cetusRelics.includes(relic.name);
-	});
-	
-	if(matchedRelics.length === requiredRelics.length) {
+const generateBountiesRelicsFarmingSection = (contentDetails, relicsToItemParts, relicErasByItemParts) => {
+	if(relics.canBeFarmedOnBounties(relicsToItemParts)) {
 		const bountiesRelicsTitle = `\n\n## Farming ${contentDetails.primed} Prime Relics in Bounties`;
-		const bountiesRelicsIntro = `\nBounties are a fantastic way to get relics as well. You can take up the bounties from Cetus of `
-		+ `[Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. With tier 2 bounties granting Lith relics, tier 3 `
-		+ `bounties granting Meso relics, tier 4 bounties granting Neo relics, and tier 5 bounties granting Axi relics.`;
+		const bountiesRelicsIntro = `\nBounties are a fantastic way to get relics as well. You can take up the bounties from Cetus or `
+		+ `[Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. `;
+
+
+		// `With tier 2 bounties granting Lith relics, tier 3 `
+		// + `bounties granting Meso relics, tier 4 bounties granting Neo relics, and tier 5 bounties granting Axi relics.`;
 
 		return bountiesRelicsTitle + bountiesRelicsIntro;
 	}
