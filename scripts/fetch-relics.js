@@ -18,10 +18,12 @@ const fetchRelics = dropsPage => {
 	const solarisRelics = findSolarisBountiesRelics($);
 	const missionRelics = findMissionRelics($);
 	const availableRelics = collectAvailableRelics(missionRelics);
+	const unavailableRelics = collectUnavailableRelics(Object.keys(relicsRewards), availableRelics);
 	const voidRelics = collectSpecificMissions(missionRelics, VOID_MISSION_FEATURE);
 	const sanctuaryRelics = collectSpecificMissions(missionRelics, SANCTUARY_FEATURE);
 	return {
 		availableRelics,
+		unavailableRelics,
 		relicsRewards,
 		cetusRelics,
 		solarisRelics,
@@ -133,6 +135,10 @@ const collectAvailableRelics = missionRelics => {
 		});
 	});
 	return availableRelics;
+}
+
+const collectUnavailableRelics = (allRelics, availableRelics) => {
+	return allRelics.filter(relic => !availableRelics.includes(relic));
 }
 
 const saveRelicsDataToFiles = relics => {
