@@ -5,7 +5,7 @@ const matter = require('gray-matter');
 const inquirer = require('inquirer');
 const cheerio = require('cheerio');
 const _ = require('lodash');
-const unvaultedPrimedItems = require('../data/relics/unvaulted');
+const relics = require('./relics');
 
 const PRIMES_FOLDER = join(__dirname, '../content', 'primes');
 const LITH_ERA_RELIC = 'Lith';
@@ -13,74 +13,12 @@ const MESO_ERA_RELIC = 'Meso';
 const NEO_ERA_RELIC = 'Neo';
 const AXI_ERA_RELIC = 'Axi';
 const RELIC_ERAS = [LITH_ERA_RELIC, MESO_ERA_RELIC, NEO_ERA_RELIC, AXI_ERA_RELIC];
-const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html';
 
 const questions = [
 	{ type: 'input', name: 'primed', message: 'What have got primed?'},
 	{ type: 'input', name: 'alongWith', message: 'Along with what it have got primed(Separate by comma)?'},
 	{ type: 'input', name: 'image', message: 'Provide a link to the image:'},
 ];
-
-const gutherRelics = dropsPage => {
-	const $ = cheerio.load(dropsPage);
-	return {
-		availableRelics: findAvailableRelics($),
-		cetusRelics: findCetusBountiesRelics($)
-	};
-}
-
-const findAvailableRelics = $ => {
-	const $relicsTableBody = $('#relicRewards').next().find('tbody');
-	let relics = {};
-	$relicsTableBody.find('tr:not(.blank-row)').each(function() {
-		const $el = $(this);
-		if($el.children("th").length) {
-			relics[$el.text()] = [];
-		} else if($el.children("td").length) {
-			const relicNames = Object.keys(relics);
-			const lastAddedRelic = relicNames[relicNames.length - 1];
-			const name = $el.find('td:first-child').text();
-			const rarity = $el.find('td:nth-child(2)').text();
-			relics[lastAddedRelic].push({name, rarity});
-		}
-	});
-	return normalizeRelicsData(relics);
-}
-
-const normalizeRelicsData = relics => {
-	return _.flow(collectIntactRelics, 
-		formatRelicNames)(relics);
-}
-
-const collectIntactRelics = relics => {
-	const signOfIntactRelic = 'Intact';
-	return _.pickBy(relics, function(value, key) {
-		return key.includes(signOfIntactRelic);
-	});
-}
-
-const formatRelicNames = relics => {
-	return _.mapKeys(relics, function(value, key) {
-		return key.split(' (')[0];
-	});
-}
-
-const findCetusBountiesRelics = $ => {
-	const $cetutBountiesRewardsTableBody = $('#cetusRewards').next().find('tbody');
-	let cetusBountiesRelics = [];
-	$cetutBountiesRewardsTableBody.find('tr:not(.blank-row)').each(function() {
-		const $el = $(this);
-		if($el.find('th:contains("Ghoul")').length) {
-			return false;
-		} else if($el.children("td").length) {
-			const item = $el.find('td:nth-child(2)').text();
-			if(item.includes('Relic') && !cetusBountiesRelics.includes(item)) {
-				cetusBountiesRelics.push(item);
-			}
-		}
-	});
-	return cetusBountiesRelics;
-}
 
 const generateFrontMatter = contentDetails => {
 	const primed = contentDetails.primed
@@ -117,12 +55,12 @@ const findRequiredRelics = (relics, relicsOfUnvaultedItem, primed) => {
 	return requiredRelics;
 }
 
-const generateContent = (contentDetails, allRelics, requiredRelics) => {
+const generateContent = (contentDetails, allRelics, relicsToItemParts) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
-	content += generateRelicsSection(contentDetails, requiredRelics);
-	content += generateFarmingSection(contentDetails, requiredRelics);
-	content += generateBountiesRelicsFarmingSection(contentDetails, allRelics, requiredRelics)
+	content += generateRelicsSection(contentDetails, relicsToItemParts);
+	// content += generateFarmingSection(contentDetails, relicsToItemParts);
+	// content += generateBountiesRelicsFarmingSection(contentDetails, allRelics, relicsToItemParts)
 	content += generateEndingSection(contentDetails.primed);
 	return content;
 }
@@ -141,12 +79,12 @@ const generateContentIntro = contentDetails => {
 	}
 }
 
-const generateRelicsSection = (contentDetails, requiredRelics) => {
+const generateRelicsSection = (contentDetails, relicsToItemParts) => {
 	const primed = contentDetails.primed;
 	const sectionTitle = `\n\n## ${primed} Prime Relics`;
-	const relicsAmount = requiredRelics.length;
+	const relicsAmount = relicsToItemParts.length;
 	const sectionIntro = `\nSo, ${primed} Prime parts scattered across ${convertNumberIntoWords(relicsAmount)} different relics:\n`;
-	const relicsList = generateRelicsList(requiredRelics);
+	const relicsList = generateRelicsList(relicsToItemParts);
 
 	return sectionTitle + sectionIntro + relicsList;
 }
@@ -160,9 +98,9 @@ const convertNumberIntoWords = number => {
 	return null;
 }
 
-const generateRelicsList = relics => {
-	return _.map(relics, relic => {
-		return `\n* <b>${relic.name}</b> that drops the ${relic.item}`;
+const generateRelicsList = relicsToItemParts => {
+	return _.map(relicsToItemParts, relicToItemPart => {
+		return `\n* <b>${relicToItemPart.relic}</b> that drops the ${relicToItemPart.itemPart}`;
 	}).join('');
 }
 
@@ -254,29 +192,15 @@ const generateEndingSection = primed => {
 		+ `I hope this guide helped and good luck with farming. Bye-bye.`
 }
 
-const findRelicsOfUnvaultedItem = primed => {
-	return _.get(unvaultedPrimedItems, `${primed} Prime`);
-}
-
-Promise.all([inquirer.prompt(questions), axios.get(DROPS_PAGE_URL)])
-	.then((result) => {
-		const contentDetails = result[0];
-		const dropsPageResponse = result[1];
-		if(!contentDetails || !dropsPageResponse) {
-			throw new Error('Something went wrong');
-		}
-		const allRelics = gutherRelics(dropsPageResponse.data);
-
+inquirer.prompt(questions)
+	.then(contentDetails => {
 		const primed = contentDetails.primed;
 		const frontMatter = generateFrontMatter(contentDetails);
+		const relicsToItemParts = relics.collectRelicsToItemParts(primed)
 
-		const relicsOfUnvaultedItem = findRelicsOfUnvaultedItem(primed);
-		contentDetails.unvaulted = !relicsOfUnvaultedItem ? false : true;
-		const requiredRelics = findRequiredRelics(allRelics, relicsOfUnvaultedItem, primed);
-		console.log(requiredRelics);
-		const content = generateContent(contentDetails, allRelics, requiredRelics);
+		const content = generateContent(contentDetails, {}, relicsToItemParts);
 		console.log(content);
-		const fileContent = matter.stringify(content, frontMatter);
+		// const fileContent = matter.stringify(content, frontMatter);
 
 		// const pathToFile = join(PRIMES_FOLDER, `how-to-get-${primed.toLowerCase()}-prime.md`);
 		// fs.writeFileSync(pathToFile, fileContent);
