@@ -11,25 +11,17 @@ const SANCTUARY_FEATURE = 'Sanctuary';
 const RELICS_DATA_FOLDER = join('../data', 'relics');
 const JSON_FILE_EXT = '.json';
 
-axios.get(DROPS_PAGE_URL)
-	.then(page => {
-		if(!page) {
-			throw new Error('Cannot load drops page');
-		}
-		return fetchRelics(page.data);
-	}).catch(e => console.log(e))
-	.then(saveRelicsDataToFiles)
-	.catch(e => console.log(e));
-
 const fetchRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
 	const relicsRewards = findRelicsByRewards($);
 	const cetusRelics = findCetusBountiesRelics($);
 	const solarisRelics = findSolarisBountiesRelics($);
 	const missionRelics = findMissionRelics($);
+	const availableRelics = collectAvailableRelics(missionRelics);
 	const voidRelics = collectSpecificMissions(missionRelics, VOID_MISSION_FEATURE);
 	const sanctuaryRelics = collectSpecificMissions(missionRelics, SANCTUARY_FEATURE);
 	return {
+		availableRelics,
 		relicsRewards,
 		cetusRelics,
 		solarisRelics,
@@ -130,6 +122,19 @@ const collectSpecificMissions = (missionByRelics, missionFeature) => {
 	return _.pickBy(missionByRelics, (relics, missionName) => missionName.includes(missionFeature));
 }
 
+const collectAvailableRelics = missionRelics => {
+	let availableRelics = [];
+	_.each(missionRelics, (relics, missionName) => {
+		_.each(relics, relicName => {
+			const explicitRelicName = relicName.match(/([A-Za-z 0-9]+)( \(Radiant|Intact|Exceptional|Flawless\))?/)[1].trim();
+			if(!availableRelics.includes(explicitRelicName)) {
+				availableRelics.push(explicitRelicName);
+			}
+		});
+	});
+	return availableRelics;
+}
+
 const saveRelicsDataToFiles = relics => {
 	_.each(relics, (fileContent, fileName) => {
 		const filePath = join(RELICS_DATA_FOLDER, fileName + JSON_FILE_EXT);
@@ -137,3 +142,13 @@ const saveRelicsDataToFiles = relics => {
 		console.log(`File was saved ${fileName + JSON_FILE_EXT}`);
 	});
 }
+
+axios.get(DROPS_PAGE_URL)
+	.then(page => {
+		if(!page) {
+			throw new Error('Cannot load drops page');
+		}
+		return fetchRelics(page.data);
+	}).catch(e => console.log(e))
+	.then(saveRelicsDataToFiles)
+	.catch(e => console.log(e));
