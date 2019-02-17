@@ -7,6 +7,12 @@ const solarisRelics = require('../../data/relics/solarisRelics');
 const voidRelics = require('../../data/relics/voidRelics');
 const sanctuaryRelics = require('../../data/relics/sanctuaryRelics');
 
+const LITH_ERA_RELIC = 'Lith';
+const MESO_ERA_RELIC = 'Meso';
+const NEO_ERA_RELIC = 'Neo';
+const AXI_ERA_RELIC = 'Axi';
+const RELIC_ERAS = [LITH_ERA_RELIC, MESO_ERA_RELIC, NEO_ERA_RELIC, AXI_ERA_RELIC];
+
 const collectRelicsToItemParts = itemName => {
 	let relicsToItemParts = [];
 	_.each(relicsByRewards, (relicsRewards, relicName) => {
@@ -24,7 +30,29 @@ const pickRelicRewardByItem = (relicsRewards, itemName) => {
 	return _.find(relicsRewards, relicItem => relicItem.name.includes(itemName));
 }
 
+const collectRelicErasByItemParts = relicsToItemParts => {
+	let relicErasByItemParts = {};
+	_.each(relicsToItemParts, relicToItemPart => {
+		const relicEra = _.find(RELIC_ERAS, era => relicToItemPart.relic.includes(era));
+		if(!_.has(relicErasByItemParts, relicEra)) {
+			relicErasByItemParts[relicEra] = [];
+		}
+		relicErasByItemParts[relicEra].push(relicToItemPart.itemPart);
+	});
+	return relicErasByItemParts;
+}
+
+const isLithEra = era => LITH_ERA_RELIC === era;
+const isMesoEra = era => MESO_ERA_RELIC === era;
+const isNeoEra = era => NEO_ERA_RELIC === era;
+const isAxiEra = era => AXI_ERA_RELIC === era;
+
 
 module.exports = {
-	collectRelicsToItemParts
+	collectRelicsToItemParts,
+	collectRelicErasByItemParts,
+	isLithEra,
+	isMesoEra,
+	isNeoEra,
+	isAxiEra
 }

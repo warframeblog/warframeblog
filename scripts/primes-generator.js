@@ -1,18 +1,12 @@
 const fs = require('fs');
 const join = require('path').join;
-const axios = require('axios');
 const matter = require('gray-matter');
 const inquirer = require('inquirer');
-const cheerio = require('cheerio');
 const _ = require('lodash');
+
 const relics = require('./relics');
 
 const PRIMES_FOLDER = join(__dirname, '../content', 'primes');
-const LITH_ERA_RELIC = 'Lith';
-const MESO_ERA_RELIC = 'Meso';
-const NEO_ERA_RELIC = 'Neo';
-const AXI_ERA_RELIC = 'Axi';
-const RELIC_ERAS = [LITH_ERA_RELIC, MESO_ERA_RELIC, NEO_ERA_RELIC, AXI_ERA_RELIC];
 
 const questions = [
 	{ type: 'input', name: 'primed', message: 'What have got primed?'},
@@ -34,32 +28,11 @@ const generateFrontMatter = contentDetails => {
 	return frontMatter;
 }
 
-const findRequiredRelics = (relics, relicsOfUnvaultedItem, primed) => {
-	let requiredRelics = [];
-	_.forOwn(relics.availableRelics, (items, relicName) => {
-		if(relicsOfUnvaultedItem && !relicsOfUnvaultedItem.includes(relicName)) {
-			return;
-		}
-		_.forEach(items, function(item) {
-			if(item.name.includes(primed)) {
-				const relic = {
-					name: relicName,
-					item: item.name,
-					rarity: item.rarity
-				}
-				requiredRelics.push(relic);
-				return;
-			}
-		});
-	});
-	return requiredRelics;
-}
-
 const generateContent = (contentDetails, allRelics, relicsToItemParts) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
 	content += generateRelicsSection(contentDetails, relicsToItemParts);
-	// content += generateFarmingSection(contentDetails, relicsToItemParts);
+	content += generateFarmingSection(contentDetails, relicsToItemParts);
 	// content += generateBountiesRelicsFarmingSection(contentDetails, allRelics, relicsToItemParts)
 	content += generateEndingSection(contentDetails.primed);
 	return content;
@@ -104,13 +77,14 @@ const generateRelicsList = relicsToItemParts => {
 	}).join('');
 }
 
-const generateFarmingSection = (contentDetails, requiredRelics) => {
+const generateFarmingSection = (contentDetails, relicsToItemParts) => {
 	const primed = contentDetails.primed;
 	const farmingTitle = `\n\n## ${primed} Prime Relics Farming`;
 	const farmingIntro = generateFarmingIntro(primed);
 
-	const primedPartsByEras = retrievePrimedPartsByRelicEras(requiredRelics);
-	const farmingRelicsByErasSection = generateFarmingRelicsByErasSection(primed, primedPartsByEras);
+	const relicErasByItemParts = relics.collectRelicErasByItemParts(relicsToItemParts);
+	// console.log(relicErasByItemParts)
+	const farmingRelicsByErasSection = generateFarmingRelicsByErasSection(primed, relicErasByItemParts);
 
 	return farmingTitle + farmingIntro + farmingRelicsByErasSection;
 }
@@ -120,20 +94,6 @@ const generateFarmingIntro = primed => {
 		+ `my personal experience <strong>farming ${primed} Prime relics</strong>. The spots gave me the necessary relics `
 		+ `at the shortest time, but you may have a different result as relic drops are also based on a chance. `
 		+ `Now, let's get on to the <strong>how to farm ${primed} Prime relics</strong> fast and easy.`;
-}
-
-const retrievePrimedPartsByRelicEras = relics => {
-	let primedPartsByEras = {};
-	_.each(relics, relic => {
-		const relicName = relic.name;
-		const relicEra = _.filter(RELIC_ERAS, era => relicName.includes(era));
-		if(!primedPartsByEras.hasOwnProperty(relicEra)) {
-			primedPartsByEras[relicEra] = [];
-		}
-
-		primedPartsByEras[relicEra].push(relic.item);
-	});
-	return primedPartsByEras;
 }
 
 const generateFarmingRelicsByErasSection = (primed, primedPartsByEras) => {
@@ -148,18 +108,18 @@ const generateHowToGetPartTitle = primedParts => {
 }
 
 const generateFarmingLocationsByEraParagraph = era => {
-	if(LITH_ERA_RELIC === era) {
+	if(relics.isLithEra(era)) {
 		return `\nSo, for <strong>farming Lith relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. `
 		+ `ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith `
 		+ `relics in 10 waves most of the time.`;
-	} else if(MESO_ERA_RELIC === era) {
+	} else if(relics.isMesoEra(era)) {
 		return `\nIn order to farm <b>Meso relics</b>, I would recommend <b>IO on Jupiter</b>. This mission can be completed really quickly and `
 		+ `with some luck, you should be able to get two Meso relics in 10 waves.`;
-	} else if(NEO_ERA_RELIC === era) {
+	} else if(relics.isNeoEra(era)) {
 		return `\nFor <b>Neo relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics `
 		+ `because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe `
 		+ `and weapons. So, don't forget to bring alongside your weapons that you want to level up.`;
-	} else if(AXI_ERA_RELIC === era) {
+	} else if(relics.isAxiEra(era)) {
 		return `\nFor <b>Axi relics farming</b> I would recommend <b>Xini on Eris</b>. It's an interception mission that's pretty `
 		+ `straightforward. The first two rounds drop Neo relics and rounds 3 and 4 regularly dropping Axi relics. Optimally you `
 		+ `want to stay four rounds before extracting.`
