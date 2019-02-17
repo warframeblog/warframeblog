@@ -5,8 +5,6 @@ const fs = require('fs');
 const join = require('path').join;
 
 const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html';
-const VOID_MISSION_FEATURE = 'Void';
-const SANCTUARY_FEATURE = 'Sanctuary';
 
 const RELICS_DATA_FOLDER = join('../data', 'relics');
 const JSON_FILE_EXT = '.json';
@@ -19,16 +17,13 @@ const fetchRelics = dropsPage => {
 	const missionRelics = findMissionRelics($);
 	const availableRelics = collectAvailableRelics(missionRelics);
 	const unavailableRelics = collectUnavailableRelics(Object.keys(relicsRewards), availableRelics);
-	const voidRelics = collectSpecificMissions(missionRelics, VOID_MISSION_FEATURE);
-	const sanctuaryRelics = collectSpecificMissions(missionRelics, SANCTUARY_FEATURE);
 	return {
 		availableRelics,
 		unavailableRelics,
 		relicsRewards,
 		cetusRelics,
 		solarisRelics,
-		voidRelics,
-		sanctuaryRelics
+		missionRelics
 	};
 }
 
@@ -105,30 +100,35 @@ const findSolarisBountiesRelics = $ => {
 const findMissionRelics = $ => {
 	const $missionRewardsTableBody = $('#missionRewards').next().find('tbody');
 	let missionRelics = {};
+	let rotation = '';
 	$missionRewardsTableBody.find('tr:not(.blank-row)').each(function() {
 		const $el = $(this);
 		if($el.children("th").length) {
-			missionRelics[$el.text()] = [];
+			const thText = $el.text();
+			if(/Rotation [ABC]+/.test(thText)) {
+				rotation = thText
+			} else {
+				missionRelics[thText] = [];
+			}
 		} else if($el.children("td").length) {
 			const name = $el.find('td:first-child').text();
 			if(name.includes('Relic')) {
+				const rarity = $el.find('td:nth-child(2)').text();
+				const rarityPercent = rarity.match(/.+ \(([\d.]+)%\)/)[1];
 				const missionNames = Object.keys(missionRelics);
 				const lastAddedMission = missionNames[missionNames.length - 1];
-				missionRelics[lastAddedMission].push(name);
+				missionRelics[lastAddedMission].push({name, rotation, rarity: rarityPercent});
 			}
 		}});
 	return missionRelics;
 }
 
-const collectSpecificMissions = (missionByRelics, missionFeature) => {
-	return _.pickBy(missionByRelics, (relics, missionName) => missionName.includes(missionFeature));
-}
 
 const collectAvailableRelics = missionRelics => {
 	let availableRelics = [];
 	_.each(missionRelics, (relics, missionName) => {
-		_.each(relics, relicName => {
-			const explicitRelicName = relicName.match(/([A-Za-z 0-9]+)( \(Radiant|Intact|Exceptional|Flawless\))?/)[1].trim();
+		_.each(relics, relic => {
+			const explicitRelicName = relic.name.match(/([A-Za-z 0-9]+)( \(Radiant|Intact|Exceptional|Flawless\))?/)[1].trim();
 			if(!availableRelics.includes(explicitRelicName)) {
 				availableRelics.push(explicitRelicName);
 			}

@@ -4,8 +4,7 @@ const availableRelics = require('../../data/relics/availableRelics');
 const unavailableRelics = require('../../data/relics/unavailableRelics');
 const cetusRelics = require('../../data/relics/cetusRelics');
 const solarisRelics = require('../../data/relics/solarisRelics');
-const voidRelics = require('../../data/relics/voidRelics');
-const sanctuaryRelics = require('../../data/relics/sanctuaryRelics');
+const relicsByMissions = require('../../data/relics/missionRelics');
 
 const LITH_ERA_RELIC = 'Lith';
 const MESO_ERA_RELIC = 'Meso';
