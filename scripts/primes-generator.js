@@ -35,7 +35,7 @@ const generateContent = (contentDetails, allRelics, relicsToItemParts) => {
 
 	const relicErasByItemParts = relics.collectRelicErasByItemParts(relicsToItemParts);
 	content += generateFarmingSection(contentDetails, relicsToItemParts, relicErasByItemParts);
-	content += generateBountiesRelicsFarmingSection(contentDetails, relicsToItemParts, relicErasByItemParts)
+	content += generateBountiesRelicsFarmingSection(contentDetails, relicsToItemParts);
 	content += generateEndingSection(contentDetails.primed);
 	return content;
 }
@@ -129,15 +129,12 @@ const generateFarmingLocationsByEraParagraph = era => {
 	return '';
 }
 
-const generateBountiesRelicsFarmingSection = (contentDetails, relicsToItemParts, relicErasByItemParts) => {
+const generateBountiesRelicsFarmingSection = (contentDetails, relicsToItemParts) => {
 	if(relics.canBeFarmedOnBounties(relicsToItemParts)) {
 		const bountiesRelicsTitle = `\n\n## Farming ${contentDetails.primed} Prime Relics in Bounties`;
 		const bountiesRelicsIntro = `\nBounties are a fantastic way to get relics as well. You can take up the bounties from Cetus or `
-		+ `[Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. `;
-
-
-		// `With tier 2 bounties granting Lith relics, tier 3 `
-		// + `bounties granting Meso relics, tier 4 bounties granting Neo relics, and tier 5 bounties granting Axi relics.`;
+		+ `[Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. With tier 2 bounties granting Lith relics, tier 3 `
+		+ `bounties granting Meso relics, tier 4 bounties granting Neo relics, and tier 5 bounties granting Axi relics.`;
 
 		return bountiesRelicsTitle + bountiesRelicsIntro;
 	}

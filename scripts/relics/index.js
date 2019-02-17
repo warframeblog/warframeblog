@@ -48,8 +48,8 @@ const isNeoEra = era => NEO_ERA_RELIC === era;
 const isAxiEra = era => AXI_ERA_RELIC === era;
 
 const canBeFarmedOnBounties = relicsToItemParts => {
-	const bountieRelics = _.each(relicsToItemParts, relicToItemPart => 
-		cetusRelics.includes(relicToItemPart.relic) && solarisRelics.includes(relicToItemPart.relic));
+	const bountieRelics = _.filter(relicsToItemParts, 
+		relicToItemPart => cetusRelics.includes(relicToItemPart.relic) && solarisRelics.includes(relicToItemPart.relic));
 	return bountieRelics.length === relicsToItemParts.length; 
 }
 
