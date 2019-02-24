@@ -70,15 +70,13 @@ workflows:
   build_and_deploy:
     jobs:
       - build:
-          filters:
-            branches:
-              only: develop
+          branches:
+            only: develop
   update_trader_inventory:
     triggers:
       - schedule:
           cron: "1 14,17 * * 0,5"
-          filters:
-            branches:
-              only: develop
+          branches:
+            only: develop
     jobs:
       - trader_inventory
