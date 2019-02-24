@@ -69,9 +69,10 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      build:
-        branches:
-          only: develop
+      - build:
+          filters:
+            branches:
+              only: develop
   update_trader_inventory:
     triggers:
       - schedule:
