@@ -20,7 +20,7 @@ const collectRelicsToItemParts = itemName => {
 			return;
 		}
 
-		relicsToItemParts.push({relic: relicName, itemPart: relicRewardByItem.name});
+		relicsToItemParts.push({relic: relicName, itemPart: relicRewardByItem.name, rarity: relicRewardByItem.rarity });
 	});
 	return relicsToItemParts;
 }
@@ -29,16 +29,16 @@ const pickRelicRewardByItem = (relicsRewards, itemName) => {
 	return _.find(relicsRewards, relicItem => relicItem.name.includes(itemName));
 }
 
-const collectRelicErasByItemParts = relicsToItemParts => {
-	let relicErasByItemParts = {};
+const mapRelicsByItemParts = relicsToItemParts => {
+	let relicsByItemParts = {};
 	_.each(relicsToItemParts, relicToItemPart => {
-		const relicEra = _.find(RELIC_ERAS, era => relicToItemPart.relic.includes(era));
-		if(!_.has(relicErasByItemParts, relicEra)) {
-			relicErasByItemParts[relicEra] = [];
+		const itemPart = relicToItemPart.itemPart;
+		if(!_.has(relicsByItemParts, itemPart)) {
+			relicsByItemParts[itemPart] = [];
 		}
-		relicErasByItemParts[relicEra].push(relicToItemPart.itemPart);
+		relicsByItemParts[itemPart].push(relicToItemPart.relic);
 	});
-	return relicErasByItemParts;
+	return relicsByItemParts;
 }
 
 const isLithEra = era => LITH_ERA_RELIC === era;
@@ -52,13 +52,18 @@ const canBeFarmedOnBounties = relicsToItemParts => {
 	return bountieRelics.length === relicsToItemParts.length; 
 }
 
+const retrieveRelicEra = relic => {
+	return _.find(RELIC_ERAS, era => relic.includes(era));
+}
+
 
 module.exports = {
 	collectRelicsToItemParts,
-	collectRelicErasByItemParts,
+	mapRelicsByItemParts,
 	isLithEra,
 	isMesoEra,
 	isNeoEra,
 	isAxiEra,
+	retrieveRelicEra,
 	canBeFarmedOnBounties
 }
