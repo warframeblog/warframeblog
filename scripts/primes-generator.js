@@ -3,6 +3,7 @@ const join = require('path').join;
 const matter = require('gray-matter');
 const inquirer = require('inquirer');
 const _ = require('lodash');
+const converter = require('number-to-words');
 
 const relics = require('./relics');
 
@@ -58,19 +59,10 @@ const generateRelicsSection = (contentDetails, relicsToItemParts) => {
 	const primed = contentDetails.primed;
 	const sectionTitle = `\n\n## ${primed} Prime Relics`;
 	const relicsAmount = relicsToItemParts.length;
-	const sectionIntro = `\nSo, ${primed} Prime parts scattered across ${convertNumberIntoWords(relicsAmount)} different relics:\n`;
+	const sectionIntro = `\nSo, ${primed} Prime parts scattered across ${converter.toWords(relicsAmount)} different relics:\n`;
 	const relicsList = generateRelicsList(relicsToItemParts);
 
 	return sectionTitle + sectionIntro + relicsList;
-}
-
-const convertNumberIntoWords = number => {
-	if(number === 3) {
-		return 'three';
-	} else if(number === 4) {
-		return 'four';
-	}
-	return null;
 }
 
 const generateRelicsList = relicsToItemParts => {
