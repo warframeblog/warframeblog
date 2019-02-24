@@ -76,7 +76,8 @@ workflows:
     triggers:
       - schedule:
           cron: "1 14,17 * * 0,5"
-          branches:
-            only: develop
+          filters:
+            branches:
+              only: develop
     jobs:
       - trader_inventory
