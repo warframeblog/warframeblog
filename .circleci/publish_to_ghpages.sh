@@ -25,7 +25,7 @@ echo "Publishing version $timestamp"
 git status
 
 git add --all && \
-git commit -m "publish_to_ghpage $timestamp" && \
+git commit -m "publish_to_ghpage $timestamp [ci skip]" && \
 git tag "$timestamp" && \
 git push origin gh-pages && \
 git push origin "$timestamp"
