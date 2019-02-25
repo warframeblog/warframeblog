@@ -92,7 +92,7 @@ const generateFarmingIntro = primed => {
 
 const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 	const itemPartsToEras = _.map(relicsByItemParts, (relics, itemPart) => {
-		const eras = _.map(relics, relicsUtils.retrieveRelicEra);
+		const eras = _.chain(relics).map(relicsUtils.retrieveRelicEra).uniq().value();
 		return {itemPart, eras};
 	});
 
