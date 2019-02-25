@@ -137,15 +137,15 @@ const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 		const itemPart = itemPartToEras.itemPart;
 		result += generateHowToGetPartTitle(itemPart);
 
-		itemPartToEras.eras.forEach(era => {
-			if(!mentionedEras[era]) {
-				mentionedEras[era] = itemPart;
-				result +=  generateFarmingLocationsByEraParagraph(era);
-			} else {
-				//TODO change mentionedEras so it keeps itemPart where it first was mentioned
-				const relics = relicsByItemParts[itemPart].filter(relic => relic.includes(era)).join(',');
-				result += generateMentionedFarmingLocations(era, mentionedEras[era]);
-			}
+		const eras = itemPartToEras.eras;
+		const [notMentioned, mentioned] = _.partition(eras, era => !mentionedEras[era]);
+		_.each(notMentioned, era => {
+			mentionedEras[era] = itemPart;
+			result +=  generateFarmingLocationsByEraParagraph(era);
+		});
+		_.each(mentioned, era => {
+			const relics = relicsByItemParts[itemPart].filter(relic => relic.includes(era)).join(',');
+			result += generateMentionedFarmingLocations(era, mentionedEras[era]);			
 		});
 	});
 	return result;
