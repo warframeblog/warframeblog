@@ -96,22 +96,22 @@ const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 		return {itemPart, eras};
 	});
 
-	let mergeByEra = {};
+	let mergeByEras = {};
 	for(let i = 0; i < itemPartsToEras.length; i++) {
 		const current = itemPartsToEras[i]; 
 		for(let j = i + 1; j < itemPartsToEras.length; j++) {
 			if(_.isEqual(current.eras, itemPartsToEras[j].eras)) {
 				const eras = current.eras.join(',');
-				if(!_.has(mergeByEra, eras)) {
-					mergeByEra[eras] = {};
-					mergeByEra[eras].itemParts = current.itemPart + ' & ' + itemPartsToEras[j].itemPart;
-					mergeByEra[eras].relics = relicsByItemParts[current.itemPart]
+				if(!_.has(mergeByEras, eras)) {
+					mergeByEras[eras] = {};
+					mergeByEras[eras].itemParts = current.itemPart + ' & ' + itemPartsToEras[j].itemPart;
+					mergeByEras[eras].relics = relicsByItemParts[current.itemPart]
 						.concat(relicsByItemParts[itemPartsToEras[j].itemPart]).join(', ');
 					continue;
 				}
 
-				mergeByEra[eras].itemParts += ` & ${itemPartsToEras[j].itemPart}`;
-				mergeByEra[eras].relics += ', ' + relicsByItemParts[itemPartsToEras[j].itemPart].join(', ');
+				mergeByEras[eras].itemParts += ` & ${itemPartsToEras[j].itemPart}`;
+				mergeByEras[eras].relics += ', ' + relicsByItemParts[itemPartsToEras[j].itemPart].join(', ');
 
 			}
 		}
@@ -119,18 +119,18 @@ const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 
 	let mentionedEras = {};
 	let result = '';
-	_.each(mergeByEra, (itemPartsToRelics, eras) => {
+	_.each(mergeByEras, (itemPartsToRelics, eras) => {
 		const itemParts = itemPartsToRelics.itemParts;
 		result += generateHowToGetPartTitle(itemParts);
 		const erasArray = eras.split(',');
 		erasArray.forEach(era => {
 			mentionedEras[era] = itemParts;
-			result += generateFarmingLocationsByEraParagraph(era)
+			result += generateFarmingLocationInfoByEra(era)
 		});
 	});
 
 	const restOfItemPartsToEras = _.filter(itemPartsToEras, itemPartToEras => {
-		return !mergeByEra[itemPartToEras.eras.join(',')];
+		return !mergeByEras[itemPartToEras.eras.join(',')];
 	});
 
 	restOfItemPartsToEras.forEach(itemPartToEras => {
@@ -141,11 +141,15 @@ const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 		const [notMentioned, mentioned] = _.partition(eras, era => !mentionedEras[era]);
 		_.each(notMentioned, era => {
 			mentionedEras[era] = itemPart;
-			result +=  generateFarmingLocationsByEraParagraph(era);
+			result +=  generateFarmingLocationInfoByEra(era);
 		});
 		_.each(mentioned, era => {
 			const relics = relicsByItemParts[itemPart].filter(relic => relic.includes(era)).join(',');
-			result += generateMentionedFarmingLocations(era, mentionedEras[era]);			
+			if(notMentioned.length === 0) {
+				result += generateMentionedFarmingLocationAsFirst(era, mentionedEras[era]);			
+			} else {
+				result += generateMentionedFarmingLocation(era, mentionedEras[era]);			
+			}
 		});
 	});
 	return result;
@@ -155,12 +159,17 @@ const generateHowToGetPartTitle = itemParts => {
 	return `\n\n### How To Get ${itemParts} Relics`;
 }
 
-const generateMentionedFarmingLocations = (era, itemPart) => {
+const generateMentionedFarmingLocationAsFirst = (era, itemPart) => {
+	return `\n\nYou can get it by opening <b>${era} relics</b>. To farm these relics, I suggest you go to the same mission which `
+		+ `I've already mentioned in _"How To Get ${itemPart} Relics"_ section.`
+}
+
+const generateMentionedFarmingLocation = (era, itemPart) => {
 	return `\n\nBesides that, you can get it by opening <b>${era} relics</b>. To farm these relics, I suggest you go to the same mission `
 		+ `which I've already mentioned in _"How To Get ${itemPart} Relics" section_.`;
 }
 
-const generateFarmingLocationsByEraParagraph = era => {
+const generateFarmingLocationInfoByEra = era => {
 	if(relicsUtils.isLithEra(era)) {
 		return `\n\nFor <strong>farming Lith relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. `
 		+ `ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith `
