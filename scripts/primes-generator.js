@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const _ = require('lodash');
 const converter = require('number-to-words');
 
-const relics = require('./relics');
+const relicsUtils = require('./relics');
 
 const PRIMES_FOLDER = join(__dirname, '../content', 'primes');
 
@@ -32,7 +32,7 @@ const generateFrontMatter = contentDetails => {
 const generateContent = (contentDetails, allRelics, relicsToItemParts) => {
 	let content = '';
 	content += generateContentIntro(contentDetails);
-	const relicsByItemParts = relics.mapRelicsByItemParts(relicsToItemParts);
+	const relicsByItemParts = relicsUtils.mapRelicsByItemParts(relicsToItemParts);
 	content += generateRelicsSection(contentDetails, relicsByItemParts);
 
 	content += generateFarmingSection(contentDetails, relicsByItemParts);
@@ -91,8 +91,8 @@ const generateFarmingIntro = primed => {
 }
 
 const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
-	const itemPartsToEras = _.map(relicsByItemParts, (rel, itemPart) => {
-		const eras = _.map(rel, relics.retrieveRelicEra);
+	const itemPartsToEras = _.map(relicsByItemParts, (relics, itemPart) => {
+		const eras = _.map(relics, relicsUtils.retrieveRelicEra);
 		return {itemPart, eras};
 	});
 
@@ -161,18 +161,18 @@ const generateMentionedFarmingLocations = (era, itemPart) => {
 }
 
 const generateFarmingLocationsByEraParagraph = era => {
-	if(relics.isLithEra(era)) {
+	if(relicsUtils.isLithEra(era)) {
 		return `\n\nFor <strong>farming Lith relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. `
 		+ `ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith `
 		+ `relics in 10 waves most of the time.`;
-	} else if(relics.isMesoEra(era)) {
+	} else if(relicsUtils.isMesoEra(era)) {
 		return `\n\nIn order to farm <b>Meso relics</b>, I would recommend <b>IO on Jupiter</b>. This mission can be completed really quickly and `
 		+ `with some luck, you should be able to get two Meso relics in 10 waves.`;
-	} else if(relics.isNeoEra(era)) {
+	} else if(relicsUtils.isNeoEra(era)) {
 		return `\n\nFor <b>Neo relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics `
 		+ `because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe `
 		+ `and weapons. So, don't forget to bring alongside your weapons that you want to level up.`;
-	} else if(relics.isAxiEra(era)) {
+	} else if(relicsUtils.isAxiEra(era)) {
 		return `\n\nFor <b>Axi relics farming</b> I would recommend <b>Xini on Eris</b>. It's an interception mission that's pretty `
 		+ `straightforward. The first two rounds drop Neo relics and rounds 3 and 4 regularly dropping Axi relics. Optimally you `
 		+ `want to stay four rounds before extracting.`
@@ -183,7 +183,7 @@ const generateFarmingLocationsByEraParagraph = era => {
 }
 
 const generateBountiesRelicsFarmingSection = (contentDetails, relicsToItemParts) => {
-	if(relics.canBeFarmedOnBounties(relicsToItemParts)) {
+	if(relicsUtils.canBeFarmedOnBounties(relicsToItemParts)) {
 		const bountiesRelicsTitle = `\n\n## Farming ${contentDetails.primed} Prime Relics in Bounties`;
 		const bountiesRelicsIntro = `\nBounties are a fantastic way to get relics as well. You can take up the bounties from Cetus or `
 		+ `[Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. With tier 2 bounties granting Lith relics, tier 3 `
@@ -204,7 +204,7 @@ inquirer.prompt(questions)
 	.then(contentDetails => {
 		const primed = contentDetails.primed;
 		const frontMatter = generateFrontMatter(contentDetails);
-		const relicsToItemParts = relics.collectRelicsToItemParts(primed)
+		const relicsToItemParts = relicsUtils.collectRelicsToItemParts(primed)
 
 		const content = generateContent(contentDetails, {}, relicsToItemParts);
 		// console.log(content);
