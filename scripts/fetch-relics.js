@@ -47,8 +47,7 @@ const findRewardsByRelics = $ => {
 }
 
 const normalizeRelicsData = relics => {
-	return _.flow(collectIntactRelics, 
-		formatRelicNames)(relics);
+	return _.flow(collectIntactRelics, formatRelicNames)(relics);
 }
 
 const collectIntactRelics = relics => {
@@ -64,38 +63,29 @@ const formatRelicNames = relics => {
 	});
 }
 
-const findCetusBountiesRelics = $ => {
-	const $cetutBountiesRewardsTableBody = $('#cetusRewards').next().find('tbody');
-	let cetusBountiesRelics = [];
-	$cetutBountiesRewardsTableBody.find('tr:not(.blank-row)').each(function() {
-		const $el = $(this);
-		if($el.find('th:contains("Ghoul")').length) {
-			return false;
-		} else if($el.children("td").length) {
-			const item = $el.find('td:nth-child(2)').text();
-			if(item.includes('Relic') && !cetusBountiesRelics.includes(item)) {
-				cetusBountiesRelics.push(item);
-			}
-		}
-	});
-	return cetusBountiesRelics;
+const findCetusBountiesRelics = ($) => {
+	return findBountiesRelics($, '#cetusRewards', 'th:contains("Ghoul")');
 }
 
-const findSolarisBountiesRelics = $ => {
-	const $solarisRewardsTableBody = $('#solarisRewards').next().find('tbody');
-	let solarisBountieRelics = [];
-	$solarisRewardsTableBody.find('tr:not(.blank-row)').each(function() {
+const findSolarisBountiesRelics = ($) => {
+	return findBountiesRelics($, '#solarisRewards', 'th:contains("PROFIT-TAKER")');
+}
+
+const findBountiesRelics = ($, id, selectorToSkip) => {
+	const $rewardsTableBody = $(id).next().find('tbody');
+	let bountiesRelics = [];
+	$rewardsTableBody.find('tr:not(.blank-row)').each(function() {
 		const $el = $(this);
-		if($el.find('th:contains("PROFIT-TAKER")').length) {
+		if($el.find(selectorToSkip).length) {
 			return false;
 		} else if($el.children("td").length) {
 			const item = $el.find('td:nth-child(2)').text();
-			if(item.includes('Relic') && !solarisBountieRelics.includes(item)) {
-				solarisBountieRelics.push(item);
+			if(item.includes('Relic') && !bountiesRelics.includes(item)) {
+				bountiesRelics.push(item);
 			}
 		}
 	});
-	return solarisBountieRelics;
+	return bountiesRelics;
 }
 
 const findRelicsByMissions = $ => {
