@@ -1,10 +1,10 @@
 const _ = require('lodash');
-const relicsByRewards = require('../../data/relics/relicsRewards');
+const rewardsByRelics = require('../../data/relics/rewardsByRelics');
 const availableRelics = require('../../data/relics/availableRelics');
 const unavailableRelics = require('../../data/relics/unavailableRelics');
 const cetusRelics = require('../../data/relics/cetusRelics');
 const solarisRelics = require('../../data/relics/solarisRelics');
-const relicsByMissions = require('../../data/relics/missionRelics');
+const relicsByMissions = require('../../data/relics/relicsByMissions');
 
 const LITH_ERA_RELIC = 'Lith';
 const MESO_ERA_RELIC = 'Meso';
@@ -14,13 +14,13 @@ const RELIC_ERAS = [LITH_ERA_RELIC, MESO_ERA_RELIC, NEO_ERA_RELIC, AXI_ERA_RELIC
 
 const collectRelicsToItemParts = itemName => {
 	let relicsToItemParts = [];
-	_.each(relicsByRewards, (relicsRewards, relicName) => {
-		const relicRewardByItem = pickRelicRewardByItem(relicsRewards, itemName);
-		if(!relicRewardByItem || unavailableRelics.includes(relicName)) {
+	_.each(rewardsByRelics, (rewards, relic) => {
+		const relicRewardByItem = pickRelicRewardByItem(rewards, itemName);
+		if(!relicRewardByItem || unavailableRelics.includes(relic)) {
 			return;
 		}
 
-		relicsToItemParts.push({relic: relicName, itemPart: relicRewardByItem.name, rarity: relicRewardByItem.rarity });
+		relicsToItemParts.push({relic, itemPart: relicRewardByItem.name, rarity: relicRewardByItem.rarity });
 	});
 	return relicsToItemParts;
 }

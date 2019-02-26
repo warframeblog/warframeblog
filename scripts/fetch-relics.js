@@ -11,23 +11,24 @@ const JSON_FILE_EXT = '.json';
 
 const fetchRelics = dropsPage => {
 	const $ = cheerio.load(dropsPage);
-	const relicsRewards = findRelicsByRewards($);
+	const rewardsByRelics = findRewardsByRelics($);
 	const cetusRelics = findCetusBountiesRelics($);
 	const solarisRelics = findSolarisBountiesRelics($);
-	const missionRelics = findMissionRelics($);
-	const availableRelics = collectAvailableRelics(missionRelics);
-	const unavailableRelics = collectUnavailableRelics(Object.keys(relicsRewards), availableRelics);
+	const relicsByMissions = findRelicsByMissions($);
+	const availableRelics = collectAvailableRelics(relicsByMissions);
+	const allRelics = Object.keys(rewardsByRelics);
+	const unavailableRelics = collectUnavailableRelics(allRelics, availableRelics);
 	return {
 		availableRelics,
 		unavailableRelics,
-		relicsRewards,
+		rewardsByRelics,
 		cetusRelics,
 		solarisRelics,
-		missionRelics
+		relicsByMissions
 	};
 }
 
-const findRelicsByRewards = $ => {
+const findRewardsByRelics = $ => {
 	const $relicsTableBody = $('#relicRewards').next().find('tbody');
 	let relics = {};
 	$relicsTableBody.find('tr:not(.blank-row)').each(function() {
@@ -97,7 +98,7 @@ const findSolarisBountiesRelics = $ => {
 	return solarisBountieRelics;
 }
 
-const findMissionRelics = $ => {
+const findRelicsByMissions = $ => {
 	const $missionRewardsTableBody = $('#missionRewards').next().find('tbody');
 	let missionRelics = {};
 	let rotation = '';
@@ -113,11 +114,11 @@ const findMissionRelics = $ => {
 		} else if($el.children("td").length) {
 			const name = $el.find('td:first-child').text();
 			if(name.includes('Relic')) {
-				const rarity = $el.find('td:nth-child(2)').text();
-				const rarityPercent = rarity.match(/.+ \(([\d.]+)%\)/)[1];
+				const probability = $el.find('td:nth-child(2)').text();
+				const probabilityPercent = probability.match(/.+ \(([\d.]+)%\)/)[1];
 				const missionNames = Object.keys(missionRelics);
 				const lastAddedMission = missionNames[missionNames.length - 1];
-				missionRelics[lastAddedMission].push({name, rotation, rarity: rarityPercent});
+				missionRelics[lastAddedMission].push({name, rotation, probability: probabilityPercent});
 			}
 		}});
 	return missionRelics;
