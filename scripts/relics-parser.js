@@ -9,8 +9,14 @@ const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb
 const RELICS_DATA_FOLDER = join('../data', 'relics');
 const JSON_FILE_EXT = '.json';
 
-const fetchRelics = dropsPage => {
-	const $ = cheerio.load(dropsPage);
+const loadInHTML = (page) => {
+	if(!page) {
+		throw new Error(`Page wasn't provided`);
+	}
+	return cheerio.load(page.data);
+}
+
+const parseRelics = ($) => {
 	const rewardsByRelics = findRewardsByRelics($);
 	const cetusRelics = findCetusBountiesRelics($);
 	const solarisRelics = findSolarisBountiesRelics($);
@@ -28,7 +34,7 @@ const fetchRelics = dropsPage => {
 	};
 }
 
-const findRewardsByRelics = $ => {
+const findRewardsByRelics = ($) => {
 	const $relicsTableBody = $('#relicRewards').next().find('tbody');
 	let relics = {};
 	$relicsTableBody.find('tr:not(.blank-row)').each(function() {
@@ -46,18 +52,18 @@ const findRewardsByRelics = $ => {
 	return normalizeRelicsData(relics);
 }
 
-const normalizeRelicsData = relics => {
+const normalizeRelicsData = (relics) => {
 	return _.flow(collectIntactRelics, formatRelicNames)(relics);
 }
 
-const collectIntactRelics = relics => {
+const collectIntactRelics = (relics) => {
 	const signOfIntactRelic = 'Intact';
 	return _.pickBy(relics, function(value, key) {
 		return key.includes(signOfIntactRelic);
 	});
 }
 
-const formatRelicNames = relics => {
+const formatRelicNames = (relics) => {
 	return _.mapKeys(relics, function(value, key) {
 		return key.split(' (')[0];
 	});
@@ -88,7 +94,7 @@ const findBountiesRelics = ($, id, selectorToSkip) => {
 	return bountiesRelics;
 }
 
-const findRelicsByMissions = $ => {
+const findRelicsByMissions = ($)=> {
 	const $missionRewardsTableBody = $('#missionRewards').next().find('tbody');
 	let missionRelics = {};
 	let rotation = '';
@@ -115,7 +121,7 @@ const findRelicsByMissions = $ => {
 }
 
 
-const collectAvailableRelics = missionRelics => {
+const collectAvailableRelics = (missionRelics) => {
 	let availableRelics = [];
 	_.each(missionRelics, (relics, missionName) => {
 		_.each(relics, relic => {
@@ -132,7 +138,7 @@ const collectUnavailableRelics = (allRelics, availableRelics) => {
 	return allRelics.filter(relic => !availableRelics.includes(relic));
 }
 
-const saveRelicsDataToFiles = relics => {
+const saveRelicsDataToFiles = (relics) => {
 	_.each(relics, (fileContent, fileName) => {
 		const filePath = join(RELICS_DATA_FOLDER, fileName + JSON_FILE_EXT);
 		fs.writeFileSync(filePath, JSON.stringify(fileContent));
@@ -141,11 +147,9 @@ const saveRelicsDataToFiles = relics => {
 }
 
 axios.get(DROPS_PAGE_URL)
-	.then(page => {
-		if(!page) {
-			throw new Error('Cannot load drops page');
-		}
-		return fetchRelics(page.data);
-	}).catch(e => console.log(e))
+	.then(loadInHTML)
+	.catch(e => console.log(e))
+	.then(parseRelics)
+	.catch(e => console.log(e))
 	.then(saveRelicsDataToFiles)
 	.catch(e => console.log(e));
