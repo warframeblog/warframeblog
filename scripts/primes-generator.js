@@ -46,11 +46,11 @@ const generateContentIntro = contentDetails => {
 	const alongWith = contentDetails.alongWith.split(",");
 	if(contentDetails.unvaulted) {
 		return `Hey guys. And the ${primed} Prime along with ${alongWith[0]} Prime and ${alongWith[1]} Prime﻿ have emerged from the `
-		+ `Prime Vault. Today I'll be showing you which relics you'll need to farm to get ${primed} Prime and where you can farm `
+		+ `Prime Vault. Today I'll be showing you which relics you'll need to farm to **get ${primed} Prime** and where you can farm `
 		+ `these relics. <!--more-->`;
 	} else {
 		return `Hey guys. And the ${primed} Prime along with ${alongWith[0]} Prime and ${alongWith[1]} Prime﻿ have arrived in Warframe. `
-		+ `Today I'll be showing you which relics you'll need to farm to get ${primed} Prime and where you can farm these `
+		+ `Today I'll be showing you which relics you'll need to farm to **get ${primed} Prime** and where you can farm these `
 		+ `relics. <!--more-->`;
 	}
 }
@@ -60,7 +60,7 @@ const generateRelicsSection = (contentDetails, relicsByItemParts) => {
 	const sectionTitle = `\n\n## ${primed} Prime Relics`;
 	console.log(relicsByItemParts)
 	const relicsAmount = Object.values(relicsByItemParts).join(',').split(',').length;
-	const sectionIntro = `\nSo, ${primed} Prime parts scattered across ${converter.toWords(relicsAmount)} different relics:\n`;
+	const sectionIntro = `\nSo, **${primed} Prime parts** scattered across ${converter.toWords(relicsAmount)} different relics:\n`;
 	const relicsList = generateRelicsList(relicsByItemParts);
 
 	return sectionTitle + sectionIntro + relicsList;
@@ -125,7 +125,9 @@ const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 		const erasArray = eras.split(',');
 		erasArray.forEach(era => {
 			mentionedEras[era] = itemParts;
-			result += generateFarmingLocationInfoByEra(era)
+			const itemPart = itemParts.split(' & ')[0];
+			const relics = relicsByItemParts[itemPart].filter(relic => relic.includes(era)).join(',');
+			result += generateFarmingLocationInfoByEra(era, relics)
 		});
 	});
 
@@ -141,14 +143,15 @@ const generateFarmingRelicsByErasSection = (primed, relicsByItemParts) => {
 		const [notMentioned, mentioned] = _.partition(eras, era => !mentionedEras[era]);
 		_.each(notMentioned, era => {
 			mentionedEras[era] = itemPart;
-			result +=  generateFarmingLocationInfoByEra(era);
+			const relics = relicsByItemParts[itemPart].filter(relic => relic.includes(era)).join(',');
+			result +=  generateFarmingLocationInfoByEra(era, relics);
 		});
 		_.each(mentioned, era => {
 			const relics = relicsByItemParts[itemPart].filter(relic => relic.includes(era)).join(',');
 			if(notMentioned.length === 0) {
-				result += generateMentionedFarmingLocationAsFirst(era, mentionedEras[era]);			
+				result += generateMentionedFarmingLocationAsFirst(relics, mentionedEras[era]);			
 			} else {
-				result += generateMentionedFarmingLocation(era, mentionedEras[era]);			
+				result += generateMentionedFarmingLocation(relics, mentionedEras[era]);			
 			}
 		});
 	});
@@ -159,30 +162,30 @@ const generateHowToGetPartTitle = itemParts => {
 	return `\n\n### How To Get ${itemParts} Relics`;
 }
 
-const generateMentionedFarmingLocationAsFirst = (era, itemPart) => {
-	return `\n\nYou can get it by opening <b>${era} relics</b>. To farm these relics, I suggest you go to the same mission which `
+const generateMentionedFarmingLocationAsFirst = (relics, itemPart) => {
+	return `\n\nYou can get it by opening <b>${relics} Relics</b>. To farm these relics, I suggest you go to the same mission which `
 		+ `I've already mentioned in _"How To Get ${itemPart} Relics"_ section.`
 }
 
-const generateMentionedFarmingLocation = (era, itemPart) => {
-	return `\n\nBesides that, you can get it by opening <b>${era} relics</b>. To farm these relics, I suggest you go to the same mission `
+const generateMentionedFarmingLocation = (relics, itemPart) => {
+	return `\n\nBesides that, you can get it by opening <b>${relics} Relics</b>. To farm these relics, I suggest you go to the same mission `
 		+ `which I've already mentioned in _"How To Get ${itemPart} Relics" section_.`;
 }
 
-const generateFarmingLocationInfoByEra = era => {
+const generateFarmingLocationInfoByEra = (era, relics) => {
 	if(relicsUtils.isLithEra(era)) {
-		return `\n\nFor <strong>farming Lith relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. `
+		return `\n\nFor <strong>farming ${relics} Relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. `
 		+ `ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith `
 		+ `relics in 10 waves most of the time.`;
 	} else if(relicsUtils.isMesoEra(era)) {
-		return `\n\nIn order to farm <b>Meso relics</b>, I would recommend <b>IO on Jupiter</b>. This mission can be completed really quickly and `
+		return `\n\nIn order to farm <b>${relics} Relics</b>, I would recommend <b>IO on Jupiter</b>. This mission can be completed really quickly and `
 		+ `with some luck, you should be able to get two Meso relics in 10 waves.`;
 	} else if(relicsUtils.isNeoEra(era)) {
-		return `\n\nFor <b>Neo relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics `
+		return `\n\nFor <b>${relics} Relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics `
 		+ `because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe `
 		+ `and weapons. So, don't forget to bring alongside your weapons that you want to level up.`;
 	} else if(relicsUtils.isAxiEra(era)) {
-		return `\n\nFor <b>Axi relics farming</b> I would recommend <b>Xini on Eris</b>. It's an interception mission that's pretty `
+		return `\n\nFor <b>${relics} Relics farming</b> I would recommend <b>Xini on Eris</b>. It's an interception mission that's pretty `
 		+ `straightforward. The first two rounds drop Neo relics and rounds 3 and 4 regularly dropping Axi relics. Optimally you `
 		+ `want to stay four rounds before extracting.`
 		+ `\n\nXini also has a high Neurodes drop, so be sure to keep an eye for [Neurodes](/warframe-neurodes-farming/ "Warframe `
