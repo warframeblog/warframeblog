@@ -5,6 +5,7 @@ const fs = require('fs');
 const join = require('path').join;
 
 const DROPS_PAGE_URL = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html';
+const RELIC_NAME_REGEX = /((Lith|Meso|Neo|Axi)\s.{2,2})/;
 
 const RELICS_DATA_FOLDER = join('../data', 'relics');
 const JSON_FILE_EXT = '.json';
@@ -38,15 +39,15 @@ const findRewardsByRelics = ($) => {
 	const $relicsTableBody = $('#relicRewards').next().find('tbody');
 	let relics = {};
 	$relicsTableBody.find('tr:not(.blank-row)').each(function() {
-		const $el = $(this);
-		if($el.children("th").length) {
-			relics[$el.text()] = [];
-		} else if($el.children("td").length) {
-			const relicNames = Object.keys(relics);
-			const lastAddedRelic = relicNames[relicNames.length - 1];
-			const name = $el.find('td:first-child').text();
-			const rarity = $el.find('td:nth-child(2)').text();
-			relics[lastAddedRelic].push({name, rarity});
+		const $el = $(this)
+		if($el.children('th').length) {
+			const relicName = $el.text();
+			relics[relicName] = [];
+		} else if($el.children('td').length) {
+			const lastAddedRelic = Object.keys(relics).pop();
+			const itemName = $el.find('td:first-child').text();
+			const probability = $el.find('td:nth-child(2)').text();
+			relics[lastAddedRelic].push({name: itemName, probability});
 		}
 	});
 	return normalizeRelicsData(relics);
@@ -58,15 +59,21 @@ const normalizeRelicsData = (relics) => {
 
 const collectIntactRelics = (relics) => {
 	const signOfIntactRelic = 'Intact';
-	return _.pickBy(relics, function(value, key) {
+	return _.pickBy(relics, (value, key) => {
 		return key.includes(signOfIntactRelic);
 	});
 }
 
 const formatRelicNames = (relics) => {
-	return _.mapKeys(relics, function(value, key) {
-		return key.split(' (')[0];
-	});
+	return _.mapKeys(relics, (value, key) => formatRelicName(key));
+}
+
+const formatRelicName = (relicName) => {
+	if(RELIC_NAME_REGEX.test(relicName)) {
+		return relicName.match(RELIC_NAME_REGEX)[1];
+	} else {
+		throw new Error(`Cannot format relic with name ${relicName}`);
+	}
 }
 
 const findCetusBountiesRelics = ($) => {
@@ -86,8 +93,12 @@ const findBountiesRelics = ($, id, selectorToSkip) => {
 			return false;
 		} else if($el.children("td").length) {
 			const item = $el.find('td:nth-child(2)').text();
-			if(item.includes('Relic') && !bountiesRelics.includes(item)) {
-				bountiesRelics.push(item);
+			if(!item.includes('Relic')) {
+				return true;
+			}
+			const relicName = formatRelicName(item);
+			if(!bountiesRelics.includes(relicName)) {
+				bountiesRelics.push(relicName);
 			}
 		}
 	});
@@ -108,12 +119,12 @@ const findRelicsByMissions = ($)=> {
 				missionRelics[thText] = [];
 			}
 		} else if($el.children("td").length) {
-			const name = $el.find('td:first-child').text();
-			if(name.includes('Relic')) {
+			const tdFirstChild = $el.find('td:first-child').text();
+			if(tdFirstChild.includes('Relic')) {
+				const name = formatRelicName(tdFirstChild);
 				const probability = $el.find('td:nth-child(2)').text();
 				const probabilityPercent = probability.match(/.+ \(([\d.]+)%\)/)[1];
-				const missionNames = Object.keys(missionRelics);
-				const lastAddedMission = missionNames[missionNames.length - 1];
+				const lastAddedMission = Object.keys(missionRelics).pop();
 				missionRelics[lastAddedMission].push({name, rotation, probability: probabilityPercent});
 			}
 		}});
@@ -125,7 +136,7 @@ const collectAvailableRelics = (missionRelics) => {
 	let availableRelics = [];
 	_.each(missionRelics, (relics, missionName) => {
 		_.each(relics, relic => {
-			const explicitRelicName = relic.name.match(/([A-Za-z 0-9]+)( \(Radiant|Intact|Exceptional|Flawless\))?/)[1].trim();
+			const explicitRelicName = formatRelicName(relic.name);
 			if(!availableRelics.includes(explicitRelicName)) {
 				availableRelics.push(explicitRelicName);
 			}
