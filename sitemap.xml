@@ -3,15 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://warframeblog.com/warframe-nightwave-wolf-of-saturn-six-guide/</loc>
-    <lastmod>2019-02-28T00:00:30+00:00</lastmod>
+    <loc>https://warframeblog.com/primes/how-to-get-limbo-prime/</loc>
+    <lastmod>2019-03-05T19:10:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-02-24T17:01:26+00:00</lastmod>
+    <lastmod>2019-03-03T17:01:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/warframe-nightwave-wolf-of-saturn-six-guide/</loc>
+    <lastmod>2019-02-28T00:00:30+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,13 +40,6 @@
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-akjagara-prime/</loc>
     <lastmod>2018-12-26T00:23:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-limbo-prime/</loc>
-    <lastmod>2018-12-24T20:11:47+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1208,14 +1208,14 @@
   
   <url>
     <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2019-02-03T17:56:34+00:00</lastmod>
+    <lastmod>2019-03-05T19:10:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-02-28T00:00:30+00:00</lastmod>
+    <lastmod>2019-03-05T19:10:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
