@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
+    <lastmod>2019-03-07T16:52:25+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframe-nightwave-wolf-of-saturn-six-guide/</loc>
     <lastmod>2019-03-07T00:00:30+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -173,13 +180,6 @@
   <url>
     <loc>https://warframeblog.com/warframes/nyx/</loc>
     <lastmod>2018-10-10T11:18:36+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
-    <lastmod>2018-10-08T16:52:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1222,7 +1222,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-03-07T00:00:30+00:00</lastmod>
+    <lastmod>2019-03-07T16:52:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
