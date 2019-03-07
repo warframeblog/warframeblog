@@ -1,7 +1,7 @@
 ---
 title: The Razorbacks Armada Returns Once More
 seoTitle: "The Razorbacks Armada Returns. Razorback Armada Guide"
-date: 2018-10-08T16:52:25+00:00
+date: 2019-03-07T16:52:25+00:00
 author: warframe
 layout: post
 permalink: /the-razorbacks-armada-event/
@@ -17,11 +17,11 @@ tags:
 ---
 Hey guys and welcome to another Warframe article and The Razorback Armada event has returned or should I say the Razorback is back?<!--more-->
 
-Now, this is actually our own doing because it's tied into the invasion system. But I'm not sure which way this actually works if it if you help the Corpus they can get resources faster and they build the Razorback faster or if it's the other way around where you help the Grineer which pushes up the Corpus and they build the Razorback. Anyway, they finished building the Razorback and they are now in <b>Orcus Relay on Pluto</b>.
+Now, this is actually our own doing because it's tied into the invasion system. But I'm not sure which way this actually works if it if you help the Corpus they can get resources faster and they build the Razorback faster or if it's the other way around where you help the Grineer which pushes up the Corpus and they build the Razorback. Anyway, they finished building the Razorback and they are now in <b>Strata Relay on Earth</b>.
 
-## What you can get from doing The Razorback Armada event?
+## Razorback Armada Event Rewards
 
-There are a few things you can get from doing The Razorback Armada event. So, first of all, if you defeat the Razorback three times you get a free fully built potato(Orokin Catalyst) and 200 thousand credits. And every time you defeat the Razorback and extract you get one random part for Gorgon Wraith and you can also get some cool mods. I managed to get myself a couple of toxin base dual stat mods which are actually not that big of a deal because Captain Vor drops them in the Void. But I also got one of the puncture based event mods the 120% one. I got the shotgun one - Breach Loader.
+There are a few things you can get from doing **The Razorback Armada event**. So, first of all, if you defeat the Razorback three times you get a free fully build potato(Orokin Catalyst) and 200 thousand credits. And every time you defeat the Razorback and extract you get one random part for Gorgon Wraith and you can also get some cool mods. I managed to get myself a couple of toxin base dual stat mods which are actually not that big of a deal because Captain Vor drops them in the Void. But I also got one of the puncture based event mods the 120% one. I got the shotgun one - Breach Loader.
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/Razorback-Cipher-Build-1024x576.png" title="Razorback Cipher Build Requirements" alt="What you need to build Razorback Cipher" width="750" height="422" class="alignnone size-large wp-image-929" srcset="https://warframeblog.com/wp-content/uploads/2018/02/Razorback-Cipher-Build-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/Razorback-Cipher-Build-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/Razorback-Cipher-Build-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
 
@@ -35,7 +35,7 @@ Now, to build the Razorback Cipher you will need 3500 polymer bundles, three gal
 
 <img src="https://warframeblog.com/wp-content/uploads/2018/02/Cryptographic-alu-how-to-get-1024x576.png" title="Where to farm Cryptographic ALU" alt="best place to farm Cryptographic ALU" width="750" height="422" class="alignnone size-large wp-image-930" srcset="https://warframeblog.com/wp-content/uploads/2018/02/Cryptographic-alu-how-to-get-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/Cryptographic-alu-how-to-get-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/Cryptographic-alu-how-to-get-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
 
-Now, the Cryptographic ALUs only drop in archwing missions and I would very much recommend you do the missions Salacia on Neptune. Because if you do this in a party you will get ten plus of them per run. This is a mobile defense mission and it spawns a busload of enemies if you're running in a four-man party. Just make sure to pick up everything the enemies drop. Also, don't forget to equip the cipher into your gear slot because the game will not let you enter the mission without it.
+Now, the Cryptographic ALUs only drop in archwing missions and I would very much recommend you do the missions <b>Salacia on Neptune</b>. Because if you do this in a party you will get ten plus of them per run. This is a mobile defense mission and it spawns a busload of enemies if you're running in a four-man party. Just make sure to pick up everything the enemies drop. Also, don't forget to equip the cipher into your gear slot because the game will not let you enter the mission without it.
 
 ## How to defeat Razorback?
 
