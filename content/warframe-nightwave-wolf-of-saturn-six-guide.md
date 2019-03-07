@@ -1,7 +1,7 @@
 ---
 title: 'Warframe Nightwave: The Wolf of Saturn Six Guide'
 seoTitle: 'Warframe Nightwave: The Wolf of Saturn Six Guide. Nightwave Rewards'
-date: 2019-02-28T00:00:30.550Z
+date: 2019-03-07T00:00:30.550Z
 author: warframe
 layout: post
 permalink: /warframe-nightwave-wolf-of-saturn-six-guide/
@@ -39,6 +39,10 @@ You don't have to activate any of the challenges to begin completing them. Just 
 
 ### How To Complete Grafitti Act
 You need to equip Glyph Prism to your Gear Wheel which you can do in your Armory. Then, once you get into any mission, simply use the Glyph Prism on any surface.
+
+### How To Complete Enhance Act
+In order to complete this challenge, you will need to pick up eight rare mods. I suggest you go with the Index mission, preferably with 
+[Despoil Nekros](/nekros-desecrate-build/ "Nekros Desecrate Build") (done in one run) otherwise it will take 2-3 runs.
 
 ## How To Get Wolf Sledge
 Finally, you can come across the Wolf himself randomly in any mission. He spawns like the [Stalker](/farming-stalker/ "Warframe Farming Stalker") except without any dialogue and flickering. Defeating him will give you parts of his new hammer - **Wolf Sledge** or random mods. You can also encounter his three minions in missions which require you to down them and capture them. Doing this gives you 50 reputation for each of them. 
