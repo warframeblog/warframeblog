@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
+    <lastmod>2019-03-08T14:21:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
     <lastmod>2019-03-07T16:52:25+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -26,13 +33,6 @@
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-limbo-prime/</loc>
     <lastmod>2019-03-05T19:10:12+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-03-03T17:01:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1222,7 +1222,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-03-07T16:52:25+00:00</lastmod>
+    <lastmod>2019-03-08T14:21:08+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
