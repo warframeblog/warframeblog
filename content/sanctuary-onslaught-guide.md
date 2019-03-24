@@ -9,7 +9,7 @@ image: /wp-content/uploads/2018/04/warframe-Sanctuary-Onslaught-guide.png
 categories:
   - Guides
 ---
-Hey guys and welcome to another Warframe article and update 22.18 is here and it brought a bunch of new stuff. And most interesting are a new frame Khora and a new game mode called Sanctuary Onslaught about which we are going to talk about today!<!--more-->
+Hey guys and welcome to another Warframe article and update 22.18 is here and it brought a bunch of new stuff. And most interesting are a new frame [Khora](/khora-whip-claw-build/ "Khora Whip Claw Build") and a new game mode called Sanctuary Onslaught about which we are going to talk about today!<!--more-->
 
 ## How To Access Sanctuary Onslaught?
 
