@@ -1,0 +1,2 @@
+{{- $rewards := index $.Page.Site.Data.rewards "arbitrations" -}}
+{{- partial "rotation-rewards.html" (dict "rewards" $rewards) -}}

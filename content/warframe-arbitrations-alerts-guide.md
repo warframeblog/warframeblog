@@ -1,7 +1,7 @@
 ---
 title: "Warframe Arbitrations: Lethal Alerts Guide"
 seoTitle: "✅ Warframe Arbitrations: Lethal Alerts Guide. Warframe Elite Alerts"
-date: 2018-10-14T02:15:48+00:00
+date: 2019-03-26T02:15:48+00:00
 author: warframe
 layout: post
 permalink: /warframe-arbitrations-alerts-guide/
@@ -47,16 +47,7 @@ Next on the list is <b>Rolling Guard</b> which is also a warframe mod and this m
 
 ## Arbitrations Alerts Rewards List
 
-| <b>Rotation A</b> | <b>Rotation B</b> | <b>Rotation C</b> |
-| ---------- | ---------- | ---------- |
-| 1300 [Endo](/how-farm-endo/ "How to get Endo") - 38% | 1600 Endo - 50% | 2000 Endo - 55% |
-| Ayatan Ayr Sculpture - 18% | Ayatan Piv Sculpture - 20% | Ayatan Orta Sculpture - 31% |
-| Ayatan Sah Sculpture - 18% | Ayatan Vaya Sculpture - 20% | Adaptation mod - 3.5% |
-| Ayatan Valana Sculpture -18% | Adaptation - 2.5% | Rolling Guard - 3.5% |
-| Adaptation - 2% | Rolling Guard - 2.5% | Sharpshooter - 3.5% |
-| Rolling Guard - 2% | Sharpshooter - 2.5% | Vigorous Swap - 3.5% |
-| Sharpshooter - 2% | Vigorous Swap	- 2.5% |
-| Vigorous Swap	- 2% | 
+{{< arbitrations-rewards >}}
 
 So, yeah some pretty spicy stuff right there. You're probably not gonna be swimming in these for a while though because as I've mentioned already the reward structure is different. **It takes twice as long to get a reward.** So, for example, you're doing defense instead of getting a reward every 5 waves you're gonna get it every 10 waves. 
 
