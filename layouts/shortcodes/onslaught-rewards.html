@@ -1,21 +1,3 @@
-{{- with .Get "version" -}}
-	<table class="table">
-		<thead>
-			<tr>
-				<th>Rotation A</th>
-				<th>Rotation B</th>
-				<th>Rotation C</th>
-			</tr>
-		</thead>
-		<tbody>
-			{{- $rewards := index $.Page.Site.Data.onslaught . -}}
-			{{- range $rewards -}}
-				<tr>
-					<td>{{ .RotationA }}</td>
-					<td>{{ .RotationB }}</td>
-					<td>{{ .RotationC }}</td>
-				</tr>
-			{{- end -}}
-		</tbody>
-	</table>
-{{- end -}}
+{{- $version := .Get "version" -}}
+{{- $rewards := index $.Page.Site.Data.onslaught $version -}}
+{{- partial "rotation-rewards.html" (dict "rewards" $rewards) -}}
