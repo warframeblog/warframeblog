@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
+    <lastmod>2019-03-29T14:03:32+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframe-arbitrations-alerts-guide/</loc>
     <lastmod>2019-03-26T02:15:48+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -12,13 +19,6 @@
   <url>
     <loc>https://warframeblog.com/warframe-nightwave-wolf-of-saturn-six-guide/</loc>
     <lastmod>2019-03-26T00:00:30+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-03-24T17:08:06+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1229,7 +1229,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-03-26T02:15:48+00:00</lastmod>
+    <lastmod>2019-03-29T14:03:32+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
