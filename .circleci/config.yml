@@ -27,7 +27,7 @@ jobs:
                 command: npm install
             - run:
                 name: Install Hugo
-                command: apk add hugo --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
+                command: apk add hugo --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted
             - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
