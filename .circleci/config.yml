@@ -3,7 +3,7 @@ version: 2
 jobs:
     build:
         docker:
-            - image: node:10.15.3-alpine
+            - image: node:8.12.0-alpine
         working_directory: ~/warframeblog
         steps:
             - run:
@@ -27,7 +27,7 @@ jobs:
                 command: npm install
             - run:
                 name: Install Hugo
-                command: wget https://github.com/gohugoio/hugo/releases/download/v0.29/hugo_0.29_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+                command: apk update && apk add hugo
             - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
@@ -36,7 +36,7 @@ jobs:
                 command: ./.circleci/publish_to_ghpages.sh
     trader_inventory:
         docker:
-            - image: node:10.15.3-alpine
+            - image: node:8.12.0-alpine
         working_directory: ~/warframeblog
         steps:
             - run:
