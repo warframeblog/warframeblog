@@ -1,0 +1,19 @@
+menu:
+  - name: "News"
+    url: "warframe-news"
+  - name: "Guides"
+    url: "guides"
+    dropdown: true
+    items:
+      - name: "Warframe Fortuna"
+        url: "fortuna"
+      - name: "How To Get Primes"
+        url: "primes"
+  - name: "Farming"
+    url: "farming"
+  - name: "Builds"
+    url: "builds"
+    dropdown: true
+    items:
+      - name: "Warframe Builds"
+        url: "warframe-builds"
