@@ -27,7 +27,7 @@ jobs:
                 command: npm install
             - run:
                 name: Install Hugo
-                command: apk update && apk add "hugo=0.54.0-r0"
+                command: apk update && apk add hugo
             - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
