@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
+    <lastmod>2019-04-05T14:03:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/stradavar-prime-build/</loc>
     <lastmod>2019-04-04T00:59:50+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -26,13 +33,6 @@
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-tipedo-prime/</loc>
     <lastmod>2019-04-02T19:46:14+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-03-31T17:03:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1257,7 +1257,7 @@
   
   <url>
     <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-04-04T00:59:50+00:00</lastmod>
+    <lastmod>2019-04-05T14:03:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
