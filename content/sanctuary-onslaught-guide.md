@@ -1,7 +1,7 @@
 ---
-title: 'Sanctuary Onslaught Guide & Rewards'
-seoTitle: "Sanctuary Onslaught Guide. Sanctuary Onslaught Rewards Drop Table"
-date: 2019-03-24T15:20:59+00:00
+title: Sanctuary Onslaught Guide & Rewards
+seoTitle: Sanctuary Onslaught Guide. Sanctuary Onslaught Rewards Drop Table
+date: 2019-04-05T23:37:02.662Z
 author: warframe
 layout: post
 permalink: /sanctuary-onslaught-guide/
