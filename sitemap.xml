@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/nitain-extract-farming/</loc>
+    <lastmod>2019-04-07T02:45:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/sanctuary-onslaught-guide/</loc>
     <lastmod>2019-04-05T23:37:02+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -635,13 +642,6 @@
   <url>
     <loc>https://warframeblog.com/how-to-farm-focus-points/</loc>
     <lastmod>2018-05-15T09:52:59+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/nitain-extract-farming/</loc>
-    <lastmod>2018-05-14T02:45:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
