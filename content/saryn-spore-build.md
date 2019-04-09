@@ -48,11 +48,12 @@ Although the insane damage scaling was nerfed to the ground the new Saryn feels 
 
 So, I did change my Saryn Build for Elite Sanctuary Onslaught. Right now I have this current mod setup for this mission.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-1024x355.png" title="Warframe Saryn Spore Build For Saryn 3.5" alt="Saryn Spore Build that I use" width="750" height="260" class="alignnone size-large wp-image-1447" srcset="https://warframeblog.com/wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-1024x355.png 1024w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-300x104.png 300w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-768x267.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Saryn Spore Build For Saryn 3.5" alt="Saryn Spore Build that I use" src="/wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5.png" srcset="/wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-300x104.png 300w, /wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-768x267.png 768w, /wp-content/uploads/2018/05/warframe-saryn-spore-build-for-saryn-3-5-1024x355.png 1024w">}}
 
 And here's Saryn Elite Sanctuary Onslaught Build that I previously used(Saryn 3.0).
-
-<img src="https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-1024x342.png" title="Saryn Spore Build for Sanctuary Onslaught" alt="Saryn Spore Build that I used for Sanctuary Onslaught" width="750" height="250" class="alignnone size-large wp-image-1408" srcset="https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-1024x342.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-300x100.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-768x257.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Saryn Spore Build for Sanctuary Onslaught" alt="Saryn Spore Build that I used for Sanctuary Onslaught" 
+src="/wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-1024x342.png" 
+srcset="/wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-1024x342.png 1024w, /wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-300x100.png 300w, /wp-content/uploads/2018/02/saryn-spore-build-for-sanctuary-onslaught-768x257.png 768w">}}
 
 So, I've decided to just use Augur Reach and Stretch since Spores are now recastable and you don't usually end up losing all your spore growth because of the new decay mechanic. I also remove Blind Rage in this build and replace it with Transient Fortitude as I don't have any efficiency mods anymore on this build. I rely on Hunter Adrenaline to restore my lost energy and as always I have Quick Thinking, Regenerative Molt, and Vitality for survivability. Now, you can replace Quick Thinking with Steel Fiber if you don't like the stagger effect of this mod. Anyway, it still works fine.
 
@@ -62,15 +63,19 @@ Now, in other mission types I'm also using the same exact build I'm running on E
 
 ### Saryn Spore Build for Saryn 3.0
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-1024x353.png" title="Warframe Saryn Spore Build" alt="Saryn Spore Build that I use" width="750" height="259" class="alignnone size-large wp-image-1407" srcset="https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-1024x353.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-300x104.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-768x265.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Saryn Spore Build" alt="Saryn Spore Build that I used"  
+src="/wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-1024x353.png" 
+srcset="/wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-1024x353.png 1024w, /wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-300x104.png 300w, /wp-content/uploads/2018/02/saryn-spore-build-for-saryn3-768x265.png 768w">}}
   
 So, here is my Spore Builds for Saryn that I used for Saryn 3.0. So, this is a typical Spore Build with lots of range. You got to have lots of range to constantly spread the spores. It's pretty helpful, especially in solo missions. I usually take this build in survival missions or exterminate missions. And it's a pretty great Saryn Build that gives you flexibility in using all of her abilities and not just the Spores ability.
 
 ## Saryn Spore Build for Saryn 2.0
 
 And here's Saryn Spore Build for Saryn 2.0. I decided to leave it as a reminder of how it was, in case of some future Saryn reworks.
-  
-<img src="https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-1024x364.png" title="Saryn Spore Build before Saryn 3.0 rework" alt="Saryn Spore Build that I used" width="750" height="267" class="alignnone size-large wp-image-1410" srcset="https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-1024x364.png 1024w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-300x107.png 300w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-768x273.png 768w, https://warframeblog.com/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2.png 1336w" sizes="(max-width: 750px) 100vw, 750px" />
+
+{{< image title="Saryn Spore Build before Saryn 3.0 rework" alt="Saryn Spore Build that I use"
+src="/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-1024x364.png" 
+srcset="/wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-1024x364.png 1024w, /wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-300x107.png 300w, /wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2-768x273.png 768w, /wp-content/uploads/2018/02/saryn-spore-build-for-saryn-2.png 1336w">}}
 
 I used Steel Charge on my Aura because I will be focusing more on melee damage and I also use Blind Rage Transient Fortitude and Intensify to get that 200+ power strength. This will also increase damage per second which is the main thing I was also going for but you can swap out Intensify for another duration mod to increase the amount of duration that spores have and you can add some set mods or some utility mods as well.
 
