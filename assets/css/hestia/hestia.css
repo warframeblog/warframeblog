@@ -5127,6 +5127,11 @@ img.alignnone {
   margin-bottom: 12px;
 }
 
+img[data-sizes="auto"] { 
+  display: block; 
+  width: 100%; 
+}
+
 .alignleft {
   float: left;
   text-align: left;
