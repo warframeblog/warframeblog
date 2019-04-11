@@ -29,7 +29,7 @@ And the problem here is that it just takes way too long for the amount of damage
 ## Tatsu Build
 Now, the **Tatsu Build** I ended up running is a pretty straightforward two forma status build where I've added two V's. This build will easily take you through the entire Star Chart and even do sorties for you. 
 
-<img src='/wp-content/uploads/2019/03/warframe-tatsu-status-build.jpg' title='Warframe Tatsu 2 Forma Build' alt='Warframe Tatsu Status Build' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2019/03/warframe-tatsu-status-build-960x325.jpg 1024w, /wp-content/uploads/2019/03/warframe-tatsu-status-build-300x102.jpg 300w, /wp-content/uploads/2019/03/warframe-tatsu-status-build-768x260.jpg 768w, /wp-content/uploads/2019/03/warframe-tatsu-status-build.jpg 960w' sizes='(max-width: 750px) 100vw, 750px'/>
+{{< image title="Warframe Tatsu 2 Forma Build" alt="Warframe Tatsu Status Build" src="/wp-content/uploads/2019/03/warframe-tatsu-status-build.jpg" srcset="/wp-content/uploads/2019/03/warframe-tatsu-status-build-960x325.jpg 1024w, /wp-content/uploads/2019/03/warframe-tatsu-status-build-300x102.jpg 300w, /wp-content/uploads/2019/03/warframe-tatsu-status-build-768x260.jpg 768w, /wp-content/uploads/2019/03/warframe-tatsu-status-build.jpg 960w">}}
 
 So, the stance I'm using is Wise Razor. Then we have Prime Pressure Point for melee damage, Primed Fury for attack speed, Primed Reach which really helps you cleave down groups of enemies. Followed that up with Condition Overload for more melee damage as we proc status on the enemy. Drifting Contact for combo duration and status chance, Volcanic Edge for heat and status chance. And then Virulent Scourge and Voltaic Strike for corrosive and status chance. 
 

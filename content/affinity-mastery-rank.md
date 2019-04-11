@@ -16,17 +16,17 @@ Hey guys! Welcomed back to the Warframe beginners guide. On this article, we wil
 
 ## Other parts of the Beginners Guide:
 
-  * [Basic Combat and Movement](https://warframeblog.com/warframe-beginners-guide-combat-and-movement/)
+  * [Basic Combat and Movement](/warframe-beginners-guide-combat-and-movement/)
 
 ## Warframe Affinity
 
 As you've played the game, you've probably noticed these small numbers that appear when you kill an enemy.
   
-<img src="https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-300x169.png" title="Warframe affinity" alt="Warframe gain affinity" width="300" height="169" class="alignnone size-medium wp-image-620" srcset="https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-768x432.png 768w, https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-1024x576.png 1024w" sizes="(max-width: 300px) 100vw, 300px" />
+{{< image title="Warframe affinity" alt="Warframe gain affinity" src="/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-300x169.png" srcset="/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-300x169.png 300w, /wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-768x432.png 768w, /wp-content/uploads/2018/01/Screenshot-2018-01-29-01.37.04-1024x576.png 1024w">}}
   
 This is experience referred to in the game as affinity. Affinity can be gained most commonly by killing enemies, but also by completing certain challenges and mission objectives. An example of a challenge is this one - speed kill, where do you need to get three kills within 10 seconds.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.39.56-1-300x154.png" title="Warframe affinity challenges" alt="Complete challenges to gain affinity in warframe" width="300" height="154" class="alignnone size-medium wp-image-622" srcset="https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.39.56-1-300x154.png 300w, https://warframeblog.com/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.39.56-1.png 348w" sizes="(max-width: 300px) 100vw, 300px" />
+{{< image title="Warframe affinity challenges" alt="Complete challenges to gain affinity in warframe" src="/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.39.56-1-300x154.png" srcset="/wp-content/uploads/2018/01/Screenshot-2018-01-29-01.39.56-1-300x154.png 300w, /wp-content/uploads/2018/01/Screenshot-2018-01-29-01.39.56-1.png 348w">}}
 
 After it's completed you gain some affinity. Affinity you gain will be applied to your equipped warframe and weapons, and after they reach a certain level of affinity, they will gain a level or rank as the game calls it. Each weapon and warframe can go from unranked to a maximum of rank 30. Ranking up a warframe will make it gain a health, shields, and armor, and we'll also unlock all of its abilities and their upgrades. Ranking up a weapon does not directly affect its power as it gains no stats.
 
@@ -34,13 +34,13 @@ After it's completed you gain some affinity. Affinity you gain will be applied t
 
 Now, let's see how affinity works. Whenever you kill an enemy, you will gain some affinity. More specifically whenever you kill an enemy with a warframe power the warframe will get 100 percent of the affinity. If you kill an enemy with a weapon, the affinity will be split evenly between the weapon that did the killing blow and the warframe. You can also get shared affinity while playing with other players. The icon (triple circles) at the very top represents how many players are within affinity range.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/01/affinity-icon-300x290.png" title="Affinity range icon" alt="Affinity range icon in Warframe" width="300" height="290" class="alignnone size-medium wp-image-623" srcset="https://warframeblog.com/wp-content/uploads/2018/01/affinity-icon-300x290.png 300w, https://warframeblog.com/wp-content/uploads/2018/01/affinity-icon.png 307w" sizes="(max-width: 300px) 100vw, 300px" />
+{{< image title="Affinity range icon" alt="Affinity range icon in Warframe" src="/wp-content/uploads/2018/01/affinity-icon-300x290.png" srcset="/wp-content/uploads/2018/01/affinity-icon-300x290.png 300w, /wp-content/uploads/2018/01/affinity-icon.png 307w">}}
 
-Whenever a player kills an enemy the affinity he gains will also be gained by all other players within affinity range. This affinity will be shared between warframes and all equipped weapons. Here you can find out [how to level up in the most efficient way](https://warframeblog.com/affinity-how-level-up/). You can also gain an extra affinity by performing stealth finishers. If you approach an enemy from behind without being detected, you may perform a stealth finisher kill and it will give you an affinity modifier for the next 30 seconds, up to a maximum of five times the normal affinity gain. Attacking an enemy while detected or letting the modifier run out will reset it to a normal affinity gain.
+Whenever a player kills an enemy the affinity he gains will also be gained by all other players within affinity range. This affinity will be shared between warframes and all equipped weapons. Here you can find out [how to level up in the most efficient way](/affinity-how-level-up/). You can also gain an extra affinity by performing stealth finishers. If you approach an enemy from behind without being detected, you may perform a stealth finisher kill and it will give you an affinity modifier for the next 30 seconds, up to a maximum of five times the normal affinity gain. Attacking an enemy while detected or letting the modifier run out will reset it to a normal affinity gain.
 
 ## Mastery Rank
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/01/mastery-rank-up.jpg" alt="" width="581" height="217" class="alignnone wp-image-626 size-full" srcset="https://warframeblog.com/wp-content/uploads/2018/01/mastery-rank-up.jpg 581w, https://warframeblog.com/wp-content/uploads/2018/01/mastery-rank-up-300x112.jpg 300w" sizes="(max-width: 581px) 100vw, 581px" />
+{{< image title="Mastery Rank Up" alt="Warframe Mastery Rank" src="/wp-content/uploads/2018/01/mastery-rank-up.jpg" srcset="/wp-content/uploads/2018/01/mastery-rank-up.jpg 581w, /wp-content/uploads/2018/01/mastery-rank-up-300x112.jpg 300w">}}
 
 When you gain enough ranks on your equipment, you can gain a rank yourself. This is called mastery rank. This rank can be seen next to your name.  Basically, by gaining ranks with unique pieces of equipment, you will gain mastery points that will allow you to eventually rank up. When I say unique pieces of equipment, I mean that if you level up a forma'ed weapon or frame, you will not get any mastery points. You can see the weapons and warframes you've mastered on your Codex or Profile. Items that have been mastered, have this symbol over here.
 

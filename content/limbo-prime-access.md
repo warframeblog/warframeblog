@@ -13,7 +13,7 @@ categories:
 ---
 Hey guys and welcome to another Warframe article. So, Limbo Prime, [Pyrana Prime](https://warframeblog.com/pyrana-prime-build/), and Destreza Prime are finally here.<!--more-->
 
-So, first thing first here's list of the relics that you need to get new prime parts for those of you who want to farm them.<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-accessories-1024x576.jpg" title="Warframe Limbo Prime Accessories" alt="Limbo Prime Accessories: Oblivia Prime Syandana and Sigil" width="750" height="422" class="alignnone size-large wp-image-1510" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-accessories-1024x576.jpg 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-accessories-300x169.jpg 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-accessories-768x432.jpg 768w" sizes="(max-width: 750px) 100vw, 750px" />
+So, first thing first here's list of the relics that you need to get new prime parts for those of you who want to farm them.{{< image title="Warframe Limbo Prime Accessories" alt="Limbo Prime Accessories: Oblivia Prime Syandana and Sigil" src="/wp-content/uploads/2018/06/warframe-limbo-prime-accessories-1024x576.jpg" srcset="/wp-content/uploads/2018/06/warframe-limbo-prime-accessories-1024x576.jpg 1024w, /wp-content/uploads/2018/06/warframe-limbo-prime-accessories-300x169.jpg 300w, /wp-content/uploads/2018/06/warframe-limbo-prime-accessories-768x432.jpg 768w">}}
 
 ## Where to farm relics
 
@@ -53,7 +53,7 @@ And here's leaked stats for Limbo Prime and its weapons that were left untouched
 
 ## Pyrana Prime Stats
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-pyrana-prime-leaked-stats.png" title="Warframe Pyrana Prime Stats" alt="Pyrana Prime leaked Stats" width="493" height="583" class="alignnone size-full wp-image-1507" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-pyrana-prime-leaked-stats.png 493w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-pyrana-prime-leaked-stats-300x355.png 300w" sizes="(max-width: 493px) 100vw, 493px" />
+{{< image title="Warframe Pyrana Prime Stats" alt="Pyrana Prime leaked Stats" src="/wp-content/uploads/2018/06/warframe-pyrana-prime-leaked-stats.png" srcset="/wp-content/uploads/2018/06/warframe-pyrana-prime-leaked-stats.png 493w, /wp-content/uploads/2018/06/warframe-pyrana-prime-leaked-stats-300x355.png 300w">}}
 
 So first we have the Pyrana Prime. This one requires mastery rank 13 rather than 12. It does slightly less damage with each shot but it has four percent extra crit chance, 0.2x extra crit multiplier, two percent extra status chance. It reloads faster by 0.4 seconds. It has two extra rounds in the magazine and it's more accurate. So while it does do a little bit less damage per shot, the supporting stats, especially when you equip it with primed crit mod should make you do far more damage.
 
@@ -63,7 +63,7 @@ But these are not the interesting part. The interesting part is the description:
 
 For Limbo Prime, we should have something like this.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-1024x640.png" title="Warframe Limbo Prime Stats" alt="Limbo Prime leaked Stats" width="750" height="469" class="alignnone size-large wp-image-1508" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-1024x640.png 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-300x188.png 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-768x480.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Limbo Prime Stats" alt="Limbo Prime leaked Stats" src="/wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-1024x640.png" srcset="/wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-1024x640.png 1024w, /wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-300x188.png 300w, /wp-content/uploads/2018/06/warframe-limbo-prime-leaked-stats-768x480.png 768w">}}
 
 So he has 175 energy, 100 health and shieldsб 1.15 sprint speed, and 85 armor. This was completely fine, you know, just slightly better stats than the standard Limbo.
 
@@ -71,7 +71,7 @@ So he has 175 energy, 100 health and shieldsб 1.15 sprint speed, and 85 armor. 
 
 And for the Destreza Prime we have next stats:
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-1024x640.png" title="Warframe Destreza Prime Stats" alt="Destreza Prime leaked Stats" width="750" height="469" class="alignnone size-large wp-image-1509" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-1024x640.png 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-300x188.png 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-768x480.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Destreza Prime Stats" alt="Destreza Prime leaked Stats" src="/wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-1024x640.png" srcset="/wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-1024x640.png 1024w, /wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-300x188.png 300w, /wp-content/uploads/2018/06/warframe-destreza-prime-leaked-stats-768x480.png 768w">}}
 
 So, stats of the Destreza Prime is perfectly reasonable. It's just a better version of the Destreza.
 

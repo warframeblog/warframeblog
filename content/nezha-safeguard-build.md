@@ -20,7 +20,7 @@ Hey guys and today we’re gonna take a look at Nezha Safeguard Build which focu
 
 So, for Nezha Safeguard Build, I’m using Energy Siphon as its aura but it's kind of up to you. You can use Energy Siphon for the extra energy, you can use Corrosive Projection to reduce the enemy armor, or you can even use Sprint Boost for more speed. 
 
-<img src='/wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build.jpg' title='Warframe Nezha Safeguard Build' alt='Nezha Safeguard 2 Forma Build' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build-1024x353.jpg 1024w, /wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build-300x103.jpg 300w, /wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build-768x264.jpg 768w, /wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build.jpg 1583w' sizes='(max-width: 750px) 100vw, 750px'/>
+{{< image title="Warframe Nezha Safeguard Build" alt="Nezha Safeguard 2 Forma Build" src="/wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build.jpg" srcset="/wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build-1024x353.jpg 1024w, /wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build-300x103.jpg 300w, /wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build-768x264.jpg 768w, /wp-content/uploads/2018/08/warframe-nezha-safeguard-2-forma-build.jpg 1583w">}}
 
 Then to absolutely roid up our Warding Halo I'm using Power Drift, Blind Rage, Transient Fortitude, Intensify, and Augur Secrets for over 300% of power strength. This adds a ton of health to Warding Halo and it makes it comparable to something like [Iron Skin](/rhino-iron-skin-build/ "Rhino Iron Skin Build"). 
 

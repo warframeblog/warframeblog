@@ -20,7 +20,7 @@ Hey guys and welcome to another article. And today I want to show you where and 
 
 So, the update 22.17 brought us the Endless Kuva Survival which can be found unsurprisingly on the Kuva Fortress. And yes, we can finally farm kuva in the place that's all about gathering kuva. Now, this is basically a combination of survival and excavation.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/11/kuva-endless-survival-1024x640.png" title="Warframe Endless Kuva Survival" alt="Warframe kuva canister" width="750" height="469" class="alignnone size-large wp-image-1194" srcset="https://warframeblog.com/wp-content/uploads/2017/11/kuva-endless-survival-1024x640.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/kuva-endless-survival-300x188.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/kuva-endless-survival-768x480.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Endless Kuva Survival" alt="Warframe kuva canister" src="/wp-content/uploads/2017/11/kuva-endless-survival-1024x640.png" srcset="/wp-content/uploads/2017/11/kuva-endless-survival-1024x640.png 1024w, /wp-content/uploads/2017/11/kuva-endless-survival-300x188.png 300w, /wp-content/uploads/2017/11/kuva-endless-survival-768x480.png 768w">}}
 
 The way this works is that everytime Lotus sends you a life support capsule an enemy eximus unit carrying a kuva canister will spawn and will be marked on both your mini-map and your heads-up display. This unit will drop the kuva canister upon death which you can pick up and bring to the life support capsule to turn it into a Kuva Harvester.
 
@@ -42,17 +42,17 @@ If you somehow were able to fail to destroy the Siphon and the Siphon captured 8
 
 Back to &#8220;be aware of your surroundings&#8221; part. Even without sound you can find the Kuva very easily, just take a look at the Braids and they will show you the right direction.
 
-<img class="alignnone size-large wp-image-104" src="https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-1024x576.png" title="find the Kuva" alt="very easy way to find a Kuva" width="1024" height="576" srcset="https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="find the Kuva" alt="very easy way to find a Kuva" src="/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-1024x576.png" srcset="/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-1024x576.png 1024w, /wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-300x169.png 300w, /wp-content/uploads/2017/11/Screenshot-2017-11-02-02.02.58-768x432.png 768w">}}
 
 Kuva enemies and also Kuva Guardians are spawning, the Guardian can be killed like in the  The War Within Quest. Guardians itself and  the little pet on their shoulders will drop the Orvius parts.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-1024x576.png" title="Guardian pet" alt="you can get Orvius parts from it" width="1024" height="576" class="alignnone size-large wp-image-105" srcset="https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Guardian pet" alt="you can get Orvius parts from it" src="/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-1024x576.png" srcset="/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-1024x576.png 1024w, /wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-300x169.png 300w, /wp-content/uploads/2017/11/Screenshot-2017-11-02-02.06.15-768x432.png 768w">}}
 
 Important to know, there are always  6 different  Kuva missions. Once you completed a mission, it goes on cooldown and you can't replay the same mission over and over again.
 
 But the most important  thing here is, the amount of Kuva you can get is affected by a resource booster. That means you can get an average amount of 2400 Kuva per Kuva flood mission instead of 1200!
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-1024x576.png" title="How to increase amount of Kuva" alt="how to get more Kuva" width="1024" height="576" class="alignnone size-large wp-image-106" srcset="https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="How to increase amount of Kuva" alt="how to get more Kuva" src="/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-1024x576.png" srcset="/wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-1024x576.png 1024w, /wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-300x169.png 300w, /wp-content/uploads/2017/11/Screenshot-2017-11-02-02.10.21-768x432.png 768w">}}
 
 Well, that's basically it for today's article. Overall, the Kuva Siphon and even Kuva Flood missions are very easy and you can't fail these missions with the right warframes.
 

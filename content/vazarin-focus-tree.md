@@ -28,7 +28,7 @@ This is the class for those who like the idea of a mobile support. The abilities
 
 ## Vazarin Focus School Abilities
 
-<img class="alignnone size-large wp-image-164" src="https://warframeblog.com/wp-content/uploads/2017/11/VazarinFocusTree2.0-1024x819.png" title="Vazarin 2.5 focus tree" alt="Abilities & Benefits of Vazarin focus tree" width="1024" height="819" srcset="https://warframeblog.com/wp-content/uploads/2017/11/VazarinFocusTree2.0-1024x819.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/VazarinFocusTree2.0-300x240.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/VazarinFocusTree2.0-768x614.png 768w, https://warframeblog.com/wp-content/uploads/2017/11/VazarinFocusTree2.0.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Vazarin 2.5 focus tree" alt="Abilities & Benefits of Vazarin focus tree" src="/wp-content/uploads/2017/11/VazarinFocusTree2.0-1024x819.png" srcset="/wp-content/uploads/2017/11/VazarinFocusTree2.0-1024x819.png 1024w, /wp-content/uploads/2017/11/VazarinFocusTree2.0-300x240.png 300w, /wp-content/uploads/2017/11/VazarinFocusTree2.0-768x614.png 768w, /wp-content/uploads/2017/11/VazarinFocusTree2.0.png 1280w">}}
 
 ### Vazarin Focus School Passive Abilities
 

@@ -17,7 +17,7 @@ So, the biggest feature is surprise surprise the Sacrifice Quest itself and I wo
 
 ## Customisable UI
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-ui-customization-1024x606.jpg" title="Warframe Customisable User Interface" alt="Customisable User Interface Update 23" width="750" height="444" class="alignnone size-large wp-image-1519" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-ui-customization-1024x606.jpg 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-ui-customization-300x178.jpg 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-ui-customization-768x455.jpg 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Customisable User Interface" alt="Customisable User Interface Update 23" src="/wp-content/uploads/2018/06/warframe-ui-customization-1024x606.jpg" srcset="/wp-content/uploads/2018/06/warframe-ui-customization-1024x606.jpg 1024w, /wp-content/uploads/2018/06/warframe-ui-customization-300x178.jpg 300w, /wp-content/uploads/2018/06/warframe-ui-customization-768x455.jpg 768w">}}
   
 This update also introduced what I assume is the first part of the UI changes because not everything has been changed yet a lot of the things has stayed the way they used to be. But they did change a lot of other stuff. The new UI looks really good but what I like about it the most is that you can choose a different background, different themes, and even different sounds for the whole UI.
 
@@ -37,7 +37,7 @@ Then on top of having the standard passage that you have on the Excalibur and th
 
 ## Umbra Mods
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-umbra-mods-1024x360.png" title="Warframe Umbra Mods" alt="New Umbra Mods with update 23 sacrifice" width="750" height="264" class="alignnone size-large wp-image-1521" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-umbra-mods-1024x360.png 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-umbra-mods-300x105.png 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-umbra-mods-768x270.png 768w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-umbra-mods.png 1381w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Umbra Mods" alt="New Umbra Mods with update 23 sacrifice" src="/wp-content/uploads/2018/06/warframe-umbra-mods-1024x360.png" srcset="/wp-content/uploads/2018/06/warframe-umbra-mods-1024x360.png 1024w, /wp-content/uploads/2018/06/warframe-umbra-mods-300x105.png 300w, /wp-content/uploads/2018/06/warframe-umbra-mods-768x270.png 768w, /wp-content/uploads/2018/06/warframe-umbra-mods.png 1381w">}}
   
 And it comes with three Umbra mods. We have Umbra Fiber, Umbra Vitality, and Umbra Intensify. These are kind of like set mods because they get stronger the more of them you equip. Now, these are basically prime mods so they're very expensive to max out but you need to equip all of them to get their full power. If you, for example, look at Umbra Fiber it's basically just Steel Fiber with a little bit of Tau resist on its own.
 
@@ -45,7 +45,7 @@ Now you can use these mods on a normal frame and they're just like a prime mod. 
 
 ## Skiajati
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-skiajati-stats.png" title="Warframe Skiajati Stats" alt="Skiajati - Umbra's Nikana" width="326" height="544" class="alignnone size-full wp-image-1522" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-skiajati-stats.png 326w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-skiajati-stats-300x501.png 300w" sizes="(max-width: 326px) 100vw, 326px" />
+{{< image title="Warframe Skiajati Stats" alt="Skiajati - Umbra's Nikana" src="/wp-content/uploads/2018/06/warframe-skiajati-stats.png" srcset="/wp-content/uploads/2018/06/warframe-skiajati-stats.png 326w, /wp-content/uploads/2018/06/warframe-skiajati-stats-300x501.png 300w">}}
   
 And the second item we got with this update is the Skiajati which is Umbra's Nikana. The Skiajati requires at least mastery rank 11. It's really fast. It does a decent amount of damage most of which is a slash. It has high status somewhat average crit chance for melee weapons it's not too high. And it has slightly below average crit multiplier.
 
@@ -57,7 +57,7 @@ I also find it a little bit odd that they went with Sacrificial Pressure since w
 
 ## New Cosmetics
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-1024x576.jpg" title="Warframe new operators cosmetics" alt="new operators cosmetics came with sacrifice update" width="750" height="422" class="alignnone size-large wp-image-1523" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-1024x576.jpg 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-300x169.jpg 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-768x432.jpg 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe new operators cosmetics" alt="new operators cosmetics came with sacrifice update" src="/wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-1024x576.jpg" srcset="/wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-1024x576.jpg 1024w, /wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-300x169.jpg 300w, /wp-content/uploads/2018/06/warframe-sacrifice-update-operators-cosmetics-768x432.jpg 768w">}}
   
 Then we got a bunch of new cosmetic. So, we have a full set of the Umbra armor. We got the Dax Syandana, new Umbra-themed Kubrow and Kavat Armor Sets, and some Operator Cosmetics.
 

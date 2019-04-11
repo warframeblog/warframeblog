@@ -30,7 +30,7 @@ So, Cernos Prime has a huge issue, in almost [melee](https://warframeblog.com/me
 
 ## Cernos Prime Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/11/cernos-prime-build-1024x343.png" title="Warframe Cernos Prime Build" alt="Cernos Prime Build that I use" width="750" height="251" class="alignnone size-large wp-image-1390" srcset="https://warframeblog.com/wp-content/uploads/2017/11/cernos-prime-build-1024x343.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/cernos-prime-build-300x100.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/cernos-prime-build-768x257.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Cernos Prime Build" alt="Cernos Prime Build that I use" src="/wp-content/uploads/2017/11/cernos-prime-build-1024x343.png" srcset="/wp-content/uploads/2017/11/cernos-prime-build-1024x343.png 1024w, /wp-content/uploads/2017/11/cernos-prime-build-300x100.png 300w, /wp-content/uploads/2017/11/cernos-prime-build-768x257.png 768w">}}
 
 The Cernos Prime Build is very simple, Serration plus Heavy Caliber for the damage. Heavy Caliber doesn't really affect your accuracy on this weapon. Split Chamber for an &#8220;extra damage&#8221;. In this case, it can be a damage down or damage up. Also depends on if you want to kill a lot of enemies in low-mid tier missions because of the higher radius. Of course, Point Strike and Vital Sense for a decent Crit build. And 2x 90% elemental mods to get the elemental combo you want. Last but not least a Fire Rate mod, here you can decide whether you want to use the Vile Acceleration mod or Speed Trigger. I recommend you Vile Acceleration, you won't notice the -15% damage of this mod.
 

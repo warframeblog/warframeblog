@@ -31,11 +31,11 @@ Lenz is able to one shot every enemy on the star chart, so against level 30+ ene
 
 For my, Lenz build I'm using: as always Serration, Split Chamber and Heavy Caliber for the damage, Point Strike and Vital Sense for very high orange crits, Vile Acceleration for much better Charge Rate, and Stormbringer + Infected Clip for Corrosive damage.
 
-<img class="alignnone size-large wp-image-277" title="Lenz build" src="https://warframeblog.com/wp-content/uploads/2017/12/2az7q_croper_ru-1024x445.png" alt="Good Lenz build against armored units" width="1024" height="445" srcset="https://warframeblog.com/wp-content/uploads/2017/12/2az7q_croper_ru-1024x445.png 1024w, https://warframeblog.com/wp-content/uploads/2017/12/2az7q_croper_ru-300x130.png 300w, https://warframeblog.com/wp-content/uploads/2017/12/2az7q_croper_ru-768x334.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Lenz build" alt="Good Lenz build against armored units" src="/wp-content/uploads/2017/12/2az7q_croper_ru-1024x445.png" srcset="/wp-content/uploads/2017/12/2az7q_croper_ru-1024x445.png 1024w, /wp-content/uploads/2017/12/2az7q_croper_ru-300x130.png 300w, /wp-content/uploads/2017/12/2az7q_croper_ru-768x334.png 768w">}}
 
 And for the Corpus build, simply replace Stormbringer with Malignant Force.
 
-<img class="alignnone size-large wp-image-278" title="Lenz build for Corpus" src="https://warframeblog.com/wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-1024x576.png" alt="Corpus doesn't like when Lenz is built like this" width="1024" height="576" srcset="https://warframeblog.com/wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Lenz build for Corpus" alt="Corpus doesn't like when Lenz is built like this" src="/wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-1024x576.png" srcset="/wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-1024x576.png 1024w, /wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-300x169.png 300w, /wp-content/uploads/2017/12/Screenshot-2017-12-24-01.57.33-768x432.png 768w">}}
 
 Lenz is an amazing AoE bow with great stats but also with some disadvantages. But the most important thing is - it's a fun weapon to play with, really enjoying leveling it up. Well, that's about it for today's article. I see you already in the next one.
 

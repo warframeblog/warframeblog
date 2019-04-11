@@ -27,12 +27,12 @@ They don't spawn continuously because I was running around the map for about thi
 
 Okay, now here is how I do it.
 
-<img class="alignnone size-large wp-image-74" title="Farming Cetus Wisp" src="https://warframeblog.com/wp-content/uploads/2017/10/wisp-map-1024x576.png" alt="how to farm cetus wisp" width="1024" height="576" srcset="https://warframeblog.com/wp-content/uploads/2017/10/wisp-map-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/10/wisp-map-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/10/wisp-map-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Farming Cetus Wisp" alt="how to farm cetus wisp" src="/wp-content/uploads/2017/10/wisp-map-1024x576.png" srcset="/wp-content/uploads/2017/10/wisp-map-1024x576.png 1024w, /wp-content/uploads/2017/10/wisp-map-300x169.png 300w, /wp-content/uploads/2017/10/wisp-map-768x432.png 768w">}}
 
 This is the route that I take and it seems to be working pretty well. I usually get somewhere between one to four wisps and it only takes about 4 min to do for me. You could probably do it faster if you have a better setup. I've tried a couple of different routes some of them were a little bit faster than this one. Some of them even had a higher amount of wisps on average but this one seemed said the best balance of time spent vs. wisps acquired.
 
 But if you find the route that I take for farming Wisp not so efficient you can choose another one based on this map which shows all possible Wisp spawn locations.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations.png" title="all Wisp spawn locations on Cetus" alt="how to get lots of Wisps" width="1012" height="994" class="alignnone size-full wp-image-964" srcset="https://warframeblog.com/wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations.png 1012w, https://warframeblog.com/wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations-300x295.png 300w, https://warframeblog.com/wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations-768x754.png 768w" sizes="(max-width: 1012px) 100vw, 1012px" />
+{{< image title="all Wisp spawn locations on Cetus" alt="how to get lots of Wisps" src="/wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations.png" srcset="/wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations.png 1012w, /wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations-300x295.png 300w, /wp-content/uploads/2017/10/Cetus_Wisp_Spawn_Locations-768x754.png 768w">}}
 
 And that's pretty much it. This is what you want to do if you want to get wisp.

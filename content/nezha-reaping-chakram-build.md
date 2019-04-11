@@ -20,7 +20,7 @@ Hello everyone and welcome to another Warframe build article. Today I will show 
 
 ## Nezha Chakram Build
 
-<img src='/wp-content/uploads/2018/12/nezha-reaping-chakram-build.jpg' title='Warframe Nezha Reaping Chakram Build' alt='Nezha Reaping Chakram Build' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/12/nezha-reaping-chakram-build-1024x359.jpg 1024w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build-300x105.jpg 300w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build-768x270.jpg 768w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build.jpg 1057w' sizes='(max-width: 750px) 100vw, 750px'/>
+{{< image title="Warframe Nezha Reaping Chakram Build" alt="Nezha Reaping Chakram Build" src="/wp-content/uploads/2018/12/nezha-reaping-chakram-build.jpg" srcset="/wp-content/uploads/2018/12/nezha-reaping-chakram-build-1024x359.jpg 1024w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build-300x105.jpg 300w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build-768x270.jpg 768w, /wp-content/uploads/2018/12/nezha-reaping-chakram-build.jpg 1057w">}}
 
 Now the aura I'm using here is Corrosive Projection because we're doing mostly heat damage and heat damage is terrible versus armor so this helps with the Grineer and Corrupted. Then I have Primed Continuity for some extra duration for Fire Walker and Divine Spears which is followed up by Intensify, Power Drift, Augur Secrets, and Energy Conversion for power strength. 
 

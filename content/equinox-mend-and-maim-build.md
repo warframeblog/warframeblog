@@ -14,11 +14,11 @@ tags:
   - warframe
   - EquinoxBuilds
 ---
-<span>Hey guys and today we’re gonna take a look at Equinox Mend and Maim Build.</span><!--more-->
+Hey guys and today we’re gonna take a look at Equinox Mend and Maim Build.<!--more-->
 
 So, for the [Equinox](/warframes/equinox/ "Equinox") Mend and Maim Build I'm using Corrosive Projection as its aura mainly because Mend and Maim will disable your Energy Siphon so you're not gonna get any energy from it. But it's also pretty good especially versus the Grineer and the Corrupted for the follow-up explosion you can do it with Mend and Maim by reactivating it once you stack some damage by damaging enemies in its range. And then I'm using Vitality because I just hate squishy frames so I wanted to add some health. I have Overextendeded and Cunning Drift for a ton of range and this will allow you to cover the majority of something like Hydron and even [IO on Jupiter](/how-to-farm-relics/ "Place to farm relics").
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/03/equinox-mend-and-maim-build-1024x353.png" alt="" width="750" height="259" class="alignnone size-large wp-image-1095" srcset="https://warframeblog.com/wp-content/uploads/2018/03/equinox-mend-and-maim-build-1024x353.png 1024w, https://warframeblog.com/wp-content/uploads/2018/03/equinox-mend-and-maim-build-300x103.png 300w, https://warframeblog.com/wp-content/uploads/2018/03/equinox-mend-and-maim-build-768x265.png 768w, https://warframeblog.com/wp-content/uploads/2018/03/equinox-mend-and-maim-build.png 1593w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Equinox Mend and Maim Build" alt="Warframe Equinox Mend and Maim Build" src="/wp-content/uploads/2018/03/equinox-mend-and-maim-build-1024x353.png" srcset="/wp-content/uploads/2018/03/equinox-mend-and-maim-build-1024x353.png 1024w, /wp-content/uploads/2018/03/equinox-mend-and-maim-build-300x103.png 300w, /wp-content/uploads/2018/03/equinox-mend-and-maim-build-768x265.png 768w, /wp-content/uploads/2018/03/equinox-mend-and-maim-build.png 1593w">}}
 
 Then to balance out Overextendeded I'm using Augur Secrets, Intensify, and Power Drift. I did not want to go with either Transient Fortitude or Blind Rage because that would significantly increase the drain which with this build as at 0.88 energy per second which is achieved by having a Streamline and a fully ranked Fleeting Expertise.
 
