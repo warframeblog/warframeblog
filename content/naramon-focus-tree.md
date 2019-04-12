@@ -24,7 +24,7 @@ Hello everyone! Today we'll be taking a look at the newly designed Naramon Focus
 
 As this Naramon Focus School review goes on I will highlight some changes and help you decide if it is still worth the dedication.
 
-<img class="alignnone size-large wp-image-157" src="https://warframeblog.com/wp-content/uploads/2017/11/NaramonFocusTree2.0-1024x819.png" title="Naramon focus 2.5 tree abilities" alt="Naramon focus abilities and benefits of this focus school" width="1024" height="819" srcset="https://warframeblog.com/wp-content/uploads/2017/11/NaramonFocusTree2.0-1024x819.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/NaramonFocusTree2.0-300x240.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/NaramonFocusTree2.0-768x614.png 768w, https://warframeblog.com/wp-content/uploads/2017/11/NaramonFocusTree2.0.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Naramon focus 2.5 tree abilities" alt="Naramon focus abilities and benefits of this focus school" src="/wp-content/uploads/2017/11/NaramonFocusTree2.0-1024x819.png" srcset="/wp-content/uploads/2017/11/NaramonFocusTree2.0-1024x819.png 1024w, /wp-content/uploads/2017/11/NaramonFocusTree2.0-300x240.png 300w, /wp-content/uploads/2017/11/NaramonFocusTree2.0-768x614.png 768w, /wp-content/uploads/2017/11/NaramonFocusTree2.0.png 1280w">}}
 
 ## Naramon Focus School Abilities
 

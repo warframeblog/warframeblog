@@ -28,7 +28,7 @@ Hello everyone! Today's article is going to be about Madurai Focus School. Now t
 
 Like every other focus school, it has its own active and passive abilities. There are four passives and six active abilities, split in-between damage and tactical advantage.
 
-<img class="alignnone size-large wp-image-122" title="Madurai focus tree" src="https://warframeblog.com/wp-content/uploads/2017/11/MaduraiFocusTree2.0-1024x819.png" alt="madurai focus school 2.5 abilities and benefits" width="1024" height="819" srcset="https://warframeblog.com/wp-content/uploads/2017/11/MaduraiFocusTree2.0-1024x819.png 1024w, https://warframeblog.com/wp-content/uploads/2017/11/MaduraiFocusTree2.0-300x240.png 300w, https://warframeblog.com/wp-content/uploads/2017/11/MaduraiFocusTree2.0-768x614.png 768w, https://warframeblog.com/wp-content/uploads/2017/11/MaduraiFocusTree2.0.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
+{{< image title="Madurai focus tree" alt="madurai focus school 2.5 abilities and benefits" src="/wp-content/uploads/2017/11/MaduraiFocusTree2.0-1024x819.png" srcset="/wp-content/uploads/2017/11/MaduraiFocusTree2.0-1024x819.png 1024w, /wp-content/uploads/2017/11/MaduraiFocusTree2.0-300x240.png 300w, /wp-content/uploads/2017/11/MaduraiFocusTree2.0-768x614.png 768w, /wp-content/uploads/2017/11/MaduraiFocusTree2.0.png 1280w">}}
 
 ### Madurai Focus School Passive Abilities
 

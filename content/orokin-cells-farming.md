@@ -41,7 +41,7 @@ Another way, of course, is to look for the alert missions which pop up from time
 
 ## Orokin Cell Blueprint
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/05/warframe-orokin-cell-blueprint.png" title="Warframe Orokin Cell Blueprint" alt="You can make orokin cells but it's not a wise idea" width="432" height="920" class="alignnone size-full wp-image-1455" srcset="https://warframeblog.com/wp-content/uploads/2018/05/warframe-orokin-cell-blueprint.png 432w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-orokin-cell-blueprint-300x639.png 300w" sizes="(max-width: 432px) 100vw, 432px" />
+{{< image title="Warframe Orokin Cell Blueprint" alt="You can make orokin cells but it's not a wise idea" src="/wp-content/uploads/2018/05/warframe-orokin-cell-blueprint.png" srcset="/wp-content/uploads/2018/05/warframe-orokin-cell-blueprint.png 432w, /wp-content/uploads/2018/05/warframe-orokin-cell-blueprint-300x639.png 300w">}}
 
 You can also purchase the orokin cell blueprint to make one orokin cell per hour in your foundry but it's a waste of time.
 

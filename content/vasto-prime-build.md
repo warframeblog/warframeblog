@@ -23,7 +23,7 @@ Now, the Vasto Prime is a semi-automatic secondary pistol that requires you to b
 
 When it comes to the build on the Vasto Prime I'm using a two forma build where I've added two V's. And it's a hybrid viral slash build.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-1024x361.png" title="Warframe Vasto Prime Build" alt="Vasto Prime 2 Forma Build that I use" width="750" height="264" class="alignnone size-large wp-image-1467" srcset="https://warframeblog.com/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-1024x361.png 1024w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-300x106.png 300w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-768x271.png 768w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build.png 1548w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Vasto Prime Build" alt="Vasto Prime 2 Forma Build that I use" src="/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-1024x361.png" srcset="/wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-1024x361.png 1024w, /wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-300x106.png 300w, /wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build-768x271.png 768w, /wp-content/uploads/2018/05/warframe-vasto-prime-2-forma-build.png 1548w">}}
 
 So, the mods I'm using are Hornet Strike for damage, Barrel Diffusion for multishot, Lethal Torrent for fire rate and multishot, Primed Pistol Gambit for crit chance, Prime Target Cracker for crit damage.
 

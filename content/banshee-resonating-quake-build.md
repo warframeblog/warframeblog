@@ -30,7 +30,7 @@ But what else can you do with Resonating Quake? Well, lots of stuff. With a rang
 
 ## Banshee Resonating Quake Nuke Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-build-1024x352.png" title="Warframe Banshee Resonating Quake Nuke Build" alt="Banshee Resonating Quake Nuke Build that I use" width="750" height="258" class="alignnone size-large wp-image-1087" srcset="https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-build-1024x352.png 1024w, https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-build-300x103.png 300w, https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-build-768x264.png 768w, https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-build.png 1393w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Banshee Resonating Quake Nuke Build" alt="Banshee Resonating Quake Nuke Build that I use" src="/wp-content/uploads/2018/03/banshee-resonating-quake-build-1024x352.png" srcset="/wp-content/uploads/2018/03/banshee-resonating-quake-build-1024x352.png 1024w, /wp-content/uploads/2018/03/banshee-resonating-quake-build-300x103.png 300w, /wp-content/uploads/2018/03/banshee-resonating-quake-build-768x264.png 768w, /wp-content/uploads/2018/03/banshee-resonating-quake-build.png 1393w">}}
 
 So, for the Banshee Resonating Quake Nuke Build you don't need any duration or energy mods anymore. This saves you two mod slots! You can now focus on a little bit more Strength but also on your casting speed.
 
@@ -38,7 +38,7 @@ And if you do have an Arcane Chorus Helmet, you could save another mod slot. Sim
 
 ## Banshee Resonating Quake CC Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-1024x348.png" title="Warframe Banshee Resonating Quake CC BuildBanshee Resonating Quake CC Build" alt="Banshee Resonating Quake CC Build that I use" width="750" height="255" class="alignnone size-large wp-image-1086" srcset="https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-1024x348.png 1024w, https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-300x102.png 300w, https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-768x261.png 768w, https://warframeblog.com/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build.png 1405w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Banshee Resonating Quake CC BuildBanshee Resonating Quake CC Build" alt="Banshee Resonating Quake CC Build that I use" src="/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-1024x348.png" srcset="/wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-1024x348.png 1024w, /wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-300x102.png 300w, /wp-content/uploads/2018/03/banshee-resonating-quake-cc-build-768x261.png 768w, /wp-content/uploads/2018/03/banshee-resonating-quake-cc-build.png 1405w">}}
 
 For the Banshee Resonating Quake CC Build you can replace all of your strength mods with range mods. The other open mod slot/s can be used to increase your energy pool for example but you can basically use whatever you want.
 

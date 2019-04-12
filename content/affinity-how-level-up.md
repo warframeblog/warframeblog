@@ -28,8 +28,8 @@ So, if you really want to level up a weapon as fast as it's possible, just equip
 
 But what if you want to kill the enemies on your own?
 
-Let me tell you, the [Affinity mechanic](https://warframeblog.com/affinity-mastery-rank/) is completely different! Let me demonstrate what happens if you kill all enemies with your warframe abilities.
+Let me tell you, the [Affinity mechanic](/affinity-mastery-rank/) is completely different! Let me demonstrate what happens if you kill all enemies with your warframe abilities.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-1024x576.png" title="Warframe How to Level up Correctly" alt="What happens if you kill all enemies with your warframe abilities" width="750" height="422" class="alignnone size-large wp-image-1330" srcset="https://warframeblog.com/wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe How to Level up Correctly" alt="What happens if you kill all enemies with your warframe abilities" src="/wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-1024x576.png" srcset="/wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-1024x576.png 1024w, /wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-300x169.png 300w, /wp-content/uploads/2017/10/leveling-up-using-only-warframe-abilities-768x432.png 768w">}}
 
 My warframe got 100% of the entire exp, my Weapons 0%. This is very important so keep that in mind. Never use your abilities if you want to level up your weapons unless it's some sort of dmg buff ability. Because your warframe gets 100% of the exp,  this is a perfect way to level up a warframe.. but only if you have good AoE abilities to kill all your enemies around you.

@@ -37,7 +37,7 @@ Now, I have two different builds on the Tiberon Prime both of which only require
 
 ### Tiberon Prime Corrosive Hybrid Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-1024x344.png" title="Tiberon Prime Corrosive Hybrid Build" alt="Tiberon Prime Corrosive Hybrid Build that I use" width="750" height="252" class="alignnone size-large wp-image-1152" srcset="https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-1024x344.png 1024w, https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-300x101.png 300w, https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-768x258.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Tiberon Prime Corrosive Hybrid Build" alt="Tiberon Prime Corrosive Hybrid Build that I use" src="/wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-1024x344.png" srcset="/wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-1024x344.png 1024w, /wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-300x101.png 300w, /wp-content/uploads/2018/03/tiberon-prime-corrosive-hybrid-build-768x258.png 768w">}}
 
 The first one is sort of a standard corrosive hybrid build which is running: Serration for more damage, Split Chamber for multishot, High Voltage and Malignant Force for corrosive damage and some status chance, Point Strike and Vital Sense for crit chance and damage. Then we have Vigilante Armaments for some extra multishot and a chance to overload our crit into an orange one as well as to utilize the first dash polarity. And finally, we have Hellfire for some extra damage and to utilize the second D polarity the weapon comes with.
 
@@ -47,7 +47,7 @@ What you can do however if you don't mind switching between the fire modes, whic
 
 ### Tiberon Prime Viral Munitions Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-1024x349.png" title="Tiberon Prime Viral Munitions Build" alt="Tiberon Prime Viral Munitions Build that I use" width="750" height="256" class="alignnone size-large wp-image-1153" srcset="https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-1024x349.png 1024w, https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-300x102.png 300w, https://warframeblog.com/wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-768x262.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Tiberon Prime Viral Munitions Build" alt="Tiberon Prime Viral Munitions Build that I use" src="/wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-1024x349.png" srcset="/wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-1024x349.png 1024w, /wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-300x102.png 300w, /wp-content/uploads/2018/03/tiberon-prime-viral-munitions-build-768x262.png 768w">}}
 
 The second build is using: Serration for more damage, Split Chamber for multishot, Hunter Munitions which gives you a 30% chance to proc slash on the enemy whenever you crit. Then we have a Vigilante Armaments for some extra multishot and to once again utilize the first D polarity. Infected Clip and Rime Rounds for viral damage and some extra status as well as to utilize the second D polarity. And Vital Sense with Point Strike for crit chance and damage.
 

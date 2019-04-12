@@ -20,7 +20,7 @@ Hey guys and today we’re gonna take a look at Nezha Divine Spears Build and as
 
 So, for Nezha Divine Spears Build, I’m using Energy Siphon here because I like the extra energy but you can swap it for Corrosive Projection for armor reduction, Sprint Boost for sprint speed, or kind of whatever you want. Auras are very subjective. 
 
-<img src='/wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build.jpg' title='Warframe Nezha Divine Spears Build' alt='Warframe Nezha Divine Spears 2 Forma Build' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build-1024x347.jpg 1024w, /wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build-300x102.jpg 300w, /wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build-768x260.jpg 768w, /wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build.jpg 1643w' sizes='(max-width: 750px) 100vw, 750px'/>
+{{< image title="Warframe Nezha Divine Spears Build" alt="Warframe Nezha Divine Spears 2 Forma Build" src="/wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build.jpg" srcset="/wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build-1024x347.jpg 1024w, /wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build-300x102.jpg 300w, /wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build-768x260.jpg 768w, /wp-content/uploads/2018/08/warframe-nezha-divine-spears-2-forma-build.jpg 1643w">}}
 
 Then to buff the damage of Divine Spears I'm using Power Drift, Transient Fortitude, and Intensify for 200% power strength. And then for additional of 50 whenever I pick up an energy orb I'm using Energy Conversion. 
 

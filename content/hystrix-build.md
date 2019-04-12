@@ -39,13 +39,13 @@ Now, since I am a really burned out on forma I've only added two V's and that's 
 
 ### Hystrix 4 Forma Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-1024x531.png" title="Warframe Hystrix 4 Forma Build" alt="Build for Hystrix if you have four extra formas" width="750" height="389" class="alignnone size-large wp-image-1340" srcset="https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-1024x531.png 1024w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-300x155.png 300w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-768x398.png 768w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build.png 1555w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Hystrix 4 Forma Build" alt="Build for Hystrix if you have four extra formas" src="/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-1024x531.png" srcset="/wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-1024x531.png 1024w, /wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-300x155.png 300w, /wp-content/uploads/2018/05/warframe-hystrix-4-forma-build-768x398.png 768w, /wp-content/uploads/2018/05/warframe-hystrix-4-forma-build.png 1555w">}}
 
 Now, if I could I would add two more forma - one Dash and one V. And I would replace Scorch with Primed Heated Charge and Pistol Gambit and Target Cracker mods with their Primed versions. But for now, I'm using a pretty standard hybrid build.
 
 ### Hystrix 2 Forma Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-1024x365.png" title="Warframe Hystrix 2 Forma Build" alt="Build for Hystrix if you have two extra formas" width="750" height="267" class="alignnone size-large wp-image-1341" srcset="https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-1024x365.png 1024w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-300x107.png 300w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-768x274.png 768w, https://warframeblog.com/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build.png 1559w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Hystrix 2 Forma Build" alt="Build for Hystrix if you have two extra formas" src="/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-1024x365.png" srcset="/wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-1024x365.png 1024w, /wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-300x107.png 300w, /wp-content/uploads/2018/05/warframe-hystrix-2-forma-build-768x274.png 768w, /wp-content/uploads/2018/05/warframe-hystrix-2-forma-build.png 1559w">}}
 
 I have Hornet Strike for damage, Barrel Diffusion for multishot, Lethal Torrent for fire rate and multishot, Pistol Gambit for crit chance, Target Cracker for crit damage, Scorch for heat damage and some status chance, and Pistol Pestilence with Jolt for even more status chance and corrosive damage.
 

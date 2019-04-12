@@ -18,7 +18,7 @@ Hey guys and welcome to another Warframe farming guide. Today I want to talk abo
 
 In total, we need over 100 Nitain Extract's if you want to craft everything that requires the resource. Especially Vauban Prime can be a huge problem for some of you, he needs 20 in total!
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-1024x576.png" title="Vauban Prime requires lots of Nitain Extracts" alt="You need 20 Nitain Extract to craft Vauban Prime" width="750" height="422" class="alignnone size-large wp-image-1350" srcset="https://warframeblog.com/wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Vauban Prime requires lots of Nitain Extracts" alt="You need 20 Nitain Extract to craft Vauban Prime" src="/wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-1024x576.png" srcset="/wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-1024x576.png 1024w, /wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-300x169.png 300w, /wp-content/uploads/2017/05/vauban-need-lots-of-nitain-extract-768x432.png 768w">}}
 
 There are currently only three ways to obtain Nitain Extract:
 
@@ -34,7 +34,7 @@ In order to farm Nitain Extract you need to look for Resource Caches.
 
 For example in the Void, there are two Sabotage missions called Stribog and Marduk. These missions have Orokin Caches, find all 3 of them and you're able to get a Nitain Extract.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/05/place-to-farm-nitain-extract-1024x576.png" title="Warframe Where to farm Nitain Extract" alt="You can get Nitain Extract not only from alerts" width="750" height="422" class="alignnone size-large wp-image-1349" srcset="https://warframeblog.com/wp-content/uploads/2017/05/place-to-farm-nitain-extract-1024x576.png 1024w, https://warframeblog.com/wp-content/uploads/2017/05/place-to-farm-nitain-extract-300x169.png 300w, https://warframeblog.com/wp-content/uploads/2017/05/place-to-farm-nitain-extract-768x432.png 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Where to farm Nitain Extract" alt="You can get Nitain Extract not only from alerts" src="/wp-content/uploads/2017/05/place-to-farm-nitain-extract-1024x576.png" srcset="/wp-content/uploads/2017/05/place-to-farm-nitain-extract-1024x576.png 1024w, /wp-content/uploads/2017/05/place-to-farm-nitain-extract-300x169.png 300w, /wp-content/uploads/2017/05/place-to-farm-nitain-extract-768x432.png 768w">}}
 
 The mission itself can be done very quickly and requires just a few minutes. Same goes for finding all caches. The Void is very simple for that. Solo takes around 5 minutes, but this depends on spawn points of the caches. And if you have a teammate it's even better! One person for completing the objective and one for finding the caches. This saves a lot of time and you only need around 2-4 minutes.
 

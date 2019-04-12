@@ -48,7 +48,7 @@ Now I would very much recommend bringing in an automatic weapon to deal with nul
 ### Farm Neo Relics in Hydron on Sedna
 Moving on to the Neo Relics and the best mission, in my opinion, for farming those is Hydron on Sedna. This is another great defence mission tileset. It's pretty small and the spawn points are once again very close together. However, the enemies are much higher level than they were on the previous relics farming places so Ember, for example, isn't actually that effective. And ten waves are going to take more like 10 to 12 minutes.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-1024x576.jpg" title="How To Farm Neo Relics" alt="Warframe neo relics farming" width="750" height="422" class="alignnone size-large wp-image-762" srcset="https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-1024x576.jpg 1024w, https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-300x169.jpg 300w, https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm-768x432.jpg 768w, https://warframeblog.com/wp-content/uploads/2018/02/neo-relics-farm.jpg 1280w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="How To Farm Neo Relics" alt="Warframe neo relics farming" src="/wp-content/uploads/2018/02/neo-relics-farm-1024x576.jpg" srcset="/wp-content/uploads/2018/02/neo-relics-farm-1024x576.jpg 1024w, /wp-content/uploads/2018/02/neo-relics-farm-300x169.jpg 300w, /wp-content/uploads/2018/02/neo-relics-farm-768x432.jpg 768w, /wp-content/uploads/2018/02/neo-relics-farm.jpg 1280w">}}
 
 I personally have three different builds, that I use for Hydron and the one I use depends on what I actually want to do on Hydron. So, if I just want to farm Hydron solo I'm going to use [Saryn](/warframes/saryn/ "Warframe Saryn") with [Spore Build](/saryn-spore-build/ "Saryn Spore Build"). I'm using very high-efficiency build so, it's not as power-hungry and I don't have to use like a bazillion energy restores but it's kind of slow.
 
@@ -58,7 +58,7 @@ And finally, the one I use the most on Hydron leeching [Trinity EV Build](/trini
 
 ## Where & How To Farm Axi Relics
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/02/axi-relics-farm-1024x555.jpg" title="How To Farm Axi Relics" alt="Warframe axi relics farming" width="750" height="406" class="alignnone size-large wp-image-763" srcset="https://warframeblog.com/wp-content/uploads/2018/02/axi-relics-farm.jpg 1024w, https://warframeblog.com/wp-content/uploads/2018/02/axi-relics-farm-300x163.jpg 300w, https://warframeblog.com/wp-content/uploads/2018/02/axi-relics-farm-768x416.jpg 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="How To Farm Axi Relics" alt="Warframe axi relics farming" src="/wp-content/uploads/2018/02/axi-relics-farm-1024x555.jpg" srcset="/wp-content/uploads/2018/02/axi-relics-farm.jpg 1024w, /wp-content/uploads/2018/02/axi-relics-farm-300x163.jpg 300w, /wp-content/uploads/2018/02/axi-relics-farm-768x416.jpg 768w">}}
 
 ### Xini on Eris - Best Place To Farm Axi & Neo Relics
 Finally, we have Axi Void Relics and the mission I would recommend to farm Axi Relics is Xini on Eris which is an infested interception. Now while you can do this one solo if you're running a build like [Banshee Resonating Quake Build](/banshee-resonating-quake-build/ "Banshee Resonating Quake Build") because this setup will stagger enemies on three of the four points which even though it's not killing the enemies its preventing them from hacking the point. 

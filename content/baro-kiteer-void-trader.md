@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-04-07T17:03:30.252Z
+date: 2019-04-12T17:03:29.623Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -20,7 +20,7 @@ Hey everyone! Today I'll be bringing you guys another Warframe guide and this ti
 
 Since [the Plains of Eidolon](https://warframeblog.com/get-started-plains-of-eidolon/) patch, there's a lot of new players that don't know who this vendor is or why they should care. In this guide I'll be giving you guys a quick profile of Baro so, you know who he is a few of his wares you can expect him to be selling and how to get more of his exclusive currency to buy his wares. I believe this guides gonna be perfect for anyone that is new or returning. Without further ado let's jump into the guide.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/12/baro_ki_teer-1024x576.jpg" title="Baro Ki'Teer Void Trader" alt="he is Baro Ki'Teer Void Trader " width="750" height="422" class="alignnone size-large wp-image-466" srcset="https://warframeblog.com/wp-content/uploads/2017/12/baro_ki_teer-1024x576.jpg 1024w, https://warframeblog.com/wp-content/uploads/2017/12/baro_ki_teer-300x169.jpg 300w, https://warframeblog.com/wp-content/uploads/2017/12/baro_ki_teer-768x432.jpg 768w, https://warframeblog.com/wp-content/uploads/2017/12/baro_ki_teer.jpg 1600w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Baro Ki'Teer Void Trader" alt="he is Baro Ki'Teer Void Trader " src="/wp-content/uploads/2017/12/baro_ki_teer-1024x576.jpg" srcset="/wp-content/uploads/2017/12/baro_ki_teer-1024x576.jpg 1024w, /wp-content/uploads/2017/12/baro_ki_teer-300x169.jpg 300w, /wp-content/uploads/2017/12/baro_ki_teer-768x432.jpg 768w, /wp-content/uploads/2017/12/baro_ki_teer.jpg 1600w">}}
 
 ## Who is Baro Ki'Teer?
 
@@ -34,7 +34,7 @@ Now we'll go over what he usually has for sale as well as what he is currently s
 
 I'm sure you notice that all those items cost a different currency than you usually see. These are called ducats and in this last part, I'll go over how to obtain them and what I found to be the best way to farm this currency. Next to Baro Ki'Teer in every relay, there are kiosks on the bridge of this atrium.
 
-<img src="https://warframeblog.com/wp-content/uploads/2017/12/baro-kiteer-kiosk-1-1024x576.jpg" title="Baro Ki'Teer currency - ducats" alt="you can get ducats from this kiosk" width="750" height="422" class="alignnone size-large wp-image-467" srcset="https://warframeblog.com/wp-content/uploads/2017/12/baro-kiteer-kiosk-1-1024x576.jpg 1024w, https://warframeblog.com/wp-content/uploads/2017/12/baro-kiteer-kiosk-1-300x169.jpg 300w, https://warframeblog.com/wp-content/uploads/2017/12/baro-kiteer-kiosk-1-768x432.jpg 768w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Baro Ki'Teer currency - ducats" alt="you can get ducats from this kiosk" src="/wp-content/uploads/2017/12/baro-kiteer-kiosk-1-1024x576.jpg" srcset="/wp-content/uploads/2017/12/baro-kiteer-kiosk-1-1024x576.jpg 1024w, /wp-content/uploads/2017/12/baro-kiteer-kiosk-1-300x169.jpg 300w, /wp-content/uploads/2017/12/baro-kiteer-kiosk-1-768x432.jpg 768w">}}
 
 At these kiosks you can sell primed parts and blueprints obtained through opening relics that you can get a number of different ways ([How to farm relics](https://warframeblog.com/how-to-farm-relics/)). Primarily you can get relics via defense, extraction, and interception missions with bounties being the newest way to acquire relics since the Plains of Eidolon patch.
 

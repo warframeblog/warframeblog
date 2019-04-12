@@ -16,7 +16,7 @@ Hey guys! Welcome to another Warframe article and today I'm going to show you ho
 
 I think a lot of people either forgot about The Index Arena or they go really sick of it during the Glast Gambit quest line because it wasn't handled very well. You had to do the arena far too many times, so most people just go to burn down on it. So, unless you are a complete potato and you lose every single match, you can easily make somewhere between seven hundred and fifty thousand credits to 1 million credit in just one hour.
 
-<img class="alignnone size-large wp-image-83" src="https://warframeblog.com/wp-content/uploads/2017/10/credit-farming-index-1024x576.jpg" title="Farming credits really fast" alt="How to farm credits - index mission" width="1024" height="576" />
+{{< image title="Farming credits really fast" alt="How to farm credits - index mission" src="/wp-content/uploads/2017/10/credit-farming-index-1024x576.jpg" srcset="">}}
 
 Now, there are three different versions or difficulties of this arena that you can do and each rewards a different amount of credits. There is the low-risk investment, where you put in 30,000 credits and you can walk away with 105,000 credits. The medium risk investment, where you put in 40,000 credits and you can walk away with 175,000 credits. And finally, the high-risk investment where you put in 50,000 credits and you can walk away with 250,000 credits.
 

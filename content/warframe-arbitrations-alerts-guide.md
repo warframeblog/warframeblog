@@ -16,10 +16,10 @@ Hey guys and welcome to another Warframe guide article. And the Chimera update i
 ## Lethal Alerts Prerequisite
 *<strong style="color: #e91e63">All Star Chart nodes must be completed before participating in Arbitrations.</strong> If you have not completed the entire star chart, you can go to the Arbiters of Hexis in any relay and talk to NPC.* 
 
-<img src='/wp-content/uploads/2018/10/warframe-arbitrations-npc.jpg' title='Warframe Lethal Alerts Prerequisite' alt='Talk to Arbitrations NPC to find out which node you are not completed' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/10/warframe-arbitrations-npc-960x540.jpg 1024w, /wp-content/uploads/2018/10/warframe-arbitrations-npc-300x169.jpg 300w, /wp-content/uploads/2018/10/warframe-arbitrations-npc-768x432.jpg 768w, /wp-content/uploads/2018/10/warframe-arbitrations-npc.jpg 960w' sizes='(max-width: 750px) 100vw, 750px'/> *He will tell you what nodes in the Star Chart you must complete to unlock Arbitrations!*
+{{< image title="Warframe Lethal Alerts Prerequisite" alt="Talk to Arbitrations NPC to find out which node you are not completed" src="/wp-content/uploads/2018/10/warframe-arbitrations-npc.jpg" srcset="/wp-content/uploads/2018/10/warframe-arbitrations-npc-960x540.jpg 1024w, /wp-content/uploads/2018/10/warframe-arbitrations-npc-300x169.jpg 300w, /wp-content/uploads/2018/10/warframe-arbitrations-npc-768x432.jpg 768w, /wp-content/uploads/2018/10/warframe-arbitrations-npc.jpg 960w">}} *He will tell you what nodes in the Star Chart you must complete to unlock Arbitrations!*
 
 ## Arbitrations: Lethal Alerts﻿
-<img src="/wp-content/uploads/2018/10/warframe-arbitrations-alert.jpg" title="Warframe Arbitrations: Lethal Alerts﻿" alt="New alert-style game mode - Arbitrations in Warframe" />
+{{< image title="Warframe Arbitrations: Lethal Alerts﻿" alt="New alert-style game mode - Arbitrations in Warframe" src="/wp-content/uploads/2018/10/warframe-arbitrations-alert.jpg" srcset="">}}
 
 So, the new Arbitrations are level 60 to 80 elite alerts that were prepared as sort of a challenge by the Arbiters of Hexis. So far there has only been one up at a time and it seems to reset every 60 minutes. 
 
@@ -59,6 +59,6 @@ Those mods and [Endo](/how-farm-endo/ "How to farm Endo") / Ayatan Sculptures ar
 ## Arbitrations Exclusive Vitus Essence Resource
 Vitus Essence is just a currency that you can take to a new vendor inside the Arbiters of Hexis room on any of the relays and you can buy some cool stuff from him. 
 
-<img src='/wp-content/uploads/2018/10/warframe-arbitrations-rewards.jpg' title='Arbitrations Exclusive Vitus Essence Resource' alt='Use Vitus Essence to buy mods and decorations' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2018/10/warframe-arbitrations-rewards-960x540.jpg 1024w, /wp-content/uploads/2018/10/warframe-arbitrations-rewards-300x169.jpg 300w, /wp-content/uploads/2018/10/warframe-arbitrations-rewards-768x432.jpg 768w, /wp-content/uploads/2018/10/warframe-arbitrations-rewards.jpg 960w' sizes='(max-width: 750px) 100vw, 750px'/>
+{{< image title="Arbitrations Exclusive Vitus Essence Resource" alt="Use Vitus Essence to buy mods and decorations" src="/wp-content/uploads/2018/10/warframe-arbitrations-rewards.jpg" srcset="/wp-content/uploads/2018/10/warframe-arbitrations-rewards-960x540.jpg 1024w, /wp-content/uploads/2018/10/warframe-arbitrations-rewards-300x169.jpg 300w, /wp-content/uploads/2018/10/warframe-arbitrations-rewards-768x432.jpg 768w, /wp-content/uploads/2018/10/warframe-arbitrations-rewards.jpg 960w">}}
 
 There are some schedules and decorations but you can also buy cautious short empowered donation as well as a judicial coils which is a stay weird-looking accessory for your operator and that's pretty much all I'm gonna say about Arbitrations because I haven't really played enough of them to form an opinion.

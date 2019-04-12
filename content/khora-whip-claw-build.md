@@ -17,7 +17,7 @@ And let us start off with Khora herself. So, the build I'm using focuses a lot o
 
 ## Khora 3 Forma Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-khora-3-forma-build-1024x334.png" title="Warframe Khora 3 Forma Build" alt="Khora 3 Forma Build that I use" width="750" height="245" class="alignnone size-large wp-image-1488" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-khora-3-forma-build-1024x334.png 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-khora-3-forma-build-300x98.png 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-khora-3-forma-build-768x250.png 768w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-khora-3-forma-build.png 1452w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Khora 3 Forma Build" alt="Khora 3 Forma Build that I use" src="/wp-content/uploads/2018/06/warframe-khora-3-forma-build-1024x334.png" srcset="/wp-content/uploads/2018/06/warframe-khora-3-forma-build-1024x334.png 1024w, /wp-content/uploads/2018/06/warframe-khora-3-forma-build-300x98.png 300w, /wp-content/uploads/2018/06/warframe-khora-3-forma-build-768x250.png 768w, /wp-content/uploads/2018/06/warframe-khora-3-forma-build.png 1452w">}}
 
 The aura I decided to use is Energy Siphon because I wanted as much energy as possible. But you can go with Corrosive Projection to strip a little bit of the enemy armor or you can go with something like Steel Charge which will give you more mod capacity and some melee damage or you can even stick to the original D polarity and do something like Rejuvenation.
 
@@ -37,7 +37,7 @@ And I finish Khora Build with Fleeting Expertise which gives me loads of efficie
 
 Then for the stats take I'm using the Gazal Machete but you can use whatever you want because the stats of the weapon don't matter what matters is the mods because those will scale the damage of your Whipclaw.
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-1024x347.png" title="Warframe Melee Build for Khora Whip claw" alt="Melee Build to increase damage of Khora Whip claw" width="750" height="254" class="alignnone size-large wp-image-1489" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-1024x347.png 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-300x102.png 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-768x260.png 768w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw.png 1394w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Melee Build for Khora Whip claw" alt="Melee Build to increase damage of Khora Whip claw" src="/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-1024x347.png" srcset="/wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-1024x347.png 1024w, /wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-300x102.png 300w, /wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw-768x260.png 768w, /wp-content/uploads/2018/06/warframe-melee-build-for-khora-whipclaw.png 1394w">}}
 
 So, we started off with the stance and it doesn't matter which one because we just want the extra capacity. Then we have Primed Pressure Point and Spoiled Strike for damage. After that, we have True Steel for crit chance, Organ Shatter for crit damage, and I'm using a riven mod because I have one.
 
@@ -45,7 +45,7 @@ Then since Whipclaw will build and be affected by our combo counter we're using 
 
 ## Venari 4 Forma Build
 
-<img src="https://warframeblog.com/wp-content/uploads/2018/06/warframe-venari-4-forma-build-1024x347.png" title="Warframe Venari Build" alt="Venari 4 Forma Build that I use" width="750" height="254" class="alignnone size-large wp-image-1490" srcset="https://warframeblog.com/wp-content/uploads/2018/06/warframe-venari-4-forma-build-1024x347.png 1024w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-venari-4-forma-build-300x102.png 300w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-venari-4-forma-build-768x260.png 768w, https://warframeblog.com/wp-content/uploads/2018/06/warframe-venari-4-forma-build.png 1447w" sizes="(max-width: 750px) 100vw, 750px" />
+{{< image title="Warframe Venari Build" alt="Venari 4 Forma Build that I use" src="/wp-content/uploads/2018/06/warframe-venari-4-forma-build-1024x347.png" srcset="/wp-content/uploads/2018/06/warframe-venari-4-forma-build-1024x347.png 1024w, /wp-content/uploads/2018/06/warframe-venari-4-forma-build-300x102.png 300w, /wp-content/uploads/2018/06/warframe-venari-4-forma-build-768x260.png 768w, /wp-content/uploads/2018/06/warframe-venari-4-forma-build.png 1447w">}}
   
 Then comes Venari where I have four forma build where I've added three V's and one D. So, the mods I'm using are number one Scavenge which gives her a 90% chance to open the locked lockers and this is because she comes with an ability polarity and the only two things that you can reasonably put in there are Scavenge and Territorial Aggression which is useless because it pacifies a wildlife.
 

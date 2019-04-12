@@ -13,8 +13,6 @@ fileNames.forEach(fileName => {
 		return;
 	}
 
-	console.log(`Start updating ${path}`);
-
 	const contentBuf = fs.readFileSync(path);
 	let content = contentBuf.toString();
 	while (IMG_REGEX.test(content)) {
@@ -33,7 +31,5 @@ fileNames.forEach(fileName => {
 			+ imageShortcode
 			+ content.substring(match.index + imageHtml.length);
 	}
-	// fs.writeFileSync(path, content);
-	console.log(`End updating ${path}`);
-
+	fs.writeFileSync(path, content);
 });
