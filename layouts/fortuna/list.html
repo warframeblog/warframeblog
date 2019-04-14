@@ -1,147 +1,122 @@
-{{ define "custom-styles" }}
-  <link rel="stylesheet" href="/assets/css/fortuna.css">
+{{ define "extra-styles" }}
+	<link rel="stylesheet" href="/assets/css/fortuna.css">
 {{ end }}
+
+{{- define "main" -}}
+	<section style="background-color: #122734">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-center">
+					<h2 class="title">Warframe Keeps Expanding</h2>
+					<p class="sub-title">During the annual TennoCon 2018 Digital Extremes revealed the next big expansion and update coming to Warframe, called Fortuna, will follow last year’s Plains of Eidolon and deliver another open world zone, this time set on Venus.</p>
+				</div>
+				<div class="col-md-6">
+					<div class="videoWrapper videoWrapper169 js-videoWrapper">
+						<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/j7MqiQ3uzfM?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
+						<a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-update-reveal-trailer.jpg);" title="Play Fortuna Update Reveal Trailer">Play Fortuna Update Reveal Trailer</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="videoWrapper videoWrapper169 js-videoWrapper">
+						<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/sE-VRFj997I?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
+						<a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-and-railjack-full-gameplay-demo.jpg);" title="Play Fortuna & Railjack full 32-Minute Gameplay Demo">Play Fortuna & Railjack full 32-Minute Gameplay Demo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hestia-blogs" style="background-color: #041625">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-center">
+						<article class="section section-text">
+							<h2 class="title" style="color: white;">How To Get To Fortuna</h2>
+							<p>Getting to Fortuna isn't actually all that difficult and if you've played for any amount of time you have most likely finished all the things you need to do. All you need to do is make your way to the Earth to Venus Junction which <b>requires you to finish Vor's Prize, collect 20 mods, fuse a mod to rank two or higher through the fusion process, and finally equip at least 4 mods onto any weapon or warframe</b>. And all you have to do after that is go from the Earth to Venus Junction where you will kill the specter which will unlock your way to Venus where you will eventually make your way to Fortuna and Orb Vallis through the E Gate and Unda nodes.</p>
+						</article>
+				</div>
+				<div class="col-md-6 my-auto">
+					<img class="img lazyload" data-sizes="auto" data-src="/images/fortuna/how-to-get-to-fortuna.jpg" title="Warframe How to get to Fortuna" alt="Warframe Fortuna - how to reach Fortuna">
+				</div>
+			</div>
+		</div>
+	</section>
+{{- partial "related-posts.html" . -}}
+{{- end -}}
 {{ define "bodyInner" }}
-  <div class="wrapper">
-    <header class="header">
-      {{ partial "nav.html" . }}
-      <div class="carousel slide" id="carousel-hestia-generic" data-ride="carousel">
-          <div class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                  <div class="item active">
-                      <div class="page-header" style="height: 100vh; min-height: 100vh">
-                          <div class="container">
-                              <div class="row hestia-big-title-content">
-                                  <div class="col-md-8 col-md-offset-2 text-center">
-                                      <h1 class="hestia-title">{{ .Title }}</h1><span class="sub-title">{{ .Params.description }}</span>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="header-filter" style="background-image: url({{ .Params.image }})"></div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </header>
-  </div>
-  <div class="main">
-    <div class="hestia-blogs" style="background-color: #122734">
-      <div class="container">
-          <div class="row text-center" style="color: white;">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="hestia-title" style="color: white;">Warframe Keeps Expanding</h2>
-              <p class="sub-title" style="padding-bottom: 25px">During the annual TennoCon 2018 Digital Extremes revealed the next big expansion and update coming to Warframe, called Fortuna, will follow last year’s Plains of Eidolon and deliver another open world zone, this time set on Venus.</p>
-            </div>
-          </div>
+	<div class="main">
+		<div class="row">
 
-          <div class="row">
-              <div class="col-md-6">
-                <div class="videoWrapper videoWrapper169 js-videoWrapper">
-                  <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/j7MqiQ3uzfM?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
-                  <a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-update-reveal-trailer.jpg);" title="Play Fortuna Update Reveal Trailer">Play Fortuna Update Reveal Trailer</a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="videoWrapper videoWrapper169 js-videoWrapper">
-                  <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/sE-VRFj997I?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
-                  <a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-and-railjack-full-gameplay-demo.jpg);" title="Play Fortuna & Railjack full 32-Minute Gameplay Demo">Play Fortuna & Railjack full 32-Minute Gameplay Demo</a>
-                </div>
-              </div>
-          </div>
-      </div>
-    </div>
-    <div class="hestia-blogs" style="background-color: #041625">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-6 archive-post-wrap">
-                <article class="section section-text features-section">
-                  <h2 class="hestia-title" style="color: white;">How To Get To Fortuna</h2>
-                  <p>Getting to Fortuna isn't actually all that difficult and if you've played for any amount of time you have most likely finished all the things you need to do. All you need to do is make your way to the Earth to Venus Junction which <b>requires you to finish Vor's Prize, collect 20 mods, fuse a mod to rank two or higher through the fusion process, and finally equip at least 4 mods onto any weapon or warframe</b>. And all you have to do after that is go from the Earth to Venus Junction where you will kill the specter which will unlock your way to Venus where you will eventually make your way to Fortuna and Orb Vallis through the E Gate and Unda nodes.</p>
-                </article>
-            </div>
-            <div class="col-md-6">
-              <img src="/images/fortuna/how-to-get-to-fortuna.jpg" title="Warframe How to get to Fortuna" alt="Warframe Fortuna - how to reach Fortuna">
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="hestia-blogs" style="background-color: #062137">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-12 archive-post-wrap">
-                <h2 class="hestia-title" style="color: white;">Key Features in Warframe Fortuna</h2>
-                <p class="sub-title" style="color: white;">Here are all the new major features of the open-world Venus update.</p>
-              </div>
-              <div class="col-md-12">
-                <div class="col-md-3">
-                    <ul class="nav nav-tabs tabs-left fortuna-features">
-                      <li class="active"><a href="#fortuna" data-toggle="tab">The Orb Vallis, The New Open World</a></li>
-                      <li><a href="#solaris" data-toggle="tab">Solaris United and Fortuna</a></li>
-                      <li><a href="#kitguns" data-toggle="tab">Build Kitgun in Fortuna</a></li>
-                      <li><a href="#conservation" data-toggle="tab">Join the Conservation Movement</a></li>
-                      <li><a href="#pets" data-toggle="tab">Build your own pet in Fortuna</a></li>
-                      <li><a href="#combat" data-toggle="tab">New Combat Experiences</a></li>
-                      <li><a href="#hoverboard" data-toggle="tab">Ride a Hoverboard in Fortuna</a></li>
-                    </ul>
-                </div>
+</div>
+</div>
+		</div>
 
-                <div class="col-md-9">
-                    <div class="tab-content fortuna-features-content">
-                      <article class="tab-pane active section section-text features-section row" id="fortuna">
-                        <div class="col-md-6">
-                          <img src="/images/fortuna/warframe-orb-vallis-new-open-world.jpg" title="The Orb Vallis, The New Open World" alt="Warframe Fortuna - new open world">
-                        </div>
-                        <div class="col-md-6">
-                        <p>Located in the eye of a snowstorm, The Orb Vallis was once a scorching wasteland. When the Solaris reactivated the Orokin coolant towers, life reappeared in the Vallis. Giant looming mushrooms sprung from the snow, and four-legged Virminks appeared in the valleys. Through their blood, sweat and tears, the Solaris terraformed this barren region into a beautiful, hospitable world — but the Corpus are destroying its delicate balance in their pursuit of profit.</p>
-                        </div>
-                      </article>
-                      <article class="tab-pane section section-text features-section" id="solaris">
-                        <img class="alignleft" width="360" src="/images/fortuna/warframe-solaris-united-and-fortuna.jpg" title="Solaris United and Fortuna" alt="Warframe New Story Solaris United">
-                        <p>Down in the underground city of Fortuna, you’ll meet the Solaris: a society of body-augmented individuals who live in debt-internment under Corpus rule. A colony all too familiar with the reality of being “repossessed” — cybernetic limb and organ removal by Nef Anyo’s repo squads. Yet in these cautious times, the Solaris are a hopeful community who pride themselves in their efforts to terraform Venus.</p>
-                        <p>Like in the Plains of Eidolon update, the open-world area of Venus features a main trading and social hub. This market area is heavily inspired by Blade Runner with its monolithic elevator and buildings, not to mention plenty of neon lighting. There are canals of liquid coolant running across the settlement, which are being cleaned and refined by the inhabitants. Dotted around the central canal you will find a number of key merchants and NPCs, selling everything from make-your-own Moa pets and kitguns, to fishing supplies and tranq rifles.</p>
-                      </article>
-                      <article class="tab-pane section section-text features-section" id="kitguns">
-                        <img class="alignleft" width="320" src="/images/fortuna/warframe-build-kitgun-in-fortuna.jpg" title="Build Kitgun in Fortuna" alt="Warframe Build Kitgun in Fortuna">
-                        <p>Kitguns are modular firearms assembled by Rude Zuud in Fortuna on Venus. As modular weapons, Kitguns are formed from three different components that can be mixed and matched before assembly, allowing players to create different combinations of parts with the stats and abilities that they desire, as well as determine if the Kitgun is a primary or secondary weapon. Additionally, Kitguns can be given custom names when created to further personalize the weapon.</p>
-                        <p>A Kitgun consists of three different components, the Chamber, the Grip, and the Loader. Each component is centered around a particular aspect of the weapon, and these components can each have various parts to choose from, which changes the type of functionality that the component provides.</p>
-                      </article>
-                      <article class="tab-pane section section-text features-section" id="conservation">
-                        <img class="alignleft" width="320" src="/images/fortuna/warframe-fortuna-join-conservation-movement.jpg" title="Join the Conservation Movement" alt="Warframe Animal Conservation in Fortuna">
-                        <p>One of the key new features in Fortuna is animal hunting, or conservation rather, as you’ll only be tranquillising animals in order to save them from the Corpus and save the species. To save each species you'll need a specific lure and a tranq rifle, both of which you can buy from The Business in Fortuna’s hub area.</p>
-                        <p>When it comes to hunting in Warframe Fortuna, you’ll first have to find some droppings, which you will be able to analyse for clues that you can use to track the animal further. Next up, you’ll need to find some footprints and follow them, while clues like flattened or chewed plants will tip you off further. When you start to get very close you will hear a mating call that is unique to each species. This is where you use your lure to mimic the call of the animal you’re hunting - this takes the form of a minigame in which you use your mouse to copy the pitch of the mating call. Do that successfully and all that’s left to do is hide, shoot the endangered animal with a tranquilliser dart, tag it, and wait for a drone to come and whisk the little cutie away to safety.</p>
-                      </article>
-                      <article class="tab-pane section section-text features-section" id="pets">
-                        <img class="alignleft" width="320" src="/images/fortuna/warframe-build-your-own-pet-in-fortuna.png" title="Build your own pet in Fortuna" alt="Warframe New MOA Companions are waiting for you">
-                        <p>Fortuna will also let you customise your own MOA companions. MOA are Corpus enemies that resemble the Gekkos you might remember from the Metal Gear universe. These are smaller bipedal mechs, and with Fortuna, you’ll be able to choose the components you want to combine into your own mechanical combat pal. Each piece will have an impact on both the appearance and stats of your MOA buddy.</p>
-                        <p>During the demo, Digital Extremes showed off one combination that sported a top hat and bow tie, much to the delight of the audience.</p>
-                      </article>
-                      <article class="tab-pane section section-text features-section" id="combat">
-                        <img class="alignleft" width="320" src="/images/fortuna/warframe-fortuna-new-combat-experiences.jpg" title="Warframe Fortuna New Combat Experiences" alt="Warframe face up with new Spider Bots">
-                        <p>The Corpus occupiers, led by the profit-obsessed Nef Anyo, bring new technology and warriors to bear. Alongside new Corpus ground troop variants, monstrous new Spider Bot enemies of all shapes and sizes will challenge players to face their fears when they explore The Orb Vallis and face-off with the prophet of profit.</p>
-                      </article>
-                      <article class="tab-pane section section-text features-section" id="hoverboard">
-                        <img class="alignleft" width="320" src="/images/fortuna/warframe-ride-a-hoverboard-in-fortuna.jpg" title="Ride a Hoverboard in Fortuna" alt="Warframe Ride a Hoverboard in Fortuna">
-                        <p>Out in the snowy tundra that is open-world Venus, you’ll be able to use a new vehicle, the Bondi K-Drive hoverboard. This vehicle was added in response to community feedback about Archwings in the Plains of Eidolon: they let you get about quickly, but as they’re grounded you'll still get a proper sense of scope and scale when exploring.</p>
-                        <p>This being Warframe, you will be able to customise your K-Drive with different skins and possibly even models. You can also perform tricks on the K-Drive, not to mention use rocks as ramps in order to gain height or a speed advantage - we’re hoping to see K-Drive races in the future. Unfortunately, you will not be able to fire your weapons from the hoverboard, although, it's being considered. However, there will be some melee attacks that incorporate the new Warframe vehicle.</p>
-                      </article>
-                    </div>
-                </div>
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
-  <footer class="footer footer-black footer-big" style="background-color: #141e23;">
-    <div class="container">
-        <div class="hestia-bottom-footer-content">
-            <div class="hestia-bottom-footer-content">
-                <div class="copyright pull-left"><a href="{{ .Site.BaseURL }}">Warframe Blog</a> has no official link with Digital Extremes or Warframe, we are just a fan site.</div>
-            </div>
-        </div>
-    </div>
-</footer>
+		<div class="hestia-blogs" style="background-color: #062137">
+			<div class="container">
+					<div class="row">
+							<div class="col-md-12 archive-post-wrap">
+								<h2 class="hestia-title" style="color: white;">Key Features in Warframe Fortuna</h2>
+								<p class="sub-title" style="color: white;">Here are all the new major features of the open-world Venus update.</p>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-3">
+										<ul class="nav nav-tabs tabs-left fortuna-features">
+											<li class="active"><a href="#fortuna" data-toggle="tab">The Orb Vallis, The New Open World</a></li>
+											<li><a href="#solaris" data-toggle="tab">Solaris United and Fortuna</a></li>
+											<li><a href="#kitguns" data-toggle="tab">Build Kitgun in Fortuna</a></li>
+											<li><a href="#conservation" data-toggle="tab">Join the Conservation Movement</a></li>
+											<li><a href="#pets" data-toggle="tab">Build your own pet in Fortuna</a></li>
+											<li><a href="#combat" data-toggle="tab">New Combat Experiences</a></li>
+											<li><a href="#hoverboard" data-toggle="tab">Ride a Hoverboard in Fortuna</a></li>
+										</ul>
+								</div>
+
+								<div class="col-md-9">
+										<div class="tab-content fortuna-features-content">
+											<article class="tab-pane active section section-text features-section row" id="fortuna">
+												<div class="col-md-6">
+													<img src="/images/fortuna/warframe-orb-vallis-new-open-world.jpg" title="The Orb Vallis, The New Open World" alt="Warframe Fortuna - new open world">
+												</div>
+												<div class="col-md-6">
+												<p>Located in the eye of a snowstorm, The Orb Vallis was once a scorching wasteland. When the Solaris reactivated the Orokin coolant towers, life reappeared in the Vallis. Giant looming mushrooms sprung from the snow, and four-legged Virminks appeared in the valleys. Through their blood, sweat and tears, the Solaris terraformed this barren region into a beautiful, hospitable world — but the Corpus are destroying its delicate balance in their pursuit of profit.</p>
+												</div>
+											</article>
+											<article class="tab-pane section section-text features-section" id="solaris">
+												<img class="alignleft" width="360" src="/images/fortuna/warframe-solaris-united-and-fortuna.jpg" title="Solaris United and Fortuna" alt="Warframe New Story Solaris United">
+												<p>Down in the underground city of Fortuna, you’ll meet the Solaris: a society of body-augmented individuals who live in debt-internment under Corpus rule. A colony all too familiar with the reality of being “repossessed” — cybernetic limb and organ removal by Nef Anyo’s repo squads. Yet in these cautious times, the Solaris are a hopeful community who pride themselves in their efforts to terraform Venus.</p>
+												<p>Like in the Plains of Eidolon update, the open-world area of Venus features a main trading and social hub. This market area is heavily inspired by Blade Runner with its monolithic elevator and buildings, not to mention plenty of neon lighting. There are canals of liquid coolant running across the settlement, which are being cleaned and refined by the inhabitants. Dotted around the central canal you will find a number of key merchants and NPCs, selling everything from make-your-own Moa pets and kitguns, to fishing supplies and tranq rifles.</p>
+											</article>
+											<article class="tab-pane section section-text features-section" id="kitguns">
+												<img class="alignleft" width="320" src="/images/fortuna/warframe-build-kitgun-in-fortuna.jpg" title="Build Kitgun in Fortuna" alt="Warframe Build Kitgun in Fortuna">
+												<p>Kitguns are modular firearms assembled by Rude Zuud in Fortuna on Venus. As modular weapons, Kitguns are formed from three different components that can be mixed and matched before assembly, allowing players to create different combinations of parts with the stats and abilities that they desire, as well as determine if the Kitgun is a primary or secondary weapon. Additionally, Kitguns can be given custom names when created to further personalize the weapon.</p>
+												<p>A Kitgun consists of three different components, the Chamber, the Grip, and the Loader. Each component is centered around a particular aspect of the weapon, and these components can each have various parts to choose from, which changes the type of functionality that the component provides.</p>
+											</article>
+											<article class="tab-pane section section-text features-section" id="conservation">
+												<img class="alignleft" width="320" src="/images/fortuna/warframe-fortuna-join-conservation-movement.jpg" title="Join the Conservation Movement" alt="Warframe Animal Conservation in Fortuna">
+												<p>One of the key new features in Fortuna is animal hunting, or conservation rather, as you’ll only be tranquillising animals in order to save them from the Corpus and save the species. To save each species you'll need a specific lure and a tranq rifle, both of which you can buy from The Business in Fortuna’s hub area.</p>
+												<p>When it comes to hunting in Warframe Fortuna, you’ll first have to find some droppings, which you will be able to analyse for clues that you can use to track the animal further. Next up, you’ll need to find some footprints and follow them, while clues like flattened or chewed plants will tip you off further. When you start to get very close you will hear a mating call that is unique to each species. This is where you use your lure to mimic the call of the animal you’re hunting - this takes the form of a minigame in which you use your mouse to copy the pitch of the mating call. Do that successfully and all that’s left to do is hide, shoot the endangered animal with a tranquilliser dart, tag it, and wait for a drone to come and whisk the little cutie away to safety.</p>
+											</article>
+											<article class="tab-pane section section-text features-section" id="pets">
+												<img class="alignleft" width="320" src="/images/fortuna/warframe-build-your-own-pet-in-fortuna.png" title="Build your own pet in Fortuna" alt="Warframe New MOA Companions are waiting for you">
+												<p>Fortuna will also let you customise your own MOA companions. MOA are Corpus enemies that resemble the Gekkos you might remember from the Metal Gear universe. These are smaller bipedal mechs, and with Fortuna, you’ll be able to choose the components you want to combine into your own mechanical combat pal. Each piece will have an impact on both the appearance and stats of your MOA buddy.</p>
+												<p>During the demo, Digital Extremes showed off one combination that sported a top hat and bow tie, much to the delight of the audience.</p>
+											</article>
+											<article class="tab-pane section section-text features-section" id="combat">
+												<img class="alignleft" width="320" src="/images/fortuna/warframe-fortuna-new-combat-experiences.jpg" title="Warframe Fortuna New Combat Experiences" alt="Warframe face up with new Spider Bots">
+												<p>The Corpus occupiers, led by the profit-obsessed Nef Anyo, bring new technology and warriors to bear. Alongside new Corpus ground troop variants, monstrous new Spider Bot enemies of all shapes and sizes will challenge players to face their fears when they explore The Orb Vallis and face-off with the prophet of profit.</p>
+											</article>
+											<article class="tab-pane section section-text features-section" id="hoverboard">
+												<img class="alignleft" width="320" src="/images/fortuna/warframe-ride-a-hoverboard-in-fortuna.jpg" title="Ride a Hoverboard in Fortuna" alt="Warframe Ride a Hoverboard in Fortuna">
+												<p>Out in the snowy tundra that is open-world Venus, you’ll be able to use a new vehicle, the Bondi K-Drive hoverboard. This vehicle was added in response to community feedback about Archwings in the Plains of Eidolon: they let you get about quickly, but as they’re grounded you'll still get a proper sense of scope and scale when exploring.</p>
+												<p>This being Warframe, you will be able to customise your K-Drive with different skins and possibly even models. You can also perform tricks on the K-Drive, not to mention use rocks as ramps in order to gain height or a speed advantage - we’re hoping to see K-Drive races in the future. Unfortunately, you will not be able to fire your weapons from the hoverboard, although, it's being considered. However, there will be some melee attacks that incorporate the new Warframe vehicle.</p>
+											</article>
+										</div>
+								</div>
+							</div>
+					</div>
+			</div>
+		</div>
+	</div>
 {{ end }}
-{{ define "custom-scripts"}}
-  <script src="/assets/js/fortuna.js"></script>
+{{ define "extra-scripts"}}
+	<script src="/assets/js/fortuna.js"></script>
 {{ end }}

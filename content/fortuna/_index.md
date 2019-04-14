@@ -5,5 +5,6 @@ description: "Welcome to Venus. Beneath the sludge and the snow of this open lan
 layout: fortuna
 date: 2018-06-22T00:45:51+00:00
 image: /images/fortuna/warframe-fortuna.jpg
+flat: true
 navClasses: "navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-transparent hestia_left"
 ---
