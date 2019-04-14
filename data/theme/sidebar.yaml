@@ -1,0 +1,13 @@
+items:
+  - header: "Popular Guides"
+    type: "list"
+    listItems:
+      - href: "/balor-fomorian-event/"
+        text: Balor Fomorian Event Guide
+      - href: "/top-arcanes-to-boost-your-damage/"
+        text: TOP 5 Arcanes To Boost Your Damage
+      - href: "/get-started-plains-of-eidolon/"
+        text: How to get started in Plains of Eidolon
+  - header: "Follow Us"
+    type: "html"
+    code: '<a class="twitter-timeline lazyload" href="https://twitter.com/warframeblog?ref_src=twsrc%5Etfw" data-tweet-limit="2" data-lang="en" data-script="//platform.twitter.com/widgets.js">Tweets by warframeblog</a>'
