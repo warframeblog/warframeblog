@@ -1,7 +1,7 @@
 baseURL = "https://warframeblog.com/"
 languageCode = "en-us"
 title = "Warframe Blog"
-theme = "hestia"
+theme = "hesti"
 paginate = 10
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
