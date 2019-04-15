@@ -19,7 +19,6 @@ items:
   - header: "Follow Us"
     type: "html"
     code: '<a class="twitter-timeline lazyload" href="https://twitter.com/warframeblog?ref_src=twsrc%5Etfw" data-tweet-limit="2" data-lang="en" data-script="//platform.twitter.com/widgets.js">Tweets by warframeblog</a>'
-items:
   - header: "Farm Resources Right"
     type: "list"
     listItems:
@@ -33,7 +32,6 @@ items:
         text: How To Farm Endo
       - href: "/toroids-farming/"
         text: How and Where to get Toroids
-items:
   - header: "Popular Builds"
     type: "list"
     listItems:
