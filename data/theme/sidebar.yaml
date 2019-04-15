@@ -8,6 +8,44 @@ items:
         text: TOP 5 Arcanes To Boost Your Damage
       - href: "/get-started-plains-of-eidolon/"
         text: How to get started in Plains of Eidolon
+      - href: "/how-earn-platinum-vault-runs/"
+        text: How to earn Platinum | Vault Runs
+      - href: "/how-to-get-hydroid/"
+        text: How to get Hydroid
+      - href: "/warframe-arbitrations-alerts-guide/"
+        text: Warframe Arbitrations: Lethal Alerts Guide
+      - href: "/affinity-how-level-up/"
+        text: Affinity Mechanic – How to Level up Correctly
   - header: "Follow Us"
     type: "html"
     code: '<a class="twitter-timeline lazyload" href="https://twitter.com/warframeblog?ref_src=twsrc%5Etfw" data-tweet-limit="2" data-lang="en" data-script="//platform.twitter.com/widgets.js">Tweets by warframeblog</a>'
+items:
+  - header: "Farm Resources Right"
+    type: "list"
+    listItems:
+      - href: "/warframe-plastids-farming/"
+        text: Warframe Plastids Farming
+      - href: "/oxium-farming/"
+        text: Oxium Farming
+      - href: "/warframe-neurodes-farming/"
+        text: Warframe Neurodes Farming
+      - href: "/how-farm-endo/"
+        text: How To Farm Endo
+      - href: "/toroids-farming/"
+        text: How and Where to get Toroids
+items:
+  - header: "Popular Builds"
+    type: "list"
+    listItems:
+      - href: "/akbolto-prime-build/"
+        text: Akbolto Prime Build
+      - href: "/stradavar-prime-build/"
+        text: Stradavar Prime Build
+      - href: "/amprex-build/"
+        text: Amprex Build
+      - href: "/dual-keres-build/"
+        text: Dual Keres Build
+      - href: "/quartakk-build/"
+        text: Quartakk build
+      - href: "/kogake-prime-build/"
+        text: Kogake Prime Build
