@@ -13,85 +13,17 @@
 </div>
 {{- end -}}
 {{- define "main" -}}
-{{ $frame := index .Site.Data.frames (lower .Title) }}
 
-<section class="">
-	<div class="container">
-		<div class="row align-items-center">
-			{{ $frameFirstAbility := index $frame.abilities 0 }}
-			<div class="col-md-6 d-flex justify-content-md-start justify-content-center order-md-last">
-				<div>
-					<img class="rounded-circle lazyload" data-sizes="auto" data-src="{{ $frameFirstAbility.image }}" alt="{{ $frameFirstAbility.name }}">	
-				</div>
-			</div>
-			<div class="col-md-6 order-md-first">
-				<h2 class="title d-flex justify-content-end">{{ $frameFirstAbility.name }}</h2>
-				<div class="abiility-description content d-flex justify-content-end">
-					{{ $frameFirstAbility.description | safeHTML }}
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- <section class="section frame-ability frame-second-ability">
-	<div class="container has-text-left">
-		<div class="row">
-			{{ $frameSecondAbility := index $frame.abilities 1 }}
-			<div class="col-lg-3">
-				{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
-			</div>
-			<div class="col-lg-9">
-				{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
-			</div>
-		</div>
-	</div>
-</section>
-<section class="section frame-ability frame-third-ability">
-	<div class="container has-text-right">
-		<div class="row">
-			{{ $frameThirdAbility := index $frame.abilities 2 }}
-			<div class="col-lg-9">
-				{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
-			</div>
-			<div class="col-lg-3">
-				{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
-			</div>
-		</div>
-	</div>
-</section>
-<section class="section frame-ability frame-fourth-ability">
-	<div class="container has-text-left">
-		<div class="row">
-			{{ $frameFourthAbility := index $frame.abilities 3 }}
-			<div class="col-lg-3">
-				{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
-			</div>
-			<div class="col-lg-9">
-				{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
-			</div>
-		</div>
-	</div>
-</section> -->
+{{ $frame := index .Site.Data.frames (lower .Title) }}
+{{- range $index, $ability := $frame.abilities -}}
+{{- $side := cond (eq (mod $index 2) 1) "left" "right" -}}
+{{- partial "warframe-page/ability-section.html" (dict "ability" $ability "side" $side) -}}
+{{- end -}}
+
 {{- end -}}
 {{- define "body" -}}
 <body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
-	<section class="hero is-primary is-medium frame-hero-section">
-		<div class="hero-head">
-			{{- partial "warframe-page/navbar.html" . -}}
-		</div>
-		<div class="hero-body">
-			<div class="container">
-				<div class="columns">
-					<div class="column is-offset-2 is-8">
-						<h1 class="frame-page-title">{{ .Title }}</h1>
-						<p>{{ .Params.description }}</p>
-						<p>{{ $frame.passive | safeHTML }}</p>					
-					</div>
-				</div>
-			</div>			
-		</div>
-	</section>
 	
 	<section class="section frame-builds-section">
 		<div class="container">

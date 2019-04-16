@@ -1,0 +1,18 @@
+<section class="">
+	<div class="container">
+		<div class="row align-items-center {{- cond (eq .side "right") " order-md-last" "" -}}">
+				<div class="col-md-6 d-flex justify-content-md-{{- cond (eq .side "left") "end " "start " -}} justify-content-center">
+				<div>
+					<img class="rounded-circle lazyload" data-sizes="auto" data-src="{{ .ability.image }}" alt="{{ .ability.name }}">	
+				</div>
+			</div>
+			<div class="col-md-6 {{- cond (eq .side "right") " order-md-first" "" -}}">
+				{{- $alignContent := cond (eq .side "left") " justify-content-start" " justify-content-end" -}}
+				<h2 class="title d-flex {{- $alignContent -}}">{{ .ability.name }}</h2>
+				<div class="abiility-description content d-flex {{- $alignContent -}}">
+					{{ .ability.description | safeHTML }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
