@@ -1,9 +1,70 @@
 {{- define "itemType" -}}
 "http://schema.org/WebPage"
 {{- end -}}
-{{- define "styles" -}}
+{{- define "extra-styles" -}}
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,700%7CSource+Sans+Pro:300,600,300italic,600italic" type="text/css" media="all">
 	<link rel="stylesheet" href="/assets/css/warframe-page/index.css">
+{{- end -}}
+{{- define "main" -}}
+{{ $frame := index .Site.Data.frames (lower .Title) }}
+
+<section class="">
+	<div class="container">
+		<div class="row align-items-center">
+			{{ $frameFirstAbility := index $frame.abilities 0 }}
+			<div class="col-md-6 d-flex justify-content-md-start justify-content-center order-md-last">
+				<div>
+					<img class="rounded-circle lazyload" data-sizes="auto" data-src="{{ $frameFirstAbility.image }}" alt="{{ $frameFirstAbility.name }}">	
+				</div>
+			</div>
+			<div class="col-md-6 order-md-first">
+				<h2 class="title d-flex justify-content-end">{{ $frameFirstAbility.name }}</h2>
+				<div class="abiility-description content d-flex justify-content-end">
+					{{ $frameFirstAbility.description | safeHTML }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- <section class="section frame-ability frame-second-ability">
+	<div class="container has-text-left">
+		<div class="row">
+			{{ $frameSecondAbility := index $frame.abilities 1 }}
+			<div class="col-lg-3">
+				{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
+			</div>
+			<div class="col-lg-9">
+				{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section frame-ability frame-third-ability">
+	<div class="container has-text-right">
+		<div class="row">
+			{{ $frameThirdAbility := index $frame.abilities 2 }}
+			<div class="col-lg-9">
+				{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
+			</div>
+			<div class="col-lg-3">
+				{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section frame-ability frame-fourth-ability">
+	<div class="container has-text-left">
+		<div class="row">
+			{{ $frameFourthAbility := index $frame.abilities 3 }}
+			<div class="col-lg-3">
+				{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
+			</div>
+			<div class="col-lg-9">
+				{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
+			</div>
+		</div>
+	</div>
+</section> -->
 {{- end -}}
 {{- define "body" -}}
 <body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
@@ -24,58 +85,7 @@
 			</div>			
 		</div>
 	</section>
-	<section class="section frame-ability frame-first-ability">
-		<div class="container has-text-right">
-			<div class="columns is-reverse-mobile">
-				{{ $frameFirstAbility := index $frame.abilities 0 }}
-				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
-				</div>
-				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFirstAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-ability frame-second-ability">
-		<div class="container has-text-left">
-			<div class="columns">
-				{{ $frameSecondAbility := index $frame.abilities 1 }}
-				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
-				</div>
-				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-ability frame-third-ability">
-		<div class="container has-text-right">
-			<div class="columns is-reverse-mobile">
-				{{ $frameThirdAbility := index $frame.abilities 2 }}
-				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
-				</div>
-				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-ability frame-fourth-ability">
-		<div class="container has-text-left">
-			<div class="columns">
-				{{ $frameFourthAbility := index $frame.abilities 3 }}
-				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
-				</div>
-				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
+	
 	<section class="section frame-builds-section">
 		<div class="container">
 			<div class="columns has-text-left">

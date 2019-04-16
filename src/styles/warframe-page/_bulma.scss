@@ -12,19 +12,19 @@ $link-hover: #ffffff;
 
 $card-background-color: #353849;
 
-@import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/base/_all';
+// @import '~bulma/sass/utilities/_all';
+// @import '~bulma/sass/base/_all';
 
-@import '~bulma/sass/elements/container';
-@import '~bulma/sass/elements/content';
-@import '~bulma/sass/elements/image';
+// @import '~bulma/sass/elements/container';
+// @import '~bulma/sass/elements/content';
+// @import '~bulma/sass/elements/image';
 
-@import '~bulma/sass/components/card';
-@import '~bulma/sass/components/dropdown';
-@import '~bulma/sass/components/navbar';
+// @import '~bulma/sass/components/card';
+// @import '~bulma/sass/components/dropdown';
+// @import '~bulma/sass/components/navbar';
 
-@import '~bulma/sass/grid/columns';
-@import '~bulma/sass/layout/_all';
+// @import '~bulma/sass/grid/columns';
+// @import '~bulma/sass/layout/_all';
 
 .columns.is-reverse-mobile {
 	@include mobile {
