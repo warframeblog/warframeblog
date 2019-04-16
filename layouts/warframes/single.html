@@ -2,8 +2,15 @@
 "http://schema.org/WebPage"
 {{- end -}}
 {{- define "extra-styles" -}}
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,700%7CSource+Sans+Pro:300,600,300italic,600italic" type="text/css" media="all">
-	<link rel="stylesheet" href="/assets/css/warframe-page/index.css">
+<link rel="stylesheet" href="/assets/css/warframe-page/index.css">
+{{- end -}}
+{{- define "custome-hero-area" -}}
+<div class="col-md-12 mx-auto">
+	{{ $frame := index .Site.Data.frames (lower .Title) }}
+	<h1 class="title">{{ .Title }}</h1>
+	<p>{{ .Params.description }}</p>
+	<p>{{ $frame.passive | safeHTML }}</p>	
+</div>
 {{- end -}}
 {{- define "main" -}}
 {{ $frame := index .Site.Data.frames (lower .Title) }}
