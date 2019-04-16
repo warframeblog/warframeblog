@@ -1,5 +1,6 @@
-<section class="">
-	<div class="container">
+{{- $abilityClasses := slice "frame-first-ability " "frame-second-ability " "frame-third-ability " "frame-fourth-ability " -}}
+<section class="{{- index $abilityClasses .num -}} py-5">
+	<div class="container pt-3">
 		<div class="row align-items-center {{- cond (eq .side "right") " order-md-last" "" -}}">
 				<div class="col-md-6 d-flex justify-content-md-{{- cond (eq .side "left") "end " "start " -}} justify-content-center">
 				<div>

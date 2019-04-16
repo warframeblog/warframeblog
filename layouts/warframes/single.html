@@ -15,11 +15,15 @@
 {{- define "main" -}}
 
 {{ $frame := index .Site.Data.frames (lower .Title) }}
-{{- range $index, $ability := $frame.abilities -}}
-{{- $side := cond (eq (mod $index 2) 1) "left" "right" -}}
-{{- partial "warframe-page/ability-section.html" (dict "ability" $ability "side" $side) -}}
+{{- range $abilityNum, $ability := $frame.abilities -}}
+{{- $side := cond (eq (mod $abilityNum 2) 1) "left" "right" -}}
+{{- partial "warframe-page/ability-section.html" (dict "ability" $ability "side" $side "num" $abilityNum) -}}
 {{- end -}}
 
+<section class="section frame-builds-section">
+	<div class="container">
+	</div>
+</section>
 {{- end -}}
 {{- define "body" -}}
 <body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
