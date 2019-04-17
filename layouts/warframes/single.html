@@ -22,53 +22,35 @@
 
 <section class="section frame-builds-section">
 	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="frame-page-title">{{ $frame.name }} Builds</h2>
+				<p>{{ $frame.affectedByMods }}</p>
+				<p>So, all things considered, here are some builds you may want to try on your {{ $frame.name }}:</p>
+			</div>
+			{{ $buildsTag := (slice (print $frame.name "Builds")) }}
+			{{ $buildArticles := (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
+			{{ if $buildArticles }}
+				{{ range $index, $element := first 6 ($buildArticles) }}
+					<div class="col-md-4">
+						{{- partial "warframe-page/frame-build-card.html" . -}}
+					</div> 
+				{{ end }}
+			{{ else if $frame.videoBuilds }}
+				{{ range $index, $element := $frame.videoBuilds }}
+					<div class="col-md-6">
+						{{- partial "warframe-page/build-video.html" . -}}
+					</div>
+				{{ end }}
+			{{ end }}
+		</div>
 	</div>
 </section>
 {{- end -}}
 {{- define "body" -}}
 <body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
-	
-	<section class="section frame-builds-section">
-		<div class="container">
-			<div class="columns has-text-left">
-				<div class="column is-offset-2-desktop is-8-desktop is-12-mobile">
-					<h2 class="frame-page-title">{{ $frame.name }} Builds</h2>
-					<p>{{ $frame.affectedByMods }}</p>
-					<p>So, all things considered, here are some builds you may want to try on your {{ $frame.name }}:</p>
-				</div>
-			</div>
-			<div class="columns is-multiline">
-				{{ $buildsTag := (slice (print $frame.name "Builds")) }}
-				{{ $buildArticles := (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
-				{{ if $buildArticles }}
-					{{ range $index, $element := first 6 ($buildArticles) }}
-						{{ if (modBool $index 2) }}
-							<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/frame-build-card.html" . -}}
-							</div>
-						{{ else }}
-							<div class="column is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/frame-build-card.html" . -}}
-							</div>
-						{{ end }} 
-					{{ end }}
-				{{ else if $frame.videoBuilds }}
-					{{ range $index, $element := $frame.videoBuilds }}
-						{{ if (modBool $index 2) }}
-							<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/build-video.html" . -}}
-							</div>
-						{{ else }}
-							<div class="column is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/build-video.html" . -}}
-							</div>
-						{{ end }}
-					{{ end }}
-				{{ end }}
-			</div>
-		</div>
-	</section>
+
 	<footer class="section footer">
 		<div class="container">
 			<div class="columns has-text-left">

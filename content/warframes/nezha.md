@@ -8,5 +8,4 @@ layout: warframes
 permalink: /warframes/nezha/
 image: /images/frames/nezha.jpg
 video_url: sGEtK7RtZeY
-flat: true
 ---
