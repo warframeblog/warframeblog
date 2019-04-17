@@ -4,7 +4,7 @@
 {{- define "extra-styles" -}}
 <link rel="stylesheet" href="/assets/css/warframe-page/index.css">
 {{- end -}}
-{{- define "custome-hero-area" -}}
+{{- define "custom-hero-area" -}}
 <div class="col-md-12 mx-auto">
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
 	<h1 class="title">{{ .Title }}</h1>
@@ -48,30 +48,26 @@
 </section>
 {{- end -}}
 {{- define "footer-body" -}}
-<div class="col-md-12 text-left">
+<div class="col-md-12 pt-5 text-left">
 	<h2 class="title">Explore more warframes</h2>
 </div>
 <div class="col-md-12 warframe-list">
-	<div class="row">
-	{{ $frame := index .Site.Data.frames (lower .Title) }}
-	{{ range .Site.Data.warframebuilds }}
-		{{ if and (.link) (ne .name (lower $frame.name)) }}
-			<div class="col-6 col-sm-3 col-md-2">
-				<div class="warframe-element" data-roles="any">
-					<a href="{{ .link }}" target="_blank" title="Warframe {{ .title }}">
-						<h2>{{ .title }}</h2>
-						<img src="/images/glyphs/{{ .glyph }}" title="Warframe {{ .title }}" alt="{{ .title }}" />
-					</a>
+	<div class="container">
+		<div class="row">
+		{{ $frame := index .Site.Data.frames (lower .Title) }}
+		{{ range .Site.Data.warframebuilds }}
+			{{ if and (.link) (ne .name (lower $frame.name)) }}
+				<div class="col-6 col-sm-3 col-md-2">
+					<div class="warframe-element" data-roles="any">
+						<a href="{{ .link }}" target="_blank" title="Warframe {{ .title }}">
+							<h2>{{ .title }}</h2>
+							<img src="/images/glyphs/{{ .glyph }}" title="Warframe {{ .title }}" alt="{{ .title }}" />
+						</a>
+					</div>
 				</div>
-			</div>
+			{{ end }}
 		{{ end }}
-	{{ end }}
+		</div>
 	</div>
 </div>
-{{- end -}}
-{{- define "body" -}}
-<body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
-	{{ $frame := index .Site.Data.frames (lower .Title) }}
-
-</body>
 {{- end -}}

@@ -45,12 +45,8 @@
 	@include angled-edge('outside bottom', 'lower right', #2e3141);
 }
 
-
-footer.footer {
-	background-color: transparent;
-	padding-top: 150px;
-
-	hr {
-		background: rgba(255, 255, 255, 0.125);
-	}
+.footer-image {
+    background-size: cover;
+    background-attachment: fixed, fixed;
+    background-position: center, center;
 }
