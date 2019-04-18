@@ -1,10 +1,11 @@
+const path = require('path');
 const gulp = require('gulp');
 const rimraf = require('rimraf');
 const sass = require('gulp-sass');
 const shell = require('gulp-shell');
 const htmlmin = require('gulp-htmlmin');
 const autoprefixer = require('gulp-autoprefixer');
-const nodeSassMagicImporter = require('node-sass-magic-importer');
+const rename = require('gulp-rename');
 
 const framePageStyles = 'static/assets/css/warframe-page';
 const stylesSource = 'src/styles/**/*.scss';
@@ -18,11 +19,10 @@ gulp.task('clean:styles', function (done) {
 gulp.task('styles', gulp.series('clean:styles', () => {
 	return gulp.src(stylesSource)
 		.pipe(sass({
-			includePaths: ['node_modules'],
-			importer: nodeSassMagicImporter(),
-			outputStyle: 'compressed'
+			includePaths: ['node_modules', path.resolve('themes', 'hesti', 'src', 'css')]
 		}).on('error', sass.logError))
 		.pipe(autoprefixer())
+		.pipe(rename('hesti.css'))
 		.pipe(gulp.dest(stylesDestDirectory));	
 }));
 

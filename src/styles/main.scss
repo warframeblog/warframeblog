@@ -1,12 +1,11 @@
 @charset 'utf-8';
 
-@import '~angled-edges/_angled-edges';
+@import 'hesti';
+@import 'angled-edges/_angled-edges';
+@import 'components/warframe-list';
 
-@import '../components/warframe-list';
-
-@import '_bulma';
-@import '_sections';
-
+@import 'warframe-page/_bulma';
+@import 'warframe-page/_sections';
 
 .warframe-page {
 	background-color: #2e3141;
