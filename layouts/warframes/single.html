@@ -34,9 +34,9 @@
 					</div> 
 				{{ end }}
 			{{ else if $frame.videoBuilds }}
-				{{ range $index, $element := $frame.videoBuilds }}
-					<div class="col-md-6">
-						{{- partial "warframe-page/build-video.html" . -}}
+				{{ range $index, $videoId := $frame.videoBuilds }}
+					<div class="col-md-6 pb-5">
+						{{- partial "video.html" (dict "id" $videoId) -}}
 					</div>
 				{{ end }}
 			{{ end }}
