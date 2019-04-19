@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="frame-page-title">{{ $frame.name }} Builds</h2>
+				<h2 class="title">{{ $frame.name }} Builds</h2>
 				<p>{{ $frame.affectedByMods }}</p>
 				<p>So, all things considered, here are some builds you may want to try on your {{ $frame.name }}:</p>
 			</div>
@@ -29,9 +29,7 @@
 			{{ $buildArticles := (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
 			{{ if $buildArticles }}
 				{{ range $index, $element := first 6 ($buildArticles) }}
-					<div class="col-md-4">
-						{{- partial "warframe-page/frame-build-card.html" . -}}
-					</div> 
+					{{- partial "plain-card.html" . -}}
 				{{ end }}
 			{{ else if $frame.videoBuilds }}
 				{{ range $index, $videoId := $frame.videoBuilds }}
