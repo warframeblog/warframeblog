@@ -26,11 +26,6 @@
 									<img src="/images/glyphs/{{ .glyph }}" title="{{ .title }} Builds" alt="{{ .title }} Builds" />
 								</a>
 							</li>
-						{{ else if .builds}}
-							<li id="{{ .name }}" data-roles="{{ $warframeRoles }}" data-image="/images/warframes-bg/{{ .image }}" data-basics="{{ .description }}" data-builds="{{ .builds }}">
-								<h2>{{ .title }}</h2>
-								<img src="/images/glyphs/{{ .glyph }}" title="{{ .title }} Builds" alt="{{ .title }} Builds" />
-							</li>
 						{{ end }}
 					{{ end }}
 				</ul>
@@ -38,7 +33,4 @@
 		</div>
 	</div>
 </header>
-{{- end -}}
-{{- define "extra-scripts" -}}
-	<script src="/assets/js/builds.js"></script>
 {{- end -}}
