@@ -1575,6 +1575,9 @@ pre {
   .form-control::-webkit-input-placeholder {
     color: #6c757d;
     opacity: 1; }
+  .form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1; }
   .form-control:-ms-input-placeholder {
     color: #6c757d;
     opacity: 1; }
@@ -3448,8 +3451,10 @@ tbody.collapse.show {
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
+       -moz-column-count: 3;
             column-count: 3;
     -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
             column-gap: 1.25rem; }
     .card-columns .card {
       display: inline-block;
@@ -8080,7 +8085,7 @@ label {
         width: 0;
         color: #fff;
         height: 0;
-        box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0 inset;
+        box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0 inset;
         -webkit-animation: checkbox-off 0.3s forwards;
         animation: checkbox-off 0.3s forwards; }
   .form-check .form-check-input:focus + .form-check-sign .check:after {
@@ -8089,7 +8094,7 @@ label {
     background: #9c27b0; }
   .form-check .form-check-input:checked + .form-check-sign .check:before {
     color: #FFFFFF;
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
     -webkit-animation: checkbox-on 0.3s forwards;
     animation: checkbox-on 0.3s forwards; }
   .form-check .form-check-input:checked + .form-check-sign:before {
@@ -8121,19 +8126,19 @@ label {
 
 @-webkit-keyframes checkbox-on {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @keyframes checkbox-on {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @-webkit-keyframes rippleOn {
   0% {
@@ -8195,9 +8200,9 @@ label {
       background: #f1f1f1;
       border-radius: 100%;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
     .switch label .bmd-switch-track:active::after {
@@ -8324,19 +8329,19 @@ label {
 
 @-webkit-keyframes checkboxOn {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @keyframes checkboxOn {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @keyframes rippleOn {
   0% {
@@ -9559,6 +9564,10 @@ fieldset[disabled][disabled] .has-rose .form-control, .has-rose .form-control.di
     line-height: 1.1; }
   .bmd-form-group .form-control,
   .bmd-form-group label,
+  .bmd-form-group input::-moz-placeholder {
+    line-height: 1.1; }
+  .bmd-form-group .form-control,
+  .bmd-form-group label,
   .bmd-form-group input:-ms-input-placeholder {
     line-height: 1.1; }
   .bmd-form-group .form-control,
@@ -9613,6 +9622,10 @@ fieldset[disabled][disabled] .has-rose .form-control, .has-rose .form-control.di
   .bmd-form-group.bmd-form-group-sm .form-control,
   .bmd-form-group.bmd-form-group-sm label,
   .bmd-form-group.bmd-form-group-sm input::-webkit-input-placeholder {
+    line-height: 1.1; }
+  .bmd-form-group.bmd-form-group-sm .form-control,
+  .bmd-form-group.bmd-form-group-sm label,
+  .bmd-form-group.bmd-form-group-sm input::-moz-placeholder {
     line-height: 1.1; }
   .bmd-form-group.bmd-form-group-sm .form-control,
   .bmd-form-group.bmd-form-group-sm label,
@@ -9673,6 +9686,10 @@ fieldset[disabled][disabled] .has-rose .form-control, .has-rose .form-control.di
     line-height: 1.1; }
   .bmd-form-group.bmd-form-group-lg .form-control,
   .bmd-form-group.bmd-form-group-lg label,
+  .bmd-form-group.bmd-form-group-lg input::-moz-placeholder {
+    line-height: 1.1; }
+  .bmd-form-group.bmd-form-group-lg .form-control,
+  .bmd-form-group.bmd-form-group-lg label,
   .bmd-form-group.bmd-form-group-lg input:-ms-input-placeholder {
     line-height: 1.1; }
   .bmd-form-group.bmd-form-group-lg .form-control,
@@ -9728,6 +9745,11 @@ fieldset[disabled][disabled] .has-rose .form-control, .has-rose .form-control.di
 .form-control,
 label,
 input::-webkit-input-placeholder {
+  line-height: 1.1; }
+
+.form-control,
+label,
+input::-moz-placeholder {
   line-height: 1.1; }
 
 .form-control,
@@ -11486,8 +11508,7 @@ h2.title {
 
 .purple-filter:after {
   background: rgba(101, 47, 142, 0.64);
-  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); }
+  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); }
 
 footer {
   padding: 0.9375rem 0;

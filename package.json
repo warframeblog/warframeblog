@@ -40,7 +40,8 @@
     "lodash": "^4.17.11",
     "number-to-words": "^1.2.4",
     "rimraf": "^2.6.2",
-    "uncss": "^0.16.2"
-  },
-  "dependencies": {}
+    "uncss": "^0.16.2",
+    "autoprefixer": "^9.5.1",
+    "node-sass": "^4.11.0"
+  }
 }
