@@ -33,6 +33,8 @@ gulp.task('styles', gulp.series('clean:styles', () => {
 		.pipe(gulp.dest(stylesDestDirectory));	
 }));
 
+const siteRegex = /https:\/\/warframeblog\.com/g;
+
 gulp.task('inject:styles', () => {
 	let styles = '';
 	return gulp.src(htmlSource)
@@ -41,7 +43,7 @@ gulp.task('inject:styles', () => {
 		}))
 		.pipe(through.obj((vinylFile, enc, cb) => {
 			let transformedFile = vinylFile.clone();
-			const htmlContent = transformedFile.contents.toString().replace(/https:\/\/warframeblog\.com/g, '');
+			const htmlContent = transformedFile.contents.toString().replace(siteRegex, '');
 			uncss(htmlContent, {htmlroot: 'public', ignore: [/.*\.ripple.*/, /.*\.dropdown-menu.*/, /.*\.show/, /.*\.toggled/, /.*\.nav-open.*/]}, function (error, output) {
 				if(error) {
 					console.log(`${error} - ${vinylFile.path}`);

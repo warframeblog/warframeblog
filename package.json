@@ -4,6 +4,7 @@
   "description": "[![CircleCI](https://circleci.com/gh/warframeblog/warframeblog/tree/develop.svg?style=svg)](https://circleci.com/gh/warframeblog/warframeblog/tree/develop)",
   "scripts": {
     "start": "concurrently \"gulp\" \"hugo serve \"",
+    "start:test": "http-server -p 1313",
     "build": "gulp build",
     "minify": "gulp minify:markup",
     "trader:inventory": "node scripts/load-trader-inventory",
@@ -40,6 +41,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.6.5",
     "gulp-sourcemaps": "^2.6.4",
+    "http-server": "^0.11.1",
     "inquirer": "^6.2.2",
     "lodash": "^4.17.11",
     "node-sass": "^4.11.0",
