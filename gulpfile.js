@@ -29,7 +29,11 @@ gulp.task('styles', gulp.series('clean:styles', () => {
 			includePaths: ['node_modules', path.resolve('themes', 'hesti', 'src', 'css')]
 		}).on('error', sass.logError))
 		.pipe(postcss([ autoprefixer() ]))
-		.pipe(rename('hesti.css'))
+		.pipe(rename(function(file) {
+			if (file.basename === 'main') {
+				file.basename = 'hesti';
+			}
+		}))
 		.pipe(gulp.dest(stylesDestDirectory));	
 }));
 

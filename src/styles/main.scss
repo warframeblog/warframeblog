@@ -89,16 +89,3 @@
 // Sections and Example pages
 @import "material-kit/example-pages";
 @import "material-kit/responsive";
-
-@import 'angled-edges/_angled-edges';
-@import 'components/warframe-list';
-
-@import 'warframe-page/_bulma';
-@import 'warframe-page/_sections';
-
-.warframe-page {
-	background-color: #2e3141;
-	background-size: auto, cover;
-	background-attachment: fixed, fixed;
-	background-position: center, center;
-}

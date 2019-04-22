@@ -6618,9 +6618,9 @@ label {
       background: #f1f1f1;
       border-radius: 100%;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
     .switch label .bmd-switch-track:active::after {
@@ -6747,19 +6747,19 @@ label {
 
 @-webkit-keyframes checkboxOn {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @keyframes checkboxOn {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @-webkit-keyframes rippleOn {
   0% {
@@ -9121,195 +9121,3 @@ footer {
     -webkit-transform: translate3d(-25px, 0, 0);
     transform: translate3d(-25px, 0, 0);
     width: 245px; } }
-
-.warframe-list {
-  display: inline-block;
-  list-style-type: none;
-  margin: 15px -5px 0;
-  padding: 0; }
-
-.warframe-list .warframe-element {
-  display: inline-block;
-  position: relative;
-  margin: 10px;
-  padding: 0;
-  width: 100px;
-  height: 100px; }
-
-.warframe-list .warframe-element.active {
-  cursor: pointer; }
-
-.warframe-list h2 {
-  display: none;
-  position: absolute;
-  z-index: 2;
-  top: 70px;
-  left: 0px;
-  right: 0px;
-  margin: 0;
-  padding: 4px;
-  border: 1px solid #fff;
-  color: #fff;
-  background-color: #000;
-  font-size: 11px;
-  font-weight: bold; }
-
-.warframe-list img {
-  width: 100px;
-  height: 100px;
-  border: 4px solid #fff;
-  border-radius: 50%;
-  background-color: #fff;
-  box-shadow: 0 0 20px #000;
-  opacity: .25;
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5); }
-
-.warframe-list [data-roles~="any"] h2,
-#damage:checked ~ .warframe-list [data-roles~="damage"] h2,
-#crowd-control:checked ~ .warframe-list [data-roles~="crowd-control"] h2,
-#survaiability:checked ~ .warframe-list [data-roles~="survaiability"] h2,
-#utility:checked ~ .warframe-list [data-roles~="utility"] h2 {
-  display: block; }
-
-.warframe-list [data-roles~="any"] img,
-#damage:checked ~ .warframe-list [data-roles~="damage"] img,
-#crowd-control:checked ~ .warframe-list [data-roles~="crowd-control"] img,
-#survaiability:checked ~ .warframe-list [data-roles~="survaiability"] img,
-#utility:checked ~ .warframe-list [data-roles~="utility"] img {
-  -webkit-animation: avatar .3s forwards;
-          animation: avatar .3s forwards; }
-
-@-webkit-keyframes avatar {
-  70% {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-@keyframes avatar {
-  70% {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-.hero .navbar.is-not-transparent {
-  background: #2e3141; }
-
-.hero.is-primary.frame-hero-section {
-  background-color: transparent;
-  position: relative; }
-
-.frame-hero-section h1 {
-  border-bottom: solid 2px rgba(255, 255, 255, 0.125); }
-
-.frame-ability {
-  position: relative;
-  padding-top: 200px; }
-
-.frame-first-ability {
-  background-color: #4c5c96;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  position: relative; }
-  .frame-first-ability::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(76,92,150)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,100 100,0'%3E%3C/polygon%3E%3C/svg%3E");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    height: 100px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-    bottom: -100px; }
-
-.frame-second-ability {
-  background-color: #455489;
-  position: relative; }
-  .frame-second-ability::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(69,84,137)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,0 0,100'%3E%3C/polygon%3E%3C/svg%3E");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    height: 100px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-    bottom: -100px; }
-
-.frame-third-ability {
-  background-color: #3f4c7c;
-  position: relative; }
-  .frame-third-ability::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(63,76,124)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,100 100,0'%3E%3C/polygon%3E%3C/svg%3E");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    height: 100px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-    bottom: -100px; }
-
-.frame-fourth-ability {
-  background-color: #38446f;
-  position: relative; }
-  .frame-fourth-ability::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(56,68,111)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,0 0,100'%3E%3C/polygon%3E%3C/svg%3E");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    height: 100px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-    bottom: -100px; }
-
-.frame-builds-section {
-  background-color: #2e3141;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  position: relative; }
-  .frame-builds-section::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(46,49,65)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,0 0,100'%3E%3C/polygon%3E%3C/svg%3E");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    height: 100px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-    bottom: -100px; }
-
-.footer-image {
-  background-size: cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center; }
-
-.warframe-page {
-  background-color: #2e3141;
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center; }

@@ -1,12 +1,13 @@
-.hero.is-primary.frame-hero-section {
-	background-color: transparent;
-	position: relative;
+.warframe-page {
+	background-color: #2e3141;
+	background-size: auto, cover;
+	background-attachment: fixed, fixed;
+	background-position: center, center;
 }
 
 .frame-hero-section h1 {
 	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
-
 
 .frame-ability {
 	position: relative;

@@ -1,3 +1,6 @@
+{{ define "extra-styles" }}
+	<link rel="stylesheet" href="/assets/css/warframe-page.css">
+{{ end }}
 {{- define "custom-hero-area" -}}
 <div class="col-md-12 mx-auto">
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
