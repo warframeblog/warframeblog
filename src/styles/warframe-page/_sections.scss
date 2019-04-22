@@ -1,17 +1,10 @@
-.warframe-page {
-	background-color: #2e3141;
-	background-size: auto, cover;
-	background-attachment: fixed, fixed;
-	background-position: center, center;
+.title {
+	color: white;
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);	
 }
 
-.frame-hero-section h1 {
-	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-}
-
-.frame-ability {
-	position: relative;
-	padding-top: 200px;
+.abiility-description {
+	color: white;
 }
 
 .frame-first-ability {
@@ -43,10 +36,12 @@
 	background-color: #2e3141;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	@include angled-edge('outside bottom', 'lower right', #2e3141);
+	color: white;
+	@include angled-edge('outside bottom', 'lower right', #2e3141); 
 }
 
 .footer-image {
+	background-color: #2e3141;
     background-size: cover;
     background-attachment: fixed, fixed;
     background-position: center, center;
