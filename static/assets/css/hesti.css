@@ -7135,6 +7135,66 @@ img[data-sizes="auto"] {
 .pagination .page-item .page-link:focus {
   box-shadow: none; }
 
+.nav-pills:not(.flex-column) .nav-item + .nav-item:not(:first-child) {
+  margin-left: 5px; }
+
+.nav-pills.flex-column .nav-item + .nav-item {
+  margin-top: 5px; }
+
+.nav-pills .nav-item .nav-link {
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 100px;
+  text-align: center;
+  color: #555;
+  transition: all .3s;
+  border-radius: 30px;
+  padding: 10px 15px; }
+  .nav-pills .nav-item .nav-link:hover {
+    background-color: rgba(200, 200, 200, 0.2); }
+  .nav-pills .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #9c27b0;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6); }
+
+.nav-pills .nav-item i {
+  display: block;
+  font-size: 30px;
+  padding: 15px 0; }
+
+.nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
+  background-color: #00bcd4;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(0, 188, 212, 0.6);
+  color: #fff; }
+
+.nav-pills.nav-pills-rose .nav-item .nav-link.active, .nav-pills.nav-pills-rose .nav-item .nav-link.active:focus, .nav-pills.nav-pills-rose .nav-item .nav-link.active:hover {
+  background-color: #e91e63;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(233, 30, 99, 0.6);
+  color: #fff; }
+
+.nav-pills.nav-pills-success .nav-item .nav-link.active, .nav-pills.nav-pills-success .nav-item .nav-link.active:focus, .nav-pills.nav-pills-success .nav-item .nav-link.active:hover {
+  background-color: #4caf50;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(76, 175, 80, 0.6);
+  color: #fff; }
+
+.nav-pills.nav-pills-warning .nav-item .nav-link.active, .nav-pills.nav-pills-warning .nav-item .nav-link.active:focus, .nav-pills.nav-pills-warning .nav-item .nav-link.active:hover {
+  background-color: #ff9800;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(255, 152, 0, 0.6);
+  color: #fff; }
+
+.nav-pills.nav-pills-danger .nav-item .nav-link.active, .nav-pills.nav-pills-danger .nav-item .nav-link.active:focus, .nav-pills.nav-pills-danger .nav-item .nav-link.active:hover {
+  background-color: #f44336;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(244, 67, 54, 0.6);
+  color: #fff; }
+
+.nav-pills.nav-pills-icons .nav-item .nav-link {
+  border-radius: 4px; }
+
+.tab-space {
+  padding: 20px 0 50px 0px; }
+
 .info {
   max-width: 360px;
   margin: 0 auto;
@@ -8646,6 +8706,18 @@ footer {
 
 .post-page .page-header {
   height: 70vh; }
+
+.post-page .section-text {
+  padding-bottom: 0; }
+
+.post-page .section-text p {
+  font-size: 1.188rem;
+  line-height: 1.5em;
+  color: #555;
+  margin-bottom: 30px; }
+
+.post-page .section-text .blockquote p {
+  font-size: 1.5rem; }
 
 .section {
   padding: 70px 0; }
