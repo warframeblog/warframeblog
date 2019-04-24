@@ -1,31 +1,21 @@
-{{ define "extra-styles" }}
-<link rel="stylesheet" href="/assets/css/fortuna.css">
-{{ end }}
-
 {{- define "main" -}}
-<section style="background-color: #122734">
+<section class="section" style="background-color: #122734">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 ml-auto mr-auto text-center">
+			<div class="col-md-8 mx-auto text-center">
 				<h2 class="title">Warframe Keeps Expanding</h2>
 				<p class="sub-title">During the annual TennoCon 2018 Digital Extremes revealed the next big expansion and update coming to Warframe, called Fortuna, will follow last year’s Plains of Eidolon and deliver another open world zone, this time set on Venus.</p>
 			</div>
 			<div class="col-md-6">
-				<div class="videoWrapper videoWrapper169 js-videoWrapper">
-					<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/j7MqiQ3uzfM?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
-					<a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-update-reveal-trailer.jpg);" title="Play Fortuna Update Reveal Trailer">Play Fortuna Update Reveal Trailer</a>
-				</div>
+				{{- partial "video.html" (dict "id" "mPTCq3LiZSE") -}}
 			</div>
 			<div class="col-md-6">
-				<div class="videoWrapper videoWrapper169 js-videoWrapper">
-					<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/sE-VRFj997I?autoplay=1&modestbranding=1&rel=0&hl=sv"></iframe>
-					<a class="videoPoster js-videoPoster" style="background-image:url(/images/fortuna/warframe-fortuna-and-railjack-full-gameplay-demo.jpg);" title="Play Fortuna & Railjack full 32-Minute Gameplay Demo">Play Fortuna & Railjack full 32-Minute Gameplay Demo</a>
-				</div>
+				{{- partial "video.html" (dict "id" "rgEMZZ2bWuY") -}}
 			</div>
 		</div>
 	</div>
 </section>
-<section style="background-color: #041625">
+<section class="section" style="background-color: #041625">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 text-center">
@@ -102,6 +92,3 @@
 	</div>
 </section>
 {{- end -}}
-{{ define "extra-scripts"}}
-<script src="/assets/js/fortuna.js"></script>
-{{ end }}
