@@ -6618,9 +6618,9 @@ label {
       background: #f1f1f1;
       border-radius: 100%;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
-      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, -webkit-transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease, -webkit-transform 0.3s ease;
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
     .switch label .bmd-switch-track:active::after {
@@ -6747,19 +6747,19 @@ label {
 
 @-webkit-keyframes checkboxOn {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @keyframes checkboxOn {
   0% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px; }
   50% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px; }
   100% {
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px; } }
 
 @-webkit-keyframes rippleOn {
   0% {
@@ -8172,7 +8172,8 @@ h2.title {
 
 .purple-filter:after {
   background: rgba(101, 47, 142, 0.64);
-  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); }
+  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); }
 
 footer {
   padding: 0.9375rem 0;
@@ -8232,26 +8233,6 @@ footer {
   footer .pull-center {
     display: inline-block;
     float: none; }
-
-.footer-black {
-  background: #232323;
-  background: radial-gradient(ellipse at center, #585858 0, #232323 100%);
-  background-size: 550% 450%; }
-  .footer-black a {
-    color: #ffffff;
-    opacity: 0.86 .footer-black a; }
-    .footer-black a :focus, .footer-black a:hover {
-      opacity: 1; }
-  .footer-black .copyright,
-  .footer-black .footer-brand,
-  .footer-black .footer-brand:focus,
-  .footer-black .footer-brand:hover,
-  .footer-black h4,
-  .footer-black h5,
-  .footer-black i {
-    color: #ffffff; }
-  .footer-black hr {
-    border-color: rgba(255, 255, 255, 0.2); }
 
 .sidebar .title {
   margin-bottom: 0; }
@@ -8815,6 +8796,136 @@ footer {
 .signup-page .footer a {
   color: #FFFFFF; }
 
+.header-filter[filter-color="purple"]:after, .header-filter[filter-color="primary"]:after {
+  background: rgba(225, 190, 231, 0.56);
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(60deg, rgba(225, 190, 231, 0.56), rgba(186, 104, 200, 0.95));
+  /* Standard syntax */ }
+
+.header-filter[filter-color="blue"]:after, .header-filter[filter-color="info"]:after {
+  background: rgba(178, 235, 242, 0.56);
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(60deg, rgba(178, 235, 242, 0.56), rgba(77, 208, 225, 0.95));
+  /* Standard syntax */ }
+
+.header-filter[filter-color="green"]:after, .header-filter[filter-color="success"]:after {
+  background: rgba(165, 214, 167, 0.56);
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(60deg, rgba(165, 214, 167, 0.56), rgba(102, 187, 106, 0.95));
+  /* Standard syntax */ }
+
+.header-filter[filter-color="orange"]:after, .header-filter[filter-color="warning"]:after {
+  background: rgba(255, 224, 178, 0.56);
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(60deg, rgba(255, 224, 178, 0.56), rgba(255, 183, 77, 0.95));
+  /* Standard syntax */ }
+
+.header-filter[filter-color="red"]:after, .header-filter[filter-color="danger"]:after {
+  background: rgba(239, 154, 154, 0.56);
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(60deg, rgba(239, 154, 154, 0.56), rgba(239, 83, 80, 0.95));
+  /* Standard syntax */ }
+
+.header-filter[filter-color="rose"]:after {
+  background: rgba(248, 187, 208, 0.56);
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(60deg, rgba(248, 187, 208, 0.56), rgba(240, 98, 146, 0.95));
+  /* Standard syntax */ }
+
+.clear-filter:before {
+  display: none; }
+
+.header-1 .wrapper,
+.header-2 .wrapper,
+.header-3 .wrapper {
+  background: #CCCCCC; }
+
+.header-2 .page-header .container {
+  padding-top: 25vh; }
+
+.header-2 .page-header .card {
+  margin-top: 60px; }
+
+.header-3 .btn {
+  margin: 0; }
+
+.header-3 h6 {
+  margin-bottom: 0; }
+
+.card-form-horizontal .form-group {
+  margin-bottom: 0; }
+
+.footer-big {
+  padding: 1.875rem 0; }
+  .footer-big .content {
+    text-align: left; }
+  .footer-big .social-feed i {
+    font-size: 20px;
+    display: table-cell;
+    padding-right: 10px; }
+  .footer-big .social-feed p {
+    display: table-cell;
+    vertical-align: top;
+    overflow: hidden;
+    padding-bottom: 10px;
+    max-width: 300px; }
+  .footer-big .gallery-feed img {
+    width: 20%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    float: left; }
+
+.footer-white {
+  background-color: #fff; }
+
+.footer-gray {
+  background-color: rgba(0, 0, 0, 0.12); }
+
+.footer-black {
+  background: #232323;
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 12+ */
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #585858 0%, #232323 100%);
+  /* W3C */
+  background-size: 550% 450%; }
+  .footer-black a {
+    color: #fff;
+    opacity: .86; }
+    .footer-black a:hover, .footer-black a:focus {
+      opacity: 1; }
+  .footer-black .footer-brand {
+    color: #fff; }
+    .footer-black .footer-brand:hover, .footer-black .footer-brand:focus {
+      color: #fff; }
+  .footer-black h5,
+  .footer-black h4,
+  .footer-black i,
+  .footer-black .copyright {
+    color: #fff; }
+  .footer-black hr {
+    border-color: rgba(255, 255, 255, 0.2); }
+
 @media all and (max-width: 991px) {
   [class*="navbar-expand-"] > .container,
   [class*="navbar-expand-"] > .container-fluid {
@@ -9138,13 +9249,8 @@ footer {
     display: none; }
   .index-page .cd-section .tim-typo .tim-note {
     width: 60px; }
-  .login-page .page-header {
-    min-height: 100vh;
-    max-height: 1000px;
-    height: 100%; }
-    .login-page .page-header > .container {
-      padding-top: 20vh;
-      padding-bottom: 200px; } }
+  .login-page .page-header > .container {
+    padding-bottom: 200px; } }
 
 @media screen and (max-width: 400px) {
   .cd-vertical-nav {
