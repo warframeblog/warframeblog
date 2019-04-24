@@ -1,7 +1,7 @@
 ---
 title: "Warframe Arbitrations: Lethal Alerts Guide"
 seoTitle: "✅ Warframe Arbitrations: Lethal Alerts Guide. Warframe Elite Alerts"
-date: 2019-03-26T02:15:48+00:00
+date: 2019-04-24T20:49:03.361Z
 author: warframe
 layout: post
 permalink: /warframe-arbitrations-alerts-guide/
@@ -34,6 +34,11 @@ Now, the rule changes for these Arbitrations are as follows:
 * <b>for excavation missions</b> - the defense time for each excavator has been bumped up to three minutes
 * <b>for defection missions</b> - the rescue targets have no revived state so if they go down that's it
 * <b>for infested salvage missions</b> - the consoles have half of their normal health. 
+
+## How To Revive Squadmate in the Arbitration Missions?
+With Update 24.8.0 the rules of *Arbitration death* have shifted: players are still downed with no bleedout timer, but a Revive tower is now placed at the player’s spot of death. If any squadmate is awaiting Revival, the Arbitration drones will begin dropping unique pickups known as a "Resurgence Burden". These pickups function similar to Index points, debuffing the players who carry them. 
+
+In order to revive a player, 5 of these Resurgence Burdens must be taken to their tower simultaneously. These 5 pickups can be delivered by one or multiple squadmates, but cannot be "dropped off" at the tower - it’s all or nothing!
 
 ## Warframes Suggestions For Arbitrations
 Survival of yourself, your teammates, and the objective (depending on mission type) is key to success, so it is wise to use a warframe with high effective health such as [Rhino](/warframes/rhino/ "Warframe Rhino"), [Nezha](/warframes/nezha/ "Warframe Nezha"), [Inaros](/warframes/inaros/ "Warframe Inaros"), or a frame with healing and damage reduction support such as [Trinity](/warframes/trinity/ "Warframe Trinity") or [Oberon](/warframes/oberon/ "Warframe Oberon"). 
