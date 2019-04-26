@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/banshee/
 image: /images/frames/banshee.jpg
 video_url: 7ly08xwapzE
+footerImage: /images/frames/banshee.jpg
 ---

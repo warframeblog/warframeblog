@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/titania/
 image: /images/frames/titania.jpg
 video_url: IXt-l5lDOHI
+footerImage: /images/frames/titania.jpg
 ---

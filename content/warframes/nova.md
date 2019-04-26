@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/nova/
 image: /images/frames/nova.jpg
 video_url: uUQpV-GIWIA
+footerImage: /images/frames/nova.jpg
 ---

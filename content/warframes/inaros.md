@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/inaros/
 image: /images/frames/inaros.jpg
 video_url: T9K69L30Pnc
+footerImage: /images/frames/inaros.jpg
 ---

@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/ash/
 image: /images/frames/ash.jpg
 video_url: 330L8mHBJAU
+footerImage: /images/frames/ash.jpg
 ---

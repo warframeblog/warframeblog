@@ -9,7 +9,7 @@
 	<p>{{ $frame.passive | safeHTML }}</p>	
 </div>
 {{- end -}}
-{{- define "main" -}}
+{{- define "main-body" -}}
 
 {{ $frame := index .Site.Data.frames (lower .Title) }}
 {{- range $abilityNum, $ability := $frame.abilities -}}

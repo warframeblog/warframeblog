@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/trinity/
 image: /images/frames/trinity.jpg
 video_url: oPPYnc-Ajjg
+footerImage: /images/frames/trinity.jpg
 ---

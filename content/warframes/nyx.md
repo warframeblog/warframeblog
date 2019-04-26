@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/nyx/
 image: /images/frames/nyx.jpg
 video_url: ab8f4YA13Rw
+footerImage: /images/frames/nyx.jpg
 ---

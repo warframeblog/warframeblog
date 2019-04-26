@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/hydroid/
 image: /images/frames/hydroid.jpg
 video_url: 8oU1FWoEZ-s
+footerImage: /images/frames/hydroid.jpg
 ---
