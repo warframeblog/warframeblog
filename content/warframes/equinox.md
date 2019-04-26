@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/equinox/
 image: /images/frames/equinox.jpg
 video_url: uRa0Jv5dd-g
+footerImage: /images/frames/equinox.jpg
 ---

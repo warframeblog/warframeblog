@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/chroma/
 image: /images/frames/chroma.jpg
 video_url: _cRYp1cov1o
+footerImage: /images/frames/chroma.jpg
 ---

@@ -7,4 +7,5 @@ author: warframe
 layout: warframes
 permalink: /warframes/excalibur/
 image: /images/frames/excalibur.jpg
+footerImage: /images/frames/excalibur.jpg
 ---

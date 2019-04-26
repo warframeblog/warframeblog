@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/saryn/
 image: /images/frames/saryn.jpg
 video_url: NxJqDGFrWJ0
+footerImage: /images/frames/saryn.jpg
 ---

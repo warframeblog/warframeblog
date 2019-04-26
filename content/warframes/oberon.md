@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/oberon/
 image: /images/frames/oberon.jpg
 video_url: IM5jiw2rndc
+footerImage: /images/frames/oberon.jpg
 ---

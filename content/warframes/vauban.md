@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/vauban/
 image: /images/frames/vauban.jpg
 video_url: jKPJpumtz7s
+footerImage: /images/frames/vauban.jpg
 ---

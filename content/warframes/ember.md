@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/ember/
 image: /images/frames/ember.jpg
 video_url: x09j6nOGfGE
+footerImage: /images/frames/ember.jpg
 ---

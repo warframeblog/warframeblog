@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/ivara/
 image: /images/frames/ivara.jpg
 video_url: ARPij2-EamI
+footerImage: /images/frames/ivara.jpg
 ---

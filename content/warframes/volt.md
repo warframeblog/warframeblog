@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/volt/
 image: /images/frames/volt.jpg
 video_url: KT0_iWuFHKo
+footerImage: /images/frames/volt.jpg
 ---

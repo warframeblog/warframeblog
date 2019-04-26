@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/loki/
 image: /images/frames/loki.jpg
 video_url: QaejNLf0IS0
+footerImage: /images/frames/loki.jpg
 ---

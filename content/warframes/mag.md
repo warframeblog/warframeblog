@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/mag/
 image: /images/frames/mag.jpg
 video_url: Ud2IFytt6-s
+footerImage: /images/frames/mag.jpg
 ---

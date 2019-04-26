@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/frost/
 image: /images/frames/frost.jpg
 video_url: 3YAUTNwcvCI
+footerImage: /images/frames/frost.jpg
 ---
