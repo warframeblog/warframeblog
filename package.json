@@ -5,8 +5,7 @@
   "scripts": {
     "start": "concurrently \"gulp\" \"hugo serve \"",
     "start:test": "http-server -p 1313",
-    "build": "gulp build",
-    "minify": "gulp minify:markup",
+    "build": "gulp build --max_old_space_size=3700",
     "trader:inventory": "node scripts/load-trader-inventory",
     "primes": "node scripts/primes-generator"
   },
@@ -47,6 +46,8 @@
     "node-sass": "^4.11.0",
     "number-to-words": "^1.2.4",
     "postcss": "^7.0.14",
+    "postcss-csso": "^3.0.0",
+    "postcss-uncss": "^0.16.1",
     "rimraf": "^2.6.2",
     "uncss": "^0.16.2"
   }
