@@ -17,6 +17,7 @@ const rollup = require('gulp-better-rollup');
 const babel = require('rollup-plugin-babel');
 const resolve = require('rollup-plugin-node-resolve');
 const cjs = require('rollup-plugin-commonjs');
+const minify = require('rollup-plugin-babel-minify');
 
 const scssFiles = 'src/styles/**/*.scss';
 const jsFiles = 'src/js/**/*.js';
@@ -44,7 +45,7 @@ gulp.task('build:scripts', () => {
 	return gulp.src('src/js/index.js')
 		.pipe(rollup({  
 			external: ['jquery', 'popper.js'],
-			plugins: [babel(babelOpts), resolve(), cjs(cjsOpts)] 
+			plugins: [babel(babelOpts), resolve(), cjs(cjsOpts), minify({comments: false})] 
 		}, { format: 'umd', globals: { 'jquery': 'jQuery', 'popper.js' : 'Popper' }}))
 		.pipe(gulp.dest('static/assets/js'));
 });
