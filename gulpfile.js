@@ -56,6 +56,8 @@ gulp.task('vendor:scripts', () => {
 		.pipe(gulp.dest('static/assets/js'));
 });
 
+gulp.task('scripts', gulp.parallel('build:scripts', 'vendor:scripts'));
+
 gulp.task('build:styles', () => {
 	return gulp.src(scssFiles)
 		.pipe(sass({
@@ -70,8 +72,18 @@ gulp.task('build:styles', () => {
 });
 
 gulp.task('minify:styles', () => {
+	const htmlFiles = [
+		'public/index.html',
+		'public/404.html',
+		'public/baro-kiteer-void-trader/*.html',
+		'public/guides/**/*.html',
+		'public/fortuna/*.html',
+		'public/warframe-builds/*.html',
+		'public/warframes/ash/*.html',
+		'public/warframes/nezha/*.html'
+	]
 	return gulp.src(styleFilesToPublish)
-		.pipe(postcss([uncss({htmlroot: 'public', html: ['public/**/*.html'], ignore: [/.*\.ripple.*/, /.*\.dropdown-menu.*/, /.*\.show/, /.*\.toggled/, /.*\.nav-open.*/]})]))
+		.pipe(postcss([uncss({htmlroot: 'public', html: htmlFiles, ignore: [/.*\.ripple.*/, /.*\.dropdown-menu.*/, /.*\.show/, /.*\.toggled/, /.*\.nav-open.*/]})]))
 		.pipe(postcss([ autoprefixer(), csso({ comments: false }) ]))
 		.pipe(gulp.dest(publicStyleAssets))
 });
@@ -90,7 +102,7 @@ gulp.task('minify:html', () => {
 
 gulp.task('build:hugo', shell.task('hugo'));
 
-gulp.task('build', gulp.series('build:styles', 'build:hugo', 'replace:html', 'minify:styles', 'minify:html'));
+gulp.task('build', gulp.series('build:styles', 'scripts', 'build:hugo', 'replace:html', 'minify:styles', 'minify:html'));
 
 gulp.task('watch:scripts', () => {
 	return gulp.watch([jsFiles], gulp.series('build:scripts'))
@@ -102,4 +114,4 @@ gulp.task('watch:styles', () => {
 
 gulp.task('watch', gulp.parallel('watch:styles', 'watch:scripts'));
 
-gulp.task('default', gulp.parallel('watch', 'build:styles', 'build:scripts', 'vendor:scripts'));
+gulp.task('default', gulp.parallel('watch', 'build:styles', 'scripts'));
