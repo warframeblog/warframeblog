@@ -8,7 +8,6 @@ const autoprefixer = require('autoprefixer');
 const rename = require('gulp-rename');
 const postcss = require('gulp-postcss');
 const uncss = require('postcss-uncss');
-const through = require('through2');
 const replace = require('gulp-replace');
 const csso = require('postcss-csso');
 const gulpIgnore = require('gulp-ignore');
