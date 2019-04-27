@@ -159,8 +159,8 @@ var materialKit = {
     });
   }, 50),
 
-  checkScrollForTransparentNavbar: debounce(function() {
-    if ($(document).scrollTop() > 500) {
+  checkScrollForTransparentNavbar: debounce(function(scroll_distance) {
+    if ($(document).scrollTop() > scroll_distance) {
       if (materialKit.misc.transparent) {
         materialKit.misc.transparent = false;
         $('.navbar-color-on-scroll').removeClass('navbar-transparent');
@@ -289,10 +289,12 @@ $(document).ready(function() {
   $('.bootstrap-tagsinput').addClass('' + tagClass + '-badge');
 
   if ($('.navbar-color-on-scroll').length != 0) {
-    $(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+    $(window).on('scroll', function() {
+      materialKit.checkScrollForTransparentNavbar(scroll_distance);
+    });
   }
 
-  materialKit.checkScrollForTransparentNavbar();
+  materialKit.checkScrollForTransparentNavbar(scroll_distance);
 
   if (window_width >= 768) {
     big_image = $('.page-header[data-parallax="true"]');
