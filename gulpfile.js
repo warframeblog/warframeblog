@@ -75,6 +75,8 @@ gulp.task('minify:styles', () => {
 		'public/index.html',
 		'public/404.html',
 		'public/baro-kiteer-void-trader/*.html',
+		'public/sanctuary-onslaught-guide/*.html',
+		'public/primes/how-to-get-equinox-prime/*.html',
 		'public/guides/**/*.html',
 		'public/fortuna/*.html',
 		'public/warframe-builds/*.html',
