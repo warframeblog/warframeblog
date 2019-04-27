@@ -12,7 +12,7 @@ tags:
   - news
   - relics
 ---
-Hey guys! Welcome to another Warframe article and the Prime Vault has opened up yet again so you can now farm  <!--more--> :
+Hey guys! Welcome to another Warframe article and the Prime Vault has opened up yet again so you can now farm:  <!--more--> 
 
 * [Nova](/warframes/nova/ "Warframe Nova") Prime with Soma Prime and Vasto Prime
 * [Mag](/warframes/mag/ "Warframe Mag") Prime with Boar Prime and Dakra Prime
