@@ -13,12 +13,43 @@ const replace = require('gulp-replace');
 const csso = require('postcss-csso');
 const gulpIgnore = require('gulp-ignore');
 
+const rollup = require('gulp-better-rollup');
+const babel = require('rollup-plugin-babel');
+const resolve = require('rollup-plugin-node-resolve');
+const cjs = require('rollup-plugin-commonjs');
+
 const scssFiles = 'src/styles/**/*.scss';
 const themeScssFiles = 'themes/hesti/src/css/**/*.scss';
 const styleAssets = 'static/assets/css';
 const htmlFilesToPublish = 'public/**/*.html';
 const styleFilesToPublish = 'public/assets/css/**/*.css';
 const publicStyleAssets = 'public/assets/css';
+
+gulp.task('scripts', () => {
+	const babelOpts = {
+      externalHelpersWhitelist: [
+        'defineProperties',
+        'createClass',
+        'inheritsLoose',
+        'extends',
+      ],
+    };
+	const cjsOpts = {
+		include: ['node_modules/bootstrap/**', 'node_modules/bootstrap-material-design/**', 'node_modules/jquery/**'],
+		namedExports: {
+			'node_modules/jquery/dist/jquery.js': 'jquery',
+		}
+	};
+	return gulp.src('src/js/index.js')
+		.pipe(rollup({  
+			external: ['jquery', 'popper.js'],
+			output: { 
+				globals: { 'jquery': 'jQuery', 'popper.js' : 'Popper' }
+			},
+			plugins: [babel(babelOpts), resolve(), cjs(cjsOpts)] 
+		}, 'umd'))
+		.pipe(gulp.dest('static/assets/js'));
+});
 
 gulp.task('build:styles', () => {
 	return gulp.src(scssFiles)
