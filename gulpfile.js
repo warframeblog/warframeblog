@@ -19,13 +19,14 @@ const resolve = require('rollup-plugin-node-resolve');
 const cjs = require('rollup-plugin-commonjs');
 
 const scssFiles = 'src/styles/**/*.scss';
+const jsFiles = 'src/js/**/*.js';
 const themeScssFiles = 'themes/hesti/src/css/**/*.scss';
 const styleAssets = 'static/assets/css';
 const htmlFilesToPublish = 'public/**/*.html';
 const styleFilesToPublish = 'public/assets/css/**/*.css';
 const publicStyleAssets = 'public/assets/css';
 
-gulp.task('scripts', () => {
+gulp.task('build:scripts', () => {
 	const babelOpts = {
       externalHelpersWhitelist: [
         'defineProperties',
@@ -87,8 +88,14 @@ gulp.task('build:hugo', shell.task('hugo'));
 
 gulp.task('build', gulp.series('build:styles', 'build:hugo', 'replace:html', 'minify:styles', 'minify:html'));
 
-gulp.task('watch', () => {
+gulp.task('watch:scripts', () => {
+	return gulp.watch([jsFiles], gulp.series('build:scripts'))
+});
+
+gulp.task('watch:styles', () => {
 	return gulp.watch([scssFiles, themeScssFiles], gulp.series('build:styles'));
 });
 
-gulp.task('default', gulp.parallel('watch', 'build:styles'));
+gulp.task('watch', gulp.parallel('watch:styles', 'watch:scripts'));
+
+gulp.task('default', gulp.parallel('watch', 'build:styles', 'build:scripts'));
