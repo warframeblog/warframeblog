@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/zephyr/
 image: /images/frames/zephyr.jpg
 video_url: 2jKR2vbIytM
+footerImage: /images/frames/zephyr.jpg
 ---

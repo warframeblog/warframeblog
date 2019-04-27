@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/nidus/
 image: /images/frames/nidus.jpg
 video_url: U5Oes_EVp2E
+footerImage: /images/frames/nidus.jpg
 ---

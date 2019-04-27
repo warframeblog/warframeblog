@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/octavia/
 image: /images/frames/octavia.jpg
 video_url: nk-CVS9_OLs
+footerImage: /images/frames/octavia.jpg
 ---

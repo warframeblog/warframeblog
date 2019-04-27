@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/nekros/
 image: /images/frames/nekros.jpg
 video_url: L5eYHpNB_UU
+footerImage: /images/frames/nekros.jpg
 ---

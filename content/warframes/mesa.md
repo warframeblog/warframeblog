@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/mesa/
 image: /images/frames/mesa.jpg
 video_url: nCCi6Dvyfjk
+footerImage: /images/frames/mesa.jpg
 ---

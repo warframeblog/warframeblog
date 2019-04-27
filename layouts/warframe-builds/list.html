@@ -1,71 +1,36 @@
-{{ define "custom-styles" }}
-  <link rel="stylesheet" href="/assets/css/builds.css">
+{{ define "extra-styles" }}
+	<link rel="stylesheet" href="/assets/css/builds.css">
 {{ end }}
-{{ define "bodyInner" }}
-  <div class="overlay">
-      <div class="overlay-nav">
-          <div class="btn-close"></div>
-      </div>
-      <div class="overlay-content">
-          <div class="warframe-image"></div>
-          <div class="warframe-info">
-              <p class="title"></p>
-              <hr/>
-              <div class="description">
-                  <p class="basics"></p>
-                  <p class="builds-info"></p>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="wrapper">
-    <header class="header">
-      {{ partial "nav.html" . }}
-    </header>
-    <div class="main" class="header-filter" data-parallax="active" style="background-image: url({{ .Params.image }})">
-        <div class="hestia-blogs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 archive-post-wrap">
-                        <div class="builds">
-                            <h1><span class="warframe">Warframe </span>Builds</h1>
-                            <p class="about-builds">Each warframe you can build in a thousand different ways and there’s a lot of room for tweaking on your end, so please don’t take it as if builds below were set in stone. You can of course copy builds exactly and it’s going to work just fine, but I would think about Warframe Builds below as more of an inspiration for your own builds because you can play around with different values: duration, efficiency, range, and even strength. And as long as you don’t stray too far away from the original idea of these warfame builds, it should still work. You’re not going to break it.</p>
-                            <input id="damage" type="radio" name="role" checked="checked" />
-                            <label for="damage">Damage</label>
-                            <input id="crowd-control" type="radio" name="role" />
-                            <label for="crowd-control">CrowdControl</label>
-                            <input id="survaiability" type="radio" name="role" />
-                            <label for="survaiability">Survaiability</label>
-                            <input id="utility" type="radio" name="role" />
-                            <label for="utility">Utility</label>
-                            <br/>
-                            <ul class="warframes">
-                              {{ range .Site.Data.warframebuilds }}
-                                {{$warframeRoles := delimit .roles " " }}
-                                {{ if .link }}
-                                  <li id="{{ .name }}" data-roles="{{ $warframeRoles }}">
-                                    <a href="{{ .link }}" target="_blank">
-                                      <h2>{{ .title }}</h2>
-                                      <img src="/images/glyphs/{{ .glyph }}" title="{{ .title }} Builds" alt="{{ .title }} Builds" />
-                                    </a>
-                                  </li>
-                                {{ else if .builds}}
-                                  <li id="{{ .name }}" data-roles="{{ $warframeRoles }}" data-image="/images/warframes-bg/{{ .image }}" data-basics="{{ .description }}" data-builds="{{ .builds }}">
-                                    <h2>{{ .title }}</h2>
-                                    <img src="/images/glyphs/{{ .glyph }}" title="{{ .title }} Builds" alt="{{ .title }} Builds" />
-                                  </li>
-                                {{ end }}
-                              {{ end }}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{ partial "site-footer.html" . }}
-    </div>
-  </div>
-{{ end }}
-{{ define "custom-scripts"}}
-  <script src="/assets/js/builds.js"></script>
-{{ end }}
+{{- define "custom-header" -}}
+<header class="" data-parallax="true" style="background-image: url('{{ cond (isset .Params "image") .Params.image .Site.Params.image }}');">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 builds">
+				<h1><span class="warframe">Warframe </span>Builds</h1>
+				<p class="about-builds">Each warframe you can build in a thousand different ways and there’s a lot of room for tweaking on your end, so please don’t take it as if builds below were set in stone. You can of course copy builds exactly and it’s going to work just fine, but I would think about Warframe Builds below as more of an inspiration for your own builds because you can play around with different values: duration, efficiency, range, and even strength. And as long as you don’t stray too far away from the original idea of these warfame builds, it should still work. You’re not going to break it.</p>
+				<input id="damage" type="radio" name="role" checked="checked" />
+				<label for="damage">Damage</label>
+				<input id="crowd-control" type="radio" name="role" />
+				<label for="crowd-control">CrowdControl</label>
+				<input id="survaiability" type="radio" name="role" />
+				<label for="survaiability">Survaiability</label>
+				<input id="utility" type="radio" name="role" />
+				<label for="utility">Utility</label>
+				<ul class="warframes">
+					{{ range .Site.Data.warframebuilds }}
+						{{$warframeRoles := delimit .roles " " }}
+						{{ if .link }}
+							<li id="{{ .name }}" data-roles="{{ $warframeRoles }}">
+								<a href="{{ .link }}" target="_blank">
+									<h2>{{ .title }}</h2>
+									<img src="/images/glyphs/{{ .glyph }}" title="{{ .title }} Builds" alt="{{ .title }} Builds" />
+								</a>
+							</li>
+						{{ end }}
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+{{- end -}}

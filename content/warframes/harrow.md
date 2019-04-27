@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/harrow/
 image: /images/frames/harrow.jpg
 video_url: Rh9Vveq0UYw
+footerImage: /images/frames/harrow.jpg
 ---

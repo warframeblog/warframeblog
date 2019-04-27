@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/mirage/
 image: /images/frames/mirage.jpg
 video_url: PekXzrr5IUA
+footerImage: /images/frames/mirage.jpg
 ---

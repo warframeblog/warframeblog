@@ -8,4 +8,5 @@ layout: warframes
 permalink: /warframes/rhino/
 image: /images/frames/rhino.jpg
 video_url: drt_sCtNgqg
+footerImage: /images/frames/rhino.jpg
 ---

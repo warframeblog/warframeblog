@@ -1,151 +1,68 @@
-{{- define "itemType" -}}
-"http://schema.org/WebPage"
-{{- end -}}
-{{- define "styles" -}}
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,700%7CSource+Sans+Pro:300,600,300italic,600italic" type="text/css" media="all">
-	<link rel="stylesheet" href="/assets/css/warframe-page/index.css">
-{{- end -}}
-{{- define "body" -}}
-<body class="warframe-page" style="background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(46, 49, 65, 0.7)), to(rgba(46, 49, 65, 0.7))), url({{ .Params.image }});background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url({{ .Params.image }});">
+{{ define "extra-styles" }}
+	<link rel="stylesheet" href="/assets/css/warframe-page.css">
+{{ end }}
+{{- define "custom-hero-area" -}}
+<div class="col-md-12 mx-auto">
 	{{ $frame := index .Site.Data.frames (lower .Title) }}
-	<section class="hero is-primary is-medium frame-hero-section">
-		<div class="hero-head">
-			{{- partial "warframe-page/navbar.html" . -}}
+	<h1 class="title">{{ .Title }}</h1>
+	<p>{{ .Params.description }}</p>
+	<p>{{ $frame.passive | safeHTML }}</p>	
+</div>
+{{- end -}}
+{{- define "main-body" -}}
+
+{{ $frame := index .Site.Data.frames (lower .Title) }}
+{{- range $abilityNum, $ability := $frame.abilities -}}
+{{- $side := cond (eq (mod $abilityNum 2) 1) "left" "right" -}}
+{{- partial "warframe-page/ability-section.html" (dict "ability" $ability "side" $side "num" $abilityNum) -}}
+{{- end -}}
+
+<section class="frame-builds-section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-12">
+				<h2 class="title">{{ $frame.name }} Builds</h2>
+				<p>{{ $frame.affectedByMods }}</p>
+				<p>So, all things considered, here are some builds you may want to try on your {{ $frame.name }}:</p>
+			</div>
+			{{ $buildsTag := (slice (print $frame.name "Builds")) }}
+			{{ $buildArticles := (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
+			{{ if $buildArticles }}
+				{{ range $index, $element := first 6 ($buildArticles) }}
+					{{- partial "plain-card.html" . -}}
+				{{ end }}
+			{{ else if $frame.videoBuilds }}
+				{{ range $index, $videoId := $frame.videoBuilds }}
+					<div class="col-md-6 pb-5">
+						{{- partial "video.html" (dict "id" $videoId) -}}
+					</div>
+				{{ end }}
+			{{ end }}
 		</div>
-		<div class="hero-body">
-			<div class="container">
-				<div class="columns">
-					<div class="column is-offset-2 is-8">
-						<h1 class="frame-page-title">{{ .Title }}</h1>
-						<p>{{ .Params.description }}</p>
-						<p>{{ $frame.passive | safeHTML }}</p>					
+	</div>
+</section>
+{{- end -}}
+{{- define "footer-body" -}}
+<div class="col-md-12 pt-5 text-left">
+	<h2 class="title">Explore more warframes</h2>
+</div>
+<div class="col-md-12 warframe-list">
+	<div class="container">
+		<div class="row">
+		{{ $frame := index .Site.Data.frames (lower .Title) }}
+		{{ range .Site.Data.warframebuilds }}
+			{{ if and (.link) (ne .name (lower $frame.name)) }}
+				<div class="col-6 col-sm-3 col-md-2">
+					<div class="warframe-element" data-roles="any">
+						<a href="{{ .link }}" target="_blank" title="Warframe {{ .title }}">
+							<h2>{{ .title }}</h2>
+							<img src="/images/glyphs/{{ .glyph }}" title="Warframe {{ .title }}" alt="{{ .title }}" />
+						</a>
 					</div>
 				</div>
-			</div>			
+			{{ end }}
+		{{ end }}
 		</div>
-	</section>
-	<section class="section frame-ability frame-first-ability">
-		<div class="container has-text-right">
-			<div class="columns is-reverse-mobile">
-				{{ $frameFirstAbility := index $frame.abilities 0 }}
-				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFirstAbility) -}}
-				</div>
-				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFirstAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-ability frame-second-ability">
-		<div class="container has-text-left">
-			<div class="columns">
-				{{ $frameSecondAbility := index $frame.abilities 1 }}
-				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameSecondAbility) -}}
-				</div>
-				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameSecondAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-ability frame-third-ability">
-		<div class="container has-text-right">
-			<div class="columns is-reverse-mobile">
-				{{ $frameThirdAbility := index $frame.abilities 2 }}
-				<div class="column is-offset-2-desktop is-5-desktop is-offset-1-tablet is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameThirdAbility ) -}}
-				</div>
-				<div class="column is-3-desktop is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameThirdAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-ability frame-fourth-ability">
-		<div class="container has-text-left">
-			<div class="columns">
-				{{ $frameFourthAbility := index $frame.abilities 3 }}
-				<div class="column is-offset-2-desktop is-3-desktop is-offset-1-tablet is-3-tablet is-offset-3-mobile is-half-mobile">
-					{{- partial "warframe-page/frame-ability-image.html" (dict "ability" $frameFourthAbility) -}}
-				</div>
-				<div class="column is-5-desktop is-7-tablet is-12-mobile">
-					{{- partial "warframe-page/frame-ability-info.html" (dict "ability" $frameFourthAbility) -}}
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section frame-builds-section">
-		<div class="container">
-			<div class="columns has-text-left">
-				<div class="column is-offset-2-desktop is-8-desktop is-12-mobile">
-					<h2 class="frame-page-title">{{ $frame.name }} Builds</h2>
-					<p>{{ $frame.affectedByMods }}</p>
-					<p>So, all things considered, here are some builds you may want to try on your {{ $frame.name }}:</p>
-				</div>
-			</div>
-			<div class="columns is-multiline">
-				{{ $buildsTag := (slice (print $frame.name "Builds")) }}
-				{{ $buildArticles := (where .Site.Pages "Params.tags" "intersect" $buildsTag) }}
-				{{ if $buildArticles }}
-					{{ range $index, $element := first 6 ($buildArticles) }}
-						{{ if (modBool $index 2) }}
-							<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/frame-build-card.html" . -}}
-							</div>
-						{{ else }}
-							<div class="column is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/frame-build-card.html" . -}}
-							</div>
-						{{ end }} 
-					{{ end }}
-				{{ else if $frame.videoBuilds }}
-					{{ range $index, $element := $frame.videoBuilds }}
-						{{ if (modBool $index 2) }}
-							<div class="column is-offset-2-desktop is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/build-video.html" . -}}
-							</div>
-						{{ else }}
-							<div class="column is-4-desktop is-12-mobile">
-								{{- partial "warframe-page/build-video.html" . -}}
-							</div>
-						{{ end }}
-					{{ end }}
-				{{ end }}
-			</div>
-		</div>
-	</section>
-	<footer class="section footer">
-		<div class="container">
-			<div class="columns has-text-left">
-				<div class="column is-offset-2-desktop is-8-desktop is-12-mobile">
-					<h2 class="frame-page-title">Explore more warframes</h2>
-				</div>
-			</div>
-			<div class="columns is-multiline is-mobile has-text-centered warframe-list">
-				{{ range .Site.Data.warframebuilds }}
-					{{ if and (.link) (ne .name (lower $frame.name)) }}
-						<div class="column is-2-desktop is-3-tablet is-4-mobile">
-							<div class="warframe-element" data-roles="any">
-								<a href="{{ .link }}" target="_blank" title="Warframe {{ .title }}">
-									<h2>{{ .title }}</h2>
-									<img src="/images/glyphs/{{ .glyph }}" title="Warframe {{ .title }}" alt="{{ .title }}" />
-								</a>
-							</div>
-						</div>
-					{{ end }}
-				{{ end }}
-			</div>
-			<div class="columns has-text-left">
-				<div class="column is-offset-2 is-8">
-					<hr>
-					<a href="{{ .Site.BaseURL }}">Warframe Blog</a> has no official link with Digital Extremes or Warframe, we are just a fan site.
-				</div>
-			</div>
-				
-		</div>
-	</footer>
-	<script src='/assets/js/warframe-page.js'></script>
-</body>
+	</div>
+</div>
 {{- end -}}

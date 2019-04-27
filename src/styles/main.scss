@@ -1,0 +1,94 @@
+@charset 'utf-8';
+
+@import "material-kit/variables";
+@import "material-kit/mixins";
+
+//Bootstrap
+
+// Core variables and mixins
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+// #853 start - https://github.com/twbs/bootstrap/pull/18976/files
+// hack
+@mixin pull-left {
+  float: left !important;
+  @if $enable-flex {
+    margin-right: auto;
+  }
+}
+@mixin pull-right {
+  float: right !important;
+  @if $enable-flex {
+    margin-left: auto;
+  }
+}
+
+// Reset and dependencies
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/print";
+
+// Core CSS
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+
+// Components
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/media";
+@import "bootstrap/scss/close";
+
+// Components w/ JavaScript
+@import "bootstrap/scss/carousel";
+
+// Utility classes
+@import "bootstrap/scss/utilities";
+
+@import "material-kit/reboot";
+
+// Core Components
+@import "material-kit/layout";
+@import "material-kit/buttons";
+@import "material-kit/misc";
+@import "material-kit/switches";
+@import "material-kit/radios";
+@import "material-kit/carousel";
+@import "material-kit/nav";
+@import "material-kit/images";
+@import "material-kit/navbar";
+@import "material-kit/pagination";
+@import "material-kit/pills";
+@import "material-kit/info-areas";
+@import "material-kit/type";
+@import "material-kit/tabs";
+@import "material-kit/dropdown";
+@import "material-kit/togglebutton";
+@import "material-kit/ripples";
+@import "material-kit/headers";
+@import "material-kit/footers";
+@import "material-kit/sidebar";
+
+// Cards
+@import 'material-kit/cards';
+@import 'material-kit/cards/card-plain';
+
+// Core Plugins
+@import 'material-kit/plugins/plugin-nouislider';
+
+// Sections and Example pages
+@import "material-kit/example-pages";
+@import 'material-kit/sections/headers-extend';
+@import 'material-kit/sections/footers-extend';
+@import "material-kit/responsive";
+@import 'material-kit/misc-extend';
