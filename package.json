@@ -5,7 +5,7 @@
   "scripts": {
     "start": "concurrently \"gulp\" \"hugo serve \"",
     "start:test": "http-server -p 1313",
-    "build": "gulp build --max_old_space_size=3700",
+    "build": "gulp build --max_old_space_size=2000",
     "trader:inventory": "node scripts/load-trader-inventory",
     "primes": "node scripts/primes-generator"
   },
