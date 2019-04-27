@@ -1,4 +1,4 @@
-materialKit = {
+var materialKit = {
   misc: {
     navbar_menu_visible: 0,
     window_width: 0,
@@ -10,7 +10,7 @@ materialKit = {
   },
 
   checkScrollForParallax: function() {
-    oVal = ($(window).scrollTop() / 3);
+    var oVal = ($(window).scrollTop() / 3);
     big_image.css({
       'transform': 'translate3d(0,' + oVal + 'px,0)',
       '-webkit-transform': 'translate3d(0,' + oVal + 'px,0)',
@@ -97,9 +97,9 @@ materialKit = {
     if (materialKit.misc.colored_shadows == true) {
       if (!(BrowserDetect.browser == 'Explorer' && BrowserDetect.version <= 12)) {
         $('.card:not([data-colored-shadow="false"]) .card-header-image').each(function() {
-          $card_img = $(this);
+          var $card_img = $(this);
 
-          is_on_dark_screen = $(this).closest('.section-dark, .section-image').length;
+          var is_on_dark_screen = $(this).closest('.section-dark, .section-image').length;
 
           // we block the generator of the colored shadows on dark sections, because they are not natural
           if (is_on_dark_screen === 0) {
@@ -160,7 +160,7 @@ materialKit = {
   }, 50),
 
   checkScrollForTransparentNavbar: debounce(function() {
-    if ($(document).scrollTop() > scroll_distance) {
+    if ($(document).scrollTop() > 500) {
       if (materialKit.misc.transparent) {
         materialKit.misc.transparent = false;
         $('.navbar-color-on-scroll').removeClass('navbar-transparent');
@@ -180,14 +180,27 @@ $(document).ready(function() {
   BrowserDetect.init();
 
   // Init Material scripts for buttons ripples, inputs animations etc, more info on the next link https://github.com/FezVrasta/bootstrap-material-design#materialjs
-  $('body').bootstrapMaterialDesign();
+  $('body').bootstrapMaterialDesign({ 
+    autofill: false, 
+    checkbox: false, 
+    checkboxInline: false, 
+    file: false, 
+    radio: false, 
+    radioInline: false,
+    select: false,
+    switch: false,
+    text: false,
+    textarea: false,
+    collapseInline: false,
+    drawer: false,
+  });
 
-  window_width = $(window).width();
+  var window_width = $(window).width();
 
-  $navbar = $('.navbar[color-on-scroll]');
-  scroll_distance = $navbar.attr('color-on-scroll') || 500;
+  var $navbar = $('.navbar[color-on-scroll]');
+  var scroll_distance = $navbar.attr('color-on-scroll') || 500;
 
-  $navbar_collapse = $('.navbar').find('.navbar-collapse');
+  var $navbar_collapse = $('.navbar').find('.navbar-collapse');
 
   // Multilevel Dropdown menu
 
@@ -311,7 +324,7 @@ $(document).on('click', '.card-rotate .btn-rotate', function() {
 });
 
 $(document).on('click', '.navbar-toggler', function() {
-  $toggle = $(this);
+  var $toggle = $(this);
 
   if (materialKit.misc.navbar_menu_visible == 1) {
     $('html').removeClass('nav-open');
@@ -328,7 +341,7 @@ $(document).on('click', '.navbar-toggler', function() {
     }, 580);
 
 
-    div = '<div id="bodyClick"></div>';
+    var div = '<div id="bodyClick"></div>';
     $(div).appendTo("body").click(function() {
       $('html').removeClass('nav-open');
 

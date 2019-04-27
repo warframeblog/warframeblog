@@ -44,11 +44,13 @@ gulp.task('build:scripts', () => {
 	return gulp.src('src/js/index.js')
 		.pipe(rollup({  
 			external: ['jquery', 'popper.js'],
-			output: { 
-				globals: { 'jquery': 'jQuery', 'popper.js' : 'Popper' }
-			},
 			plugins: [babel(babelOpts), resolve(), cjs(cjsOpts)] 
-		}, 'umd'))
+		}, { format: 'umd', globals: { 'jquery': 'jQuery', 'popper.js' : 'Popper' }}))
+		.pipe(gulp.dest('static/assets/js'));
+});
+
+gulp.task('vendor:scripts', () => {
+	return gulp.src(['node_modules/jquery/dist/jquery.slim.min.js', 'node_modules/popper.js/dist/umd/popper.min.js'])
 		.pipe(gulp.dest('static/assets/js'));
 });
 
@@ -98,4 +100,4 @@ gulp.task('watch:styles', () => {
 
 gulp.task('watch', gulp.parallel('watch:styles', 'watch:scripts'));
 
-gulp.task('default', gulp.parallel('watch', 'build:styles', 'build:scripts'));
+gulp.task('default', gulp.parallel('watch', 'build:styles', 'build:scripts', 'vendor:scripts'));
