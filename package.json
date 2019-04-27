@@ -49,6 +49,7 @@
     "http-server": "^0.11.1",
     "inquirer": "^6.2.2",
     "jquery": "^3.4.0",
+    "lazysizes": "^4.1.8",
     "lodash": "^4.17.11",
     "node-sass": "^4.11.0",
     "number-to-words": "^1.2.4",

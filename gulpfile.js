@@ -37,12 +37,13 @@ gulp.task('build:scripts', () => {
       ],
     };
 	const cjsOpts = {
-		include: ['node_modules/bootstrap/**', 'node_modules/bootstrap-material-design/**', 'node_modules/jquery/**'],
+		include: ['node_modules/bootstrap/**', 'node_modules/bootstrap-material-design/**', 
+			'node_modules/lazysizes/**', 'node_modules/jquery/**'],
 		namedExports: {
 			'node_modules/jquery/dist/jquery.js': 'jquery',
 		}
 	};
-	return gulp.src('src/js/index.js')
+	return gulp.src(['src/js/index.js', 'src/js/lazysizes.js'])
 		.pipe(rollup({  
 			external: ['jquery', 'popper.js'],
 			plugins: [babel(babelOpts), resolve(), cjs(cjsOpts), minify({comments: false})] 
