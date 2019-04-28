@@ -97,7 +97,7 @@ gulp.task('replace:html', () => {
 
 gulp.task('minify:html', () => {
 	return gulp.src(htmlFilesToPublish)
-		.pipe(htmlmin({ collapseWhitespace: true }))
+		.pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
 		.pipe(gulp.dest('public'));
 });
 
