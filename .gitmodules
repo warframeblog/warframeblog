@@ -13,3 +13,6 @@
 [submodule "static/images/primes"]
 	path = static/images/primes
 	url = https://github.com/warframeblog/primes.git
+[submodule "themes/hesti"]
+	path = themes/hesti
+	url = https://github.com/pods13/hesti.git
