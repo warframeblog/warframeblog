@@ -82,9 +82,15 @@ gulp.task('minify:styles', () => {
 		'public/warframe-builds/*.html',
 		'public/warframes/ash/*.html',
 		'public/warframes/nezha/*.html'
-	]
+	];
+	const selectorsToIgnore = [/.*\.ripple.*/, 
+		/.*\.dropdown-menu.*/,
+		/.*\.show/,
+		/.*\.toggled/, /.*\.untoggled/,
+		'#bodyClick',
+		/.*\.nav-open.*/];
 	return gulp.src(styleFilesToPublish)
-		.pipe(postcss([uncss({htmlroot: 'public', html: htmlFiles, ignore: [/.*\.ripple.*/, /.*\.dropdown-menu.*/, /.*\.show/, /.*\.toggled/, /.*\.nav-open.*/]})]))
+		.pipe(postcss([uncss({htmlroot: 'public', html: htmlFiles, ignore: selectorsToIgnore})]))
 		.pipe(postcss([ autoprefixer(), csso({ comments: false }) ]))
 		.pipe(gulp.dest(publicStyleAssets))
 });
