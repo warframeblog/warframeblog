@@ -334,11 +334,14 @@ $(document).on('click', '.navbar-toggler', function() {
     $('#bodyClick').remove();
     setTimeout(function() {
       $toggle.removeClass('toggled');
+      $toggle.addClass('untoggled');
+      
     }, 550);
 
     $('html').removeClass('nav-open-absolute');
   } else {
     setTimeout(function() {
+      $toggle.removeClass('untoggled');
       $toggle.addClass('toggled');
     }, 580);
 
@@ -354,6 +357,7 @@ $(document).on('click', '.navbar-toggler', function() {
       $('#bodyClick').remove();
       setTimeout(function() {
         $toggle.removeClass('toggled');
+        $toggle.addClass('untoggled');
       }, 550);
     });
 
