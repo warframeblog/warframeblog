@@ -5,7 +5,7 @@ date: 2019-04-04T00:59:50+00:00
 author: warframe
 layout: post
 permalink: /tipedo-prime-build/
-image: /wp-content/uploads/2019/04/warframe-tipedo-prime-build.jpg
+image: /wp-content/uploads/2019/05/warframe-tipedo-prime-build.jpg
 video_url:
   - L2K2E-vGTXc
 categories:
@@ -16,14 +16,15 @@ tags:
   - primary
 draft: true
 ---
-Hey guys and welcome to the Warframe build article. Today we're gonna take a quick look at the bladed staff weapon - **Tipedo Prime** that arrived with the Equinox Prime Access. <!--more-->
+Hey guys and welcome to another Warframe build article. Today we're gonna take a quick look at the **Tipedo Prime** that arrived with the Equinox Prime Access. <!--more-->
 
 Now, first things first the Tipedo Prime is obtained just like any other Primed item by crack opening of relics. So, the blueprint is a common drop from the elite b2 relic the handle is a rare drop from the axe 82 relic and finally the ornament is an uncommon drop from the nail and 10 relic with the weapon requiring one blueprint one handle and two ornaments 
 
 The Tipedo Prime requires you to be at least mastery rank 10 to use it and even though it doesn't look like a polearm it's actually a staff. Now, the weapon does 76 damage per hit with 60.8 being slash and 7.6 as both puncture and impact. It has decent of attack speed at 1.17, a pretty good crit and status chance both being at 24%, and an above-average crit multiplier at 2.4x. And other than that the Tipedo Prime comes with two polarities a D, a V. And finally, an R polarity in the stance which matches Flailing Branch. 
 
-##Tipedo Prime Build
+## Tipedo Prime Build
 Now, the build ended up running on the Tipedo Prime is this one:
+<img src='/wp-content/uploads/2019/05/tipedo-prime-one-forma-build.jpg' title='' alt='' width='750' height='265' class='alignnone size-large' srcset='/wp-content/uploads/2019/05/tipedo-prime-one-forma-build-300.jpg 300w, /wp-content/uploads/2019/05/tipedo-prime-one-forma-build-768.jpg 768w, /wp-content/uploads/2019/05/tipedo-prime-one-forma-build.jpg 960w'/>
 
 It only requires one forma where you change the D polarity into a V. The stance I ended up running with is Flailing Branch because it matches the polarity so it saves you forma but you can easily just polarize it and use the other one instead. Then we have Primed Pressure Point for damage, Condition Overload for even more damage as we proc status on the enemy, Blood Rush so weapon's crit chance scales with our combo counter which is followed up by Organ Shatter which takes the already above average crit multiplier all the way up to 4.6x. 
 
