@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jun 2018 00:45:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 17:03:29 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Primes</title>
+      <link>https://warframeblog.com/primes/</link>
+      <pubDate>Tue, 30 Apr 2019 20:46:04 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/primes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Builds</title>
@@ -44,15 +53,6 @@
       <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
       
       <guid>https://warframeblog.com/warframe-news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Primes</title>
-      <link>https://warframeblog.com/primes/</link>
-      <pubDate>Tue, 30 Apr 2019 20:46:04 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/primes/</guid>
       <description></description>
     </item>
     
