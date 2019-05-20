@@ -22,6 +22,19 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/warframes/garuda/</loc>
+    <lastmod>2019-05-19T14:48:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/warframes/</loc>
+    <lastmod>2019-05-19T14:48:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/thermia-fractures-event-guide/</loc>
     <lastmod>2019-05-18T02:15:48+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -270,12 +283,6 @@
     <lastmod>2018-11-13T14:48:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/warframes/</loc>
-    <lastmod>2018-11-13T14:48:24+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
