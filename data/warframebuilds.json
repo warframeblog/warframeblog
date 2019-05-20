@@ -113,6 +113,19 @@
     "roles": []
   },
   {
+    "name": "garuda",
+    "title": "Garuda",
+    "description": "",
+    "builds": "",
+    "glyph": "GarudaAvatarDark.png",
+    "roles": [
+      "damage",
+      "survaiability",
+      "utility"
+    ],
+    "link": "/warframes/garuda/"
+  },
+  {
     "name": "harrow",
     "title": "Harrow",
     "description": "Dauntless and devout, the dark priest Harrow bestows upon his coven three virtues: salvation through sacrifice, redemption through vengeance, and ascension through defiance.",
