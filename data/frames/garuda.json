@@ -1,0 +1,27 @@
+{
+  "name": "Garuda",
+  "passive": "Garuda`s primary passive, Death’s Gate, increases her damage output as her health decreases. When her health reaches 2 health points, she is at 100% increased damage (there is a counter at the top of the screen if you want to keep an eye on how this scales). Her second passive is very interesting – she can actually use her talons as a melee weapon, but only if you don’t equip an alternative. This can be modded individually, and is actually quite effective; however, it has very limited range.",
+  "abilities": [
+    {
+      "name": "Dread Mirror",
+      "description": "<p>Garuda’s first ability is less a mirror than a shield of absorption. When cast, Garuda leaps towards her foe, damaging them with her talons and stripping them of some of their life force. At the time she reaches her opponent, she releases an 8m area of effect stagger around the target. This is then used as a shield that protects from incoming damage – from the front only. Not only does it stop incoming damage, but it actually absorbs it, storing the damage in a blood orb at the top of the shield.</p><p>Once the shield is depleted the orb can be charged and fired at enemies, discharging a bunch of energy within an area of effect (10m base range at max rank). When charged in the air, Garuda can also hover for a few seconds!</p>",
+      "image": "/images/abilities/garuda/dread-mirror.png"
+    },
+    {
+      "name": "Blood Altar",
+      "description": "Garuda impales an enemy on a stake, siphoning off health within a radius around them and causing a staggering effect in an 8m radius. This health restoration effect works both on Garuda and her allies, making it a very useful ability in groups. She can create up to 3 altars at a time, effectively providing health for a whole group to defend an area – although the ability is duration-based.",
+      "image": "/images/abilities/garuda/blood-altar.png"
+    },
+    {
+      "name": "Bloodletting",
+      "description": "Garuda`s third ability is highly synergistic. It's relying directly on her passive. When cast, Garuda will slash herself with her talons, effectively halving her health and increasing her damage output as a result. On recast, Garuda will continue to reduce her health until a base of 2 health points. As a bonus, Bloodletting also restores some of Garuda’s energy – 25% per cast at max rank. This means you can cast Bloodletting to increase damage output, and follow it up with a Blood Altar when you want to regain health.",
+      "image": "/images/abilities/garuda/bloodletting.png"
+    },
+    {
+      "name": "Seeking Talons",
+      "description": "Seeking Talons was controversial at first unveiling, initially looking to be a “press 4 to win”-style blender of death. However, with enough complaint, DE reworked the ability to be much more proactive. Now, you need to hold the cast in order to charge up an area of effect (and similar to her 1, charging in the air will allow her to hover for a few seconds). Any enemy that is within the area of effect upon releasing the charge will be sought out by Garuda’s talons, hence the name. This will, of course, cause minor damage, and any surviving enemy will have a 50% chance of also suffering a bleed proc from any subsequent attack.",
+      "image": "/images/abilities/garuda/seeking-talons.png"
+    }
+  ],
+  "affectedByMods": ""
+}
