@@ -475,6 +475,13 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/warframes/valkyr/</loc>
+    <lastmod>2018-09-19T14:37:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/loki/</loc>
     <lastmod>2018-09-19T14:37:41+00:00</lastmod>
     <changefreq>daily</changefreq>
