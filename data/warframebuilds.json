@@ -14,15 +14,13 @@
   {
     "name": "atlas",
     "title": "Atlas",
-    "description": "With stone cold fists and a titan's physique, Atlas bends rock to encrust and bulldoze through all challengers in his brawl. Champion of elemental earth, he manifests formidable ramparts, crushing boulders, and golem brethren to rampage his stomping grounds.",
-    "builds": "I use on Atlas two different builds and I switch between them based on what I’m doing. The first one is <a href='/atlas-one-punch-build/'>Atlas One Punch Build</a> which focuses mostly on Landslide. The second one is Atlas Petrify Build which focuses on Petrify.",
     "glyph": "AtlasShikoroDarkGlyph.png",
-    "image": "atlas-warframe.jpg",
     "roles": [
       "damage",
       "crowd-control",
       "survaiability"
-    ]
+    ],
+    "link": "/warframes/atlas/"
   },
   {
     "name": "banshee",

@@ -12,6 +12,7 @@ tags:
   - atlas
   - builds
   - warframe
+  - AtlasBuilds
 ---
 Hey guys and today we're gonna take a look at Atlas who has received a fantastic new mechanic in the form of a rubble where petrified enemies will drop rubble upon death and you can run over the rubble to pick it up which one either heal you or if you're at full health it will temporarily boost your armor.<!--more-->
 

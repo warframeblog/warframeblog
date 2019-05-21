@@ -1,0 +1,27 @@
+{
+  "name": "Atlas",
+  "passive": "<p>Atlas possesses two passive mechanics. The first one is Immovable. It means Atlas can’t be knocked down while he is in contact with the ground. Although he can be knocked back by certain enemy abilities. He can be knocked down while jumping, though, so maybe best to keep his feet on the ground when Eximus enemies are around.</p><p>The second passive is called Rubble. With its help all petrified enemies, regardless of the method of petrification, will drop Rubble when killed, as well as Rumblers on an explosion. When Atlas picks this Rubble up, it will restore 50 Health or 50 Armor (only provides Armor if at full health). This stacks to a maximum of 1500 Armor, but note it decays over time.</p>",
+  "abilities": [
+    {
+      "name": "Landslide",
+      "description": "<p>Weird name for what is essentially a running punch, but given the rocky theme, it totally works. Yes, Atlas launches himself forward and punches the selected enemy, dealing damage to them and anyone in their immediate vicinity. This also comes with a 200% crit damage multiplier, plus a 5% crit chance and status chance. It's also impacted by the mods equipped so I might recommend using a crit-based melee when using Atlas.</p><p>Sadly, the base damage for Landslide is pretty poor, but it does scale with combos – multiple punches in succession will result in increased damage output and reduced energy cost (must be cast within 1 second of the prior cast). This also counts towards the melee combo counter, which is good to keep in mind! This ability also synergizes with other abilities in that a Landslide used on petrified enemies will result in 50% more health and armor gain from the rubble.</p>",
+      "image": "/images/abilities/atlas/landslide.png"
+    },
+    {
+      "name": "Tectonics",
+      "description": "<p>Atlas, being the master of rock that he is, reaches under his feet and pulls up a stone wall – regardless of the material he may be standing on. It’s a magical feat, and one he doesn’t get enough credit for. This wall has its own base health that is affected by Atlas’ own Armor, so I recommend you mod for that (increasing Armor is highly recommended, for reasons that will become even clearer). Not only that, the wall is initially invulnerable for a short period, and any absorbed damage during this time is added to the base health. You can see the health of this wall at the bottom right of your screen as a percentage.</p><p>If you get bored with your little rock wall, you can recast to send it rolling off in the direction of your enemies, dealing Impact damage to anyone stupid enough to remain in its path. Eventually, it will explode, causing Puncture damage to anyone near enough to be hit. Interestingly, you can also cast your third Ability (Petrify) on the wall, which will cause it to move faster, further, and cause more damage when you send it rolling away – but it can only be cast on the wall form.</p>",
+      "image": "/images/abilities/atlas/tectonics.png"
+    },
+    {
+      "name": "Petrify",
+      "description": "<p>On cast, Atlas fires a burst of energy in a cone focused in the direction he is facing. Any enemies that fall within this cone will be immediately petrified. This works by line of sight only. These enemies will then take 50% more damage from all sources and will remain in stone form for a short duration. Keep in mind that this Ability does not affect bosses or capture targets. Any enemies killed while petrified will drop Rubble.</p><p>This is a pretty simple Ability, but it does have some synergy with other Abilities in his kit. As mentioned, it can be cast on his Tectonic wall, petrifying it and causing it to cause more damage in rolling form. Secondly, when casting on a Rumbler (his fourth Ability), the golem will return to 100% health.</p>",
+      "image": "/images/abilities/atlas/petrify.png"
+    },
+    {
+      "name": "Rumblers",
+      "description": "<p>Being the rock magician that he is, Atlas summons two stone golems out of the air. This also petrifies any enemies close enough to be caught up in the act. These little fellas have their own Health and Armor, which is affected by Ability Strength, but also by the Health, Armor and Shield mods applied to Atlas himself, so you can effectively make them somewhat immortal.</p><p>These golems will run around, causing havok, and smashing enemies with their stony fists. After a duration, they will explode, causing blast damage, and leaving behind Rubble. They are not affected by status effects but do keep in mind that nullifier fields will slowly drain their health. Most importantly, casting Petrify on the Rumblers will restore them to 100% health.</p>",
+      "image": "/images/abilities/atlas/rumblers.png"
+    }
+  ],
+  "affectedByMods": ""
+}
