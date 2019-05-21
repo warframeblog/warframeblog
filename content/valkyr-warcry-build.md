@@ -8,6 +8,8 @@ permalink: /valkyr-warcry-build/
 image: /wp-content/uploads/2018/03/valkyr-warcry-build.jpg
 categories:
   - Builds
+tags:
+  - ValkyrBuilds
 ---
 Hey guys and today we’re gonna take a look at the Valkyr Warcry Build.<!--more-->
 

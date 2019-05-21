@@ -393,11 +393,16 @@
   {
     "name": "valkyr",
     "title": "Valkyr",
-    "description": "Valkyr is a berserker-themed Warframe. Driven by feral rage, her attacks rend her prey with fury and ferociousness, while her tortured cries break the imposing silence of the Tenno presence. ",
+    "description": "",
     "builds": "",
     "glyph": "ValkyrKaraDarkGlyph.png",
     "image": "valkyr-warframe.jpg",
-    "roles": []
+    "roles": [
+      "survaiability",
+      "damage",
+      "utility"
+    ],
+    "link": "/warframes/valkyr/"
   },
   {
     "name": "vauban",

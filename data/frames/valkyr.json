@@ -1,0 +1,31 @@
+{
+  "name": "Valkyr",
+  "passive": "Valkyr’s passive - Nimble. She can recover faster from knockdowns and is immune to heavy landings.",
+  "abilities": [
+    {
+      "name": "Rip Line",
+      "description": "With this first Ability, Valkyr makes use of her trusty grappling hook. This can be used in one of two ways – if aimed at the environment, Valkyr will be propelled towards that location (provided it is within Range), enabling her to quickly reposition, or get quickly out of danger. If the Rip Line hits an Enemy or teammate, then they will be pulled towards her. Enemies hit by the grapling hook will also receive Slash Damage and be ragdolled along the way.",
+      "image": "/images/abilities/valkyr/rip-line.png"
+    },
+    {
+      "name": "Warcry",
+      "description": "Warcry s a simple, yet effective support buff. Valkyr lets out a piercing scream, providing herself and all teammates within range with an increase in melee damage and speed while slowing enemies. Additionally, it provides a boost to Armor for the Duration of the Ability.",
+      "image": "/images/abilities/valkyr/warcry.png"
+    },
+    {
+      "name": "Paralysis",
+      "description": "On casting Paralysis, Valkyr essentially discharges her shields outwards, causing a stun and knockback effect on enemies within Range at the cost of 33% of her Shield. In addition, the Ability will also Damage enemies by up to 3.5x her Shield at the time of casting (base at max), so a larger Shield stat will result in better effectiveness.",
+      "image": "/images/abilities/valkyr/paralysis.png"
+    },
+    {
+      "name": "Hysteria",
+      "description": "<p>On casting, Valkyr becomes a white-hot ball of kitty fury. This is a drain Ability, so it is important to keep an eye on your Energy. In this state of intense fury, Valkyr will become invulnerable and will attack with her exalted talons. These attacks cause Damage to nearby enemies. Valkyr will also heal herself by 5% of the total Damage. Effectively, this makes Hysteria a great get out of trouble Ability, particularly for its self-healing utility.</p><p>However, 30% of all Damage that Valkyr ignores is stored, and 25% of this will be dealt to Valkyr when Hysteria is deactivated if in line-of-sight of an enemy. As a result, make sure everyone is dead before you deactivate and/or keep an eye on your Energy.</p>",
+      "image": "/images/abilities/valkyr/hysteria.png"
+    }
+  ],
+  "affectedByMods": "",
+  "videoBuilds": [
+    "oom5d2K3D-k",
+    "-QkdGeSAQVs"
+  ]
+}
