@@ -191,8 +191,10 @@
     "glyph": "LimboAristeasDarkGlyph.png",
     "image": "limbo-warframe.jpg",
     "roles": [
+      "survaiability",
       "crowd-control"
-    ]
+    ],
+    "link": "/warframes/limbo/"
   },
   {
     "name": "loki",

@@ -1,0 +1,27 @@
+{
+  "name": "Limbo",
+  "passive": "Limbo’s passive (Rift Walk) revolves around crossing into the rift plane and receiving some strategic advantages. This is achieved with the use of the dodge button on your platform of choice. The first said advantage is that while in the rift, Limbo becomes completely untouchable by those in the material world, which is good for if you need a quick getaway. Note that when Limbo steps into the rift he leaves behind a tear between dimensions for 5 seconds, and allies are able to put this tear to use to follow Limbo into the rift for 15 seconds, although Limbo can stay indefinitely. While there are enemies in the rift, Limbo will receive 10 Energy for each kill, meaning Limbo can replenish his Energy so long as he utilizes his connection to the rift plane.",
+  "abilities": [
+    {
+      "name": "Banish",
+      "description": "Limbo’s first ability is Banish. Limbo sends forth a wave of energy that ‘banishes’ all organisms it comes in contact with to the rift plane. This, of course, means allies and any mission-based NPCs may also be banished. If an ally wishes to escape the rift, all they need do is quickly tap the dodge key. Adversaries, on the other hand, don’t get such luxuries and instead are dealt 250 Impact Damage, as the cast is a heavy force push that pushes the enemy into the rift. Upon entering the rift, enemies are dealt an additional 300 Impact Damage following a knockdown. Enemies in the rift can only be attacked in the rift.",
+      "image": "/images/abilities/limbo/banish.png"
+    },
+    {
+      "name": "Stasis",
+      "description": "Limbo’s second ability is Stasis. Limbo takes full control over the rift plane and stops time for all his adversaries stuck in the rift. While time may be frozen for the enemy, it is not for Limbo, allowing him to freeze all enemy fire/projectiles. The base Duration for Stasis is 15 seconds and the max enemy/projectiles it can stop at any time is 300, any more than this limit and Stasis will shut off automatically.",
+      "image": "/images/abilities/limbo/stasis.png"
+    },
+    {
+      "name": "Rift Surge",
+      "description": "Now for one of Limbo’s more complicated Abilities, the Rift Surge. Any and all enemies trapped in the rift plane within a 25-meter radius of Limbo will be enveloped by intense rift energies. These energies will act as a bomb, exploding when a charged enemy leaves the rift. This rift explosion has a 5-meter radius and will throw any enemies bound to the material plane right on into the rift, including the enemy that had been the catalyst for the surge. Being banished by this means will last for 18 seconds, and if an enemy is killed while they are charged then the surge of energy will travel to a new host within 25 meters on the material plane.",
+      "image": "/images/abilities/limbo/rift-surge.png"
+    },
+    {
+      "name": "Cataclysm",
+      "description": "<p>Limbo’s fourth ability is Cataclysm. He calls forth a dimensional nexus connecting the rift plane with the material plane. All who cross the threshold will in fact be stepping into the rift, where Limbo rules supreme. The initial radius of this pocket dimension is 16 metres around the designated cast location, which will begin to shrink down to a 5 metre radius before completely dissipating. All of this occurs within a 30-second timeframe.</p><p>Now be warned – the cataclysm affects the way the battle is waged, with different effects depending on whether you are friend or foe. Allies in the cataclysm can move freely and will generate 2 Energy every second, which cannot be interrupted. Enemies within the casting area will take 500 Blast Damage on the appearance and again at the disappearance of the pocket dimension, along with 300 Damage for entering and leaving the rift. Additional damage may be dealt by the collapse of cataclysm based on the average Health and Shields of enemies caught in the centre.</p>",
+      "image": "/images/abilities/limbo/cataclysm.png"
+    }
+  ],
+  "affectedByMods": ""
+}

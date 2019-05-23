@@ -8,6 +8,8 @@ permalink: /limbo-rift-torrent-build/
 image: /wp-content/uploads/2018/03/warframe-limbo-rift-torrent-build.jpg
 categories:
   - Builds
+tags:
+  - LimboBuilds
 ---
 Hey guys and today we're gonna take a look at the Limbo Rift Torrent Build.<!--more-->
 
