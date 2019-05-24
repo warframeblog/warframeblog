@@ -1,0 +1,31 @@
+{
+  "name": "Gara",
+  "passive": "Gara’s Passive, Glint, uses her glassiness as crowd control. When standing in the light, there is a chance for Gara to blind any enemies within 12m for 10 seconds, also opening them to finisher attacks.",
+  "abilities": [
+    {
+      "name": "Shattered Lash",
+      "description": "Gara’s first ability is Shattered Lash. Gara thrust her glass sword in front of her, dealing Puncture Damage and knocking back enemies within 0.7m of her blade. Should you wish to cover a wider area in front of Gara, players can hold down the Ability key, after which Gara will sweep her sword in an arc in front of her, dealing Slash Damage to enemies that come in contact with the sword, and ragdolling them. Keep in mind that this is both silent, one-handed, and can be cast while jumping.",
+      "image": "/images/abilities/gara/shattered-lash.png"
+    },
+    {
+      "name": "Splinter Storm",
+      "description": "Part of Gara’s outfit is some very visible glass armor. Using Splinter Storm will shatter this armor outwards, creating a swirling storm of razor-sharp glass in a short radius around her. Enemies that enter this radius will be struck with constant balanced IPS Damage over time and will be pushed back. Gara herself will receive 70% (base at max) Damage resistance, which affects both Shields and Health. This can also be cast on allies, providing the same benefit.",
+      "image": "/images/abilities/gara/splinter-storm.png"
+    },
+    {
+      "name": "Spectrorage",
+      "description": "A targeted Ability, Gara conjures a rotating circle of mirrors. This shiny carousel enraptures enemies, luring them inside, where they begin to attack their own reflection. On receiving a certain amount of Damage, each mirror will individually explode, causing Damage on the attacker. When half of the mirrors are destroyed, the carousel collapses on itself, causing even more Damage to enemies still trapped within. If a mirror shatters within Range of Splinter Storm, 50% of its Damage is added to Splinter Storm’s Damage per second for the remaining Duration.",
+      "image": "/images/abilities/gara/spectrorage.png"
+    },
+    {
+      "name": "Mass Vitrify",
+      "description": "<p>Gara releases a slowly expanding ring of molten glass, which expands outward and downward, creating a wall of glass around her. This occurs over 3 seconds, during which Gara is invulnerable. This ring expands to 11m base at max rank. While expanding, enemies that come in contact with the expanding wall become encased in glass, which hardens around them, crystallizing them for a Duration – during this time, they lose resistance to Weapon Damage.</p><p>The glass wall itself, which hardens when it reaches maximum Range when Gara runs out of Energy, or upon recasting, consists of 12 panels, each with 2,225 base Health, which is further augmented by Gara’s Armor stat. When a panel is destroyed, it shatters causing Damage to all enemies within Range. Gara can recast the Ability to shatter all panels. Note that although players can move through the glass wall without issue, you can also perform wall grab and jumping maneuvers off it.</p><p>Gara can use her Shattered Lash Ability on a glass panel to instantly destroy it, inflicting both the Shattered Lash Damage plus additional Damage from the shattering of the panel. In addition, casting Mass Virtify while Splinter Storm is active will refresh the Duration of this Ability and its effects.</p>",
+      "image": "/images/abilities/gara/mass-vitrify.png"
+    }
+  ],
+  "affectedByMods": "",
+  "videoBuilds": [
+    "KSq0Wxr5XKg",
+    "khP1mAx_EyE"
+  ]
+}

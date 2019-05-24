@@ -108,7 +108,12 @@
     "builds": "",
     "glyph": "GaraAvatarBright.png",
     "image": "gara-warframe.jpg",
-    "roles": []
+    "roles": [
+      "damage",
+      "survaiability",
+      "crowd-control"
+    ],
+    "link": "/warframes/gara/"
   },
   {
     "name": "garuda",
