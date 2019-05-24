@@ -22,16 +22,23 @@
   </url>
   
   <url>
-    <loc>https://warframeblog.com/warframes/atlas/</loc>
-    <lastmod>2019-05-20T14:37:42+00:00</lastmod>
+    <loc>https://warframeblog.com/warframes/gara/</loc>
+    <lastmod>2019-05-24T04:48:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/warframes/</loc>
-    <lastmod>2019-05-20T14:37:42+00:00</lastmod>
+    <lastmod>2019-05-24T04:48:24+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/warframes/atlas/</loc>
+    <lastmod>2019-05-20T14:37:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
