@@ -2,6 +2,8 @@
 slug: builds
 title: Builds
 seoTitle: Warframe Builds
-layout: page
+type: builds
+layout: all
 date: 2018-06-22T00:45:51+00:00
+navClasses: ' fixed-top navbar-expand-lg'
 ---

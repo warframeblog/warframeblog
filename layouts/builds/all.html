@@ -1,0 +1,38 @@
+{{- define "custom-header" -}}
+<div></div>
+{{- end -}}
+{{- define "main-body" -}}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mt-5 pt-5">
+				<h1 class="title pt-5">{{ .Title }}</h1>
+				{{- partial "category/breadcrumbs.html" . -}}
+			</div>
+
+			<div class="col-md-12">
+				<ul class="nav nav-pills justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link active" href="/builds/">All</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/warframe-builds/">Warframe Builds</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#0">Primary Weapon Builds</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#0">Secondary Weapon Builds</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#0">Melee Builds</a>
+					</li>
+				</ul>
+			</div>
+			
+			{{- range  .Paginator.Pages -}}
+				{{- partial "plain-card.html" . -}}
+			{{- end -}}
+		</div>
+	</div>
+	{{- partial "pagination.html" . -}}
+{{- end -}}
