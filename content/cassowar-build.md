@@ -8,6 +8,7 @@ permalink: /cassowar-build/
 image: /wp-content/uploads/2017/12/cassowar-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - polearm

@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/05/warframe-braton-vandal-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 ---
 Hey guys and welcome to another Warframe article. Today we're gonna take a quick look at Braton Vandal a weapon that was only available during a very short time period in open beta for one credit. But now if you want to get your hands on the Braton Vandal you will either have to buy it from other people using platinum or you will have to do the [Elite Sanctuary Onslaught](https://warframeblog.com/sanctuary-onslaught-guide/).<!--more-->
 

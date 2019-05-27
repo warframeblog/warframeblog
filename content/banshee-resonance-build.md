@@ -8,6 +8,7 @@ permalink: /banshee-resonance-build/
 image: /wp-content/uploads/2018/02/banshee-resonance-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - banshee
   - builds

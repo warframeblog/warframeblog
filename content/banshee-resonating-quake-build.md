@@ -8,6 +8,7 @@ permalink: /banshee-resonating-quake-build/
 image: /wp-content/uploads/2018/03/banshee-warframe.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - banshee
   - builds

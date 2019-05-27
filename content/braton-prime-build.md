@@ -8,6 +8,7 @@ permalink: /braton-prime-build/
 image: /wp-content/uploads/2018/01/braton-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - rifle

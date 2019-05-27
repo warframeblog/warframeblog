@@ -8,6 +8,7 @@ permalink: /banshee-savage-silence-build/
 image: /wp-content/uploads/2018/03/banshee-savage-silence-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - banshee
   - builds
