@@ -36,3 +36,10 @@ enableInlineShortcodes = true
 	[[related.indices]]
 		name  = "tags"
 		weight = 100
+[menu]
+	[[menu.builds]]
+		name = "All"
+		url = "/builds/"
+	[[menu.builds]]
+		name = "Warframe Builds"
+		url = "/warframe-builds/"

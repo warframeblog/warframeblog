@@ -1,0 +1,8 @@
+<ul class="nav nav-pills justify-content-center">
+	{{- $currentPage := . -}}
+	{{- range .Site.Menus.builds -}}
+	<li class="nav-item">
+		<a class="nav-link {{ if $currentPage.IsMenuCurrent "builds" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+	</li>
+	{{- end -}}
+</ul>
