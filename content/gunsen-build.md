@@ -8,6 +8,7 @@ permalink: /gunsen-build/
 image: /wp-content/uploads/2017/12/gunsen-build.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 tags:
   - builds
   - melee

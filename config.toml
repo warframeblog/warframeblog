@@ -40,6 +40,12 @@ enableInlineShortcodes = true
 	[[menu.builds]]
 		name = "All"
 		url = "/builds/"
+		weight = 10
 	[[menu.builds]]
 		name = "Warframe Builds"
 		url = "/warframe-builds/"
+		weight = 20
+	[[menu.builds]]
+		name = "Melee Weapon Builds"
+		url = "/melee-weapon-builds/"
+		weight = 30
