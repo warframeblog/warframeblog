@@ -8,6 +8,7 @@ permalink: /rhino-iron-skin-build/
 image: /wp-content/uploads/2018/01/rhino-iron-skin-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - rhino

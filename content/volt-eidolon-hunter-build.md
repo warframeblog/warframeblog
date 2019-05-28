@@ -10,6 +10,7 @@ video_url:
   - CLhGq3YPtKM
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - volt
   - builds

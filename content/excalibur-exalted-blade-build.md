@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/03/excalibur-exalted-blade.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - excalibur

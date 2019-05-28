@@ -8,7 +8,6 @@ permalink: /corinth-build/
 image: /wp-content/uploads/2017/12/warframe-corinth-build.jpg
 categories:
   - Builds
-  - Warframe Builds
 tags:
   - builds
   - shotgun

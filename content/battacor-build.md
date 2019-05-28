@@ -10,7 +10,6 @@ video_url:
 image: /wp-content/uploads/2018/12/warframe-battacor-build.jpg
 categories:
   - Builds
-  - Warframe Builds
 ---
 Hey guys and welcome to another [Warframe Build](/builds/ "Warframe Builds") article. Today I want to take a quick look at one of the new weapons that arrived with [Fortuna](/fortuna/ "Warframe Fortuna") the Battacor. <!--more-->
 

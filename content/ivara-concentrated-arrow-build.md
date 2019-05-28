@@ -8,6 +8,7 @@ permalink: /ivara-concentrated-arrow-build/
 image: /wp-content/uploads/2018/04/warframe-ivara-concentrated-arrow-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - IvaraBuilds
 ---

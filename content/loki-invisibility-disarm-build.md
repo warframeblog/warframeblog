@@ -8,6 +8,7 @@ permalink: /loki-invisibility-disarm-build/
 image: /wp-content/uploads/2018/02/loki-invisibility-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - loki

@@ -8,6 +8,7 @@ permalink: /frost-ice-wave-build/
 image: /wp-content/uploads/2018/01/frost-ice-wave-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - frost

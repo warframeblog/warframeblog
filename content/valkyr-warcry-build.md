@@ -8,6 +8,7 @@ permalink: /valkyr-warcry-build/
 image: /wp-content/uploads/2018/03/valkyr-warcry-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - ValkyrBuilds
 ---

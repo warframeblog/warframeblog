@@ -8,7 +8,6 @@ permalink: /baza-build/
 image: /wp-content/uploads/2017/11/warframe-baza-build.jpg
 categories:
   - Builds
-  - Warframe Builds
 tags:
   - builds
   - weapon

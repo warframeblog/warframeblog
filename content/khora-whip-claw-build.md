@@ -10,6 +10,9 @@ video_url:
 image: /wp-content/uploads/2018/06/warframe-khora-whip-claw-build.jpg
 categories:
   - Builds
+  - Warframe Builds
+tags:
+  - KhoraBuilds
 ---
 Hey guys and welcome to another warframe build article. Today I want to go over Khora Whip Claw Build. Well, it's actually gonna be several builds for Khora, Venari, and [melee weapon](https://warframeblog.com/melee-weapons/). I'm also gonna talk a little bit about some of the changes and tweaks that Khora has received and that have at least in my humble opinion made her better.<!--more-->
 

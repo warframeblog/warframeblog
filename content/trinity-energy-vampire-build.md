@@ -8,6 +8,7 @@ permalink: /trinity-energy-vampire-build/
 image: /wp-content/uploads/2018/02/warframe-trinity-energy-vampire-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - trinity

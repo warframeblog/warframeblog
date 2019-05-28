@@ -8,6 +8,7 @@ permalink: /trinity-blessing-build/
 image: /wp-content/uploads/2018/02/trinity-blessing-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - trinity

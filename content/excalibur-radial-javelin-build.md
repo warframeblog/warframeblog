@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/02/excalibur-radial-javelin-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - excalibur

@@ -8,6 +8,7 @@ permalink: /mirage-prime-build/
 image: /wp-content/uploads/2017/12/warframe-mirage-prime-overview.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - warframe

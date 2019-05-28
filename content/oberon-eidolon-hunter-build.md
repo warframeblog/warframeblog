@@ -8,6 +8,7 @@ permalink: /oberon-eidolon-hunter-build/
 image: /wp-content/uploads/2018/03/oberon-eidolon-hunter-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - oberon
   - OberonBuilds

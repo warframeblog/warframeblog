@@ -8,6 +8,7 @@ permalink: /nezha-safeguard-build/
 image: /wp-content/uploads/2018/08/warframe-nezha-safeguard-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 video_url:
   - Zk-6XKYQ5vU
 tags:
