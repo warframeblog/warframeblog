@@ -5,6 +5,7 @@ date: 2019-05-27T00:59:50+00:00
 author: warframe
 layout: post
 permalink: /wisp-reservoirs-build/
+image: /wp-content/uploads/2019/05/warframe-wisp-reservoirs-build.jpg
 video_url:
   - tBvlFHuyRAc
 categories:
@@ -14,12 +15,13 @@ tags:
   - builds
   - warframe
   - WispBuilds
-draft: true
 ---
 Hey guys and welcome to another Warframe build article. Today, I'm going to talk about the Wisp Reservoirs Build that I've been using on the Wisp because I really like it and I think you might enjoy it too. <!--more-->
 
 ## Wisp Reservoirs Build
 So, the build only requires two forma where you'll add a V and a D though if you plan to go into an Umbra build later on I would definitely not add the D. I will choose a different polarity which would probably be a V. 
+
+{{< image title=\"Warframe Wisp Reservoirs Build\" alt=\"Warframe Wisp Reservoirs 2 Forma Build\" src=\"/wp-content/uploads/2019/05/wisp-reservoirs-2-forma-build.jpg\" srcset=\"/wp-content/uploads/2019/05/wisp-reservoirs-2-forma-build.jpg 960w, /wp-content/uploads/2019/05/wisp-reservoirs-2-forma-build-768.jpg 768w, /wp-content/uploads/2019/05/wisp-reservoirs-2-forma-build-640.jpg 640w\" >}}
 
 The aura I'm gonna be running most of the time is Corrosive Projection which kind of suits this build because it's more of a supportive build but it's just a great aura overall which reduces enemy armor. It also fits the polarity the frame comes with which is definitely nice as well and you can switch it out for other things like Shield Disruption or even Energy Siphon though Energy Siphon for this Wisp Build is not entirely necessary. 
 
