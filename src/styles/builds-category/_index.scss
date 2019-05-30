@@ -1,0 +1,13 @@
+.builds-category {
+	h1 {
+		margin-bottom: 10px;
+	}
+
+	.breadcrumb {
+		padding: 0 0 0 10px;
+	}
+
+	.breadcrumb-item + .breadcrumb-item::before {
+		color: $black-color;
+	}
+}
