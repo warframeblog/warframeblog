@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2019 00:59:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 00:07:00 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fulmin Build</title>
+      <link>https://warframeblog.com/fulmin-build/</link>
+      <pubDate>Thu, 30 May 2019 00:07:00 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/fulmin-build/</guid>
+      <description>&lt;p&gt;Hey guys and welcome to another Warframe build article. Today we&amp;rsquo;re going to take a quick look at Wisp&amp;rsquo;s signature primary rifle &lt;strong&gt;the Fulmin&lt;/strong&gt; which is both a shotgun as well as a fully automatic rifle.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Wisp Reservoirs Build</title>
