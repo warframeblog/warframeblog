@@ -37,6 +37,16 @@
     "link": "/warframes/banshee/"
   },
   {
+    "name": "baruuk",
+    "title": "Baruuk",
+    "glyph": "BaruukAltAvatarDark.png",
+    "roles": [
+      "survaiability",
+      "crowd-control"
+    ],
+    "link": "/warframes/baruuk/"
+  },
+  {
     "name": "chroma",
     "title": "Chroma",
     "description": "The bestial avatar of the primal forces of nature, Chroma, confounds his foes and strengthens his allies with elemental caprice.",

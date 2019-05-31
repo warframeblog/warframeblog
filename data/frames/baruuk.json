@@ -1,0 +1,31 @@
+{
+  "name": "Baruuk",
+  "passive": "Baruuk's passive is Restraint. This passive is directly tied to the entire kit, as the first 3 Abilities will lower the levels of the restraint bar, signifying Baruuk tipping closer and closer to the edge and fuelling his fourth Ability’s mighty power. As the bar depletes, Baruuk also gains Damage resistance up to 50%.",
+  "abilities": [
+    {
+      "name": "Elude",
+      "description": "<p>Through the art of restraint, Baruuk learns how to become untouchable with the first Ability in his kit, “Elude”.</p><p>By keeping his passive demeanour and a stance of non-aggression towards his foes, projectiles and melee strikes will seemingly pass right through the monk leaving not even a scratch behind. Unfortunately, this Ability does not protect Baruuk from every angle, and at max rank will cover 180 degrees in the direction Baruuk is facing. For every successful dodge, 0.6% of the Restraint bar will erode.</p>",
+      "image": "/images/abilities/baruuk/elude.png"
+    },
+    {
+      "name": "Lull",
+      "description": "<p>In an attempt to control a large group of foes, Baruuk has the Ability to create a calming wave that flows over all that surrounds him, gradually sending them into a deep slumber. This mystical calming wave has a lingering effect and remains for 5 seconds while stretching to a radius of 25 meters so that any new personnel of the aggressive variety will also be brought to a sleep-induced halt.</p><p>Enemies sent into a dream state will remain so for 25 seconds and upon awakening will suffer temporary disorientation and amnesia, resetting any levels of alertness in the corresponding foe. For every successful enemy lulled to sleep, 0.81% of the Restraint bar will continue to erode.</p>",
+      "image": "/images/abilities/baruuk/lull.png"
+    },
+    {
+      "name": "Desolate Hands",
+      "description": "<p>Calling forth a ring of 8 levitating daggers is Baruuk's third skill. These trusty tools are designed to disarm instead of the kill but do pack a bit of a bite, as most sharp pointy objects do. While circling Baruuk, the daggers will provide an additional 10% Damage reduction each, and will lash out to disarm enemies within 6 meters. Note that while Elude is active, this Range is doubled.</p><p>After a dagger flies off to disarm the nearest foe, a charge will be spent and upon collision will create a small explosion, dealing 250 Damage in a 3-meter radius. In addition to all these neat tricks, the daggers can also jump to allies within Range, providing the same bonuses. For each enemy disarmed, the Restraint bar will erode a further 1.6%.</p>",
+      "image": "/images/abilities/baruuk/desolate-hands.png"
+    },
+    {
+      "name": "Serene Storm",
+      "description": "<p>And finally, the breaking point at which Baruuk will harness his inner rage in the form of exalted fist weapons “Desert Wind” along with 25% Damage reduction. Unlike other exalted weapons, the Desert Wind of Serene Storm does not use energy, but instead is connected to the Restraint bar and will fill it up by 0.83% every second it remains active. The Damage that these fists cause is purely Impact based, and at the base will deal 250 Damage on a normal attack within 2 meters.</p><p>However, if you thought that was all there was to it, you were wrong. These special fists bring with them projectile waves that deal degrading Damage the further they travel and can punch enemy projectiles right back to their source. Enemies hit by these waves will be staggered and have a chance at being permanently disarmed. On top of this, basic attacks and their waves have a 200% Crit multiplier, 50% Crit Chance and 10% Status Chance.</p>",
+      "image": "/images/abilities/baruuk/serene-storm.png"
+    }
+  ],
+  "affectedByMods": "",
+  "videoBuilds": [
+    "B0JnPbMllMo",
+    "NfQXD7x_rqI"
+  ]
+}
