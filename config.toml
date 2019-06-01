@@ -46,6 +46,14 @@ enableInlineShortcodes = true
 		url = "/warframe-builds/"
 		weight = 20
 	[[menu.builds]]
+		name = "Primary Weapon Builds"
+		url = "/primary-weapon-builds/"
+		weight = 30
+	[[menu.builds]]
+		name = "Secondary Weapon Builds"
+		url = "/secondary-weapon-builds/"
+		weight = 40
+	[[menu.builds]]
 		name = "Melee Weapon Builds"
 		url = "/melee-weapon-builds/"
-		weight = 30
+		weight = 50

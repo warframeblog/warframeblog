@@ -1,10 +1,9 @@
 ---
-slug: warframe-builds
 title: Warframe Builds
 seoTitle: Warframe Builds
-description: ''
 type: builds
 layout: all
+slug: /warframe-builds/
 date: 2018-06-22T00:45:51+00:00
 omitHeroImage: true
 ---
