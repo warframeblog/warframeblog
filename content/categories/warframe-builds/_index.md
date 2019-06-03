@@ -1,6 +1,6 @@
 ---
 title: Warframe Builds
-seoTitle: Warframe Builds
+seoTitle: Warframe Builds. Best Warframe Builds
 type: builds
 layout: all
 slug: /warframe-builds/

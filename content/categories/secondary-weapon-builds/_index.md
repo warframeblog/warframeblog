@@ -1,6 +1,6 @@
 ---
 title: Secondary Weapon Builds
-seoTitle: Secondary Weapon Builds
+seoTitle: Secondary Weapon Builds in Warframe. Builds for Secondary Weapons
 type: builds
 layout: all
 slug: /secondary-weapon-builds/

@@ -1,6 +1,6 @@
 ---
 title: Primary Weapon Builds
-seoTitle: Primary Weapon Builds
+seoTitle: Primary Weapon Builds in Warframe. Builds for Primary Weapons
 type: builds
 layout: all
 slug: /primary-weapon-builds/

@@ -1,6 +1,6 @@
 ---
 title: Melee Weapon Builds
-seoTitle: Melee Weapon Builds
+seoTitle: Melee Weapon Builds in Warframe. Builds for Melee Weapons
 type: builds
 layout: all
 date: 2019-06-02T00:45:51+00:00
