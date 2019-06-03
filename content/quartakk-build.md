@@ -8,6 +8,7 @@ permalink: /quartakk-build/
 image: /wp-content/uploads/2017/12/warframe-quartakk.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - build
   - rifle

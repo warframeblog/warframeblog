@@ -10,6 +10,7 @@ video_url:
   - tBvlFHuyRAc
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - wisp
   - builds

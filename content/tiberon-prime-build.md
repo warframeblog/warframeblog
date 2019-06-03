@@ -8,6 +8,7 @@ permalink: /tiberon-prime-build/
 image: /wp-content/uploads/2018/03/warframe-tiberon-prime-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 ---
 Hey guys and welcome to another Warframe article. And today we're gonna take a quick look at the newest addition to our primary rifle arsenal the Tiberon Prime.<!--more-->
 

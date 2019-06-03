@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2019/03/warframe-tatsu-build.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 ---
 Hey guys and welcome to another Warframe Build article. Today we're gonna take a quick look at our first two-handed Nikana that was introduced with update 24.4 the *Tatsu*. <!--more-->
 

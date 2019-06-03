@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/06/warframe-embolist-build.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 ---
 Hey guys and welcome to another weapon build article. Today we're gonna take a quick look at a secondary weapon that I've been eyeballing for quite a while because it's kind of interesting and it goes by the name of Embolist.<!--more-->
 

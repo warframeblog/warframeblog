@@ -8,6 +8,7 @@ permalink: /rakta-dark-dagger-build/
 image: /wp-content/uploads/2018/01/rakta-dark-dagger-build.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 tags:
   - builds
   - dagger

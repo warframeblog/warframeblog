@@ -8,6 +8,7 @@ permalink: /stubba-build/
 image: /wp-content/uploads/2018/02/stubba-build.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 tags:
   - build
   - pistol

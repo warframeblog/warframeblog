@@ -10,6 +10,7 @@ video_url:
   - L2K2E-vGTXc
 categories:
   - Builds
+  - Melee Weapon Builds
 tags:
   - tipedo
   - builds

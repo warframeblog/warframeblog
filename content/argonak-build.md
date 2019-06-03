@@ -8,6 +8,7 @@ permalink: /argonak-build/
 image: /wp-content/uploads/2018/01/argonak-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - builds
   - rifle

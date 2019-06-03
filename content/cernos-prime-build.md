@@ -8,6 +8,7 @@ permalink: /cernos-prime-build/
 image: /wp-content/uploads/2017/11/warframe-cernos-prime-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - bow
   - builds

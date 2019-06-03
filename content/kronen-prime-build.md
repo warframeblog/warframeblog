@@ -8,6 +8,7 @@ permalink: /kronen-prime-build/
 image: /wp-content/uploads/2018/03/warframe-kronen-prime-build.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 ---
 Hey guys and welcome to another Warframe article. And today we're gonna take a quick look at the newest addition to our melee arsenal and the first Prime tonfa in the game - the Kronen Prime.<!--more-->
 

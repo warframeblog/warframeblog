@@ -8,6 +8,7 @@ permalink: /lenz-build-aoe-bow/
 image: /wp-content/uploads/2017/12/lenz-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - bow
   - builds

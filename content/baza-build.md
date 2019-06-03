@@ -8,11 +8,12 @@ permalink: /baza-build/
 image: /wp-content/uploads/2017/11/warframe-baza-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - builds
   - weapon
 ---
-Hey guys! Welcome to another Warframe build article and today we're gonna take a quick look at our newest primary weapon the Baza. <!--more-->
+Hey guys! Welcome to another Weapon Build article and today we're gonna take a quick look at our newest primary weapon the Baza. <!--more-->
 
 Baza is a submachine gun. It's definitely not the first submachine gun in the game. I think something like the Gratata would also qualify for a submachine gun but Baza is the first silent submachine gun. Baza is also very tame, especially when compared to the other weapons that we have in the game that tend to be more on the bombastic side of things. Baza is more sort of realistic. If you want to get your hands on this weapon you can get a blueprint from the Tenno lab in your Dojo. Now, we haven't had enough time to actually research it yet so I don't know what the build requirements are but the research requirements aren't too bad. It needs 10,000 credits, 1,500 alloy plates, 5 morphics, 1750 salvage, and 300 plastids. And this is, of course, skilled up based on the size of your clan.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Corinth build & review. Tenno Shotgun.'
-seoTitle: "Corinth build &amp; review. Tenno Shotgun - Warframe Blog"
+seoTitle: "Corinth Build. Corinth 2 Forma Build. Warframe Corinth Build"
 date: 2017-12-23T14:51:08+00:00
 author: warframe
 layout: post
@@ -8,6 +8,7 @@ permalink: /corinth-build/
 image: /wp-content/uploads/2017/12/warframe-corinth-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - builds
   - shotgun
