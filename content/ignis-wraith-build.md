@@ -8,6 +8,7 @@ permalink: /ignis-wraith-build/
 image: /wp-content/uploads/2018/03/ignis-wraith-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - beam
   - build

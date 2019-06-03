@@ -8,6 +8,7 @@ permalink: /frost-snow-globe-build/
 image: /wp-content/uploads/2018/01/frost-snow-globe-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - frost

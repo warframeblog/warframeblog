@@ -8,6 +8,7 @@ permalink: /rhino-stomp-build/
 image: /wp-content/uploads/2018/02/rhino-stomp-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - rhino

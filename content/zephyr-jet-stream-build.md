@@ -8,6 +8,7 @@ permalink: /zephyr-jet-stream-build/
 image: /wp-content/uploads/2018/03/ZephyrPrime_Keyart.png
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - warframe

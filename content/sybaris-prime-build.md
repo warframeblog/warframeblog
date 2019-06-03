@@ -8,6 +8,7 @@ permalink: /sybaris-prime-build/
 image: /wp-content/uploads/2017/12/warframe-sybaris-prime-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - builds
   - weapon

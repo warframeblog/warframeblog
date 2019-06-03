@@ -10,6 +10,7 @@ video_url:
   - Zk-6XKYQ5vU
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - nezha
   - builds

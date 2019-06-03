@@ -8,6 +8,7 @@ permalink: /kogake-prime-build/
 image: /wp-content/uploads/2017/12/warframe-kogake-prime.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 tags:
   - builds
 ---

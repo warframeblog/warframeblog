@@ -8,6 +8,7 @@ permalink: /akbolto-prime-build/
 image: /wp-content/uploads/2017/12/warframe-akbolto-prime.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 tags:
   - builds
   - weapon

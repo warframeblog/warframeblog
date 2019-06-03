@@ -8,6 +8,7 @@ permalink: /rubico-prime-build/
 image: /wp-content/uploads/2018/10/warframe-rubico-prime-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 video_url:
   - WNOJO3882QY
 ---

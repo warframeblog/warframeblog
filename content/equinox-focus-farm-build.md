@@ -8,6 +8,7 @@ permalink: /equinox-focus-farm-build/
 image: /wp-content/uploads/2018/03/equinox-farm-focus-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - equinox

@@ -8,6 +8,7 @@ permalink: /nekros-desecrate-build/
 image: /wp-content/uploads/2018/02/nekros-desecrate-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - nekros

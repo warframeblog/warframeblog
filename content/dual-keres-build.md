@@ -8,6 +8,7 @@ permalink: /dual-keres-build/
 image: /wp-content/uploads/2018/04/warframe-dual-keres-build.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 ---
 Hey guys and welcome to another Warframe article and today we're gonna take a quick look at Khora signature [melee weapon](https://warframeblog.com/melee-weapons/) the Dual Keres which have been released a few days ago with the Beasts of the Sanctuary update.<!--more-->
 

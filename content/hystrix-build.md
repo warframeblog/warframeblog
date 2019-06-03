@@ -8,6 +8,7 @@ permalink: /hystrix-build/
 image: /wp-content/uploads/2018/05/warframe-hystrix-build.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 ---
 Hey guys and welcome to another Warframe article. And today we're gonna take a quick look at Khora signature sidearm weapon - the Hystrix that was released with the [Beasts of the Sanctuary](https://warframeblog.com/sanctuary-onslaught-guide/) update.<!--more-->
 

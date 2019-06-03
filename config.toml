@@ -36,3 +36,81 @@ enableInlineShortcodes = true
 	[[related.indices]]
 		name  = "tags"
 		weight = 100
+[menu]
+	[[menu.main]]
+		identifier = "news"
+		name = "News"
+		url = "/warframe-news/"
+		weight = 10
+	[[menu.main]]
+		identifier = "guides"
+		name = "Guides"
+		url = "/guides/"
+		weight = 20
+	[[menu.main]]
+		parent = "guides"
+		name = "Warframe Fortuna"
+		url = "/fortuna/"
+		weight = 21
+	[[menu.main]]
+		parent = "guides"
+		name = "How To Get Primes"
+		url = "/primes/"
+		weight = 22
+	[[menu.main]]
+		parent = "guides"
+		name = "Warframes"
+		url = "/warframes/"
+		weight = 23
+	[[menu.main]]
+		identifier = "farming"
+		name = "Farming"
+		url = "/farming/"
+		weight = 30
+	[[menu.main]]
+		identifier = "builds"
+		name = "Builds"
+		url = "/builds/"
+		weight = 40
+	[[menu.main]]
+		parent = "builds"
+		name = "Warframe Builds"
+		url = "/warframe-builds/"
+		weight = 41
+	[[menu.main]]
+		parent = "builds"
+		name = "Primary Weapon Builds"
+		url = "/primary-weapon-builds/"
+		weight = 42
+	[[menu.main]]
+		parent = "builds"
+		name = "Secondary Weapon Builds"
+		url = "/secondary-weapon-builds/"
+		weight = 43
+	[[menu.main]]
+		parent = "builds"
+		name = "Melee Weapon Builds"
+		url = "/melee-weapon-builds/"
+		weight = 44
+
+
+	[[menu.builds]]
+		name = "All"
+		url = "/builds/"
+		weight = 10
+	[[menu.builds]]
+		name = "Warframe Builds"
+		url = "/warframe-builds/"
+		weight = 20
+	[[menu.builds]]
+		name = "Primary Weapon Builds"
+		url = "/primary-weapon-builds/"
+		weight = 30
+	[[menu.builds]]
+		name = "Secondary Weapon Builds"
+		url = "/secondary-weapon-builds/"
+		weight = 40
+	[[menu.builds]]
+		name = "Melee Weapon Builds"
+		url = "/melee-weapon-builds/"
+		weight = 50

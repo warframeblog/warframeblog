@@ -8,6 +8,7 @@ permalink: /atlas-one-punch-build/
 image: /wp-content/uploads/2018/02/warframe-atlas-one-punch-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - atlas
   - builds

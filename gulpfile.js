@@ -79,7 +79,8 @@ gulp.task('minify:styles', () => {
 		'public/primes/how-to-get-equinox-prime/*.html',
 		'public/guides/**/*.html',
 		'public/fortuna/*.html',
-		'public/warframe-builds/*.html',
+		'public/builds/index.html',
+		'public/warframes/index.html',
 		'public/warframes/ash/*.html',
 		'public/warframes/nezha/*.html'
 	];

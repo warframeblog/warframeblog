@@ -8,6 +8,7 @@ permalink: /equinox-mend-and-maim-build/
 image: /wp-content/uploads/2018/03/warframe-equinox-mend-and-maim-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - equinox

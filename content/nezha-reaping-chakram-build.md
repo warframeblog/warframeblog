@@ -8,6 +8,7 @@ permalink: /nezha-reaping-chakram-build/
 image: /wp-content/uploads/2018/12/warframe-nezha-reaping-chakram-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 video_url:
   - jQT7P2wUf18
 tags:

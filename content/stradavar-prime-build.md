@@ -10,6 +10,7 @@ video_url:
   - 4Dp6APHPkzA
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - stradavar
   - builds

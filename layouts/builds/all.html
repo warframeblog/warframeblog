@@ -1,0 +1,14 @@
+{{- define "main-body" -}}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{- partial "builds/menu.html" . -}}
+			</div>
+			
+			{{- range  .Paginator.Pages -}}
+				{{- partial "plain-card.html" . -}}
+			{{- end -}}
+		</div>
+	</div>
+	{{- partial "pagination.html" . -}}
+{{- end -}}

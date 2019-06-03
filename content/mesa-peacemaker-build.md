@@ -8,6 +8,7 @@ permalink: /mesa-peacemaker-build/
 image: /wp-content/uploads/2018/01/mesa-peacemaker-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - warframe

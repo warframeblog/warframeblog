@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/11/warframe-garuda-talons-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - garuda

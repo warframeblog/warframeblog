@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2019/05/warframe-fulmin-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - builds
   - fulmin

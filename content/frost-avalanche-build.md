@@ -8,6 +8,7 @@ permalink: /frost-avalanche-build/
 image: /wp-content/uploads/2018/07/warframe-frost-avalanche-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - frost
   - warframe

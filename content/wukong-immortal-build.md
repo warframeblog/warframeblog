@@ -8,6 +8,7 @@ permalink: /wukong-immortal-build/
 image: /wp-content/uploads/2018/03/warframe-wukong-immortal-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 ---
 Hey guys and today we're gonna take a look at Wukong Immortal Build. This build is fantastic for a very tricky mission, tough sorties, and generally, missions that would straight-up destroy other warframes.<!--more-->
 

@@ -8,6 +8,7 @@ permalink: /hydroid-pilfering-swarm-build/
 image: /wp-content/uploads/2018/03/hydroid-pilfering-swarm-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - HydroidBuilds
 ---

@@ -8,6 +8,7 @@ permalink: /rhino-roar-build/
 image: /wp-content/uploads/2018/01/rhino-roar-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - rhino

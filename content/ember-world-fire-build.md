@@ -8,6 +8,7 @@ permalink: /ember-world-fire-build/
 image: /wp-content/uploads/2018/01/ember-world-on-fire-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - ember

@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/05/warframe-tysis-build.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 ---
 Hey guys and welcome to another Warframe article. Today we're gonna take a quick look at one of the most unique secondary weapons at the Tysis.<!--more-->
 

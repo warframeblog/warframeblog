@@ -8,6 +8,7 @@ permalink: /amprex-build/
 image: /wp-content/uploads/2018/08/warframe-amprex-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - beam
   - weapon

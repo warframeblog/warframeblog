@@ -10,8 +10,9 @@ video_url:
 image: /wp-content/uploads/2018/05/warframe-vasto-prime-build.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 ---
-Hey guys and welcome to another Warframe article. Today we're gonna take a quick look at the Vasto Prime.<!--more-->
+Hey guys and welcome to another Weapon Build article. Today we're gonna take a quick look at the Vasto Prime.<!--more-->
 
 Now, the unfortunate thing here is that all the relics for Vasto Prime are currently vaulted but the full set isn't that expensive. I quickly browse the warframe market and it seems to be around 60 [Platinum](https://warframeblog.com/ways-earn-platinum/) on PS4 and about 100 [Platinum](https://warframeblog.com/how-earn-platinum-vault-runs/) on both PC and Xbox One.
 

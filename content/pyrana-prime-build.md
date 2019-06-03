@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/07/warframe-pyrana-prime-build.jpg
 categories:
   - Builds
+  - Secondary Weapon Builds
 ---
 Hello everyone and welcome to another Warframe build article. Today we're gonna take a quick look at Pyrana Prime our newest secondary shotgun that was just introduced with [Limbo Prime](https://warframeblog.com/limbo-prime-access/).<!--more-->
 

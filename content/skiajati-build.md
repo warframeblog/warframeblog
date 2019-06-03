@@ -10,6 +10,7 @@ video_url:
 image: /wp-content/uploads/2018/06/warframe-skiajati-build.jpg
 categories:
   - Builds
+  - Melee Weapon Builds
 ---
 Hey guys and welcome to another Warframe build article. Today we're gonna take a quick look at a very special weapon indeed. It is the weapon of the long-awaited Excalibur Umbra and the first weapon to be introduced with Umbra polarities the Skiajati.<!--more-->
 

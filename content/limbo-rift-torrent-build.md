@@ -8,6 +8,7 @@ permalink: /limbo-rift-torrent-build/
 image: /wp-content/uploads/2018/03/warframe-limbo-rift-torrent-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - LimboBuilds
 ---

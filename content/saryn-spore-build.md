@@ -8,6 +8,7 @@ permalink: /saryn-spore-build/
 image: /wp-content/uploads/2018/02/warframe-saryn-spore-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - builds
   - saryn

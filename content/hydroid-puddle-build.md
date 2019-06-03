@@ -8,6 +8,7 @@ permalink: /hydroid-puddle-build/
 image: /wp-content/uploads/2018/03/hydroid-puddle-build.jpg
 categories:
   - Builds
+  - Warframe Builds
 tags:
   - HydroidBuilds
 ---
