@@ -3,6 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/categories/</loc>
+    <lastmod>2019-06-06T02:39:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/glaxion-vandal-build/</loc>
+    <lastmod>2019-06-06T02:39:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/</loc>
+    <lastmod>2019-06-06T02:39:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/</loc>
     <lastmod>2019-06-03T00:45:51+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,22 +29,10 @@
   </url>
   
   <url>
-    <loc>https://warframeblog.com/categories/</loc>
-    <lastmod>2019-06-02T16:03:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
     <lastmod>2019-06-02T16:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-06-02T16:03:38+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
