@@ -8,6 +8,7 @@ permalink: /glaxion-vandal-build/
 image: /wp-content/uploads/2019/06/warframe-glaxion-vandal-build.jpg
 categories:
   - Builds
+  - Primary Weapon Builds
 tags:
   - builds
   - weapon
