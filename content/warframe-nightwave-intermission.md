@@ -19,7 +19,7 @@ Hey guys! And the Nightwave Intermission Season popped up. <!--more-->
 ## Nightwave Intermission Improvements
 Now, this is not a full Nightwave Season. It only has 15 tiers of rewards as opposed to 30 like we got [last time](/warframe-nightwave-wolf-of-saturn-six-guide/ "Warframe Nightwave: The Wolf of Saturn Six Guide") but it does have all the improvements already included. So, all the challenges that required you to do something with the clan mate or friend were removed, the more time-consuming challenges like finish 40 waves of Defense or do a 60-minute Survival have been scaled down a little bit to 20 waves of Defense or a 30-minute Survival. Also, DE lowers the amount of [Ayatan Sculptures](/how-farm-endo/ "How To Farm Endo") you have to socket for a challenge from five to three. They lower the number of sorties you have to finish from five to three as well. 
 
-{{< image title=\"\" alt=\"\" src=\"/wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges.jpg\" srcset=\"/wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges.jpg 960w, /wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges-768.jpg 768w, /wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges-640.jpg 640w\" >}}
+{{< image title=\"Warframe Nightwave Intermission Improvements\" alt=\"Warframe Nightwave Intermission Challenges\" src=\"/wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges.jpg\" srcset=\"/wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges.jpg 960w, /wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges-768.jpg 768w, /wp-content/uploads/2019/06/warframe-nightwave-intermission-challenges-640.jpg 640w\" >}}
 
 Also, there are fewer Nightwave challenges each week. It's been scaled down to five Weekly and two Elite Weekly, but their rewards have been buffed so you do fewer Nightwave challenges and you get the same amount of standing. Also, DE did implement the catch-up system so if you were to miss some challenges on week one if you finish all the challenges on week two the missed challenges from week one will start popping up so you can do them that week. 
 
@@ -44,7 +44,7 @@ Now as I said already there are 15 reward tiers this time around and we have a n
 
 ## Nora Creds Offerings Shop
 
-{{< image title=\"\" alt=\"\" src=\"/wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers.jpg\" srcset=\"/wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers.jpg 960w, /wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers-768.jpg 768w, /wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers-640.jpg 640w\" >}}
+{{< image title=\"Warframe Nora Creds Offerings Shop\" alt=\"Nora Creds Offerings Shop\" src=\"/wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers.jpg\" srcset=\"/wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers.jpg 960w, /wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers-768.jpg 768w, /wp-content/uploads/2019/06/warframe-nightwave-nora-creds-offers-640.jpg 640w\" >}}
 
 Now, I'm not entirely sure if there is anything new we can buy with the Nora Creds because so far offerings seem to be the same as it was for Nightwave Season 1. So, we have some Desert-Camo Skin for weapons, some alternative helmets, different kinds of Aura mods, [Nitain Extracts](/nitain-extract-farming/ "Nitain Extract Farming"), Orokin Catalyst/Reactor, Vauban's parts, and blueprints for weapons that we used to get from alerts. 
 

@@ -22,12 +22,12 @@ In total, we need over 100 Nitain Extract's if you want to craft everything that
 
 There are currently only three ways to obtain Nitain Extract:
 
-* Buy Nitain Extract from the Nightwave Intermission offerings
+* Buy Nitain Extract from [the Nightwave Intermission offerings](/warframe-nightwave-intermission/ "Warframe Nightwave Intermission Season Guide")
 * Complete Ghoul Purge Bounties to get Nitain Extract
 * Farm Nitain Extract from Resource Caches
 
 ## Buy Nitain Extract From Nightwave Intermission Offerings
-Upon ranking up through Nightwave Intermission's 15 levels you'll unlock a special currency called Nora Cred. And for 15 Nora Cred you can buy a bundle of 5 Nitain Extract.
+Upon ranking up through Nightwave Intermission's 15 levels you'll unlock a special currency called [Nora Cred](/warframe-nightwave-intermission/ "Warframe Nightwave Nora Creds"). And for 15 Nora Cred you can buy a bundle of 5 Nitain Extract.
 
 ## Farm Nitain Extract from Resource Caches
 In order to farm Nitain Extract you need to look for Resource Caches.
