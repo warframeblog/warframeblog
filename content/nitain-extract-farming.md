@@ -22,12 +22,12 @@ In total, we need over 100 Nitain Extract's if you want to craft everything that
 
 There are currently only three ways to obtain Nitain Extract:
 
-* ~~Buy Nitain Extract from the [Nightwave offerings](/warframe-nightwave-wolf-of-saturn-six-guide/ "Warframe Nightwave: The Wolf of Saturn Six Guide")~~
+* Buy Nitain Extract from the Nightwave Intermission offerings
 * Complete Ghoul Purge Bounties to get Nitain Extract
 * Farm Nitain Extract from Resource Caches
 
-## Buy Nitain Extract From Nightwave Offerings
-~~Upon ranking up through Nightwave's 30 levels you'll unlock a special currency called Wolf Cred. And for 15 Wolf Cred you can buy a bundle of 5 Nitain Extract.~~ <i class="text-danger">Unfortunately, Nightwave: Series 1 ended on Sunday, May 19th at 20:00 ET. The start of Nightwave Series 2 is unknown yet.</i>
+## Buy Nitain Extract From Nightwave Intermission Offerings
+Upon ranking up through Nightwave Intermission's 15 levels you'll unlock a special currency called Nora Cred. And for 15 Nora Cred you can buy a bundle of 5 Nitain Extract.
 
 ## Farm Nitain Extract from Resource Caches
 In order to farm Nitain Extract you need to look for Resource Caches.
