@@ -4,7 +4,20 @@
   
   <url>
     <loc>https://warframeblog.com/categories/</loc>
-    <lastmod>2019-06-14T16:03:37+00:00</lastmod>
+    <lastmod>2019-06-14T18:51:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/how-to-kill-hemocyte/</loc>
+    <lastmod>2019-06-14T18:51:13+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/</loc>
+    <lastmod>2019-06-14T18:51:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13,12 +26,6 @@
     <lastmod>2019-06-14T16:03:37+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-06-14T16:03:37+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -513,13 +520,6 @@
   <url>
     <loc>https://warframeblog.com/warframes/nova/</loc>
     <lastmod>2018-09-20T04:37:42+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/how-to-kill-hemocyte/</loc>
-    <lastmod>2018-09-19T14:51:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
