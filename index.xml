@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2019 16:03:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 22:23:54 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How and Where to get Hexenon</title>
+      <link>https://warframeblog.com/hexenon-farming/</link>
+      <pubDate>Sun, 16 Jun 2019 22:23:54 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/hexenon-farming/</guid>
+      <description>&lt;p&gt;Hey guys and welcome to another Warframe farming guide. Today I want to talk a little bit about farming the new Jupiter resource - &lt;strong&gt;Hexenon&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Warframe Baro Ki&#39;Teer Void Trader</title>
