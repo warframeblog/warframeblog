@@ -18,7 +18,7 @@ draft: true
 ---
 Hey guys and welcome to another Weapon Build article. Today we're going to take a quick look at our newest secondary weapon that was released with update 25 - the Cyanex.<!--more-->
 
-So, first things first, if you want to get your hands on this weapon you will first have to research it in the Energy Lab in your Dojo. And if you then want to build it you have to put in 20,000 credits, five Fieldron, 8750 Nano Spores, 250 Hexenon, and one Forma. 
+So, first things first, if you want to get your hands on this weapon you will first have to research it in the Energy Lab in your Dojo. And if you then want to build it you have to put in 20,000 credits, five Fieldron, 8750 Nano Spores, 250 [Hexenon](/hexenon-farming/ "How and Where to get Hexenon"), and one Forma. 
 
 ## Cyanex Full Auto Mode
 The Cyanex requires to be at least mastery rank 8 to use it and it has a 91 damage per shot: 50 out of which is impact and 41 is Gas. The weapon comes with a very low critical chance of only 8%, a below-average critical multiplier of 1.4x but it does have very high status chance at 32%. You can also fire up to 4.67 rounds per second which is quite fast. It only has an 11 round magazine with 110 rounds in total, and it has a pretty lengthy 2.2 second reload, especially considering the fire rate and the magazine size. 

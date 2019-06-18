@@ -21,7 +21,7 @@ tags:
 Hey guys and welcome to another Weapon Build article. Today we're going to take a quick look at [Wisp](/wisp-reservoirs-build/ "Wisp Reservoirs Build")'s signature primary rifle **the Fulmin** which is both a shotgun as well as a fully automatic rifle. <!--more-->
 
 ## Fulmin Manufacturing Requirements
-Now, first things first, you can get the blueprint for the Fulmin from the market for 20,000 credits and then to build a weapon you have to put additional 25,000 credits, 2,100 rubedo, 7,500 Nano Spores, 2 Argon Crystals, and 350 pieces of the new resource Hexenon. 
+Now, first things first, you can get the blueprint for the Fulmin from the market for 20,000 credits and then to build a weapon you have to put additional 25,000 credits, 2,100 rubedo, 7,500 Nano Spores, 2 Argon Crystals, and 350 pieces of the new resource [Hexenon](/hexenon-farming/ "How and Where to get Hexenon"). 
 
 ## Fulmin Fire Modes
 Now, the Fulmin requires to be at least [mastery rank](/affinity-mastery-rank/ "Mastery Rank Guide") eight to use it and as I said already it is both a shotgun as well as a fully automatic rifle. 
