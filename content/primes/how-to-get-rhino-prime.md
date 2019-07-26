@@ -1,18 +1,17 @@
 ---
-title: How To Get Rhino Prime
-seoTitle: How To Get Rhino Prime. How To Farm Rhino Prime Relics? Rhino Prime Unvaulted!
-date: 2019-07-17T09:12:16.985Z
+alongWithPrimeItems:
+- Ankyros Prime
+- Boltor Prime
 author: warframe
+categories:
+- Primes
+date: 2019-07-26T19:02:36.927Z
+image: /images/primes/warframe-how-to-get-rhino-prime.jpg
+itemName: Rhino Prime
 layout: post
 permalink: /primes/how-to-get-rhino-prime/
-categories:
-  - Primes
-generated: true
-itemName: Rhino Prime
+seoTitle: How To Get Rhino Prime. How To Farm Rhino Prime Relics? Rhino Prime Unvaulted!
 status: UNVAULTED
-image: /images/primes/warframe-how-to-get-rhino-prime.jpg
-alongWithPrimeItems:
-  - Ankyros Prime
-  - Boltor Prime
+title: How To Get Rhino Prime
 ---
-<p>Hey guys. And the <strong>Rhino Prime</strong> along with the Ankyros Prime and the Boltor Prime have emerged from the Prime Vault. Today I'll be showing you which relics you'll need to farm to get Rhino Prime and where you can farm these relics. </p><!--more--><h2>Rhino Prime Relics</h2><p>So, Rhino Prime parts scattered across four different relics:</p><ul><li><b>Neo R1</b> that drops Rhino Prime Blueprint</li><li><b>Axi S3</b> that drops Rhino Prime Systems Blueprint</li><li><b>Lith B4</b> that drops Rhino Prime Neuroptics Blueprint</li><li><b>Meso N6</b> that drops Rhino Prime Chassis Blueprint</li></ul><h2>Rhino Prime Relics Farming</h2><h3>How To Get Rhino Prime Blueprint Relics</h3><p>For <b>Neo R1 Relics</b>, my recommendation is <b>Belenus</b> in the Void. Belenus is a straightforward defense mission best attempted with a team and you should be able to get two Neo relics in 10 waves most of the time(or one Meso and one Neo).</p><h3>How To Get Rhino Prime Systems Relics</h3><p>You can obtain <b>Axi S3 Relics</b> from Aten - a mobile defense mission or Marduk - a sabotage mission. Both of them have a chance to drop a Neo relic as well.</p><h3>How To Get Rhino Prime Neuroptics Relics</h3><p>For <strong>farming Lith B4 Relics</strong> the <b>Heppit</b> mission in the Void is a great option. It's a quick capture mission which you can repeat pretty quickly.</p><h3>How To Get Rhino Prime Chassis Relics</h3><p>In order to farm <b>Meso N6 Relics</b>, I would recommend <b>Ukko</b> in the Void. It's a capture and can be completed really quickly.</p><p>Finally, relic packs always a decent way to get your hands on those new Rhino Prime relics.</p><p>And that’s pretty much all I want to say about <strong>Rhino Prime Relics farming</strong>. I hope this guide helped and good luck with farming. Bye-bye.</p>
+<p>Hey guys. And the <strong>Rhino Prime</strong> along with <a href="/primes/how-to-get-ankyros-prime/" title="How To Get Ankyros Prime">Ankyros Prime</a> and <a href="/primes/how-to-get-boltor-prime/" title="How To Get Boltor Prime">Boltor Prime</a> have emerged from the Prime Vault. Today I'll be showing you which relics you'll need to farm to get Rhino Prime and where you can farm these relics.</p><!--more--> <h2>Rhino Prime Relics</h2> <p>So, Rhino Prime parts scattered across four different relics:</p> <ul>  <li> <b>Neo R1</b> that drops Rhino Prime Blueprint </li>  <li> <b>Lith B4</b> that drops Rhino Prime Neuroptics Blueprint </li>  <li> <b>Axi S3</b> that drops Rhino Prime Systems Blueprint </li>  <li> <b>Meso N6</b> that drops Rhino Prime Chassis Blueprint </li>  </ul> <h2>Rhino Prime Relics Farming</h2> <p>Before we proceed any further, I would like to say that all spots that I'll share with you are based on my personal experience <strong>farming Rhino Prime relics</strong>. The spots gave me the necessary relics at the shortest time, but you may have a different result as relic drops are also based on a chance. Now, let's get on to the <strong>how to farm Rhino Prime relics</strong> fast and easy.</p>  <h3>How To Get Rhino Prime Systems Blueprint Relics</h3>     <p>You can obtain <b>Axi S3</b> Relics from Marduk - a sabotage mission. This mission has a chance to drop Neo relics as well.</p>     <h3>How To Get Rhino Prime Chassis Blueprint Relics</h3>     <p>In order to farm <b>Meso N6 Relics</b>, I would recommend <b>Ukko in the Void</b>. It's a capture mission and can be completed really quickly.</p>     <h3>How To Get Rhino Prime Blueprint Relics</h3>     <p>For <b>Neo R1 Relics</b>, my recommendation is <b>Belenus in the Void</b>. Belenus is a straightforward defense mission best attempted with a team and you should be able to get two Neo relics in ten waves most of the time(or one Meso and one Neo).</p>     <h3>How To Get Rhino Prime Neuroptics Blueprint Relics</h3>     <p>For <strong>farming Lith B4 Relics</strong> the <b>Hepit mission in the Void</b> is a great option. It's a quick capture mission which you can repeat pretty quickly.</p>     <p>Finally, relic packs always a decent way to get your hands on those new Rhino Prime relics.</p> <p>And that’s pretty much all I want to say about <strong>Rhino Prime Relics Farming</strong>. I hope this guide helped and good luck with farming. Bye-bye.</p>
