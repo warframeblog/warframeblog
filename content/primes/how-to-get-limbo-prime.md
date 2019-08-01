@@ -8,11 +8,12 @@ permalink: /primes/how-to-get-limbo-prime/
 categories:
   - Primes
 generated: true
-primedItem: Limbo
+itemName: Limbo Prime
+status: NEW
 image: /wp-content/uploads/2019/02/warframe-how-to-get-limbo-prime.jpg
-alongWith:
-  - Destreza
-  - Pyrana
+alongWithPrimeItems:
+  - Destreza Prime
+  - Pyrana Prime
 ---
 Hey guys. And the Limbo Prime along with Destreza Prime and Pyrana Prime﻿ have arrived in Warframe. Today I'll be showing you which relics you'll need to farm to **get Limbo Prime** and where you can farm these relics. <!--more-->
 
