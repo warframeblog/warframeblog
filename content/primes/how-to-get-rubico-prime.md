@@ -1,39 +1,17 @@
 ---
-title: How To Get Rubico Prime
-seoTitle: "How To Get Rubico Prime. How To Farm Rubico Prime Relics"
-date: 2018-12-01T02:23:44+00:00
-author: warframe
-layout: post
-permalink: /primes/how-to-get-rubico-prime/
-image: /wp-content/uploads/2018/12/warframe-how-to-get-rubico-prime.jpg
-categories:
-  - Primes
-itemName: Rubico Prime
-status: NEW
 alongWithPrimeItems:
 - Chroma Prime
 - Gram Prime
+author: warframe
+categories:
+- Primes
+date: 2019-07-31T21:00:00Z
+image: /images/primes/warframe-how-to-get-rubico-prime.jpg
+itemName: Rubico Prime
+layout: post
+permalink: /primes/how-to-get-rubico-prime/
+seoTitle: How To Get Rubico Prime. How To Farm Rubico Prime Relics
+status: NEW
+title: How To Get Rubico Prime
 ---
-Hey guys. And the [Chroma Prime](/primes/how-to-get-chroma-prime/ "How To Get Chroma Prime") along with Rubico Prime and [Gram Prime](/primes/how-to-get-gram-prime/ "How To Get Gram Prime") have arrived in Warframe. Today I'll be showing you which relics you'll need to farm to get Rubico Prime and where you can farm these relics. <!--more-->
-
-## Rubico Prime Relics
-So, [Rubico Prime](/rubico-prime-build/ "Rubico Prime Build") parts scattered across four different relics:
-
-* <b>Meso R1 relic</b> that drops the Rubico Prime Blueprint as a rare drop
-* <b>Lith B5 relic</b> that drops the Rubico Prime Stock as an uncommon drop
-* <b>Lith O1 relic</b> that drops the Rubico Prime Receiver as a common drop
-* <b>Neo H2 relic</b> that drops the Rubico Prime Barrel as an uncommon drop
-
-## Rubico Prime Relics Farming
-Before we proceed any further, I would like to say that all spots that I'll share with you are based on my personal experience <strong>farming Rubico Prime relics</strong>. The spots gave me the necessary relics at the shortest time, but you may have a different result as relic drops are also based on a chance. Now, let's get on to the <strong>how to farm Rubico Prime relics</strong> fast and easy.
-
-### How To Get Rubico Prime Stock & Receiver relics
-So, for farming Lith relics the Orokin Derelict Defense(ODD) mission is a great option. ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith relics in 10 waves most of the time.
-
-### How To Get Rubico Prime Blueprint relics
-In order to farm Meso relics, I would recommend IO on Jupiter. This mission can be completed really quickly and with some luck, you should be able to get two Meso relics in 10 waves.
-
-### How To Get Rubico Prime Barrel relics
-For Neo relics, my recommendation is Hydron on Sedna. It is the fastest way to farm for Neo relics because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe and weapons. So, don't forget to bring alongside your weapons that you want to level up.
-
-And that’s pretty much all I want to say about <strong>Rubico Prime Relics farming</strong>. I hope this guide helped and good luck farming that Eidolon hunting sniper rifle. Bye-bye.
+<p>Hey guys. And the <strong>Rubico Prime</strong> along with <a href="/primes/how-to-get-chroma-prime/" title="How To Get Chroma Prime">Chroma Prime</a> and <a href="/primes/how-to-get-gram-prime/" title="How To Get Gram Prime">Gram Prime</a> have arrived in Warframe. Today I'll be showing you which relics you'll need to farm to get Rubico Prime and where you can farm these relics.</p><!--more--> <h2>Rubico Prime Relics</h2> <p>So, Rubico Prime parts scattered across seven different relics:</p> <ul>  <li> <b>Axi M1, Meso Z3</b> that drop Rubico Prime Barrel </li>  <li> <b>Axi L5, Meso E2</b> that drop Rubico Prime Stock </li>  <li> <b>Neo R2</b> that drops Rubico Prime Blueprint </li>  <li> <b>Lith A3, Lith K2</b> that drop Rubico Prime Receiver </li>  </ul> <h2>Rubico Prime Relics Farming</h2> <p>Before we proceed any further, I would like to say that all spots that I'll share with you are based on my personal experience <strong>farming Rubico Prime relics</strong>. The spots gave me the necessary relics at the shortest time, but you may have a different result as relic drops are also based on a chance. Now, let's get on to the <strong>how to farm Rubico Prime relics</strong> fast and easy.</p>  <h3>How To Get Rubico Prime Barrel &amp; Rubico Prime Stock Relics</h3>    <p>For <b>Axi L5/Axi M1 Relics Farming</b> I would recommend <b>Xini on Eris</b>. It's an interception mission that's pretty straightforward. The first two rounds drop Neo relics and rounds 3 and 4 regularly dropping Axi relics. Optimally you want to stay four rounds before extracting.</p> <p>Xini also has a high Neurodes drop, so be sure to keep an eye for <a href="/warframe-neurodes-farming/" title="Warframe Neurodes Farming">Neurodes</a></p>        <p>In order to farm <b>Meso Z3/Meso E2 Relics</b> , I would recommend <b>Io on Jupiter</b>. This mission can be completed really quickly and with some luck, you should be able to get two Meso relics in 10 waves.</p>       <h3>How To Get Rubico Prime Blueprint Relics</h3>    <p>For <b>Neo R2 Relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe and weapons. So, don't forget to bring alongside your weapons that you want to level up.</p>       <h3>How To Get Rubico Prime Receiver Relics</h3>    <p>For <strong>farming Lith A3/Lith K2 Relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. ODD is a straightforward defense mission that you can even solo with Banshee and you should be able to get two Lith relics in 10 waves most of the time.</p>        <p>Finally, relic packs always a decent way to get your hands on those new Rubico Prime relics.</p> <p>And that’s pretty much all I want to say about <strong>Rubico Prime Relics Farming</strong>. I hope this guide helped and good luck with farming. Bye-bye.</p>
