@@ -77,6 +77,27 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-chroma-prime/</loc>
+    <lastmod>2019-07-31T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
+    <lastmod>2019-07-31T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
+    <lastmod>2019-07-31T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/how-to-get-destreza-prime/</loc>
     <lastmod>2019-07-30T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -422,27 +443,6 @@
   <url>
     <loc>https://warframeblog.com/polymer-bundles-farming/</loc>
     <lastmod>2018-12-02T03:26:52+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-chroma-prime/</loc>
-    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
-    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
-    <lastmod>2018-12-01T02:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
