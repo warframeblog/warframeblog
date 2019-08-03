@@ -8,6 +8,11 @@ permalink: /primes/how-to-get-gram-prime/
 image: /wp-content/uploads/2018/12/warframe-how-to-get-gram-prime.jpg
 categories:
   - Primes
+itemName: Gram Prime
+status: NEW
+alongWithPrimeItems:
+- Chroma Prime
+- Rubico Prime
 ---
 Hey guys. And the [Chroma Prime](/primes/how-to-get-chroma-prime/ "How To Get Chroma Prime") along with [Rubico Prime](/primes/how-to-get-rubico-prime/ "How To Get Rubico Prime") and Gram Prime have arrived in Warframe. Today I'll be showing you which relics you'll need to farm to get Gram Prime and where you can farm these relics. <!--more-->
 
