@@ -196,6 +196,27 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-ember-prime/</loc>
+    <lastmod>2019-07-18T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-glaive-prime/</loc>
+    <lastmod>2019-07-18T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-sicarus-prime/</loc>
+    <lastmod>2019-07-18T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/warframes/khora/</loc>
     <lastmod>2019-06-19T00:37:41+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -380,13 +401,6 @@
   <url>
     <loc>https://warframeblog.com/the-razorbacks-armada-event/</loc>
     <lastmod>2019-03-07T16:52:25+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-ember-prime/</loc>
-    <lastmod>2019-02-03T17:56:34+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
