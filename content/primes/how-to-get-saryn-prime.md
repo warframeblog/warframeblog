@@ -6,7 +6,6 @@ author: warframe
 categories:
 - Primes
 date: 2019-08-12T21:00:00Z
-draft: true
 image: /images/primes/warframe-how-to-get-vaulted-saryn-prime.jpg
 itemName: Saryn Prime
 layout: post
