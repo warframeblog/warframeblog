@@ -1,0 +1,27 @@
+{
+  "name": "Khora",
+  "passive": "Khora’s passive is Beast Master. She gets her own pet - Venari. Venari is permanently at Khora’s side – until she dies, of course. Khora can then cast her second Ability to get her back, or Venari will reappear after 45 seconds. As a permanent companion, she can of course be modded individually. Her base stats are actually pretty good for a companion – 900 Health at rank 30, and 350 Armor – note she has no Shield, though. She also has good Crit and Status Chance, at 20% and 30% respectively.",
+  "abilities": [
+    {
+      "name": "Whipclaw",
+      "description": "Khora, being the beast tamer that she is, always has her trusty whip by her side. Casting this Ability will send the whip flying, causing an explosion with a 5m radius at a 10m distance. Enemies within this radius are dealt 300 Damage (all stats base at max), and enemies struck by the whip are ragdolled.",
+      "image": "/images/abilities/khora/whipclaw.png"
+    },
+    {
+      "name": "Ensnare",
+      "description": "<p>Casting Ensnare will cause Khora to once again crack her whip in the direction of an enemy within 30m, wrapping them in a metal coil for up to 15 seconds. This coil, though, has a life of its own, and will drag in any enemies within 10m, ensnaring them as well.</p><p>Any enemies that are Ensnared will receive an additional 200% Damage from Whipclaw and Venari. An additional bonus is that Ensnared enemies struck by Whipclaw will refresh the spreading of the coil, causing it again to seek out and ensnare further enemies within Range.</p>",
+      "image": "/images/abilities/khora/ensnare.png"
+    },
+    {
+      "name": "Venari",
+      "description": "<p>Khora’s third Ability is focused on her trusty pet, Venari. Casting this Ability after Venari is killed will instantly bring her back from the dead. However, this is not the core focus of this Ability – there are two further aspects.</p><p>On the one hand, casting this Ability on an enemy will mark the enemy with Venari’s mark above their head. On doing so, Venari will chase them down, only to perform a specific task once she reaches them. These tasks are defined by the stance that has been assigned to Venari, which can be cycled by holding the Ability key.</p><p>These stances and their effects are:</p><ul><li><strong>Attack:</strong> Venari will use her own version of ensnare, cleverly called “Snare”, which will chain enemies in place for 2.5 seconds. During this time, she will hit them 5 times, with each hit inflicting 350 Slash Damage with a 100% Status Chance. Very useful on tanky enemies, such as a Nox or Bombard.</li><li><strong>Protect:</strong> Venari will protect Khora from the enemy, keeping them at bay with Tail Whip, and Ability that causes knockdown and disarming them. Note this only affects a single enemy.</li><li><strong>Heal:</strong> Venari will use her Revitalise Ability, which will imbue her with a 10m radius healing aura whenever Khora or one of her teammates Health drops below 90%. The aura will heal anyone within this aura by 50 Health per second. Note that this Ability DOES heal rescue and defence targets.</li></ul>",
+      "image": "/images/abilities/khora/venari.png"
+    },
+    {
+      "name": "Strangledome",
+      "description": "<p>Khora channels more of her chains, somehow managing to create a dome out of them. The base dome has a radius of 5m and lasts 20 seconds. Enemies within a 10m radius of Khora when she casts the dome are ragdolled and held in place within the dome by the chains, taking 250 Damage per second. Note that Khora can create up to 2 Strangledomes at once.</p><p>While enemies trapped by Strangledome will take 200% extra Damage from ALL weapons and Warframe Abilities, casting Whipclaw on a single enemy will ALSO cause 50% of the Whipclaw Damage to all other enemies trapped by the dome. This is important to remember, as Damage can be spread across enemies.</p>",
+      "image": "/images/abilities/khora/strangledome.png"
+    }
+  ],
+  "affectedByMods": ""
+}

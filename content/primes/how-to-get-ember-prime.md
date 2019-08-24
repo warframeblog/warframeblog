@@ -1,47 +1,17 @@
 ---
-title: How To Get Ember Prime
-seoTitle: How To Get Ember Prime. How To Farm Ember Prime Relics
-date: 2019-02-03T17:56:34.321Z
+alongWithPrimeItems:
+- Sicarus Prime
+- Glaive Prime
 author: warframe
+categories:
+- Primes
+date: 2019-07-18T21:00:00Z
+image: /images/primes/warframe-how-to-get-vaulted-ember-prime.jpg
+itemName: Ember Prime
 layout: post
 permalink: /primes/how-to-get-ember-prime/
-image: /wp-content/uploads/2019/02/warframe-how-to-get-ember-prime.jpg
-categories:
-  - Primes
+seoTitle: How To Get Ember Prime. Ember Prime Vaulted!
+status: VAULTED
+title: How To Get Ember Prime
 ---
-Hey guys. And the Ember Prime along with Sicarus Prime and Glaive Prime﻿ have emerged from the Prime Vault. Today I'll be showing you which relics you'll need to farm to get Ember Prime and where you can farm these relics. <!--more-->
-
-## Ember Prime Relics
-So, Ember Prime parts scattered across four different relics:
-
-* <b>Axi E1 Relic</b> that drops the Ember Prime Blueprint
-* <b>Neo S5 Relic</b> that drops the Ember Prime Neuroptics
-* <b>Meso F2 Relic</b> that drops the Ember Prime Chassis
-* <b>Lith G1 Relic</b> that drops the Ember Prime Systems
-
-## Ember Prime Relics Farming
-Before we proceed any further, I would like to say that all spots that I'll share with you are based on my personal experience <strong>farming Ember Prime relics</strong>. The spots gave me the necessary relics at the shortest time, but you may have a different result as relic drops are also based on a chance. Now, let's get on to the <strong>how to farm Ember Prime relics</strong> fast and easy.
-
-### How To Get Ember Prime Blueprint relics
-For <b>Axi relics farming</b> I would recommend <b>Xini on Eris</b>. It's an interception mission that's pretty straightforward. The first two rounds drop Neo relics and rounds 3 and 4 regularly dropping Axi relics. Optimally you want to stay four rounds before extracting.
-
-Xini also has a high Neurodes drop, so be sure to keep an eye for [Neurodes](/warframe-neurodes-farming/ "Warframe Neurodes Farming").
-
-### How To Get Ember Prime Systems relics
-So, for <strong>farming Lith relics</strong> the <b>Orokin Derelict Defense</b> mission is a great option. ODD is a straightforward defense mission that you can even solo with banshee and you should be able to get two Lith relics in 10 waves most of the time.
-
-### How To Get Ember Prime Chassis relics
-In order to farm Meso relics, I would recommend IO on Jupiter. This mission can be completed really quickly and with some luck, you should be able to get two Meso relics in 10 waves.
-
-### How To Get Ember Prime Neuroptics relics
-For <b>Neo relics</b>, my recommendation is <b>Hydron on Sedna</b>. It is the fastest way to farm for Neo relics because Neo relics drop every 5 rounds. Also, it worth mentioned that Hydron is the best area to level up your Warframe and weapons. So, don't forget to bring alongside your weapons that you want to level up.
-
-## Farming Ember Prime Relics in the Void
-Another way to farm Ember Prime relics is Void missions. Go with Hepit(Capture mission) as your source of Lith relics and Aten(mobile defense mission) or Marduk(sabotage mission) as your Neo and Axi relics places to farm. 
-
-## Farming Ember Prime Relics in Bounties
-Bounties are a fantastic way to get relics as well. You can take up the bounties from Cetus of [Fortuna](/fortuna/ "Warframe Fortuna") both will yield similar results. With tier 2 bounties granting Lith relics, tier 3 bounties granting Meso relics, tier 4 bounties granting Neo relics, and tier 5 bounties granting Axi relics.
-
-Finally, relic packs always a decent way to get your hands on those new Ember Prime relics.
-
-And that’s pretty much all I want to say about <strong>Ember Prime Relics farming</strong>. I hope this guide helped and good luck with farming. Bye-bye.
+<p>Hey guys. And the <strong>Ember Prime</strong> along with <a href="/primes/how-to-get-sicarus-prime/" title="How To Get Sicarus Prime">Sicarus Prime</a> and <a href="/primes/how-to-get-glaive-prime/" title="How To Get Glaive Prime">Glaive Prime</a> have been retired(vaulted) from the Warframe reward tables.</p><!--more--> <h2>Ember Prime Vaulted</h2> <p>Now, if you've joined fairly recently there's a pretty good chance you have never experienced the vaulting. So, what it did is remove the relics that would drop parts for the Ember Prime from the drop table. So, currently Ember Prime is inaccessible for some period of time. An important thing to remember here though is that while Ember Prime relics were moved over to the Prime Vault and made inaccessible, any relics that were acquired before these items were moved into the Prime Vault will stay.</p> <h2>How To Get Ember Prime</h2> <p>So, first things first, check the presence of the following relics in your Void Relic Refinement:</p> <ul>  <li> <b>Meso F2, Neo F1</b> that drop Ember Prime Chassis Blueprint </li>  <li> <b>Meso E1, Neo E1, Axi E1</b> that drop Ember Prime Blueprint </li>  <li> <b>Lith G1, Axi S2</b> that drop Ember Prime Systems Blueprint </li>  <li> <b>Neo S5, Meso F3</b> that drop Ember Prime Neuroptics Blueprint </li>  </ul> <p>If you don't have any of them then either you could buy Ember Prime Relics from other players or wait until the Ember Prime eventually returns when the Prime Vault opens again.</p> <p>And that’s pretty much all I want to say about <strong>How To Get Ember Prime</strong>. I hope this guide helped and let's hope Ember Prime will be unvaulted again soon. Bye-bye.</p>

@@ -41,3 +41,6 @@
 - [ ] [Wukong](https://warframeblog.com/warframes/wukong/ "Warframe Wukong")
 - [X] [Zephyr](https://warframeblog.com/warframes/zephyr/ "Warframe Zephyr")
 </details>
+
+warframe-how-to-get-chroma-prime
+warframe-how-to-get-vaulted-chroma-prime

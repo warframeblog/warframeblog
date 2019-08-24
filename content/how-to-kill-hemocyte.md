@@ -31,4 +31,4 @@ Now, I have seen Titania's Razorwing as a great addition because you can fly aro
 
 Now, lastly, we have the weapons. Here I can only advice you to bring rapid-fire weapons and also shotguns. So, I found my best choice to be a crit weapon. I use the Soma Prime or sometimes Vaykor Hek, Tigris Prime or Arca Plasmor but feel free to use whatever you like. Now, as for [melee](/melee-weapons/ "Melee Weapons in Warframe"), I use the Zenistar to keep the Infested away so that way I can create a wave around myself and have a good clear sight to take down quick shots.
 
-And that’s pretty much it for **the Operation Plague Star Event guide**. I hope it was helpful and you will eventually get the Opticor Vandal. Bye-bye.
+And that’s pretty much it for **the Operation Plague Star Event guide**. I hope it was helpful. Bye-bye.
