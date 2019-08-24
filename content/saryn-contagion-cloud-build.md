@@ -1,11 +1,11 @@
 ---
 title: Saryn Contagion Cloud Build
-seoTitle: "Saryn Contagion Cloud Build.Saryn Prime Contagion Cloud Build"
+seoTitle: "Saryn Contagion Cloud Build. Saryn Toxic Lash Build"
 date: 2019-08-24T04:20:43+00:00
 author: warframe
 layout: post
 permalink: /saryn-contagion-cloud-build/
-image: /wp-content/uploads/2018/02/warframe-saryn-spore-build.jpg
+image: /wp-content/uploads/2019/08/warframe-saryn-contagion-cloud-build.jpg
 categories:
   - Builds
   - Warframe Builds
@@ -14,12 +14,15 @@ tags:
   - saryn
   - warframe
   - SarynBuilds
-draft: true
+video_url:
+  - 7rcNIrhd9So
 ---
 Hello and welcome to another Warframe Build article. Today we’re going to check out Saryn Build that focused around the Contagion Cloud augment. It's one of the augments that got changed or rather buffed with the latest update so I wanted to see what I can do with it.<!--more-->
 
 Because the thing is when you get Saryn the first thing you will most likely see is her spores. Saryn's spores are incredibly powerful and when you build her for spores you can get a lot of things done, especially things like [Elite Sanctuary Onslaught](/sanctuary-onslaught-guide/ "Sanctuary Onslaught Guide") since she can wipe out the entire map in seconds. And for a while I want to try something different with her so that's exactly what I did. 
 
+## Saryn Contagion Cloud Build
+{{< image title=\"\" alt=\"\" src=\"/wp-content/uploads/2019/08/saryn-contagion-cloud-build.jpg\" srcset=\"/wp-content/uploads/2019/08/saryn-contagion-cloud-build.jpg 960w, /wp-content/uploads/2019/08/saryn-contagion-cloud-build-768.jpg 768w, /wp-content/uploads/2019/08/saryn-contagion-cloud-build-640.jpg 640w\" >}}
 So, let me explain the idea behind Saryn Contagion Build, the aura mod I'm using here is Energy Siphon and the reason for that is well I just want a lot of energy. I want to be able to cast Toxic Lash as well as Molt as often as possible. But I also don't really need Corrosive Projection because of the types of weapons I chose and the way I modded them. 
 
 Then for the exilus slot I went with Aviator which is just an incredible mod it gives you 40% damage reduction whenever you're in the air. It's super cheap and it fits into the exilus slot so this is an amazing mod that more people I think should use. After that I wanted a ton of strength so I went with Blind Rage that's two ranks from the top to save on some efficiency, though it is not entirely necessary. 
@@ -36,7 +39,7 @@ Now you can see why we have this weird combination of stats but another thing th
 
 Originally this was the only augment that I was using on the Saryn Contagion Cloud Build but after playing around with it a little bit outside of the simulacrum([Arbitrations](/warframe-arbitrations-alerts-guide/ "Arbitrations Guide"), Elite Sanctuary Onslaught, etc) I had to put in Regenerative Molt for healing. Though you don't have to use this if you're just going full melee because then you can slap on Healing Return and it will keep you very healthy, especially with the secondary defenses that you have here. 
 
-The reason I went with it is because I didn't want this Saryn Contagion build to be full melee I wanted to use a ranged weapons as well since some of them synergize really well with this kind of setup. Also, this is just the best way of healing especially if you don't have Grace Arcane which is very expensive. 
+The reason I went with it is because I didn't want this Saryn Toxic Lash build to be full melee I wanted to use a ranged weapons as well since some of them synergize really well with this kind of setup. Also, this is just the best way of healing especially if you don't have Grace Arcane which is very expensive. 
 
 And as far as the weapon setup is concerned the weapons that felt the best and I had the most fun with were a hybrid based Torid with Corrosive and Blast combined with a status-based Pox with Corrosive and Blast and a status-based Zenistar with Corrosive and Blast. The idea being that we're going to use corrosive to strip away any armor the enemies have because that is the biggest damage reduction they have against the types of damage we do and we're going to use blast to keep them in our area of effect.
 
