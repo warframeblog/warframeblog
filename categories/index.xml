@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Aug 2019 16:03:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 14:01:36 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Warframe Guides</title>
+      <link>https://warframeblog.com/guides/</link>
+      <pubDate>Sun, 01 Sep 2019 14:01:36 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/guides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Builds</title>
+      <link>https://warframeblog.com/builds/</link>
+      <pubDate>Sat, 24 Aug 2019 04:20:43 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/builds/</guid>
+      <description>Want to build Warfame or Weapon in order to get maximum efficiency out of it? Or perhaps you got a new Weapon or Warframe and don&amp;rsquo;t know how to build it right? Well, then this is the page you are looking for! It contains lots of Warframe Builds as well as Weapon Builds. And all of these builds are waiting for you to check them out.</description>
+    </item>
+    
+    <item>
+      <title>Warframe Builds</title>
+      <link>https://warframeblog.com/warframe-builds/</link>
+      <pubDate>Sat, 24 Aug 2019 04:20:43 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/warframe-builds/</guid>
+      <description>Each warframe you can build in a thousand different ways and there’s a lot of room for tweaking on your end, so please don’t take it as if builds below were set in stone. You can of course copy builds exactly and it’s going to work just fine, but I would think about Warframe Builds below as more of an inspiration for your own builds because you can play around with different values: duration, efficiency, range, and even strength.</description>
+    </item>
     
     <item>
       <title>Primes</title>
@@ -21,12 +48,21 @@
     </item>
     
     <item>
-      <title>Builds</title>
-      <link>https://warframeblog.com/builds/</link>
-      <pubDate>Sun, 02 Jun 2019 00:45:51 +0000</pubDate>
+      <title>Primary Weapon Builds</title>
+      <link>https://warframeblog.com/primary-weapon-builds/</link>
+      <pubDate>Tue, 18 Jun 2019 22:07:00 +0000</pubDate>
       
-      <guid>https://warframeblog.com/builds/</guid>
-      <description>Want to build Warfame or Weapon in order to get maximum efficiency out of it? Or perhaps you got a new Weapon or Warframe and don&amp;rsquo;t know how to build it right? Well, then this is the page you are looking for! It contains lots of Warframe Builds as well as Weapon Builds. And all of these builds are waiting for you to check them out.</description>
+      <guid>https://warframeblog.com/primary-weapon-builds/</guid>
+      <description>Every Primary Weapon in Warframe you can build in a thousand alternative ways, and there is plenty of room to tweak it on your end, therefore please don&amp;rsquo;t take it as if the Weapon Builds below are no longer changeable. You can copy any build exactly, and it&amp;rsquo;s going to work fine, of course, but I&amp;rsquo;d think of Primary Weapon Builds below as more of an inspiration for your builds because you can play around with different values: critical chance, status chance, critical multiplier, damage, and even type of damage.</description>
+    </item>
+    
+    <item>
+      <title>Warframe Farming</title>
+      <link>https://warframeblog.com/farming/</link>
+      <pubDate>Sun, 16 Jun 2019 22:23:54 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/farming/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -39,15 +75,6 @@
     </item>
     
     <item>
-      <title>Primary Weapon Builds</title>
-      <link>https://warframeblog.com/primary-weapon-builds/</link>
-      <pubDate>Sun, 02 Jun 2019 00:45:51 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/primary-weapon-builds/</guid>
-      <description>Every Primary Weapon in Warframe you can build in a thousand alternative ways, and there is plenty of room to tweak it on your end, therefore please don&amp;rsquo;t take it as if the Weapon Builds below are no longer changeable. You can copy any build exactly, and it&amp;rsquo;s going to work fine, of course, but I&amp;rsquo;d think of Primary Weapon Builds below as more of an inspiration for your builds because you can play around with different values: critical chance, status chance, critical multiplier, damage, and even type of damage.</description>
-    </item>
-    
-    <item>
       <title>Secondary Weapon Builds</title>
       <link>https://warframeblog.com/secondary-weapon-builds/</link>
       <pubDate>Sun, 02 Jun 2019 00:45:51 +0000</pubDate>
@@ -57,36 +84,9 @@
     </item>
     
     <item>
-      <title>Warframe Builds</title>
-      <link>https://warframeblog.com/warframe-builds/</link>
-      <pubDate>Sun, 02 Jun 2019 00:45:51 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/warframe-builds/</guid>
-      <description>Each warframe you can build in a thousand different ways and there’s a lot of room for tweaking on your end, so please don’t take it as if builds below were set in stone. You can of course copy builds exactly and it’s going to work just fine, but I would think about Warframe Builds below as more of an inspiration for your own builds because you can play around with different values: duration, efficiency, range, and even strength.</description>
-    </item>
-    
-    <item>
-      <title>Warframe Farming</title>
-      <link>https://warframeblog.com/farming/</link>
-      <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/farming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Warframe Guides</title>
-      <link>https://warframeblog.com/guides/</link>
-      <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/guides/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Warframe News</title>
       <link>https://warframeblog.com/warframe-news/</link>
-      <pubDate>Fri, 22 Jun 2018 00:45:51 +0000</pubDate>
+      <pubDate>Thu, 07 Mar 2019 16:52:25 +0000</pubDate>
       
       <guid>https://warframeblog.com/warframe-news/</guid>
       <description></description>
