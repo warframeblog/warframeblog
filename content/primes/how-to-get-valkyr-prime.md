@@ -6,7 +6,6 @@ author: warframe
 categories:
 - Primes
 date: 2019-09-03T21:00:00Z
-draft: true
 image: /images/primes/warframe-how-to-get-valkyr-prime.jpg
 itemName: Valkyr Prime
 layout: post
