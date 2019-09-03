@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2019 13:03:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2019 21:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Primes</title>
+      <link>https://warframeblog.com/primes/</link>
+      <pubDate>Tue, 03 Sep 2019 21:00:00 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/primes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Warframe Guides</title>
@@ -36,15 +45,6 @@
       
       <guid>https://warframeblog.com/warframe-builds/</guid>
       <description>Each warframe you can build in a thousand different ways and there’s a lot of room for tweaking on your end, so please don’t take it as if builds below were set in stone. You can of course copy builds exactly and it’s going to work just fine, but I would think about Warframe Builds below as more of an inspiration for your own builds because you can play around with different values: duration, efficiency, range, and even strength.</description>
-    </item>
-    
-    <item>
-      <title>Primes</title>
-      <link>https://warframeblog.com/primes/</link>
-      <pubDate>Mon, 12 Aug 2019 21:00:00 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/primes/</guid>
-      <description></description>
     </item>
     
     <item>
