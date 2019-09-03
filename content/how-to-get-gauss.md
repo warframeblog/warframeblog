@@ -13,7 +13,7 @@ tags:
   - guides
   - warframe
 ---
-Hello guys. Today I wanted to talk about how to quickly farm the new warframe Gauss.<!--more-->
+Hello guys. Today I wanted to talk about how to get the new warframe Gauss.<!--more-->
 
 ## New Frame Gauss
 Gauss is a speedster themed frame who uses his extreme speed to trample his foes and boost his combat capabilities. Gauss was introduced to Warframe on 29th August 2019 as part of Update 25.7: Saint of Altra.
