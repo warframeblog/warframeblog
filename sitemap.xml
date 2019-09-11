@@ -31,6 +31,34 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-equinox-prime/</loc>
+    <lastmod>2019-09-05T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-stradavar-prime/</loc>
+    <lastmod>2019-09-05T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-tipedo-prime/</loc>
+    <lastmod>2019-09-05T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-09-05T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/how-to-get-cernos-prime/</loc>
     <lastmod>2019-09-03T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -67,13 +95,6 @@
   
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-venka-prime/</loc>
-    <lastmod>2019-09-03T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
     <lastmod>2019-09-03T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -194,27 +215,6 @@
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-pyrana-prime/</loc>
     <lastmod>2019-07-30T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-equinox-prime/</loc>
-    <lastmod>2019-07-29T11:42:06+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-tipedo-prime/</loc>
-    <lastmod>2019-07-29T11:42:05+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-stradavar-prime/</loc>
-    <lastmod>2019-07-29T11:42:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
