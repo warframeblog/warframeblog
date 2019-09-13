@@ -1,23 +1,44 @@
 <h2>Baro Ki'Teer Inventory</h2>
 
 <ul class="nav nav-pills nav-pills-info">
-	<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#pc">PC</a></li>
-	<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ps4">PS4</a></li>
-	<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#xb1">XBox One</a></li>
-	<li class="nav-item"><a class="nav-link"data-toggle="tab" href="#swi">Nintendo Switch</a></li>
+	{{ range .Page.Params.dynamicData }}
+		<li class="nav-item">
+			<a class="nav-link {{ cond (eq .platform.id "pc") "active" ""}}" data-toggle="tab" href="#{{ .platform.id }}">{{ .platform.name }}</a>
+		</li>
+	{{ end }}
 </ul>
 
 <div class="tab-content tab-space" style="padding-bottom: 0;">
-	<div id="pc" class="tab-pane active show">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.pc) -}}
-	</div>
-	<div id="ps4" class="tab-pane">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.ps4) -}}
-	</div>
-	<div id="xb1" class="tab-pane">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.xb1) -}}
-	</div>
-	<div id="swi" class="tab-pane">
-		{{- partial "voidtrader.html" (dict "trader" $.Site.Data.trader.swi) -}}
-	</div>
+	{{ range .Page.Params.dynamicData }}
+		<div id="{{ .platform.id }}" class="tab-pane {{ cond (eq .platform.id "pc") "active show" ""}}">
+			{{ if ( gt ( len .inventory ) 0 ) }}
+				<p><b>Location:</b> {{ .location }} </p>
+					<div class="table-responsive-sm">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Item Name</th>
+									<th>Ducats</th>
+									<th>Credits</th>
+								</tr>
+							</thead>
+							<tbody>
+							{{- range .inventory -}}
+							<tr>
+								<td>{{ .item }}</td>
+								<td>{{ string .ducats }}</td>
+								<td>{{ string .credits }}</td>
+							</tr>
+							{{- end -}}
+							</tbody>
+						</table>
+					</div>
+				<p>
+					<b>(These offerings available until <span>{{ dateFormat "Monday, January 2, 2006 15:04 MST" .expiry }}</span>)</b>
+				</p>
+			{{ else }}
+				<p>Baro Ki'Teer arrives in {{ .location }} at {{ dateFormat "Monday, January 2, 2006 15:04 MST" .activation }}</p>
+			{{ end }}
+		</div>
+	{{ end }}
 </div>
