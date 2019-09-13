@@ -1,0 +1,7 @@
+{{- with .Get "path" -}}
+{{ $howToGetPage := $.Site.GetPage . }}
+{{- if eq $howToGetPage.Params.status "NEW" -}}
+<h2>{{$howToGetPage.Title}}</h2>
+<p>Now, just like with any other prime weapon, you get the parts for {{ index $howToGetPage.Params "itemname" }} from <a href="/how-to-farm-relics/" title="How To Farm Relics">relics</a>. Look at <a href="{{ $howToGetPage.Permalink }}" title="{{ $howToGetPage.Title }}">this article</a> to find out which relics you need to crack open and what are the best places to farm these relics.</p>
+{{- end -}}
+{{- end -}}

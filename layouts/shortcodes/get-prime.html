@@ -1,8 +1,0 @@
-{{$.Page.Params.itemName}}
-{{$howToGetPage := .Site.GetPage "/primes/how-to-get-tipedo-prime"}}
-{{- if eq $howToGetPage.Params.state "NEW" -}}
-<h2>{{$howToGetPage.Title}}</h2>
-itemParts: [{partName: "Tipedo Prime Blueprint", relic: "Lith P2", probability: "common"}]
-Now, first things first the Tipedo Prime is obtained just like any other Primed item by crack opening of relics. So, the Tipedo Prime Blueprint is a common drop from the Lith P2 relic, the Tipedo Prime Handle is a rare drop from the Axi T2 relic, and finally the Tipedo Prime Ornament is an uncommon drop from the Neo N10 relic.
-<a href="{{$howToGetPage.Permalink}}" title="{{$howToGetPage.Title}}">Read this article</a> to find out about the best places to farm those mentioned above relics. 
-{{- end -}}

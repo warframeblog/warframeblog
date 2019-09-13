@@ -18,8 +18,7 @@ tags:
 ---
 Hey guys and welcome to another Warframe article. Today we're gonna take a quick look at the one and only **Stradavar Prime**.<!--more-->
 
-## How To Get Stradavar Prime
-Now, first things first to get the Stradavar Prime you will have to open some relics just like with any other Prime item. The Stradavar Prime blueprint is a rare drop from Neo S11 relic, the Stradavar Prime barrel is an uncommon drop from the Lith M4 relic, the receiver is a common drop from the Meso Z3 relic, and finally, the stock is a common drop from the Axi T2 relic.
+{{< get-prime-weapon path="how-to-get-stradavar-prime" >}}
 
 ## Stradavar Prime Fire Modes
 The Stradavar Prime just like the standard Stradavar comes with two different fire modes __a fully-automatic mode and a semi-automatic mode__ that you switch between by pressing the secondary fire button. And it's not just a fire mode change because the stats for each fire mode are completely different. 
