@@ -9,14 +9,17 @@ date: 2019-09-07T21:00:00Z
 draft: false
 image: /images/primes/warframe-how-to-get-tipedo-prime.jpg
 itemName: Tipedo Prime
-itemPartsToAvailableRelics:
-  Tipedo Prime Ornament:
-  - Axi G2
-  Tipedo Prime Handle:
-  - Axi T2
-  Tipedo Prime Blueprint:
-  - Meso A2
 layout: post
+partsToRelics:
+- part: Tipedo Prime Ornament
+  relicNames:
+  - Axi G2
+- part: Tipedo Prime Handle
+  relicNames:
+  - Axi T2
+- part: Tipedo Prime Blueprint
+  relicNames:
+  - Meso A2
 permalink: /primes/how-to-get-tipedo-prime/
 seoTitle: How To Get Tipedo Prime. Tipedo Prime Relics Farm.
 status: NEW
