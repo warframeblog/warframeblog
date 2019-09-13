@@ -5,7 +5,7 @@ alongWithPrimeItems:
 author: warframe
 categories:
 - Primes
-date: 2019-09-05T21:00:00Z
+date: 2019-09-07T21:00:00Z
 draft: false
 image: /images/primes/warframe-how-to-get-equinox-prime.jpg
 itemName: Equinox Prime
