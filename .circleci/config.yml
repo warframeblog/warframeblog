@@ -3,7 +3,7 @@ version: 2
 jobs:
     build:
         docker:
-            - image: node:10.15-alpine
+            - image: node:10.16.3-alpine
         working_directory: ~/warframeblog
         steps:
             - run:
