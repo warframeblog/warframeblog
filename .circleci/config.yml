@@ -6,6 +6,7 @@ jobs:
             - image: node:10.16.3-alpine
               environment:
                 HUGO_VERSION: 0.58.2
+                HUGO_BINARY: hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
         working_directory: ~/warframeblog
         steps:
             - run:
@@ -21,15 +22,13 @@ jobs:
             - run: git config --global user.email bot@warframeblog.com
             - run: git config --global user.name CircleCI
             - run:
-                name: Download Hugo
-                command: mkdir -p /usr/local/hugo/ \ 
-                    && wget -P /usr/local/hugo/ "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tar.gz"
-            - run:
                 name: Install Hugo
-                command: tar -xzf /usr/local/hugo/hugo_${HUGO_VERSION}_linux-64bit.tar.gz -C /usr/local/hugo/ \
-                    && ln -s /usr/local/hugo/hugo /usr/local/bin/hugo \
-                    && rm /usr/local/hugo/hugo_${HUGO_VERSION}_linux-64bit.tar.gz \
-                    && hugo version
+                command:  wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
+                  tar xzf ${HUGO_BINARY} && \
+                  rm -r ${HUGO_BINARY} && \
+                  mv hugo /usr/bin && \
+                  apk del wget ca-certificates && \
+                  rm /var/cache/apk/*
             - checkout
             - run:
                 name: Checkout submodules
