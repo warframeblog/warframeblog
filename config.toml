@@ -25,6 +25,7 @@ enableInlineShortcodes = true
 [permalinks]
 	categories = "/:slug/"
 	warframes = "/:section/:slug/"
+	primes = "/:section/:slug/"
 [sitemap]
 	changefreq = "daily"
 	filename = "sitemap.xml"
