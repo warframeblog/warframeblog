@@ -26,7 +26,7 @@ jobs:
                     && wget -P /usr/local/hugo/ "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tar.gz"
             - run:
                 name: Install Hugo
-                command: tar xzf /usr/local/hugo/hugo_${HUGO_VERSION}_linux-64bit.tar.gz -C /usr/local/hugo/ \
+                command: tar -xzf /usr/local/hugo/hugo_${HUGO_VERSION}_linux-64bit.tar.gz -C /usr/local/hugo/ \
                     && ln -s /usr/local/hugo/hugo /usr/local/bin/hugo \
                     && rm /usr/local/hugo/hugo_${HUGO_VERSION}_linux-64bit.tar.gz \
                     && hugo version
