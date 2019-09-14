@@ -4,6 +4,8 @@ jobs:
     build:
         docker:
             - image: node:10.16.3-alpine
+              environment:
+                HUGO_VERSION: 0.58.2
         working_directory: ~/warframeblog
         steps:
             - run:
@@ -18,6 +20,13 @@ jobs:
                     - "4d:bc:43:fc:36:51:1a:8c:4b:a9:2d:15:a6:8d:d8:34"
             - run: git config --global user.email bot@warframeblog.com
             - run: git config --global user.name CircleCI
+            - run:
+                name: Install Hugo
+                command: wget -P /usr/local/hugo/ "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tar.gz" \
+                    tar xzf /usr/local/hugo/${HUGO_BINARY}.tar.gz -C /usr/local/hugo/ \
+                    && ln -s /usr/local/hugo/hugo /usr/local/bin/hugo \
+                    && rm /usr/local/hugo/${HUGO_BINARY}.tar.gz \
+                    && hugo version
             - checkout
             - run:
                 name: Checkout submodules
@@ -25,9 +34,6 @@ jobs:
             - run:
                 name: Install dependencies
                 command: npm install
-            - run:
-                name: Install Hugo
-                command: apk upgrade --update && apk add hugo --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted
             - run:
                 name: Mark script as executable
                 command: chmod +x ./.circleci/publish_to_ghpages.sh
