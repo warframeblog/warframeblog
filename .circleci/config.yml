@@ -23,7 +23,7 @@ jobs:
             - run: git config --global user.name CircleCI
             - run:
                 name: Install tar
-                command: apk add --no-cache tar
+                command: apk update && apk add tar
             - run:
                 name: Install Hugo
                 command:  wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
