@@ -6,7 +6,6 @@ jobs:
             - image: node:10.16.3-alpine
               environment:
                 HUGO_VERSION: 0.58.2
-                HUGO_BINARY: hugo_0.58.2_Linux-64bit.tar.gz
         working_directory: ~/warframeblog
         steps:
             - run:
@@ -21,15 +20,6 @@ jobs:
                     - "4d:bc:43:fc:36:51:1a:8c:4b:a9:2d:15:a6:8d:d8:34"
             - run: git config --global user.email bot@warframeblog.com
             - run: git config --global user.name CircleCI
-            - run:
-                name: Install tar
-                command: apk update && apk add tar
-            - run:
-                name: Install Hugo
-                command:  wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
-                  tar xzf ${HUGO_BINARY} && \
-                  ls && \
-                  mv hugo /usr/bin
             - checkout
             - run:
                 name: Checkout submodules

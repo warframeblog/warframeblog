@@ -109,7 +109,7 @@ gulp.task('minify:html', () => {
 		.pipe(gulp.dest('public'));
 });
 
-gulp.task('build:hugo', shell.task('hugo'));
+gulp.task('build:hugo', shell.task('npx hugo-cli'));
 
 gulp.task('build', gulp.series('build:styles', 'scripts', 'build:hugo', 'replace:html', 'minify:styles', 'minify:html'));
 
