@@ -28,10 +28,8 @@ jobs:
                 name: Install Hugo
                 command:  wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
                   tar xzf ${HUGO_BINARY} && \
-                  rm -r ${HUGO_BINARY} && \
-                  mv hugo /usr/bin && \
-                  apk del wget ca-certificates && \
-                  rm /var/cache/apk/*
+                  ls && \
+                  mv hugo /usr/bin
             - checkout
             - run:
                 name: Checkout submodules
