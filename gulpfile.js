@@ -26,6 +26,9 @@ const htmlFilesToPublish = 'public/**/*.html';
 const styleFilesToPublish = 'public/assets/css/**/*.css';
 const publicStyleAssets = 'public/assets/css';
 
+const { execFile } = require('child_process');
+const hugo = require('hugo-bin');
+
 gulp.task('build:scripts', () => {
 	const babelOpts = {
       externalHelpersWhitelist: [
@@ -109,7 +112,7 @@ gulp.task('minify:html', () => {
 		.pipe(gulp.dest('public'));
 });
 
-gulp.task('build:hugo', shell.task('npx hugo-cli'));
+gulp.task('build:hugo', () => execFile(hugo));
 
 gulp.task('build', gulp.series('build:styles', 'scripts', 'build:hugo', 'replace:html', 'minify:styles', 'minify:html'));
 
