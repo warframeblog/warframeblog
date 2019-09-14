@@ -23,7 +23,7 @@ jobs:
             - run:
                 name: Install Hugo
                 command: wget -P /usr/local/hugo/ "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tar.gz" \
-                    tar xzf /usr/local/hugo/${HUGO_BINARY}.tar.gz -C /usr/local/hugo/ \
+                    && tar xzf /usr/local/hugo/${HUGO_BINARY}.tar.gz -C /usr/local/hugo/ \
                     && ln -s /usr/local/hugo/hugo /usr/local/bin/hugo \
                     && rm /usr/local/hugo/hugo_${HUGO_VERSION}_linux-64bit.tar.gz \
                     && hugo version
