@@ -6,7 +6,7 @@ jobs:
             - image: node:10.16.3-alpine
               environment:
                 HUGO_VERSION: 0.58.2
-                HUGO_BINARY: hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+                HUGO_BINARY: hugo_extended_0.58.2_Linux-64bit.tar.gz
         working_directory: ~/warframeblog
         steps:
             - run:
