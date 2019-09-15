@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-09-13T16:03:44.396Z
+date: 2019-09-15T13:00:44.901Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,9 +18,9 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-09-13T13:00:00.000Z'
-    startString: '-3h 3m 20s'
+    startString: '-2d 17s'
     expiry: '2019-09-15T13:00:00.000Z'
-    active: true
+    active: false
     character: Baro Ki'Teer
     location: Larunda Relay (Mercury)
     inventory:
@@ -97,15 +97,15 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07a0a38e4a4fdd7cefca24
-    endString: 1d 20h 56m 39s
+    endString: '-17s'
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-09-13T13:00:00.000Z'
-    startString: '-3h 3m 21s'
+    startString: '-2d 18s'
     expiry: '2019-09-15T13:00:00.000Z'
-    active: true
+    active: false
     character: Baro Ki'Teer
     location: Larunda Relay (Mercury)
     inventory:
@@ -182,15 +182,15 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07fc3874d7a1904925a424
-    endString: 1d 20h 56m 38s
+    endString: '-18s'
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-09-13T13:00:00.000Z'
-    startString: '-3h 3m 21s'
+    startString: '-2d 19s'
     expiry: '2019-09-15T13:00:00.000Z'
-    active: true
+    active: false
     character: Baro Ki'Teer
     location: Vesper Relay (Venus)
     inventory:
@@ -267,15 +267,15 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07d670db938ced55957024
-    endString: 1d 20h 56m 38s
+    endString: '-19s'
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-09-13T13:00:00.000Z'
-    startString: '-3h 3m 21s'
+    startString: '-2d 19s'
     expiry: '2019-09-15T13:00:00.000Z'
-    active: true
+    active: false
     character: Baro Ki'Teer
     location: Leonov Relay (Europa)
     inventory:
@@ -352,7 +352,7 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e08669a7e6338c87fa0f424
-    endString: 1d 20h 56m 38s
+    endString: '-19s'
     platform:
       id: swi
       name: Nintendo Switch
