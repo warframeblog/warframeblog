@@ -6,10 +6,19 @@
     <description>Recent content in Primary Weapon Builds on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jun 2019 22:07:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 00:41:50 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/primary-weapon-builds/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Acceltra Build</title>
+      <link>https://warframeblog.com/acceltra-build/</link>
+      <pubDate>Mon, 16 Sep 2019 00:41:50 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/acceltra-build/</guid>
+      <description>&lt;p&gt;Hey guys and today we are going to take a quick look at Gauss&amp;rsquo;s signature fully automatic rocket launcher - Acceltra.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Komorex Build</title>

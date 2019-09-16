@@ -3,21 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://warframeblog.com/categories/</loc>
-    <lastmod>2019-09-15T16:03:44+00:00</lastmod>
+    <loc>https://warframeblog.com/acceltra-build/</loc>
+    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-09-15T16:03:44+00:00</lastmod>
+    <loc>https://warframeblog.com/builds/</loc>
+    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/categories/</loc>
+    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primary-weapon-builds/</loc>
+    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/</loc>
+    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
     <lastmod>2019-09-15T16:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -110,13 +131,6 @@
   <url>
     <loc>https://warframeblog.com/how-to-get-gauss/</loc>
     <lastmod>2019-09-02T13:03:18+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/builds/</loc>
-    <lastmod>2019-08-24T04:20:43+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -312,13 +326,6 @@
   
   <url>
     <loc>https://warframeblog.com/komorex-build/</loc>
-    <lastmod>2019-06-18T22:07:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primary-weapon-builds/</loc>
     <lastmod>2019-06-18T22:07:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

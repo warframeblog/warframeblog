@@ -6,10 +6,19 @@
     <description>Recent content on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2019 16:03:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 00:41:50 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Acceltra Build</title>
+      <link>https://warframeblog.com/acceltra-build/</link>
+      <pubDate>Mon, 16 Sep 2019 00:41:50 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/acceltra-build/</guid>
+      <description>&lt;p&gt;Hey guys and today we are going to take a quick look at Gauss&amp;rsquo;s signature fully automatic rocket launcher - Acceltra.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Warframe Baro Ki&#39;Teer Void Trader</title>
