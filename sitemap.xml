@@ -3,6 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://warframeblog.com/categories/</loc>
+    <lastmod>2019-09-20T13:00:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
+    <lastmod>2019-09-20T13:00:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/</loc>
+    <lastmod>2019-09-20T13:00:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/guides/</loc>
+    <lastmod>2019-09-20T13:00:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/acceltra-build/</loc>
     <lastmod>2019-09-16T00:41:50+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -17,36 +45,8 @@
   </url>
   
   <url>
-    <loc>https://warframeblog.com/categories/</loc>
-    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://warframeblog.com/primary-weapon-builds/</loc>
     <lastmod>2019-09-16T00:41:50+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/</loc>
-    <lastmod>2019-09-16T00:41:50+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-09-15T16:03:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/guides/</loc>
-    <lastmod>2019-09-15T16:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Warframe Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2019 00:41:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2019 13:00:44 +0000</lastBuildDate>
     
 	<atom:link href="https://warframeblog.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Warframe Guides</title>
+      <link>https://warframeblog.com/guides/</link>
+      <pubDate>Fri, 20 Sep 2019 13:00:44 +0000</pubDate>
+      
+      <guid>https://warframeblog.com/guides/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Builds</title>
@@ -27,15 +36,6 @@
       
       <guid>https://warframeblog.com/primary-weapon-builds/</guid>
       <description>Every Primary Weapon in Warframe you can build in a thousand alternative ways, and there is plenty of room to tweak it on your end, therefore please don&amp;rsquo;t take it as if the Weapon Builds below are no longer changeable. You can copy any build exactly, and it&amp;rsquo;s going to work fine, of course, but I&amp;rsquo;d think of Primary Weapon Builds below as more of an inspiration for your builds because you can play around with different values: critical chance, status chance, critical multiplier, damage, and even type of damage.</description>
-    </item>
-    
-    <item>
-      <title>Warframe Guides</title>
-      <link>https://warframeblog.com/guides/</link>
-      <pubDate>Sun, 15 Sep 2019 16:03:44 +0000</pubDate>
-      
-      <guid>https://warframeblog.com/guides/</guid>
-      <description></description>
     </item>
     
     <item>
