@@ -86,7 +86,8 @@ gulp.task('minify:styles', () => {
 		'public/builds/index.html',
 		'public/warframes/index.html',
 		'public/warframes/ash/*.html',
-		'public/warframes/nezha/*.html'
+		'public/warframes/nezha/*.html',
+		'public/primes/index.html'
 	];
 	const selectorsToIgnore = [/.*\.ripple.*/, 
 		/.*\.dropdown-menu.*/,
