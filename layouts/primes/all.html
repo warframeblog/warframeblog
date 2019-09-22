@@ -1,0 +1,54 @@
+{{- define "custom-header" -}}
+<header>
+	<div id="header-carousel" class="carousel slide" data-ride="carousel" style="background-color: black;">
+		<ol class="carousel-indicators">
+			<li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#header-carousel" data-slide-to="1"></li>
+			<li data-target="#header-carousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			{{ range $i, $prime := .Site.Data.theme.slider.primes }}
+			{{ $.Page.Scratch.Add "carouselPosts" (slice $prime.groupId) }}
+			<div class="carousel-item {{ cond (eq $i 0) "active" "" }}">
+				<div class="page-header has-hero-image header-filter black-filter clear-filter"  style="height: 100vh; background-image: url('{{ $prime.image }}');">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 mx-auto mt-5">
+								<div class="brand">
+									<h2 class="title">{{ $prime.title }}</h2>
+									<h3 class="pt-3" style="font-weight: 500;">Select a Guide:</h3>
+								</div>
+							</div>
+							{{ range where $.Site.Taxonomies.categories.primes.Pages "Params.groupid" $prime.groupId }}
+							<div class="col-4 ">
+								<div class="card card-plain">
+								<a href="{{ .Permalink }}" target="_blank" title="{{ .Title }}">
+									<div class="card-header card-header-image">
+										<img src="{{ .Params.image }}" alt="{{ .Title }}">
+										<div class="colored-shadow" style="background-image: url('{{ .Params.image }}'); opacity: 1;"></div>
+									</div>
+								</a>
+								</div>
+							</div>
+							{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</header>
+{{- end -}}
+{{- define "main-body" -}}
+	<div class="container">
+		<div class="row">
+			{{- range .Paginator.Pages -}}
+				{{ if not (in ($.Page.Scratch.Get "carouselPosts") .Params.groupId)}}
+					{{- partial "plain-card.html" . -}}
+				{{ end }}
+			{{- end -}}
+		</div>
+	</div>
+	{{- partial "pagination.html" . -}}
+{{- end -}}
