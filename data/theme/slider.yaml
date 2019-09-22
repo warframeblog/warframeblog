@@ -1,0 +1,10 @@
+primes:
+  - title: "Prime Vault Unsealed: Saryn Prime"
+    image: "https://store-images.s-microsoft.com/image/apps.35177.14624177915321756.eb5affb6-1e4a-4ceb-9864-68b5b921b851.a8a4e13d-d4cb-48c3-a127-d421a4d823a6?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF"
+    groupId: saryn-prime-access
+  - title: "Prime Vault Unsealed: Valkyr Prime"
+    image: "https://n9e5v4d8.ssl.hwcdn.net/uploads/305a39a05e4abe141e82cba89534520b.jpg"
+    groupId: valkyr-prime-access
+  - title: "Wukong Prime Access is here!"
+    image: "https://n9e5v4d8.ssl.hwcdn.net/images/prime-access/primeaccesswukong/bg.jpg"
+    groupId: wukong-prime-access
