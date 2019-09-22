@@ -94,7 +94,8 @@ gulp.task('minify:styles', () => {
 		/.*\.show/,
 		/.*\.toggled/, /.*\.untoggled/,
 		'#bodyClick',
-		/.*\.nav-open.*/];
+		/.*\.nav-open.*/,
+		/.*\.carousel-item*/];
 	return gulp.src(styleFilesToPublish)
 		.pipe(postcss([uncss({htmlroot: 'public', html: htmlFiles, ignore: selectorsToIgnore})]))
 		.pipe(postcss([ autoprefixer(), csso({ comments: false }) ]))
