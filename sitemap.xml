@@ -31,6 +31,13 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-09-21T00:45:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/acceltra-build/</loc>
     <lastmod>2019-09-16T00:41:50+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -47,41 +54,6 @@
   <url>
     <loc>https://warframeblog.com/primary-weapon-builds/</loc>
     <lastmod>2019-09-16T00:41:50+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-equinox-prime/</loc>
-    <lastmod>2019-09-07T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-stradavar-prime/</loc>
-    <lastmod>2019-09-07T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-tipedo-prime/</loc>
-    <lastmod>2019-09-07T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2019-09-07T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2019-09-07T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -129,6 +101,13 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-09-03T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/how-to-get-gauss/</loc>
     <lastmod>2019-09-02T13:03:18+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -145,6 +124,13 @@
   <url>
     <loc>https://warframeblog.com/warframe-builds/</loc>
     <lastmod>2019-08-24T04:20:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-stradavar-prime/</loc>
+    <lastmod>2019-08-07T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -810,6 +796,20 @@
   <url>
     <loc>https://warframeblog.com/warframes/excalibur/</loc>
     <lastmod>2018-09-16T00:41:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-equinox-prime/</loc>
+    <lastmod>2018-09-07T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-tipedo-prime/</loc>
+    <lastmod>2018-09-07T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
