@@ -5,7 +5,9 @@ alongWithPrimeItems:
 author: warframe
 categories:
 - Primes
-date: 2019-07-26T19:43:37.278Z
+date: 2019-09-24T21:00:00Z
+draft: false
+groupId: loki-prime-access
 image: /images/primes/warframe-how-to-get-vaulted-loki-prime.jpg
 itemName: Loki Prime
 layout: post
