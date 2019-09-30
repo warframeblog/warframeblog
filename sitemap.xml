@@ -59,6 +59,13 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-odonata-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/how-to-get-pyrana-prime/</loc>
     <lastmod>2019-09-25T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -67,6 +74,13 @@
   
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-volt-prime/</loc>
     <lastmod>2019-09-25T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -264,20 +278,6 @@
   <url>
     <loc>https://warframeblog.com/dog-days-event-guide/</loc>
     <lastmod>2019-08-03T00:51:13+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-odonata-prime/</loc>
-    <lastmod>2019-07-26T19:16:14+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-volt-prime/</loc>
-    <lastmod>2019-07-26T19:16:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
