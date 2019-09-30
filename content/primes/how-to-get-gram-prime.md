@@ -5,12 +5,14 @@ alongWithPrimeItems:
 author: warframe
 categories:
 - Primes
-date: 2019-07-31T21:00:00Z
+date: 2019-09-25T21:00:00Z
+draft: false
+groupId: chroma-prime-access
 image: /images/primes/warframe-how-to-get-gram-prime.jpg
 itemName: Gram Prime
 layout: post
 permalink: /primes/how-to-get-gram-prime/
-seoTitle: How To Get Gram Prime. How To Farm Gram Prime Relics
+seoTitle: How To Get Gram Prime. Gram Prime Relics Farm.
 status: NEW
 title: How To Get Gram Prime
 ---
