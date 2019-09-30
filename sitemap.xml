@@ -31,8 +31,36 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-akjagara-prime/</loc>
+    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-mesa-prime/</loc>
+    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-redeemer-prime/</loc>
+    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2019-09-21T00:45:51+00:00</lastmod>
+    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -74,13 +102,6 @@
   
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-scindo-prime/</loc>
-    <lastmod>2019-09-20T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
     <lastmod>2019-09-20T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -488,27 +509,6 @@
   <url>
     <loc>https://warframeblog.com/acolytes-back-acolyte-mods/</loc>
     <lastmod>2019-01-25T16:45:17+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-akjagara-prime/</loc>
-    <lastmod>2018-12-26T00:23:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-redeemer-prime/</loc>
-    <lastmod>2018-12-19T00:23:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-mesa-prime/</loc>
-    <lastmod>2018-12-18T23:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
