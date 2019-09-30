@@ -38,7 +38,28 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-destreza-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-limbo-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-pyrana-prime/</loc>
     <lastmod>2019-09-25T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -243,27 +264,6 @@
   <url>
     <loc>https://warframeblog.com/dog-days-event-guide/</loc>
     <lastmod>2019-08-03T00:51:13+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-destreza-prime/</loc>
-    <lastmod>2019-07-30T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-limbo-prime/</loc>
-    <lastmod>2019-07-30T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-pyrana-prime/</loc>
-    <lastmod>2019-07-30T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
