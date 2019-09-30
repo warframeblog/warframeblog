@@ -4,7 +4,9 @@ alongWithPrimeItems:
 author: warframe
 categories:
 - Primes
-date: 2019-07-26T19:16:14.369Z
+date: 2019-09-25T21:00:00Z
+draft: false
+groupId: volt-prime-access
 image: /images/primes/warframe-how-to-get-vaulted-odonata-prime.jpg
 itemName: Odonata Prime
 layout: post
