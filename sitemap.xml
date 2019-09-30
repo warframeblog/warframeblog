@@ -31,6 +31,41 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-chroma-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/how-to-get-akjagara-prime/</loc>
     <lastmod>2019-09-24T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -67,20 +102,6 @@
   
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-wyrm-prime/</loc>
-    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2019-09-24T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
     <lastmod>2019-09-24T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -222,27 +243,6 @@
   <url>
     <loc>https://warframeblog.com/dog-days-event-guide/</loc>
     <lastmod>2019-08-03T00:51:13+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-chroma-prime/</loc>
-    <lastmod>2019-07-31T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
-    <lastmod>2019-07-31T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
-    <lastmod>2019-07-31T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
