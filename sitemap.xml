@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://warframeblog.com/primes/how-to-get-ember-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-glaive-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://warframeblog.com/primes/how-to-get-gram-prime/</loc>
     <lastmod>2019-09-25T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -74,6 +88,13 @@
   
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-rubico-prime/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-sicarus-prime/</loc>
     <lastmod>2019-09-25T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -299,27 +320,6 @@
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-ninkondi-prime/</loc>
     <lastmod>2019-07-26T13:05:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-ember-prime/</loc>
-    <lastmod>2019-07-18T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-glaive-prime/</loc>
-    <lastmod>2019-07-18T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/how-to-get-sicarus-prime/</loc>
-    <lastmod>2019-07-18T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
