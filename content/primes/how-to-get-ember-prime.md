@@ -5,7 +5,9 @@ alongWithPrimeItems:
 author: warframe
 categories:
 - Primes
-date: 2019-07-18T21:00:00Z
+date: 2019-09-25T21:00:00Z
+draft: false
+groupId: ember-prime-access
 image: /images/primes/warframe-how-to-get-vaulted-ember-prime.jpg
 itemName: Ember Prime
 layout: post
