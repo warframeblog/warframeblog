@@ -4,20 +4,55 @@
   
   <url>
     <loc>https://warframeblog.com/categories/</loc>
-    <lastmod>2019-09-29T16:03:43+00:00</lastmod>
+    <lastmod>2019-10-01T02:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
-    <lastmod>2019-09-29T16:03:43+00:00</lastmod>
+    <loc>https://warframeblog.com/primes/how-to-get-tekko-prime/</loc>
+    <lastmod>2019-10-01T02:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-10-01T02:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/</loc>
+    <lastmod>2019-10-01T02:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://warframeblog.com/</loc>
+    <lastmod>2019-10-01T02:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-atlas-prime/</loc>
+    <lastmod>2019-10-01T01:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/primes/how-to-get-dethcube-prime/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://warframeblog.com/baro-kiteer-void-trader/</loc>
     <lastmod>2019-09-29T16:03:43+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -102,20 +137,6 @@
   
   <url>
     <loc>https://warframeblog.com/primes/how-to-get-volt-prime/</loc>
-    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
-    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://warframeblog.com/primes/</loc>
     <lastmod>2019-09-25T21:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
