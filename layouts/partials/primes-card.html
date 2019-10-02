@@ -1,0 +1,27 @@
+<article class="col-lg-3 col-md-4">
+	<div class="card card-pricing primes-card">
+		{{ $cardTitle := replace .Key "-" " " }}
+		<div class="card-header card-header-image">
+			{{$thumbnail := printf "/images/primes/groups/%s-360x240.jpg" .Key}}
+			<img
+				class="img img-raised lazyload"
+				data-sizes="auto"
+				data-src="{{$thumbnail}}"
+				title="Warframe {{ $cardTitle }}"
+				alt="{{ $cardTitle }} image"
+			/>
+		</div>
+		<div class="card-body">
+			<h4 class="card-title" style="margin-top: 0; text-transform: capitalize;">
+				{{$cardTitle}}
+			</h4>
+			<ul>
+				{{ range .Pages }}
+				<li>
+					<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+				</li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</article>

@@ -1,3 +1,6 @@
+{{ define "extra-styles" }}
+	<link rel="stylesheet" href="/assets/css/primes.css">
+{{ end }}
 {{- define "custom-header" -}}
 <header>
 	<div id="header-carousel" class="carousel slide" data-ride="carousel" style="background-color: black;">
@@ -10,7 +13,9 @@
 			{{ range $i, $prime := .Site.Data.theme.slider.primes }}
 			{{ $.Page.Scratch.Add "carouselPosts" (slice $prime.groupId) }}
 			<div class="carousel-item {{ cond (eq $i 0) "active" "" }}">
-				<div class="page-header has-hero-image header-filter black-filter clear-filter"  style="height: 100vh; background-image: url('{{ $prime.image }}');">
+				{{$bgImage := printf "/images/primes/groups/%s.jpg" $prime.groupId}}
+
+				<div class="page-header has-hero-image header-filter black-filter clear-filter"  style="height: 100vh; background-image: url('{{ $bgImage }}');">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-10 mx-auto mt-5">
@@ -41,14 +46,25 @@
 </header>
 {{- end -}}
 {{- define "main-body" -}}
-	<div class="container">
-		<div class="row">
-			{{- range .Paginator.Pages -}}
-				{{ if not (in ($.Page.Scratch.Get "carouselPosts") .Params.groupId)}}
-					{{- partial "plain-card.html" . -}}
+	<div class="container pt-5">
+		<div class="row justify-content-center">
+			<div class="col-md-12">
+				<h2 class="title">Farmable Prime Items</h2>
+			</div>
+			{{$primePosts := $.Site.Taxonomies.categories.primes.Pages}}
+			{{$availablePrimePosts := where $primePosts "Params.status" "ne" "VAULTED"}}
+			{{ range $availablePrimePosts.GroupByParam "groupId"}}
+				{{ if not (in ($.Page.Scratch.Get "carouselPosts") .Key)}}
+					{{- partial "primes-card.html" . -}}
 				{{ end }}
-			{{- end -}}
+			{{ end }}
+			<div class="col-md-12">
+				<h2 class="title">Vaulted Prime Items</h2>
+			</div>
+			{{$vaultedPrimePosts := where $primePosts "Params.status" "eq" "VAULTED"}}
+			{{ range $vaultedPrimePosts.GroupByParam "groupId"}}
+				{{- partial "primes-card.html" . -}}
+			{{ end }}
 		</div>
 	</div>
-	{{- partial "pagination.html" . -}}
 {{- end -}}

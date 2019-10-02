@@ -1,0 +1,10 @@
+@import "material-kit/variables";
+@import "material-kit/cards/card-pricing";
+
+.primes-card ul li {
+	&:hover,
+	&:active,
+	&:focus {
+		font-weight: 500;
+	}
+}
