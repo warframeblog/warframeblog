@@ -14,9 +14,7 @@ categories:
 ---
 Hello everyone and welcome to another Warframe build article. Today we're gonna take a quick look at Pyrana Prime our newest secondary shotgun that was just introduced with [Limbo Prime](https://warframeblog.com/limbo-prime-access/).<!--more-->
 
-## How to get Pyrana Prime?
-
-So, first things first if you want to get your hands on this weapon you can get the blueprint as a rare drop from the Lith p1 relic the barrel is a common drop from the Neo v7 relic and the receiver as an uncommon drop from the Axi k3 relic. So, it's actually not too bad.
+{{< get-prime-weapon path="how-to-get-pyrana-prime" >}} 
 
 The Pyrana Prime is a fully automatic secondary shotgun that requires to be at least mastery rank 13 to use. It does 240 damage per shot 201.6 is slash and 19.2 is both puncture and impact. It fires up to 4 rounds per second with 12 rounds in the magazine 210 rounds in total and a reload time of 1.6 seconds it has very solid 24% crit chance and above-average 2.2x crit multiplier and a fairly low 12% status chance. It also comes with 2 V polarities as standard which is always nice for a secondary weapon.
 
