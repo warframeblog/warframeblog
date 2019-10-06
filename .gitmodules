@@ -1,6 +1,0 @@
-[submodule "wp-content/uploads/2019"]
-	path = wp-content/uploads/2019
-	url = https://github.com/warframeblog/images2019.git
-[submodule "images/primes"]
-	path = images/primes
-	url = https://github.com/warframeblog/primes.git
