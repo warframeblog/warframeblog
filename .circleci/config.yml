@@ -24,7 +24,7 @@ jobs:
       - run:
           name: Checkout submodules
           command: git submodule sync && git submodule update --init --recursive
-       - run:
+      - run:
           name: Install dependencies
           command: npm ci
       - run:
