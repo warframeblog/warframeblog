@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-10-11T13:04:56.218Z
+date: 2019-10-11T16:03:44.292Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,7 +18,7 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-4m 42s'
+    startString: '-3h 3m 43s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -112,13 +112,13 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07a0a38e4a4fdd7cefca29
-    endString: 1d 23h 55m 17s
+    endString: 1d 20h 56m 16s
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-4m 42s'
+    startString: '-3h 3m 43s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -203,18 +203,21 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07fc3874d7a1904925a426
-    endString: 1d 23h 55m 17s
+    endString: 1d 20h 56m 16s
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-4m 42s'
+    startString: '-3h 3m 43s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
     location: Orcus Relay (Pluto)
     inventory:
+      - item: Zylok
+        ducats: 500
+        credits: 200000
       - item: Mod Drop Chance Booster3 Day Store Item
         ducats: 500
         credits: 175000
@@ -290,14 +293,14 @@ dynamicData:
       - item: Sands Of Inaros Blueprint
         ducats: 100
         credits: 25000
-    psId: 5d1e07d670db938ced55957025
-    endString: 1d 23h 55m 17s
+    psId: 5d1e07d670db938ced55957026
+    endString: 1d 20h 56m 16s
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-4m 42s'
+    startString: '-3h 3m 43s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -382,7 +385,7 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e08669a7e6338c87fa0f426
-    endString: 1d 23h 55m 17s
+    endString: 1d 20h 56m 16s
     platform:
       id: swi
       name: Nintendo Switch
