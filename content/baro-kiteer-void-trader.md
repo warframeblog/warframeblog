@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-10-13T13:00:45.434Z
+date: 2019-10-13T13:03:44.222Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,218 +18,53 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-2d 32s'
+    startString: '-2d 3m 32s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Orcus Relay (Pluto)
-    inventory:
-      - item: 3 Day Mod Drop Chance Booster
-        ducats: 500
-        credits: 175000
-      - item: In Mah Belly Glyph
-        ducats: 80
-        credits: 50000
-      - item: Wysar Day Of The Dead Kavat Armor
-        ducats: 400
-        credits: 175000
-      - item: Dark Sword Day of the Dead Skin
-        ducats: 320
-        credits: 250000
-      - item: Halloween Dread
-        ducats: 300
-        credits: 275000
-      - item: Primed Charged Shell
-        ducats: 350
-        credits: 200000
-      - item: Primed Target Cracker
-        ducats: 400
-        credits: 150000
-      - item: Thermite Rounds
-        ducats: 300
-        credits: 150000
-      - item: Scattering Inferno
-        ducats: 300
-        credits: 150000
-      - item: Scorch
-        ducats: 300
-        credits: 150000
-      - item: Volcanic Edge
-        ducats: 300
-        credits: 150000
-      - item: Prisma Veritux
-        ducats: 550
-        credits: 150000
-      - item: Prisma Angstrum
-        ducats: 475
-        credits: 210000
-      - item: Coccyst Sugatra
-        ducats: 250
-        credits: 200000
-      - item: Redeemer Elixis Skin
-        ducats: 325
-        credits: 250000
-      - item: Ki'Teer Sentinel Mask
-        ducats: 500
-        credits: 200000
-      - item: Ki'Teer Sentinel Wings
-        ducats: 400
-        credits: 250000
-      - item: Ki'Teer Sentinel Tail
-        ducats: 400
-        credits: 250000
-      - item: Taxon Desert-Camo Skin
-        ducats: 200
-        credits: 150000
-      - item: Prisma Naberus
-        ducats: 220
-        credits: 140000
-      - item: Pack Leader Sigil
-        ducats: 55
-        credits: 45000
-      - item: Glaring Sigil
-        ducats: 55
-        credits: 45000
-      - item: Mesa Immortal Skin
-        ducats: 550
-        credits: 100000
-      - item: Ki'Teer Atmos Oculus
-        ducats: 525
-        credits: 375000
-      - item: Ki'Teer Atmos Earpiece
-        ducats: 500
-        credits: 400000
-      - item: Grustrag Three Beacon
-        ducats: 200
-        credits: 125000
-      - item: Stalker Beacon
-        ducats: 200
-        credits: 125000
-      - item: Zanuka Hunter Beacon
-        ducats: 200
-        credits: 125000
-      - item: Sands Of Inaros Blueprint
-        ducats: 100
-        credits: 25000
-    psId: 5d1e07a0a38e4a4fdd7cefca29
-    endString: '-32s'
+    inventory: []
+    psId: 5d1e07a0a38e4a4fdd7cefca0
+    endString: '-3m 32s'
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-2d 32s'
+    startString: '-2d 3m 33s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Kuiper Relay (Eris)
     inventory: []
     psId: 5d1e07fc3874d7a1904925a40
-    endString: '-32s'
+    endString: '-3m 33s'
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-2d 40s'
+    startString: '-2d 3m 40s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Orcus Relay (Pluto)
     inventory: []
     psId: 5d1e07d670db938ced5595700
-    endString: '-40s'
+    endString: '-3m 40s'
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-10-11T13:00:00.000Z'
-    startString: '-2d 40s'
+    startString: '-2d 3m 40s'
     expiry: '2019-10-13T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Larunda Relay (Mercury)
-    inventory:
-      - item: 3 Day Mod Drop Chance Booster
-        ducats: 500
-        credits: 175000
-      - item: Desert Skate Floof
-        ducats: 125
-        credits: 100000
-      - item: Zylok
-        ducats: 500
-        credits: 200000
-      - item: Wysar Day Of The Dead Kavat Armor
-        ducats: 400
-        credits: 175000
-      - item: Dark Sword Day of the Dead Skin
-        ducats: 320
-        credits: 250000
-      - item: Halloween Dread
-        ducats: 300
-        credits: 275000
-      - item: Primed Point Blank
-        ducats: 300
-        credits: 110000
-      - item: Primed Fast Hands
-        ducats: 375
-        credits: 120000
-      - item: Primed Morphic Transformer
-        ducats: 350
-        credits: 150000
-      - item: Supra Vandal
-        ducats: 500
-        credits: 275000
-      - item: Prisma Dual Cleavers
-        ducats: 490
-        credits: 200000
-      - item: Left Prisma Edo Shoulder Plates
-        ducats: 100
-        credits: 55000
-      - item: Right Prisma Edo Shoulder Plates
-        ducats: 100
-        credits: 55000
-      - item: Left Prisma Edo Knee Plates
-        ducats: 100
-        credits: 55000
-      - item: Right Prisma Edo Knee Plates
-        ducats: 100
-        credits: 55000
-      - item: Prisma Edo Chest Plate
-        ducats: 225
-        credits: 250000
-      - item: Prisma Yamako Syandana
-        ducats: 400
-        credits: 250000
-      - item: Prisma Hecate Syandana
-        ducats: 250
-        credits: 300000
-      - item: Ki'Teer Sekhara
-        ducats: 400
-        credits: 200000
-      - item: Prisma Shade
-        ducats: 500
-        credits: 300000
-      - item: Prisma Jet Sentinel Wings
-        ducats: 300
-        credits: 200000
-      - item: Prisma Koi Sentinel Tail
-        ducats: 200
-        credits: 200000
-      - item: Prisma Mech Head Sentinel Mask
-        ducats: 175
-        credits: 200000
-      - item: 10x Ki'Teer Fireworks
-        ducats: 50
-        credits: 100000
-      - item: Stalker Beacon
-        ducats: 200
-        credits: 125000
-      - item: Sands Of Inaros Blueprint
-        ducats: 100
-        credits: 25000
-    psId: 5d1e08669a7e6338c87fa0f426
-    endString: '-40s'
+    inventory: []
+    psId: 5d1e08669a7e6338c87fa0f40
+    endString: '-3m 40s'
     platform:
       id: swi
       name: Nintendo Switch
