@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-10-18T13:00:44.918Z
+date: 2019-10-18T13:03:43.941Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,53 +18,53 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 7d 5s
+    startString: 6d 23h 57m 5s
     expiry: '2019-10-27T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Strata Relay (Earth)
     inventory: []
     psId: 5d1e07a0a38e4a4fdd7cefca0
-    endString: 9d 5s
+    endString: 8d 23h 57m 5s
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 7d 5s
+    startString: 6d 23h 57m 4s
     expiry: '2019-10-27T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Strata Relay (Earth)
     inventory: []
     psId: 5d1e07fc3874d7a1904925a40
-    endString: 9d 5s
+    endString: 8d 23h 57m 4s
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 7d 5s
+    startString: 6d 23h 57m 3s
     expiry: '2019-10-27T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Strata Relay (Earth)
     inventory: []
     psId: 5d1e07d670db938ced5595700
-    endString: 9d 5s
+    endString: 8d 23h 57m 3s
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 7d 4s
+    startString: 6d 23h 57m 4s
     expiry: '2019-10-27T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Leonov Relay (Europa)
     inventory: []
     psId: 5d1e08669a7e6338c87fa0f40
-    endString: 9d 4s
+    endString: 8d 23h 57m 4s
     platform:
       id: swi
       name: Nintendo Switch
