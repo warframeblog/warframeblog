@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-10-25T13:06:41.059Z
+date: 2019-10-25T16:01:53.852Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,7 +18,7 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-10-25T13:00:00.000Z'
-    startString: '-6m 39s'
+    startString: '-3h 1m 11s'
     expiry: '2019-10-27T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -112,13 +112,13 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07a0a38e4a4fdd7cefca29
-    endString: 1d 23h 53m 20s
+    endString: 1d 20h 58m 48s
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-10-25T13:00:00.000Z'
-    startString: '-6m 38s'
+    startString: '-3h 1m 11s'
     expiry: '2019-10-27T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -206,13 +206,13 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07fc3874d7a1904925a427
-    endString: 1d 23h 53m 21s
+    endString: 1d 20h 58m 48s
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-10-25T13:00:00.000Z'
-    startString: '-6m 38s'
+    startString: '-3h 1m 12s'
     expiry: '2019-10-27T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -291,13 +291,13 @@ dynamicData:
         ducats: 100
         credits: 25000
     psId: 5d1e07d670db938ced55957024
-    endString: 1d 23h 53m 21s
+    endString: 1d 20h 58m 47s
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-10-25T13:00:00.000Z'
-    startString: '-6m 39s'
+    startString: '-3h 1m 13s'
     expiry: '2019-10-27T13:00:00.000Z'
     active: true
     character: Baro Ki'Teer
@@ -385,7 +385,7 @@ dynamicData:
         ducats: 300
         credits: 275000
     psId: 5d1e08669a7e6338c87fa0f427
-    endString: 1d 23h 53m 20s
+    endString: 1d 20h 58m 46s
     platform:
       id: swi
       name: Nintendo Switch
