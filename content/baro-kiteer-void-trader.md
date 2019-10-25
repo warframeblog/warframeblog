@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-10-20T16:03:43.750Z
+date: 2019-10-25T13:00:49.699Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,53 +18,374 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 4d 20h 57m 0s
+    startString: '-39s'
     expiry: '2019-10-27T13:00:00.000Z'
-    active: false
+    active: true
     character: Baro Ki'Teer
     location: Strata Relay (Earth)
-    inventory: []
-    psId: 5d1e07a0a38e4a4fdd7cefca0
-    endString: 6d 20h 57m 0s
+    inventory:
+      - item: Baro Ki Teer Decoration E
+        ducats: 100
+        credits: 100000
+      - item: Baro Ki Teer Decoration F
+        ducats: 100
+        credits: 100000
+      - item: Primed Reach
+        ducats: 300
+        credits: 220000
+      - item: Primed Continuity
+        ducats: 350
+        credits: 100000
+      - item: Primed Cryo Rounds
+        ducats: 350
+        credits: 110000
+      - item: Primed Heated Charge
+        ducats: 350
+        credits: 175000
+      - item: Primed Fever Strike
+        ducats: 350
+        credits: 200000
+      - item: Primed Quickdraw
+        ducats: 375
+        credits: 120000
+      - item: Wysar Day Of The Dead Kavat Armor
+        ducats: 400
+        credits: 175000
+      - item: Dark Sword Day of the Dead Skin
+        ducats: 320
+        credits: 250000
+      - item: Halloween Dread
+        ducats: 300
+        credits: 275000
+      - item: Prisma Gorgon
+        ducats: 600
+        credits: 50000
+      - item: Prisma Skana
+        ducats: 510
+        credits: 175000
+      - item: Prova Vandal
+        ducats: 410
+        credits: 250000
+      - item: Gorgon Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Anpu Staff Skin
+        ducats: 325
+        credits: 250000
+      - item: Anpu Sugatra
+        ducats: 250
+        credits: 250000
+      - item: Sonicor Exilis Skin
+        ducats: 380
+        credits: 175000
+      - item: Opticor Elixis Skin
+        ducats: 325
+        credits: 250000
+      - item: Ki'Teer Chest Plate
+        ducats: 150
+        credits: 250000
+      - item: Ki'Teer Shoulder Plates
+        ducats: 350
+        credits: 110000
+      - item: Ki'Teer Leg Plates
+        ducats: 300
+        credits: 150000
+      - item: Driga Desert-Camo Skin
+        ducats: 225
+        credits: 150000
+      - item: Ki'Teer Earpiece
+        ducats: 500
+        credits: 400000
+      - item: Ki'Teer Solo Earpiece
+        ducats: 250
+        credits: 200000
+      - item: Orokin Tower Extraction Scene
+        ducats: 325
+        credits: 175000
+      - item: Ki'Teer Diax Syandana
+        ducats: 325
+        credits: 450000
+      - item: 3 Day Credit Booster
+        ducats: 350
+        credits: 75000
+      - item: Sands Of Inaros Blueprint
+        ducats: 100
+        credits: 25000
+    psId: 5d1e07a0a38e4a4fdd7cefca29
+    endString: 1d 23h 59m 20s
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 4d 20h 56m 59s
+    startString: '-39s'
     expiry: '2019-10-27T13:00:00.000Z'
-    active: false
+    active: true
     character: Baro Ki'Teer
     location: Strata Relay (Earth)
-    inventory: []
-    psId: 5d1e07fc3874d7a1904925a40
-    endString: 6d 20h 56m 59s
+    inventory:
+      - item: Mahd Luxxum Ornament
+        ducats: 100
+        credits: 100000
+      - item: Akka Luxxum Ornament
+        ducats: 100
+        credits: 100000
+      - item: Primed Regen
+        ducats: 300
+        credits: 220000
+      - item: Primed Flow
+        ducats: 350
+        credits: 110000
+      - item: Primed Ravage
+        ducats: 280
+        credits: 100000
+      - item: Primed Rifle Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Primed Shotgun Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Primed Pistol Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Prisma Tetra
+        ducats: 400
+        credits: 50000
+      - item: Ignis Wraith
+        ducats: 550
+        credits: 250000
+      - item: Ignis Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Harkonar Wraith Cloak
+        ducats: 400
+        credits: 500000
+      - item: Harkonar Wraith Arm Armor
+        ducats: 350
+        credits: 150000
+      - item: Harkonar Wraith Chest Armor
+        ducats: 300
+        credits: 250000
+      - item: Harkonar Wraith Leg Armor
+        ducats: 350
+        credits: 150000
+      - item: Hydroid Immortal Skin
+        ducats: 550
+        credits: 100000
+      - item: Prisma Arrows
+        ducats: 350
+        credits: 75000
+      - item: Mantis Prisma Skin
+        ducats: 230
+        credits: 375000
+      - item: 'Prisma Sigil '
+        ducats: 50
+        credits: 50000
+      - item: Ki'Teer Syandana
+        ducats: 500
+        credits: 500000
+      - item: Ki'Teer Stencil
+        ducats: 250
+        credits: 175000
+      - item: Ki'Teer Cornu Diadem
+        ducats: 525
+        credits: 375000
+      - item: Axi A2 Relic (Intact)
+        ducats: 50
+        credits: 45000
+      - item: Wysar Day Of The Dead Kavat Armor
+        ducats: 400
+        credits: 175000
+      - item: Dark Sword Day of the Dead Skin
+        ducats: 320
+        credits: 250000
+      - item: Halloween Dread
+        ducats: 300
+        credits: 275000
+      - item: Sands Of Inaros Blueprint
+        ducats: 100
+        credits: 25000
+    psId: 5d1e07fc3874d7a1904925a427
+    endString: 1d 23h 59m 20s
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 4d 20h 57m 0s
+    startString: '-42s'
     expiry: '2019-10-27T13:00:00.000Z'
-    active: false
+    active: true
     character: Baro Ki'Teer
     location: Strata Relay (Earth)
-    inventory: []
-    psId: 5d1e07d670db938ced5595700
-    endString: 6d 20h 57m 0s
+    inventory:
+      - item: Mahd Luxxum Ornament
+        ducats: 100
+        credits: 100000
+      - item: Akka Luxxum Ornament
+        ducats: 100
+        credits: 100000
+      - item: Primed Regen
+        ducats: 300
+        credits: 220000
+      - item: Primed Flow
+        ducats: 350
+        credits: 110000
+      - item: Primed Ravage
+        ducats: 280
+        credits: 100000
+      - item: Primed Rifle Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Primed Shotgun Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Primed Pistol Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Prisma Tetra
+        ducats: 400
+        credits: 50000
+      - item: Ignis Wraith
+        ducats: 550
+        credits: 250000
+      - item: Ignis Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Harkonar Wraith Cloak
+        ducats: 400
+        credits: 500000
+      - item: Harkonar Wraith Arm Armor
+        ducats: 350
+        credits: 150000
+      - item: Harkonar Wraith Chest Armor
+        ducats: 300
+        credits: 250000
+      - item: Harkonar Wraith Leg Armor
+        ducats: 350
+        credits: 150000
+      - item: Hydroid Immortal Skin
+        ducats: 550
+        credits: 100000
+      - item: Prisma Arrows
+        ducats: 350
+        credits: 75000
+      - item: Mantis Prisma Skin
+        ducats: 230
+        credits: 375000
+      - item: 'Prisma Sigil '
+        ducats: 50
+        credits: 50000
+      - item: Ki'Teer Syandana
+        ducats: 500
+        credits: 500000
+      - item: Ki'Teer Stencil
+        ducats: 250
+        credits: 175000
+      - item: Ki'Teer Cornu Diadem
+        ducats: 525
+        credits: 375000
+      - item: Axi A2 Relic (Intact)
+        ducats: 50
+        credits: 45000
+      - item: Sands Of Inaros Blueprint
+        ducats: 100
+        credits: 25000
+    psId: 5d1e07d670db938ced55957024
+    endString: 1d 23h 59m 17s
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-10-25T13:00:00.000Z'
-    startString: 4d 20h 56m 59s
+    startString: '-41s'
     expiry: '2019-10-27T13:00:00.000Z'
-    active: false
+    active: true
     character: Baro Ki'Teer
     location: Leonov Relay (Europa)
-    inventory: []
-    psId: 5d1e08669a7e6338c87fa0f40
-    endString: 6d 20h 56m 59s
+    inventory:
+      - item: Akka Luxxum Ornament
+        ducats: 100
+        credits: 100000
+      - item: Mahd Luxxum Ornament
+        ducats: 100
+        credits: 100000
+      - item: Primed Regen
+        ducats: 300
+        credits: 220000
+      - item: Primed Flow
+        ducats: 350
+        credits: 110000
+      - item: Primed Ravage
+        ducats: 280
+        credits: 100000
+      - item: Primed Rifle Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Primed Shotgun Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Primed Pistol Ammo Mutation
+        ducats: 400
+        credits: 140000
+      - item: Prisma Tetra
+        ducats: 400
+        credits: 50000
+      - item: Ignis Wraith
+        ducats: 550
+        credits: 250000
+      - item: Ignis Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Harkonar Wraith Cloak
+        ducats: 400
+        credits: 500000
+      - item: Harkonar Wraith Arm Armor
+        ducats: 350
+        credits: 150000
+      - item: Harkonar Wraith Chest Armor
+        ducats: 300
+        credits: 250000
+      - item: Harkonar Wraith Leg Armor
+        ducats: 350
+        credits: 150000
+      - item: Hydroid Immortal Skin
+        ducats: 550
+        credits: 100000
+      - item: Prisma Arrows
+        ducats: 350
+        credits: 75000
+      - item: Mantis Prisma Skin
+        ducats: 230
+        credits: 375000
+      - item: 'Prisma Sigil '
+        ducats: 50
+        credits: 50000
+      - item: Ki'Teer Syandana
+        ducats: 500
+        credits: 500000
+      - item: Ki'Teer Stencil
+        ducats: 250
+        credits: 175000
+      - item: Ki'Teer Cornu Diadem
+        ducats: 525
+        credits: 375000
+      - item: Axi A2 Relic (Intact)
+        ducats: 50
+        credits: 45000
+      - item: Sands Of Inaros Blueprint
+        ducats: 100
+        credits: 25000
+      - item: Wysar Day Of The Dead Kavat Armor
+        ducats: 400
+        credits: 175000
+      - item: Dark Sword Day of the Dead Skin
+        ducats: 320
+        credits: 250000
+      - item: Halloween Dread
+        ducats: 300
+        credits: 275000
+    psId: 5d1e08669a7e6338c87fa0f427
+    endString: 1d 23h 59m 18s
     platform:
       id: swi
       name: Nintendo Switch
