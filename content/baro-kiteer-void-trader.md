@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-11-01T16:00:46.678Z
+date: 2019-11-01T16:06:49.178Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -18,53 +18,53 @@ tags:
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
     activation: '2019-11-08T13:00:00.000Z'
-    startString: 6d 21h 10s
+    startString: 6d 20h 54m 1s
     expiry: '2019-11-10T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Larunda Relay (Mercury)
     inventory: []
     psId: 5d1e07a0a38e4a4fdd7cefca0
-    endString: 8d 21h 10s
+    endString: 8d 20h 54m 1s
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
     activation: '2019-11-08T13:00:00.000Z'
-    startString: 6d 21h 10s
+    startString: 6d 20h 54m 2s
     expiry: '2019-11-10T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Larunda Relay (Mercury)
     inventory: []
     psId: 5d1e07fc3874d7a1904925a40
-    endString: 8d 21h 10s
+    endString: 8d 20h 54m 2s
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
     activation: '2019-11-08T13:00:00.000Z'
-    startString: 6d 21h 10s
+    startString: 6d 20h 54m 1s
     expiry: '2019-11-10T13:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Vesper Relay (Venus)
     inventory: []
     psId: 5d1e07d670db938ced5595700
-    endString: 8d 21h 10s
+    endString: 8d 20h 54m 1s
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
     activation: '2019-11-08T14:00:00.000Z'
-    startString: 6d 22h 10s
+    startString: 6d 21h 54m 0s
     expiry: '2019-11-10T14:00:00.000Z'
     active: false
     character: Baro Ki'Teer
     location: Kuiper Relay (Eris)
     inventory: []
     psId: 5d1e08669a7e6338c87fa0f40
-    endString: 8d 22h 10s
+    endString: 8d 21h 54m 0s
     platform:
       id: swi
       name: Nintendo Switch
