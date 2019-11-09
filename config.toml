@@ -20,6 +20,7 @@ enableInlineShortcodes = true
 	image = "/images/warframe-blog-header.jpg"
 	locale = "en_US"
 	navClasses = "navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-transparent hestia_left"
+	logo = "static/logo.svg"
 [taxonomies]
 	category = "categories"
 [permalinks]
