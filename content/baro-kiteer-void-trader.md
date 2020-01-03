@@ -5,7 +5,7 @@ description: >-
   Who is Baro Ki'Teer, also known as the Void Trader? What items Baro Ki'Teer
   bring us? How to get ducats? how to get more of his exclusive currency -
   ducats - to buy Baro's wares? Where to sell primed parts for ducats?
-date: 2019-12-20T21:28:02.508Z
+date: 2020-01-03T14:59:41.736Z
 author: warframe
 layout: post
 permalink: /baro-kiteer-void-trader/
@@ -17,378 +17,342 @@ tags:
   - ducats
 dynamicData:
   - id: 5d1e07a0a38e4a4fdd7cefca
-    activation: '2019-12-20T14:00:00.000Z'
-    startString: '-7h 27m 28s'
-    expiry: '2019-12-22T14:00:00.000Z'
+    activation: '2020-01-03T14:00:00.000Z'
+    startString: '-59m 24s'
+    expiry: '2020-01-05T14:00:00.000Z'
     active: true
     character: Baro Ki'Teer
-    location: Strata Relay (Earth)
+    location: Larunda Relay (Mercury)
     inventory:
-      - item: Primed Smite Grineer
-        ducats: 350
-        credits: 140000
-      - item: Primed Smite Corpus
-        ducats: 350
-        credits: 140000
-      - item: Primed Smite Infested
-        ducats: 350
-        credits: 140000
-      - item: Weapon Melee Faction Damage Corrupted Expert
-        ducats: 350
-        credits: 140000
-      - item: Pedestal Prime
-        ducats: 0
-        credits: 1000000
-      - item: Mirage Immortal Skin
-        ducats: 550
-        credits: 100000
-      - item: Prisma Rostam Kubrow Armor
-        ducats: 400
-        credits: 175000
-      - item: Prisma Avia Chest Plate
-        ducats: 250
-        credits: 220000
-      - item: Prisma Avia Shoulder Plate
+      - item: Parazon Poster
+        ducats: 100
+        credits: 125000
+      - item: Scimitar Prisma Skin
+        ducats: 210
+        credits: 450000
+      - item: Jolt
         ducats: 300
-        credits: 200000
-      - item: Prisma Avia Ankle Plate
-        ducats: 225
-        credits: 175000
-      - item: Kavat Sentinel Tail
-        ducats: 400
-        credits: 250000
-      - item: Kavat Sentinel Mask
-        ducats: 500
-        credits: 200000
-      - item: Kavat Sentinel Wings
-        ducats: 400
-        credits: 250000
-      - item: Supra Vandal
-        ducats: 500
-        credits: 275000
-      - item: Ignis Wraith
-        ducats: 550
-        credits: 250000
-      - item: Ignis Towsun Skin
-        ducats: 300
-        credits: 300000
-      - item: Ki'Teer Solstice Syandana
-        ducats: 425
-        credits: 200000
-      - item: Cookie Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Cookie Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Noggle Statue - Baro Ki'Teer
-        ducats: 70
-        credits: 250000
-      - item: Prisma Yamako Syandana
-        ducats: 400
-        credits: 250000
-      - item: Prisma Hecate Syandana
-        ducats: 250
-        credits: 300000
-      - item: Bronze Kubrow Bust
-        ducats: 220
-        credits: 250000
-      - item: Ki'Teer Arrow Skin
-        ducats: 375
-        credits: 300000
-      - item: Primed Morphic Transformer
-        ducats: 350
         credits: 150000
-      - item: Axi A2 Relic (Intact)
-        ducats: 50
-        credits: 45000
+      - item: Voltaic Strike
+        ducats: 300
+        credits: 150000
+      - item: High Voltage
+        ducats: 300
+        credits: 150000
+      - item: Shell Shock
+        ducats: 300
+        credits: 150000
+      - item: Baro Ki'Teer Glyph
+        ducats: 80
+        credits: 50000
+      - item: Eminence
+        ducats: 220
+        credits: 220000
+      - item: Zylok
+        ducats: 500
+        credits: 200000
+      - item: Vulkar Wraith
+        ducats: 450
+        credits: 300000
+      - item: Left Prisma Edo Shoulder Plates
+        ducats: 100
+        credits: 55000
+      - item: Right Prisma Edo Shoulder Plates
+        ducats: 100
+        credits: 55000
+      - item: Left Prisma Edo Knee Plates
+        ducats: 100
+        credits: 55000
+      - item: Right Prisma Edo Knee Plates
+        ducats: 100
+        credits: 55000
+      - item: Prisma Edo Chest Plate
+        ducats: 225
+        credits: 250000
+      - item: Ki'Teer Sekhara
+        ducats: 400
+        credits: 200000
+      - item: Prisma Jet Sentinel Wings
+        ducats: 300
+        credits: 200000
+      - item: Prisma Koi Sentinel Tail
+        ducats: 200
+        credits: 200000
+      - item: Prisma Mech Head Sentinel Mask
+        ducats: 175
+        credits: 200000
+      - item: Prisma Shade
+        ducats: 500
+        credits: 300000
+      - item: Nexus Gene-Masking Kit
+        ducats: 200
+        credits: 300000
+      - item: Orokin Tower Extraction Scene
+        ducats: 325
+        credits: 175000
+      - item: 3 Day Mod Drop Chance Booster
+        ducats: 500
+        credits: 175000
       - item: Sands Of Inaros Blueprint
         ducats: 100
         credits: 25000
-    psId: 5d1e07a0a38e4a4fdd7cefca27
-    endString: 1d 16h 32m 31s
+    psId: 5d1e07a0a38e4a4fdd7cefca24
+    endString: 1d 23h 35s
     platform:
       id: pc
       name: PC
   - id: 5d1e07fc3874d7a1904925a4
-    activation: '2019-12-20T14:00:00.000Z'
-    startString: '-7h 27m 29s'
-    expiry: '2019-12-22T14:00:00.000Z'
+    activation: '2020-01-03T14:00:00.000Z'
+    startString: '-59m 24s'
+    expiry: '2020-01-05T14:00:00.000Z'
     active: true
     character: Baro Ki'Teer
-    location: Strata Relay (Earth)
+    location: Larunda Relay (Mercury)
     inventory:
-      - item: 3 Day Affinity Booster
-        ducats: 450
-        credits: 200000
-      - item: Liset Insect Skin Inaros
-        ducats: 425
-        credits: 320000
-      - item: Primed Expel Corpus
+      - item: Elixis Ballas Sword
         ducats: 350
-        credits: 140000
-      - item: Primed Expel Corrupted
-        ducats: 350
-        credits: 140000
-      - item: Primed Expel Grineer
-        ducats: 350
-        credits: 140000
-      - item: Primed Expel Infested
-        ducats: 350
-        credits: 140000
-      - item: Primed Heavy Trauma
-        ducats: 350
-        credits: 100000
-      - item: Ki'Teer Solstice Syandana
-        ducats: 425
-        credits: 200000
-      - item: Cookie Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Cookie Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Quanta Vandal
-        ducats: 450
-        credits: 300000
-      - item: Quanta Aufeis Skin
-        ducats: 300
-        credits: 300000
-      - item: Prisma Obex
-        ducats: 500
-        credits: 175000
-      - item: Machete Wraith
-        ducats: 410
-        credits: 250000
-      - item: Corrupted Bombard Specter Blueprint
-        ducats: 100
-        credits: 50000
-      - item: Prisma Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Prisma Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Prisma Lotus Glyph
-        ducats: 80
-        credits: 50000
-      - item: Zephyr Immortal Skin
-        ducats: 550
-        credits: 100000
-      - item: Domus Syandana
-        ducats: 600
-        credits: 400000
-      - item: Pyra Sugatra
-        ducats: 100
-        credits: 200000
-      - item: Ki'Teer Foros Shoulder Plates
-        ducats: 310
-        credits: 100000
-      - item: Ki'Teer Foros Chest Plate
-        ducats: 175
-        credits: 200000
-      - item: Ki'Teer Foros Leg Plates
-        ducats: 225
+        credits: 350000
+      - item: Fanged Fusillade
+        ducats: 375
         credits: 150000
-      - item: Baro Ki'Teer Colors
+      - item: Vermillion Storm
+        ducats: 385
+        credits: 175000
+      - item: Astral Twilight
+        ducats: 385
+        credits: 175000
+      - item: Tempo Royale
+        ducats: 385
+        credits: 175000
+      - item: Prisma Grinlok
+        ducats: 500
+        credits: 220000
+      - item: Prisma Twin Gremlins
+        ducats: 500
+        credits: 220000
+      - item: Mara Detron
+        ducats: 500
+        credits: 200000
+      - item: Prisma Daedalus Chest Plate
+        ducats: 150
+        credits: 100000
+      - item: Left Prisma Daedalus Knee Plates
+        ducats: 65
+        credits: 75000
+      - item: Right Prisma Daedalus Knee Plates
+        ducats: 65
+        credits: 75000
+      - item: Left Prisma Daedalus Shoulder Guard
+        ducats: 65
+        credits: 75000
+      - item: Right Prisma Daedalus Shoulder Guard
+        ducats: 65
+        credits: 75000
+      - item: Ki'Teer Tribute Glyph
+        ducats: 80
+        credits: 50000
+      - item: Nexus Fur Pattern
         ducats: 150
         credits: 300000
-      - item: Inaros Tomb Scene
-        ducats: 325
-        credits: 175000
+      - item: Ki'Teer Atmos Mask
+        ducats: 500
+        credits: 400000
+      - item: Ki'Teer Sugatra
+        ducats: 250
+        credits: 250000
+      - item: Twin Grakata Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Odonata Elixis Skin
+        ducats: 350
+        credits: 250000
+      - item: Machete Syachid Skin
+        ducats: 375
+        credits: 300000
+      - item: Tenno Kindred Rug
+        ducats: 225
+        credits: 100000
+      - item: 3 Day Resource Booster
+        ducats: 400
+        credits: 150000
+      - item: 10x Ki'Teer Fireworks
+        ducats: 50
+        credits: 100000
       - item: Sands Of Inaros Blueprint
         ducats: 100
         credits: 25000
-    psId: 5d1e07fc3874d7a1904925a427
-    endString: 1d 16h 32m 30s
+    psId: 5d1e07fc3874d7a1904925a424
+    endString: 1d 23h 35s
     platform:
       id: ps4
       name: PS4
   - id: 5d1e07d670db938ced559570
-    activation: '2019-12-20T14:00:00.000Z'
-    startString: '-7h 27m 28s'
-    expiry: '2019-12-22T14:00:00.000Z'
+    activation: '2020-01-03T14:00:00.000Z'
+    startString: '-59m 25s'
+    expiry: '2020-01-05T14:00:00.000Z'
     active: true
     character: Baro Ki'Teer
-    location: Strata Relay (Earth)
+    location: Vesper Relay (Venus)
     inventory:
-      - item: Liset Insect Skin Inaros
-        ducats: 425
-        credits: 320000
-      - item: Primed Expel Corpus
+      - item: Elixis Ballas Sword
         ducats: 350
-        credits: 140000
-      - item: Primed Expel Corrupted
-        ducats: 350
-        credits: 140000
-      - item: Primed Expel Grineer
-        ducats: 350
-        credits: 140000
-      - item: Primed Expel Infested
-        ducats: 350
-        credits: 140000
-      - item: Primed Heavy Trauma
-        ducats: 350
-        credits: 100000
-      - item: Ki'Teer Solstice Syandana
-        ducats: 425
-        credits: 200000
-      - item: Cookie Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Cookie Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Quanta Vandal
-        ducats: 450
-        credits: 300000
-      - item: Quanta Aufeis Skin
-        ducats: 300
-        credits: 300000
-      - item: Prisma Obex
-        ducats: 500
-        credits: 175000
-      - item: Machete Wraith
-        ducats: 410
-        credits: 250000
-      - item: Corrupted Bombard Specter Blueprint
-        ducats: 100
-        credits: 50000
-      - item: Prisma Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Prisma Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Prisma Lotus Glyph
-        ducats: 80
-        credits: 50000
-      - item: Zephyr Immortal Skin
-        ducats: 550
-        credits: 100000
-      - item: Domus Syandana
-        ducats: 600
-        credits: 400000
-      - item: Pyra Sugatra
-        ducats: 100
-        credits: 200000
-      - item: Ki'Teer Foros Shoulder Plates
-        ducats: 310
-        credits: 100000
-      - item: Ki'Teer Foros Chest Plate
-        ducats: 175
-        credits: 200000
-      - item: Ki'Teer Foros Leg Plates
-        ducats: 225
+        credits: 350000
+      - item: Fanged Fusillade
+        ducats: 375
         credits: 150000
-      - item: Baro Ki'Teer Colors
+      - item: Vermillion Storm
+        ducats: 385
+        credits: 175000
+      - item: Astral Twilight
+        ducats: 385
+        credits: 175000
+      - item: Tempo Royale
+        ducats: 385
+        credits: 175000
+      - item: Prisma Grinlok
+        ducats: 500
+        credits: 220000
+      - item: Prisma Twin Gremlins
+        ducats: 500
+        credits: 220000
+      - item: Mara Detron
+        ducats: 500
+        credits: 200000
+      - item: Prisma Daedalus Chest Plate
+        ducats: 150
+        credits: 100000
+      - item: Left Prisma Daedalus Knee Plates
+        ducats: 65
+        credits: 75000
+      - item: Right Prisma Daedalus Knee Plates
+        ducats: 65
+        credits: 75000
+      - item: Left Prisma Daedalus Shoulder Guard
+        ducats: 65
+        credits: 75000
+      - item: Right Prisma Daedalus Shoulder Guard
+        ducats: 65
+        credits: 75000
+      - item: Ki'Teer Tribute Glyph
+        ducats: 80
+        credits: 50000
+      - item: Nexus Fur Pattern
         ducats: 150
         credits: 300000
-      - item: Inaros Tomb Scene
-        ducats: 325
-        credits: 175000
-      - item: 3 Day Affinity Booster
-        ducats: 450
-        credits: 200000
+      - item: Ki'Teer Atmos Mask
+        ducats: 500
+        credits: 400000
+      - item: Ki'Teer Sugatra
+        ducats: 250
+        credits: 250000
+      - item: Twin Grakata Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Odonata Elixis Skin
+        ducats: 350
+        credits: 250000
+      - item: Machete Syachid Skin
+        ducats: 375
+        credits: 300000
+      - item: Tenno Kindred Rug
+        ducats: 225
+        credits: 100000
+      - item: 3 Day Resource Booster
+        ducats: 400
+        credits: 150000
+      - item: 10x Ki'Teer Fireworks
+        ducats: 50
+        credits: 100000
       - item: Sands Of Inaros Blueprint
         ducats: 100
         credits: 25000
-    psId: 5d1e07d670db938ced55957027
-    endString: 1d 16h 32m 31s
+    psId: 5d1e07d670db938ced55957024
+    endString: 1d 23h 34s
     platform:
       id: xb1
       name: XBox One
   - id: 5d1e08669a7e6338c87fa0f4
-    activation: '2019-12-20T14:00:00.000Z'
-    startString: '-7h 27m 30s'
-    expiry: '2019-12-22T14:00:00.000Z'
+    activation: '2020-01-03T14:00:00.000Z'
+    startString: '-59m 25s'
+    expiry: '2020-01-05T14:00:00.000Z'
     active: true
     character: Baro Ki'Teer
-    location: Kuiper Relay (Eris)
+    location: Larunda Relay (Mercury)
     inventory:
-      - item: Liset Insect Skin Inaros
-        ducats: 425
-        credits: 320000
-      - item: Primed Expel Corpus
+      - item: Elixis Ballas Sword
         ducats: 350
-        credits: 140000
-      - item: Primed Expel Corrupted
-        ducats: 350
-        credits: 140000
-      - item: Primed Expel Grineer
-        ducats: 350
-        credits: 140000
-      - item: Primed Expel Infested
-        ducats: 350
-        credits: 140000
-      - item: Primed Heavy Trauma
-        ducats: 350
-        credits: 100000
-      - item: Ki'Teer Solstice Syandana
-        ducats: 425
-        credits: 200000
-      - item: Cookie Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Cookie Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Quanta Vandal
-        ducats: 450
-        credits: 300000
-      - item: Quanta Aufeis Skin
-        ducats: 300
-        credits: 300000
-      - item: Prisma Obex
-        ducats: 500
-        credits: 175000
-      - item: Machete Wraith
-        ducats: 410
-        credits: 250000
-      - item: Corrupted Bombard Specter Blueprint
-        ducats: 100
-        credits: 50000
-      - item: Prisma Kavat Glyph
-        ducats: 80
-        credits: 50000
-      - item: Prisma Kubrow Glyph
-        ducats: 80
-        credits: 50000
-      - item: Prisma Lotus Glyph
-        ducats: 80
-        credits: 50000
-      - item: Zephyr Immortal Skin
-        ducats: 550
-        credits: 100000
-      - item: Domus Syandana
-        ducats: 600
-        credits: 400000
-      - item: Pyra Sugatra
-        ducats: 100
-        credits: 200000
-      - item: Ki'Teer Foros Shoulder Plates
-        ducats: 310
-        credits: 100000
-      - item: Ki'Teer Foros Chest Plate
-        ducats: 175
-        credits: 200000
-      - item: Ki'Teer Foros Leg Plates
-        ducats: 225
+        credits: 350000
+      - item: Fanged Fusillade
+        ducats: 375
         credits: 150000
-      - item: Baro Ki'Teer Colors
+      - item: Vermillion Storm
+        ducats: 385
+        credits: 175000
+      - item: Astral Twilight
+        ducats: 385
+        credits: 175000
+      - item: Tempo Royale
+        ducats: 385
+        credits: 175000
+      - item: Prisma Grinlok
+        ducats: 500
+        credits: 220000
+      - item: Prisma Twin Gremlins
+        ducats: 500
+        credits: 220000
+      - item: Mara Detron
+        ducats: 500
+        credits: 200000
+      - item: Prisma Daedalus Chest Plate
+        ducats: 150
+        credits: 100000
+      - item: Left Prisma Daedalus Knee Plates
+        ducats: 65
+        credits: 75000
+      - item: Right Prisma Daedalus Knee Plates
+        ducats: 65
+        credits: 75000
+      - item: Left Prisma Daedalus Shoulder Guard
+        ducats: 65
+        credits: 75000
+      - item: Right Prisma Daedalus Shoulder Guard
+        ducats: 65
+        credits: 75000
+      - item: Ki'Teer Tribute Glyph
+        ducats: 80
+        credits: 50000
+      - item: Nexus Fur Pattern
         ducats: 150
         credits: 300000
-      - item: Inaros Tomb Scene
-        ducats: 325
-        credits: 175000
-      - item: 3 Day Affinity Booster
-        ducats: 450
-        credits: 200000
+      - item: Ki'Teer Atmos Mask
+        ducats: 500
+        credits: 400000
+      - item: Ki'Teer Sugatra
+        ducats: 250
+        credits: 250000
+      - item: Twin Grakata Towsun Skin
+        ducats: 300
+        credits: 300000
+      - item: Odonata Elixis Skin
+        ducats: 350
+        credits: 250000
+      - item: Machete Syachid Skin
+        ducats: 375
+        credits: 300000
+      - item: Tenno Kindred Rug
+        ducats: 225
+        credits: 100000
+      - item: 3 Day Resource Booster
+        ducats: 400
+        credits: 150000
+      - item: 10x Ki'Teer Fireworks
+        ducats: 50
+        credits: 100000
       - item: Sands Of Inaros Blueprint
         ducats: 100
         credits: 25000
-    psId: 5d1e08669a7e6338c87fa0f427
-    endString: 1d 16h 32m 29s
+    psId: 5d1e08669a7e6338c87fa0f424
+    endString: 1d 23h 34s
     platform:
       id: swi
       name: Nintendo Switch
